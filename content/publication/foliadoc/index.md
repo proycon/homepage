@@ -6,6 +6,6 @@ publication_types = ["4"]
 abstract = ""
 selected = false
 publication = "*Language and Speech Technology Technical Report Series 14-01*"
-url_pdf = "https://github.com/proycon/folia/blob/master/docs/folia.pdf?raw=true"
+url_pdf = "https://github.com/proycon/folia/raw/v1.5.1.60/docs/folia.pdf"
 +++
 

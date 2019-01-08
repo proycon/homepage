@@ -7,5 +7,6 @@ abstract = ""
 selected = false
 publication = "*Proceedings of the Third Workshop on Example-Based Machine Translation*"
 tags = ["ilk", "dutchsemcor", "memory-based machine translation", "vici", "pbmbmt", "mbmt"]
+url_pdf = "https://ilk.uvt.nl/mbmt/pbmbmt/pbmbmt-dublin.pdf"
 +++
 

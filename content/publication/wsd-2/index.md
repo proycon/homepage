@@ -6,5 +6,6 @@ publication_types = ["1"]
 abstract = ""
 selected = false
 publication = "*Proceedings of the 7th International Workshop on Semantic Evaluation (SemEval 2013), in conjunction with the Second Joint Conference on Lexical and Computational Semantics*"
+url_pdf = "https://www.aclweb.org/anthology/S13-2033"
 +++
 

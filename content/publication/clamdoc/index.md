@@ -6,6 +6,6 @@ publication_types = ["4"]
 abstract = ""
 selected = false
 publication = "*Language and Speech Technology Technical Report Series 14-02*"
-url_pdf = "https://github.com/proycon/clam/raw/master/docs/clam_manual.pdf"
+url_pdf = "https://github.com/proycon/clam/raw/v2.3.6/docs/clam_manual.pdf"
 +++
 

@@ -7,5 +7,6 @@ abstract = ""
 selected = false
 publication = "*SemEval '10: Proceedings of the 5th International Workshop on Semantic Evaluation*"
 tags = ["ilk", "vici", "dutchsemcor", "wsd", "semeval", "cross-lingual", "word sense disambiguation"]
+url_pdf = "http://aclweb.org/anthology/S10-1053"
 +++
 

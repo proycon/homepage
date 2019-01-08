@@ -6,5 +6,6 @@ publication_types = ["4"]
 abstract = ""
 selected = false
 publication = ""
+url_pdf = "https://github.com/LanguageMachines/ucto/raw/v0.14.1/docs/ucto_manual.pdf"
 +++
 

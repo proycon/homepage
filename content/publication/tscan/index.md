@@ -6,5 +6,6 @@ publication_types = ["2"]
 abstract = ""
 selected = false
 publication = "*Computational Linguistics in the Netherlands Journal*"
+url_pdf = "https://www.clinjournal.org/sites/clinjournal.org/files/05-PanderMaat-etal-CLIN2014.pdf"
 +++
 

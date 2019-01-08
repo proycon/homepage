@@ -6,5 +6,6 @@ publication_types = ["1"]
 abstract = ""
 selected = false
 publication = "*Proceedings of the Eighth International conference on Language Resources and Evaluation (LREC)*"
+url_pdf = "http://www.lrec-conf.org/proceedings/lrec2012/pdf/748_Paper.pdf"
 +++
 
