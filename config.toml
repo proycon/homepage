@@ -213,7 +213,7 @@ enableGitInfo = true
   # Configuration of talk pages.
   [params.talks]
     # Show talk time?
-    time = true
+    time = false
 
   # Configuration of publication pages.
   [params.publications]
@@ -337,9 +337,14 @@ enableGitInfo = true
 #  weight = 5
 
 [[menu.main]]
+  name = "Talks & Posters"
+  url = "#talks"
+  weight = 4
+
+[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 7
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
