@@ -342,6 +342,11 @@ enableGitInfo = true
   weight = 4
 
 [[menu.main]]
+  name = "Language Resources"
+  url = "#langresources"
+  weight = 5
+
+[[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 7
