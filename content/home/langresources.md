@@ -4,7 +4,7 @@
 widget = "projects"
 folder = "langresources"
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 70  # Order that this section will appear.
 date = 2016-04-20T00:00:00
 
 title = "Language Resources"

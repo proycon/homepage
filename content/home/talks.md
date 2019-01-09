@@ -8,7 +8,7 @@ title = "Talks & Posters"
 subtitle = " .. presentation slides, screencasts ..."
 
 # Order that this section will appear in.
-weight = 30
+weight = 60
 
 # Number of talks to list.
 count = 5
