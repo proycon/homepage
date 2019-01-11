@@ -22,7 +22,7 @@ view = 1
 
 # Widget layout
 # Legend: 0 = two columns (default), 1 = single column
-widget_layout = 0
+widget_layout = 1
 
 # For Showcase view, flip alternate rows?
 flip_alt_rows = false
@@ -50,3 +50,4 @@ filter_default = 0
 
 +++
 
+I'm an avid support of **open-source software**, also known as free software (free as in free speech), and have published a lot thereof. Most of my software is hosted on [**GitHub**](https://github.com/proycon). I also maintain packages for Arch Linux and Debian, and am active in promoting good research software quality & sustainability.

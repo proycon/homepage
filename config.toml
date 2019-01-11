@@ -34,7 +34,7 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
-enableGitInfo = true
+enableGitInfo = false
 
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON" ]
@@ -111,7 +111,7 @@ enableGitInfo = true
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "forest"
+  color_theme = "custom"
   # Enable users to switch between day and night mode?
   day_night = true
 
@@ -190,7 +190,7 @@ enableGitInfo = true
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = [ "custom.css"]
   custom_js  = []
 
   # Publication types.
@@ -327,29 +327,34 @@ enableGitInfo = true
   weight = 3
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications"
+  name = "Photos"
+  url = "photos/"
   weight = 4
 
-#[[menu.main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 5
+[[menu.main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 5
 
 [[menu.main]]
-  name = "Talks & Posters"
-  url = "#talks"
+  name = "Projects"
+  url = "#projects"
   weight = 6
 
 [[menu.main]]
-  name = "Language Resources"
-  url = "#langresources"
+  name = "Talks"
+  url = "#talks"
   weight = 7
+
+[[menu.main]]
+  name = "Resources"
+  url = "#langresources"
+  weight = 8
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 8
+  weight = 9
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

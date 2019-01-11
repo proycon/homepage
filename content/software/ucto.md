@@ -1,6 +1,6 @@
 ---
 title: "Ucto"
-date: 2009-01-01T00:04:34+01:00
+date: 2009-12-01T00:04:34+01:00
 summary: "Ucto tokenizes text files: it separates words from punctuation, and splits sentences. It offers several other basic preprocessing steps such as changing case that you can all use to make your text suited for further processing such as indexing, part-of-speech tagging, or machine translation."
 url_project: "https://languagemachines.github.io/ucto"
 url_code: "https://github.com/LanguageMachines/ucto"
