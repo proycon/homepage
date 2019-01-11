@@ -1,9 +1,11 @@
 +++
-title = "Colibri"
-date = 2011-08-11T22:36:31+01:00
+title = "FLAT: FoLiA Linguistic Annotation Tool"
+date = 2016-10-19T23:03:39+01:00
 draft = false
 
-summary = "Colibri is my PhD project, it investigates the role of source-language context information in machine translation"
+event = "ATILA 2016, Nijmegen"
+
+url_video = "https://www.youtube.com/watch?v=tYF6grtldVQ"
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
@@ -20,5 +22,3 @@ categories = []
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
 +++
-
-Colibri is my PhD project, it investigates the role of source-language context information in machine translation.
