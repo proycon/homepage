@@ -31,4 +31,6 @@ section {
     margin-right: 5px;
     border-right: 1px solid #ddd;
 }
-
+.gallery img {
+    display: block !important;
+}
