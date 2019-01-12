@@ -6,6 +6,7 @@ url_project: "https://proycon.github.io/LaMachine"
 url_code: "https://github.com/proycon/LaMachine"
 url_poster: "https://anaproy.nl/proycon/pubs/lamachine_poster.png"
 draft: false
+cover: "covers/lamachine.jpg"
 ---
 
 LaMachine is a unified software distribution for Natural Language Processing. We integrate numerous open-source NLP

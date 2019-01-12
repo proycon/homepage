@@ -4,6 +4,7 @@ date = 2000-10-01T00:00:18+01:00
 draft = false
 summary = "UniLang is a Language Community on the internet for people interested in learning languages. I co-founded UniLang in October 2000 and it has been around ever since. UniLang has a wide variety of language resources and a community forum to meet like-minded people and learn together."
 url_project = "https://unilang.org"
+cover =  "covers/unilang.png"
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.

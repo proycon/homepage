@@ -4,6 +4,7 @@ date: 2010-01-01T00:04:34+01:00
 summary: "Valkuil.net is een automatische spellingcorrector voor het Nederlands die zowel gewone typefouten als grammaticale fouten en verwarringen tussen bestaande woorden opspoort."
 url_code: "https://github.com/proycon/valkuil-gecco"
 url_project: "http://valkuil.net"
+cover:  "covers/valkuil.jpg"
 draft: false
 ---
 

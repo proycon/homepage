@@ -5,6 +5,7 @@ summary: "FoLiA is an XML-based annotation format, suitable for the representati
 url_project: "https://proycon.github.io/folia"
 url_code: "https://github.com/proycon/folia"
 url_poster: "https://anaproy.nl/proycon/pubs/folia_poster3_a0.pdf"
+cover:  "covers/folia.png"
 draft: false
 ---
 

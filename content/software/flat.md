@@ -5,6 +5,7 @@ summary: "FLAT is a web-based linguistic annotation environment based around the
 url_project: "https://proycon.github.io/folia"
 url_code: "https://github.com/proycon/flat"
 url_poster: "https://anaproy.nl/proycon/pubs/flat_poster_a0.pdf"
+cover:  "covers/flat.jpg"
 draft: false
 ---
 
