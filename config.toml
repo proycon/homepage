@@ -317,19 +317,20 @@ enableGitInfo = false
 
 
 [[menu.main]]
+  name = "Photos"
+  url = "photos/"
+  weight = 2
+
+[[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "Software"
   url = "#software"
-  weight = 3
-
-[[menu.main]]
-  name = "Photos"
-  url = "photos/"
   weight = 4
+
 
 [[menu.main]]
   name = "Publications"
