@@ -15,7 +15,7 @@ weight = 5
     "Software development aka programming *(Python, C++, Javascript, Web development)*",
     "Natural Language Processing",
     "Cybersecurity, Privacy, Decentralisation",
-    "System Administraction (DevOps)",
+    "System Administration (DevOps)",
     "Artificial Intelligence",
     "Home Automation, IoT",
     "Playing the piano",
