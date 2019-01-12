@@ -68,6 +68,7 @@ enableGitInfo = false
     { name = "Geek and Poke", url = "http://geek-and-poke.com/" },
     { name = "Iris Hendrickx", url = "http://i-hx.nl/"},
     { name = "Jeroen Janssens", url = "http://jeroenjanssens.com/" },
+    { name = "Joost van Baal-Ilić", url = "http://mdcc.cx/" },
     { name = "Luke Smith", url = "https://lukesmith.xyz/" },
     { name = "Manoj Kamps", url = "http://music.manoj.nl/" },
     { name = "Piek Vossen", url = "http://vossen.info/" },
