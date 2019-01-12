@@ -13,7 +13,7 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 		{{- $sortedfiles := sort $files "ModTime" "desc" }}
 		{{- range $sortedfiles -}}
 			<!-- skip files that aren't images, or that include the thumb suffix in their name -->
-			{{- $thumbext := $.Get "thumb" | default "-thumb" }}
+			{{- $thumbext := $.Get "thumb" | default "_thumb" }}
 			{{- $isthumb := .Name | findRE ($thumbext | printf "%s\\.") }}<!-- is the current file a thumbnail image? -->
 			{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}<!-- is the current file an image? -->
 			{{- if and $isimg (not $isthumb) }}
