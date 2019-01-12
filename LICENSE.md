@@ -1,3 +1,5 @@
+(NOTE: This license applies to the Hugo software, NOT the homepage content!!!)
+
 MIT License
 
 Copyright (c) 2016-present George Cushen

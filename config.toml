@@ -13,7 +13,7 @@ title = "Proycon's Website"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2019 - Maarten van Gompel (proycon) - Creative Commons BY-SA-NC"
+copyright = "&copy; 2019 - Maarten van Gompel (proycon) - <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons BY-NC-SA</a>"
 
 theme = "academic"
 enableEmoji = true
@@ -35,6 +35,7 @@ defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
 enableGitInfo = false
+
 
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON" ]
@@ -58,6 +59,27 @@ enableGitInfo = false
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "Centre for Language and Speech Technology, Radboud University, Nijmegen", url = "https://www.ru.nl/clst" }, { name = "UniLang Language Community", url = "https://www.unilang.org" } ]
+  links = [
+	{ name = "Ali Hürriyetoğlu", url = "http://www.hurrial.com/" },
+	{ name = "Antal van den Bosch", url = "http://antalvandenbosch.ruhosting.nl/" },
+	{ name = "Erkan Başar", url = "http://www.mebasar.com/" },
+    { name = "Folgert Karsdorp", url = "http://www.karsdorp.io/" },
+    { name = "Fotostrips.nl by Ype Driessen", url = "https://fotostrips.nl/" },
+    { name = "Geek and Poke", url = "http://geek-and-poke.com/" },
+    { name = "Iris Hendrickx", url = "http://i-hx.nl/"},
+    { name = "Jeroen Janssens", url = "http://jeroenjanssens.com/" },
+    { name = "Luke Smith", url = "https://lukesmith.xyz/" },
+    { name = "Manoj Kamps", url = "http://music.manoj.nl/" },
+    { name = "Piek Vossen", url = "http://vossen.info/" },
+    { name = "Pythonic Perambulations, by Jake VanderPlas", url = "https://jakevdp.github.io/" },
+	{ name = "Rene van Lieshout", url = "https://rene.lico.nl/" },
+    { name = "Shut up and Go by Damon and Jo", url = "https://shutupandgo.travel/" },
+    { name = "The dot on the ceiling, by kena (Raphael Poss)", url = "https://tdotc.eu/" },
+    { name = "UniLang Language Community", url = "https://unilang.org" },
+	{ name = "Wessel Stoop", url = "http://wesselstoop.ruhosting.nl/" },
+    { name = "XKCD Webcomics", url = "https://xkcd.com" },
+    { name = "Zen Habits, by Leo Babauta", url = "https://zenhabits.net/" },
+  ]
 
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   #avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -130,7 +152,8 @@ enableGitInfo = false
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = ""
+  logo = "logo.png"
+  logo_footer = "logo_footer.png"
 
   # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -353,9 +376,14 @@ enableGitInfo = false
   weight = 8
 
 [[menu.main]]
+  name = "Links"
+  url = "#links"
+  weight = 9
+
+[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 9
+  weight = 10
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

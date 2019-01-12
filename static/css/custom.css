@@ -11,7 +11,24 @@
 /*.site-footer {
     color: #fff;
 }*/
+.navbar img {
+    display: inline-block !important;
+    padding-right: 25px;
+}
 
 section {
     padding: 45px 0 45px 0 !important;
 }
+
+.site-footer img.logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    display: inline-block;
+    padding-right: 5px;
+    margin-right: 5px;
+    border-right: 1px solid #ddd;
+}
+
