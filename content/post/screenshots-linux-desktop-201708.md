@@ -38,4 +38,4 @@ I recently switched to the gruvbox colours and polybar.
 * Wallpaper: https://wallpaperscraft.com/wallpaper/hummingbirds_birds_fly_swing_beak_52297
 
 {{< load-photoswipe >}}
-{{< gallery dir="img/screenshots201708/" >}}
+{{< gallery dir="img/screenshots201708/" order="ModTime" ordertype="desc" >}}

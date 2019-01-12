@@ -15,4 +15,4 @@ caption = ""
 +++
 
 {{< load-photoswipe >}}
-{{< gallery dir="img/photos/" >}}
+{{< gallery dir="img/photos/" order="Name" ordertype="desc" >}}
