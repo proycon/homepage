@@ -34,3 +34,7 @@ section {
 .gallery img {
     display: block !important;
 }
+figcaption p {
+    font-size: 12px;
+    color: white;
+}
