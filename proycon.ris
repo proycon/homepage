@@ -1,10 +1,31 @@
 ﻿TY  - RPRT
+AU  - van Gompel, M.
+PY  - 2018
+DA  - 2018//
+TI  - CLAM Documentation
+IS  - Language and Speech Technology Technical Report Series 18-03
+PB  - Radboud University
+UR  - https://clam.readthedocs.io/en/latest/
+ID  - CLAM18
+ER  - 
+TY  - RPRT
+AU  - K. van der Sloot, I. Hendrickx, M. van Gompel, A. van den Bosch
+AU  - Daelemans, W.
+PY  - 2018
+DA  - 2018//
+TI  - Frog, A Natural Language Processing Suite for Dutch Reference Guide
+IS  - Language and Speech Technology Technical Report Series 18-02
+PB  - Radboud University
+UR  - https://frognlp.readthedocs.io/en/latest/
+ID  - FROG18
+ER  - 
+TY  - RPRT
 AU  - M. van Gompel, K. van der Sloot, I. Hendrickx,
 AU  - van den Bosch, A.
 PY  - 2018
 DA  - 2018//
 TI  - Ucto: Unicode Tokeniser. Reference Guide
-IS  - Language and Speech Technology Technical Report Series 18-01,
+IS  - Language and Speech Technology Technical Report Series 18-01
 PB  - Radboud University
 UR  - https://ucto.readthedocs.io/en/latest/
 ID  - UCTO18
