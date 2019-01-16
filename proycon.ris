@@ -107,6 +107,18 @@ SN  - 9781911529248
 UR  - http://www.jstor.org/stable/j.ctv3t5qjk.14
 ID  - TTNWW
 ER  - 
+TY  - RPRT
+AU  - van Gompel, M.
+AU  - Noordzij, J.
+AU  - de Valk, R.
+AU  - Scharnhorst, A.
+PY  - 2018
+DA  - 2018//
+TI  - Guidelines for Software Quality
+PB  - CLARIAH
+UR  - https://github.com/CLARIAH/software-quality-guidelines/raw/v1.0/softwareguidelines.pdf
+ID  - SOFTWAREQUALITY
+ER  - 
 TY  - JOUR
 AU  - van Gompel, Maarten
 AU  - van den Bosch, Antal
