@@ -15,9 +15,16 @@ DATEPREFIX=$(date "+%Y-%m-%d:-")
 CAPTION="$DATEPREFIX$2"
 CAPTION="${CAPTION// /-}"
 EXTENSION="${1##*.}"
+OLDDIR=$(pwd)
 cp $1 $BASEDIR/static/img/photos/$CAPTION.$EXTENSION
 cd $BASEDIR/static/img/photos
 ../makethumbnails.sh $EXTENSION
 git add *.$EXTENSION
 git commit
-cd -
+ret=$?
+if [ $ret -eq 0 ]; then
+    cd $BASEDIR
+    ./deploy.sh
+fi
+cd $OLDDIR
+

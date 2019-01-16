@@ -13,7 +13,7 @@ title = "Proycon's Website"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2019 - Maarten van Gompel (proycon) - <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons BY-NC-SA</a>"
+copyright = "&copy; 2019 - Maarten van Gompel (proycon) - <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons BY-NC-SA</a> - <a href=\"https://proycon.anaproy.nl/index.xml\">RSS</a>"
 
 theme = "academic"
 enableEmoji = true
