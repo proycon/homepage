@@ -1,7 +1,7 @@
 +++
 title = "Frog, A Natural Language Processing Suite for Dutch Reference Guide"
 date = 2018-01-01
-authors = ["I. Hendrickx, M. van Gompel, A. van den Bosch K. van der Sloot", "W. Daelemans"]
+authors = ["K. van der Sloot", "I. Hendrickx", "M. van Gompel", "A. van den Bosch", "W. Daelemans"]
 publication_types = ["4"]
 abstract = ""
 selected = false

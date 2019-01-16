@@ -9,7 +9,10 @@ UR  - https://clam.readthedocs.io/en/latest/
 ID  - CLAM18
 ER  - 
 TY  - RPRT
-AU  - K. van der Sloot, I. Hendrickx, M. van Gompel, A. van den Bosch
+AU  - van der Sloot, K.
+AU  - Hendrickx, I.
+AU  - van Gompel, M.
+AU  - van den Bosch, A.
 AU  - Daelemans, W.
 PY  - 2018
 DA  - 2018//
@@ -20,7 +23,9 @@ UR  - https://frognlp.readthedocs.io/en/latest/
 ID  - FROG18
 ER  - 
 TY  - RPRT
-AU  - M. van Gompel, K. van der Sloot, I. Hendrickx,
+AU  - van Gompel, M.
+AU  - van der Sloot, K.
+AU  - I. Hendrickx
 AU  - van den Bosch, A.
 PY  - 2018
 DA  - 2018//
@@ -46,6 +51,31 @@ AB  - We present an overview of the software and data infrastructure for FoLiA, 
 SN  - 9781911529248
 UR  - http://www.jstor.org/stable/j.ctv3t5qjk.13
 ID  - FOLIACLARINBOOK
+ER  - 
+TY  - CHAP
+AU  - Savary, Agata
+AU  - Candito, Marie
+AU  - Mititelu, Verginica Barbu
+AU  - Bejček, Eduard
+AU  - Cap, Fabienne
+AU  - Čéplö, Slavomír
+AU  - Cordeiro, Silvio Ricardo
+AU  - Eryiğit, Gülşen
+AU  - Giouli, Voula
+AU  - van Gompel, Maarten
+AU  - et al.
+PY  - 2018
+DA  - 2018/Oct/
+TI  - PARSEME multilingual corpus of verbal multiword expressions
+BT  - Multiword expressions at length and in depth: Extended papers from the MWE 2017 workshop,
+SP  - 87
+EP  - 147
+PB  - Language Science Press
+AB  - Multiword expressions (MWEs) are known as a ’pain in the neck’ due to their idiosyncratic behaviour. While some categories of MWEs have been largely studied, verbal MWEs (VMWEs) such as to take a walk, to break one’s heart or to turn off have been relatively rarely modelled. We describe an initiative meant to bring about substantial progress in understanding, modelling and processing VMWEs. In this joint effort carried out within a European research network we elaborated a universal terminology and annotation methodology for VMWEs. Its main outcomes, available under open licenses, are unified annotation guidelines, and a corpus of over 5.4 million words and 62 thousand annotated VMWEs in 18 languages.
+SN  - 978-3-96110-123-8
+UR  - https://doi.org/10.5281/zenodo.1471591
+DO  - 10.5281/zenodo.1471591
+ID  - PARSEME
 ER  - 
 TY  - CHAP
 AU  - Kemps-Snijders, Marc
