@@ -1,4 +1,140 @@
-﻿TY  - CONF
+﻿TY  - RPRT
+AU  - M. van Gompel, K. van der Sloot, I. Hendrickx,
+AU  - van den Bosch, A.
+PY  - 2018
+DA  - 2018//
+TI  - Ucto: Unicode Tokeniser. Reference Guide
+IS  - Language and Speech Technology Technical Report Series 18-01,
+PB  - Radboud University
+UR  - https://ucto.readthedocs.io/en/latest/
+ID  - UCTO18
+ER  - 
+TY  - CHAP
+AU  - van Gompel, M.
+AU  - van der Sloot, K.
+AU  - Reynaert, M.
+AU  - van den Bosch, A.
+PY  - 2017
+DA  - 2017//
+TI  - FoLiA in Practice: The Infrastructure of a Linguistic Annotation Format
+BT  - CLARIN in the Low Countries
+SP  - 71
+EP  - 82
+PB  - Ubiquity Press
+AB  - We present an overview of the software and data infrastructure for FoLiA, a Format for Linguistic Annotation developed within the scope of the CLARIN-NL project and other projects. FoLiA aims to provide a single unified file format accommodating a wide variety of linguistic annotation types, preventing the proliferation of different formats for different annotation types. FoLiA is being developed in a bottom-up and practice-driven fashion. We have invested mainly in the creation of a rich infrastructure of tools that enable developers and end-users to work with the format. This work will present the current state of this infrastructure.
+SN  - 9781911529248
+UR  - http://www.jstor.org/stable/j.ctv3t5qjk.13
+ID  - FOLIACLARINBOOK
+ER  - 
+TY  - CHAP
+AU  - Kemps-Snijders, Marc
+AU  - Schuurman, Ineke
+AU  - Daelemans, Walter
+AU  - Demuynck, Kris
+AU  - Desplanques, Brecht
+AU  - Hoste, Véronique
+AU  - Huijbregts, Marijn
+AU  - Martens, Jean-Pierre
+AU  - Paulussen, Hans
+AU  - Pelemans, Joris
+AU  - Reynaert, Martin
+AU  - Vandeghinste, Vincent
+AU  - van den Bosch, Antal
+AU  - van den Heuvel, Henk
+AU  - van Gompel, Maarten
+AU  - van Noord, Gertjan
+AU  - Wambacq, Patrick
+PY  - 2017
+DA  - 2017//
+TI  - TTNWW to the Rescue: No Need to Know How to Handle Tools and Resources
+BT  - CLARIN in the Low Countries
+SP  - 83
+EP  - 94
+PB  - Ubiquity Press
+AB  - The idea behind the Flemish/Dutch CLARIN project TTNWW¹ (’TST Tools voor het Nederlands als Webservices in een Workflow’, or ‘NLP Tools for Dutch as Web services in a Workflow’) was that many end users of resources and tools offered by CLARIN will not know how to use them, just as they will not know where they are located. With respect to the location, the CLARIN policy is that the Human and Social Sciences (HSS) researcher does not need to know this as the infrastructure will take care of that: the only thing the user needs to do is to indicate
+SN  - 9781911529248
+UR  - http://www.jstor.org/stable/j.ctv3t5qjk.14
+ID  - TTNWW
+ER  - 
+TY  - JOUR
+AU  - van Gompel, Maarten
+AU  - van den Bosch, Antal
+PY  - 2016
+DA  - 2016//
+TI  - Efficient n-gram, skipgram and flexgram modelling with Colibri Core
+JO  - Journal of Open Research Software
+VL  - 4
+IS  - 1
+PB  - Ubiquity Press
+AB  - Counting n-grams lies at the core of any frequentist corpus analysis and is often considered a trivial matter. Going beyond consecutive n-grams to patterns such as skipgrams and flexgrams increases the demand for efficient solutions. The need to operate on big corpus data does so even more. Lossless compression and non-trivial algorithms are needed to lower the memory demands, yet retain good speed. Colibri Core is software for the efficient computation and querying of n-grams, skipgrams and flexgrams from corpus data. The resulting pattern models can be analysed and compared in various ways. The software offers a programming library for C++ and Python, as well as command-line tools.
+UR  - https://openresearchsoftware.metajnl.com/articles/10.5334/jors.105/
+UR  - https://doi.org/10.5334/jors.105
+DO  - 10.5334/jors.105
+ID  - COLIBRICORE
+ER  - 
+TY  - JOUR
+AU  - Jiménez, R. C.
+AU  - Kuzak, M.
+AU  - Alhamdoosh, M.
+AU  - Barker, M.
+AU  - Batut, B.
+AU  - Borg, M.
+AU  - Capella-Gutierrez, S.
+AU  - Chue Hong, N.
+AU  - Cook, M.
+AU  - Corpas, M.
+AU  - Flannery, M.
+AU  - Garcia, L.
+AU  - Gelpí, J. L.
+AU  - Gladman, S.
+AU  - Goble, C.
+AU  - González Ferreiro, M.
+AU  - Gonzalez-Beltran, A.
+AU  - Griffin, P. C.
+AU  - Grüning, B.
+AU  - Hagberg, J.
+AU  - Holub, P.
+AU  - Hooft, R.
+AU  - Ison, J.
+AU  - Katz, D. S.
+AU  - Leskošek, B.
+AU  - López Gómez, F.
+AU  - Oliveira, L. J.
+AU  - Mellor, D.
+AU  - Mosbergen, R.
+AU  - Mulder, N.
+AU  - Perez-Riverol, Y.
+AU  - Pergl, R.
+AU  - Pichler, H.
+AU  - Pope, B.
+AU  - Sanz, F.
+AU  - Schneider, M. V.
+AU  - Stodden, V.
+AU  - Suchecki, R.
+AU  - Svobodová Vařeková, R.
+AU  - Talvik, H. A.
+AU  - Todorov, I.
+AU  - Treloar, A.
+AU  - Tyagi, S.
+AU  - van Gompel, M.
+AU  - Vaughan, D.
+AU  - Via, A.
+AU  - Wang, X.
+AU  - Watson-Haigh, N. S.
+AU  - Crouch, S.
+PY  - 2017
+DA  - 2017//
+TI  - Four simple recommendations to encourage best practices in research software
+JO  - F1000Research
+VL  - 6
+IS  - 876
+AB  - Scientific research relies on computer software, yet software is not always developed following practices that ensure its quality and sustainability. This manuscript does not aim to propose new software development best practices, but rather to provide simple recommendations that encourage the adoption of existing best practices. Software development best practices promote better quality software, and better quality software improves the reproducibility and reusability of research. These recommendations are designed around Open Source values, and provide practical suggestions that contribute to making research software and its source code more discoverable, reusable and transparent. This manuscript is aimed at developers, but also at organisations, projects, journals and funders that can increase the quality and sustainability of research software by encouraging the adoption of these recommendations.
+UR  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490478/
+UR  - https://doi.org/10.12688/f1000research.11407.1
+DO  - 10.12688/f1000research.11407.1
+ID  - F1000RESEARCH
+ER  - 
+TY  - CONF
 AU  - Reynaert, M.
 AU  - van Gompel, M.
 AU  - van der Sloot, K.
@@ -78,6 +214,20 @@ PB  - Radboud University Nijmegen
 UR  - https://github.com/proycon/folia/raw/v1.5.1.60/docs/folia.pdf
 ID  - FOLIADOC
 ER  - 
+TY  - CONF
+AU  - van Gompel, M.
+AU  - Hendrickx, I.
+AU  - van den Bosch, A.
+AU  - Lefever, E.
+AU  - Hoste, V.
+PY  - 2014
+DA  - 2014//
+TI  - Semeval-2014 Task 5: L2 writing assistant
+BT  - Proceedings of the 8th International Workshop on Semantic Evaluation (SemEval 2014)
+AB  - We present a new cross-lingual task for SemEval concerning the translation of L1 fragments in an L2 context. The task is at the boundary of Cross-Lingual Word Sense Disambiguation and Machine Translation. It finds its application in the field of computer-assisted translation, particularly in the context of second language learning. Translating L1 fragments in an L2 context allows language learners when writing in a target language (L2) to fall back to their native language (L1) whenever they are uncertain of the right word or phrase.
+UR  - http://aclweb.org/anthology/S14-2005
+ID  - SEMEVAL2014TASK5
+ER  - 
 TY  - JOUR
 AU  - van Gompel, M.
 AU  - van den Bosch, A.
@@ -92,20 +242,6 @@ PB  - Fryske Akademy
 AB  - In this paper we present a statistical machine translation (SMT) system for Frisian to Dutch and Dutch to Frisian. A parallel training corpus has been established, which has subsequently been used to automatically learn a phrase-based SMT model. The translation system is built around the open-source SMT software Moses. The resulting system, named Oersetter , is released as a website for human end users, as well as a web service for software to interact with. We here discuss the workings, setup and performance of our system, which to our knowledge is the very first Frisian-Dutch SMT system.
 UR  - http://hdl.handle.net/2066/129749
 ID  - OERSETTER
-ER  - 
-TY  - CONF
-AU  - van Gompel, M.
-AU  - Hendrickx, I.
-AU  - van den Bosch, A.
-AU  - Lefever, E.
-AU  - Hoste, V.
-PY  - 2014
-DA  - 2014//
-TI  - Semeval-2014 Task 5: L2 writing assistant
-BT  - Proceedings of the 8th International Workshop on Semantic Evaluation (SemEval 2014)
-AB  - We present a new cross-lingual task for SemEval concerning the translation of L1 fragments in an L2 context. The task is at the boundary of Cross-Lingual Word Sense Disambiguation and Machine Translation. It finds its application in the field of computer-assisted translation, particularly in the context of second language learning. Translating L1 fragments in an L2 context allows language learners when writing in a target language (L2) to fall back to their native language (L1) whenever they are uncertain of the right word or phrase.
-UR  - http://aclweb.org/anthology/S14-2005
-ID  - SEMEVAL2014TASK5
 ER  - 
 TY  - CONF
 AU  - Beißwenger, M.
@@ -137,23 +273,6 @@ AB  - In this paper we present FoLiA, a Format for Linguistic Annotation, and co
 UR  - http://clinjournal.org/sites/clinjournal.org/files/05-vanGompel-Reynaert-CLIN2013.pdf
 ID  - FOLIAPAPER
 ER  - 
-TY  - CHAP
-AU  - van Gompel, M.
-AU  - van der Sloot, K.
-AU  - Reynaert, M.
-AU  - van den Bosch, A.
-PY  - 2017
-DA  - 2017//
-TI  - FoLiA in Practice: The Infrastructure of a Linguistic Annotation Format
-BT  - CLARIN in the Low Countries
-SP  - 71
-EP  - 82
-PB  - Ubiquity Press
-AB  - We present an overview of the software and data infrastructure for FoLiA, a Format for Linguistic Annotation developed within the scope of the CLARIN-NL project and other projects. FoLiA aims to provide a single unified file format accommodating a wide variety of linguistic annotation types, preventing the proliferation of different formats for different annotation types. FoLiA is being developed in a bottom-up and practice-driven fashion. We have invested mainly in the creation of a rich infrastructure of tools that enable developers and end-users to work with the format. This work will present the current state of this infrastructure.
-SN  - 9781911529248
-UR  - http://www.jstor.org/stable/j.ctv3t5qjk.13
-ID  - FOLIACLARINBOOK
-ER  - 
 TY  - CONF
 AU  - van Gompel, M.
 AU  - van den Bosch, A.
@@ -180,6 +299,18 @@ VL  - 8
 AB  - In this paper we report on the experiences gained in the recent construction of the SoNaR corpus, a 500 MW reference corpus of contemporary, written Dutch. It shows what can realistically be done within the confines of a project setting where there are limitations to the duration in time as well to the budget, employing current state-of-the-art tools, standards and best practices. By doing so we aim to pass on insights that may be beneficial for anyone considering to undertake an effort towards building a large, varied yet balanced corpus for use by the wider research community. Various issues are discussed that come into play while compiling a large corpus, including approaches to acquiring texts, the arrangement of IPR, the choice of text formats, and steps to be taken in the preprocessing of data from widely different origins. We describe FoLiA, a new XML format geared at rich linguistic annotations. We also explain the rationale behind the investment in the high-quality semi-automatic enrichment of a relatively small (1 MW) subset with very rich syntactic and semantic annotations. Finally, we present some ideas about future developments and the direction corpus development may take, such as setting up an integrated work flow between web services and the potential role for ISOcat. We list tips for potential corpus builders, tricks they may want to try and further recommendations regarding technical developments future corpus builders may wish to hope for.
 UR  - http://www.lrec-conf.org/proceedings/lrec2012/pdf/748_Paper.pdf
 ID  - SONAR
+ER  - 
+TY  - RPRT
+AU  - van Gompel, M.
+AU  - van der Sloot, K.
+AU  - van den Bosch, A.
+PY  - 2012
+DA  - 2012//
+TI  - Ucto: Unicode Tokeniser. Version 0.5.3. Reference Guide
+IS  - ILK 12-05
+PB  - ILK Research Group, Tilburg University
+UR  - https://github.com/LanguageMachines/ucto/raw/v0.14.1/docs/ucto_manual.pdf
+ID  - UCTO12
 ER  - 
 TY  - CONF
 AU  - Vossen, P.
@@ -228,135 +359,4 @@ KW  - ilk, dutchsemcor, memory-based machine translation, vici, pbmbmt, mbmt
 AB  - We present a phrase-based extension to memory-based machine translation. This form of example- based machine translation employs lazy-learning classifiers to translate fragments of the source sen- tence to fragments of the target sentence. Source-side fragments consist of variable-length phrases in a local context of neighboring words, translated by the classifier to a target-language phrase. We compare three methods of phrase extraction, and present a new decoder that reassembles the trans- lated fragments into one final translation. Results show that one of the proposed phrase-extraction methods—the one used in Moses—leads to a translation system that outperforms context-sensitive word-based approaches. The differences, however, are small, arguably because the word-based ap- proaches already capture phrasal context implicitly due to their source-side and target-side context sensitivity.
 UR  - https://ilk.uvt.nl/mbmt/pbmbmt/pbmbmt-dublin.pdf
 ID  - PBMBMTPAPER
-ER  - 
-TY  - CHAP
-AU  - Kemps-Snijders, Marc
-AU  - Schuurman, Ineke
-AU  - Daelemans, Walter
-AU  - Demuynck, Kris
-AU  - Desplanques, Brecht
-AU  - Hoste, Véronique
-AU  - Huijbregts, Marijn
-AU  - Martens, Jean-Pierre
-AU  - Paulussen, Hans
-AU  - Pelemans, Joris
-AU  - Reynaert, Martin
-AU  - Vandeghinste, Vincent
-AU  - van den Bosch, Antal
-AU  - van den Heuvel, Henk
-AU  - van Gompel, Maarten
-AU  - van Noord, Gertjan
-AU  - Wambacq, Patrick
-PY  - 2017
-DA  - 2017//
-TI  - TTNWW to the Rescue: No Need to Know How to Handle Tools and Resources
-BT  - CLARIN in the Low Countries
-SP  - 83
-EP  - 94
-PB  - Ubiquity Press
-AB  - The idea behind the Flemish/Dutch CLARIN project TTNWW¹ (’TST Tools voor het Nederlands als Webservices in een Workflow’, or ‘NLP Tools for Dutch as Web services in a Workflow’) was that many end users of resources and tools offered by CLARIN will not know how to use them, just as they will not know where they are located. With respect to the location, the CLARIN policy is that the Human and Social Sciences (HSS) researcher does not need to know this as the infrastructure will take care of that: the only thing the user needs to do is to indicate
-SN  - 9781911529248
-UR  - http://www.jstor.org/stable/j.ctv3t5qjk.14
-ID  - TTNWW
-ER  - 
-TY  - JOUR
-AU  - Jiménez, R. C.
-AU  - Kuzak, M.
-AU  - Alhamdoosh, M.
-AU  - Barker, M.
-AU  - Batut, B.
-AU  - Borg, M.
-AU  - Capella-Gutierrez, S.
-AU  - Chue Hong, N.
-AU  - Cook, M.
-AU  - Corpas, M.
-AU  - Flannery, M.
-AU  - Garcia, L.
-AU  - Gelpí, J. L.
-AU  - Gladman, S.
-AU  - Goble, C.
-AU  - González Ferreiro, M.
-AU  - Gonzalez-Beltran, A.
-AU  - Griffin, P. C.
-AU  - Grüning, B.
-AU  - Hagberg, J.
-AU  - Holub, P.
-AU  - Hooft, R.
-AU  - Ison, J.
-AU  - Katz, D. S.
-AU  - Leskošek, B.
-AU  - López Gómez, F.
-AU  - Oliveira, L. J.
-AU  - Mellor, D.
-AU  - Mosbergen, R.
-AU  - Mulder, N.
-AU  - Perez-Riverol, Y.
-AU  - Pergl, R.
-AU  - Pichler, H.
-AU  - Pope, B.
-AU  - Sanz, F.
-AU  - Schneider, M. V.
-AU  - Stodden, V.
-AU  - Suchecki, R.
-AU  - Svobodová Vařeková, R.
-AU  - Talvik, H. A.
-AU  - Todorov, I.
-AU  - Treloar, A.
-AU  - Tyagi, S.
-AU  - van Gompel, M.
-AU  - Vaughan, D.
-AU  - Via, A.
-AU  - Wang, X.
-AU  - Watson-Haigh, N. S.
-AU  - Crouch, S.
-PY  - 2017
-DA  - 2017//
-TI  - Four simple recommendations to encourage best practices in research software
-JO  - F1000Research
-VL  - 6
-IS  - 876
-AB  - Scientific research relies on computer software, yet software is not always developed following practices that ensure its quality and sustainability. This manuscript does not aim to propose new software development best practices, but rather to provide simple recommendations that encourage the adoption of existing best practices. Software development best practices promote better quality software, and better quality software improves the reproducibility and reusability of research. These recommendations are designed around Open Source values, and provide practical suggestions that contribute to making research software and its source code more discoverable, reusable and transparent. This manuscript is aimed at developers, but also at organisations, projects, journals and funders that can increase the quality and sustainability of research software by encouraging the adoption of these recommendations.
-UR  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490478/
-UR  - https://doi.org/10.12688/f1000research.11407.1
-DO  - 10.12688/f1000research.11407.1
-ID  - F1000RESEARCH
-ER  - 
-TY  - RPRT
-AU  - M. van Gompel, K. van der Sloot, I. Hendrickx,
-AU  - van den Bosch, A.
-PY  - 2018
-DA  - 2018//
-TI  - Ucto: Unicode Tokeniser. Reference Guide
-IS  - Language and Speech Technology Technical Report Series 18-01,
-PB  - Radboud University
-UR  - https://ucto.readthedocs.io/en/latest/
-ID  - UCTO18
-ER  - 
-TY  - RPRT
-AU  - van Gompel, M.
-AU  - van der Sloot, K.
-AU  - van den Bosch, A.
-PY  - 2012
-DA  - 2012//
-TI  - Ucto: Unicode Tokeniser. Version 0.5.3. Reference Guide
-IS  - ILK 12-05
-PB  - ILK Research Group, Tilburg University
-UR  - https://github.com/LanguageMachines/ucto/raw/v0.14.1/docs/ucto_manual.pdf
-ID  - UCTO12
-ER  - 
-TY  - JOUR
-AU  - van Gompel, Maarten
-AU  - van den Bosch, Antal
-PY  - 2016
-DA  - 2016//
-TI  - Efficient n-gram, skipgram and flexgram modelling with Colibri Core
-JO  - Journal of Open Research Software
-VL  - 4
-IS  - 1
-PB  - Ubiquity Press
-AB  - Counting n-grams lies at the core of any frequentist corpus analysis and is often considered a trivial matter. Going beyond consecutive n-grams to patterns such as skipgrams and flexgrams increases the demand for efficient solutions. The need to operate on big corpus data does so even more. Lossless compression and non-trivial algorithms are needed to lower the memory demands, yet retain good speed. Colibri Core is software for the efficient computation and querying of n-grams, skipgrams and flexgrams from corpus data. The resulting pattern models can be analysed and compared in various ways. The software offers a programming library for C++ and Python, as well as command-line tools.
-UR  - https://openresearchsoftware.metajnl.com/articles/10.5334/jors.105/
-UR  - https://doi.org/10.5334/jors.105
-DO  - 10.5334/jors.105
-ID  - COLIBRICORE
 ER  - 
