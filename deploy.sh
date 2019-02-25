@@ -1,3 +1,3 @@
 #!/bin/bash
-hugo && rsync -avz --delete public/ anaproy.nl:~/projects/homepage19
+hugo && rsync -avz --delete public/ worker.anaproy.lxd:/home/www/proycon.anaproy.nl/html
 exit $?
