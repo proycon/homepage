@@ -1,5 +1,15 @@
 ﻿TY  - RPRT
 AU  - van Gompel, M.
+PY  - 2019
+DA  - 2019//
+TI  - FoLiA: Format for Linguistic Annotation - Documentation and Reference Guide
+IS  - Language and Speech Technology Technical Report Series 19-01
+PB  - Radboud University
+UR  - https://folia.readthedocs.io/en/latest/
+ID  - FOLIA19
+ER  - 
+TY  - RPRT
+AU  - van Gompel, M.
 PY  - 2018
 DA  - 2018//
 TI  - CLAM Documentation
@@ -134,6 +144,18 @@ UR  - https://openresearchsoftware.metajnl.com/articles/10.5334/jors.105/
 UR  - https://doi.org/10.5334/jors.105
 DO  - 10.5334/jors.105
 ID  - COLIBRICORE
+ER  - 
+TY  - JOUR
+AU  - van Gompel, Maarten
+AU  - van den Bosch, Antal
+PY  - 2016
+DA  - 2016//
+TI  - The role of context information in L2 translation assistance
+JO  - International Journal of Translation
+VL  - 28
+IS  - 1-2
+PB  - Bahri Publications
+ID  - COLIBRITAFINAL
 ER  - 
 TY  - JOUR
 AU  - Jiménez, R. C.
