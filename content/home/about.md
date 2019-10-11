@@ -12,15 +12,16 @@ weight = 5
   interests = [
     "Foreign Languages *(🇪🇸 Español, 🇧🇷 Português, 🇫🇷 Français, 🇩🇪  Deutsch, Esperanto, 🇮🇹 Italiano, 🇨🇳 汉语, 🇷🇺 Русски, عربية)*",
     "🐧 Linux and open source software",
-    "Software development aka programming *(Python, C++, Javascript, Web development)*",
+    "Software development aka programming *(🐍 Python, C++, 🦀 Rust, Javascript, Web development)*",
     "Natural Language Processing",
-    "Cybersecurity, Privacy, Decentralisation",
+    "🔑 Cybersecurity, Privacy, Decentralisation",
     "System Administration (DevOps)",
-    "Artificial Intelligence",
-    "Home Automation, IoT",
-    "Playing the piano",
-    "Reading (mostly SciFi)",
+    "🤖 Artificial Intelligence",
+    "🏠 Home Automation, IoT",
+    "🎹 Playing the piano",
+    "🕮 Reading (mostly SciFi)",
     "🐱 Cats & 🐶 Dogs",
+    "🏳️‍🌈"
   ]
 
 # List your qualifications (such as academic degrees).
