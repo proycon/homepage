@@ -1,7 +1,12 @@
 
 ## Run development server
 
-``$ hugo server -D``
+``$ $GOPATH/bin/hugo server -D``
+
+## Versions
+
+using hugo v0.53 and hugo-academic v3.3
+(older versions may to break things!)
 
 ## Deploy
 
