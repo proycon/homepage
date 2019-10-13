@@ -89,6 +89,8 @@ enableGitInfo = false
     { name = "Zen Habits, by Leo Babauta", url = "https://zenhabits.net/" },
   ]
 
+  edit_page = {repo_url = "https://github.com/proycon/homepage", repo_branch = "master", editable = {docs = true, page = false, post = false}}
+
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   #avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
@@ -109,6 +111,12 @@ enableGitInfo = false
   mastodon =  { handle = "@proycon@mastodon.social", url = "https://mastodon.social/@proycon" }
   github = "proycon"
 
+  contact_links = [
+      {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/proycon"},
+      {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+      {icon = "telegram", icon_pack = "fab", name = "proycon on telegram", link = "https://telegram.me/@proycon"},
+  ]
+
   # Enter an optional link for booking appointments (e.g. calendly.com).
   appointment_url = ""
 
@@ -127,7 +135,7 @@ enableGitInfo = false
 
   #is specified by themes
   font = ""
-  font_size = "M"
+  font_size = "L"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
   description = "Proycon's website. Language enthusiast, polyglot, linux user, open-source advocate, programmer, computational linguist, amateur pianist, gay"
@@ -460,3 +468,4 @@ enableGitInfo = false
   [params.comments.disqus]
     shortname = ""  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
+
