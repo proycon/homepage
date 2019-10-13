@@ -16,7 +16,7 @@ EXTENSION="${1##*.}"
 EXTENSION="${EXTENSION,,}" #lowercase
 if [[ "$EXTENSION" == "jpg" ]] || [[ "$EXTENSION" == "jpeg" ]]; then
     #Get date from EXIF
-    DATEPREFIX=$(identify -verbose ~/Pictures/Jaiko/photo_2019-08-24_17-25-55.jpg | grep --color=never "date:create" | awk '{ print substr($2,1,10); }')
+    DATEPREFIX=$(identify -verbose "$1" | grep --color=never "date:create" | awk '{ print substr($2,1,10); }')
     if [ -z "$DATEPREFIX" ]; then
         DATEPREFIX=$(date "+%Y-%m-%d:-")
     else
