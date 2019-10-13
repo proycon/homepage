@@ -11,10 +11,14 @@ if [ -z "$2" ]; then
 fi
 
 BASEDIR=$(dirname $0)
-echo "BASEDIR= $basedir"
+if [ -z "$BASEDIR" ]; then
+    BASEDIR=$(pwd)
+fi
 EXTENSION="${1##*.}"
 EXTENSION="${EXTENSION,,}" #lowercase
-if [[ "$EXTENSION" == "jpg" ]] || [[ "$EXTENSION" == "jpeg" ]]; then
+if [ ! -z "$3" ]; then
+    DATEPREFIX="$3:-"
+elif [[ "$EXTENSION" == "jpg" ]] || [[ "$EXTENSION" == "jpeg" ]]; then
     #Get date from EXIF
     DATEPREFIX=$(identify -verbose "$1" | grep --color=never "date:create" | awk '{ print substr($2,1,10); }')
     if [ -z "$DATEPREFIX" ]; then
