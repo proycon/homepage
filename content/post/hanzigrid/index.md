@@ -1,5 +1,5 @@
 +++
-title = "Hanzigrid: Learning chinese characters"
+title = "Hanzigrid & Learning chinese characters based on visual similarity"
 date = 2020-01-04T19:38:28+01:00
 draft = false
 
@@ -16,7 +16,7 @@ categories = []
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  focal_point = "TopLeft"
 
 +++
 
@@ -25,7 +25,7 @@ categories = []
 I've been trying to learn Mandarin Chinese for quite a while, following the
 vocabulary compiled for the HSK (汉语水平考试) tests. As every Chinese learner
 will surely know, memorising all the characters is a rather daunting task. I
-often find myself mixing up similarly looking characters (like 牛 and 午).
+often find myself mixing up similarly looking characters (like 牛 and 午 or 手 and 毛).
 
 In order to learn these properly, I need to see them next to eachother,
 following a more horizontal vocabulary learning strategy nicely described by
@@ -33,13 +33,13 @@ following a more horizontal vocabulary learning strategy nicely described by
 Chinese](https://www.hackingchinese.com/horizontal-vocabulary-learning/).
 
 To facilitate my learning, I've compiled a list of hanzi I wish to study (based
-on HSK mostly) and ordered them based on similarity, or my subjective notion of
+on HSK mostly) and ordered them based on similarity, or my own subjective notion of
 it. Then I wrote a little [software tool](https://github.com/proycon/hanzigrid)
 to generate what I call *hanzi grids*. A hanzi grid is a study grid or matrix
 of chinese characters along with (optionally) pinyin and/or words, often
 coloured according to tone. The tool I wrote enables anyone to generate hanzi
-grids in all kinds of sizes, also nice for printing on A1/A0 and hanging on
-your wall as a poster!
+grids in all kinds of sizes, also nice for printing on A1/A0 paper and hanging on
+your wall as a poster and constant study reminder!
 
 The resulting hanzi grid using my confusible ordering looks as shown below. It
 contains all of HSK 1 to 3 and some characters from higher levels:
