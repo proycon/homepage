@@ -31,4 +31,5 @@ We developed classifier-based solutions that work well in Word Sense Disambiguat
 integrate these in a Statistical Machine Translation system.  Our main question is to find to what extent can we improve
 automated translation by explicitly modelling such context information.
 
-![View/download the full thesis (PDF)](https://proycon.anaproy.nl/pub/thesiswithcover.pdf)
+[View/download the full thesis (PDF)](https://proycon.anaproy.nl/pub/thesiswithcover.pdf)
+
