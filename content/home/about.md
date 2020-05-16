@@ -44,7 +44,7 @@ weight = 5
 # About me
 
 I am **Maarten van Gompel**, also known as **proycon** on the internet. Welcome to my homepage where I share some of my work and interests.
-I live in Eindhoven, the Netherlands, with my boyfriend Hans, our cat Sam and our dog Jaiko. I am a research software
+I live in Eindhoven, the Netherlands, with my boyfriend Hans and our dog Jaiko. I am a research software
 engineer (just a fancy word for computer programmer) in the field of Natural Language Processing at the Radboud University, in
 Nijmegen.
 
