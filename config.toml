@@ -99,7 +99,7 @@ enableGitInfo = false
   matrix = "@proycon:matrix.org"
   xmpp =  "proycon@anaproy.nl"
   ircfreenode =  "proycon"
-  mastodon =  { handle = "@proycon@mastodon.social", url = "https://mastodon.social/@proycon" }
+  mastodon =  { handle = "@proycon@social.anaproy.nl", url = "https://social.anaproy.nl/@proycon" }
   github = "proycon"
 
   # Enter an optional link for booking appointments (e.g. calendly.com).
