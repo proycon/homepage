@@ -12,7 +12,7 @@ weight = 5
   interests = [
     "Foreign Languages *(🇪🇸 Español, 🇧🇷 Português, 🇫🇷 Français, 🇩🇪  Deutsch, Esperanto, 🇮🇹 Italiano, 🇨🇳 汉语, 🇷🇺 Русски, عربية)*",
     "🐧 Linux and open source software",
-    "Software development aka programming *(Python, C++, Javascript, Web development)*",
+    "Software development *(Python, Rust, C++, Javascript, Web development)*",
     "Natural Language Processing",
     "Cybersecurity, Privacy, Decentralisation",
     "System Administration (DevOps)",
