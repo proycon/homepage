@@ -1,5 +1,5 @@
 +++
-title = "Constructions as Linguistic Bridges [PhD thesis]"
+title = "Context as Linguistic Bridges [PhD thesis]"
 date = 2020-02-06T16:25:28+01:00
 draft = false
 
@@ -21,7 +21,7 @@ categories = []
 
 +++
 
-My PhD thesis *Constructions as Linguistic Bridges* has been released and is to be defended soon:
+My PhD thesis *Context as Linguistic Bridges* has been released and is to be defended soon:
 
 Context as Linguistic Bridges is a study that focusses on the role of context information in machine translation, i.e.
 automated translation by computers.  The underlying intuition is that the context in which a word or phrase appears is
