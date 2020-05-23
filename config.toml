@@ -97,7 +97,7 @@ enableGitInfo = false
   #my extensions:
   gpgkey = "39FE11201A31555C"
   bitcoin = "1BRptZsKQtqRGSZ5qKbX2azbfiygHxJPsd"
-  matrix = "@proycon:matrix.org"
+  matrix = "@proycon:matrix.anaproy.nl"
   xmpp =  "proycon@anaproy.nl"
   ircfreenode =  "proycon"
   mastodon =  { handle = "@proycon@social.anaproy.nl", url = "https://social.anaproy.nl/@proycon" }
