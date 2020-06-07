@@ -25,9 +25,9 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD Candidate in Natural Language Processing"
+  course = "PhD in Natural Language Processing"
   institution = "Radboud University, Nijmegen"
-  year = "2011-2019"
+  year = "2011-2020"
 
 [[education.courses]]
   course = "MA in Human Aspects of Information Technology"
