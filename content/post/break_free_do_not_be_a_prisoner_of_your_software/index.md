@@ -32,12 +32,20 @@ cake, although you are of course free to choose for yourself, I don't think you
 should use any of these either!
 
 *"Well, you sound like a fun person!"*, you might think at this point, and
-sometimes people indeed do wonder why I hold the views I do. I am a bit of an
-idealist, I guess. I don't hold these views to be an annoyance or to cause
+sometimes people indeed do wonder why I hold the views I do. I won't deny that I
+am a bit of an idealist. I don't hold these views to be an annoyance or to cause
 inconvenience, but where for most people these are probably rather
 inconsequential choices, I do see them as being quite consequential, as I see an
-important *ethical* dimension that needs to be addressed, and in this article I
-will explain my reasoning.
+important *ethical* dimension that needs to be addressed.
+
+In this article I will explain my reasoning. I will argue that the increasing
+role software plays in our lives, like in the form of social media platforms,
+comes with considerable concerns. There is a massive intrusion on our privacy
+ongoing, and we are being targetted psychologically in a manner that is not in
+our best interest. This is has a direct impact on our societies, our politics,
+and ultimately our freedom, which it at the heart of the issue. We must break
+free from the walled-in prisons that software platforms lure us into and must
+act more responsibly in our new digital role as both consumer and producer.
 
 ## And so it begins...
 
@@ -71,19 +79,14 @@ before yet. To this day, this probably still counts as one of my great
 achievements in the realm of physical exercise.
 
 In the years leading up this, another new major development had started to
-slowly begin taking the world: the advent of the Internet and the World Wide
-Web in particular. First my father was on something called CompuServe. If I
-recall correctly, this was a paid and restricted network, locking you in only
-with other CompuServe users and not (yet) tied to the World Wide Web. I
-distinctly remember I found that really stupid.
+slowly begin taking the world: the advent of the Internet and the World Wide Web
+in particular. The web brought a wealth of information and programs that
+suddenly became available, my young brain was happy with the new torrent of
+input, there was so much to learn and discover! The happiness was subdued only
+by the resulting phone bill at the end of the month. Cable internet was new and
+hadn't reached our town yet, unfortunately.
 
-The web brought a wealth of information and programs that suddenly became
-available, my young brain was happy with the new torrent of input, there was so
-much to learn and discover! The happiness was subdued only by the resulting
-phone bill at the end of the month. Cable internet was new and hadn't reached
-our town yet, unfortunately.
-
-The beauty of it all was not just the wealth of information you could find, but
+The beauty of it all was not just the information you could consume, but
 also the fact that you yourself could contribute and share things directly with
 anybody in the world. I eagerly subscribed to something called GeoCities and
 created my first homepage on the web, initially show-casing some Visual Basic
@@ -360,6 +363,14 @@ make the world for the better, or worse. My plea therefore is for more
 decentralisation/federation, for more awareness in the general public that their
 choices do matter and that participation in social networks is not as
 inconsequential as it may seem.
+
+And we must not be reduced to mere consumers, we are producers now too. We, all
+of us, even featured as Person of the Year on the cover of TIME magazine in
+2006. The internet gives us the ability to share whatever we like. This is
+something we must cherish and use responsibly. Don't let your creativity and
+productivy be stiffled into the template of a big platform who ultimately reduces
+you to a consumer to be profited off. We must break free of imposed constraints
+and take back ownership into our own hands.
 
 So no, I won't use Facebook, I won't install WhatsApp so it is 'easier' for you
 to communicate with me, I won't disable my ad-blocker and be tracked, and I
