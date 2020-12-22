@@ -93,7 +93,6 @@ enableGitInfo = false
   phone = ""
   skype = ""
   telegram = "proycon"
-  keybase = "proycon"  # Your keybase.io username.
   #my extensions:
   gpgkey = "39FE11201A31555C"
   bitcoin = "1BRptZsKQtqRGSZ5qKbX2azbfiygHxJPsd"
