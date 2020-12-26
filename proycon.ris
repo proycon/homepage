@@ -45,6 +45,24 @@ PB  - Radboud University
 UR  - https://ucto.readthedocs.io/en/latest/
 ID  - UCTO18
 ER  - 
+TY  - JOUR
+AU  - Beeksma, Merijn
+AU  - Van Gompel, Maarten
+AU  - Kunneman, Florian
+AU  - Onrust, Louis
+AU  - Regnerus, Bouke
+AU  - Vinke, Dennis
+AU  - Brito, Eduardo
+AU  - Bauckhage, Christian
+PY  - 2018
+DA  - 2018/01/
+TI  - Detecting and correcting spelling errors in high-quality Dutch Wikipedia text
+JO  - Computational Linguistics in the Netherlands Journal
+SP  - 122
+EP  - 137
+VL  - 8
+ID  - CLIN28SHAREDTASK
+ER  - 
 TY  - CHAP
 AU  - van Gompel, M.
 AU  - van der Sloot, K.

@@ -13,7 +13,7 @@ title = "Proycon's Website"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2019 - Maarten van Gompel (proycon) - <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons BY-NC-SA</a><br/><a href=\"https://proycon.anaproy.nl/index.xml\">RSS</a><br/>"
+copyright = "&copy; 2020 - Maarten van Gompel (proycon) - <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons BY-NC-SA</a><br/><a href=\"https://proycon.anaproy.nl/index.xml\">RSS</a><br/>"
 
 theme = "academic"
 enableEmoji = true
@@ -70,11 +70,11 @@ enableGitInfo = false
 	{ name = "Ali Hürriyetoğlu", url = "http://www.hurrial.com/" },
 	{ name = "Antal van den Bosch", url = "http://antalvandenbosch.ruhosting.nl/" },
 	{ name = "Erkan Başar", url = "http://www.mebasar.com/" },
-    { name = "Folgert Karsdorp", url = "http://www.karsdorp.io/" },
+    { name = "Folgert Karsdorp", url = "https://www.karsdorp.io/" },
     { name = "Fotostrips.nl by Ype Driessen", url = "https://fotostrips.nl/" },
     { name = "Geek and Poke", url = "http://geek-and-poke.com/" },
-    { name = "Iris Hendrickx", url = "http://i-hx.nl/"},
-    { name = "Jeroen Janssens", url = "http://jeroenjanssens.com/" },
+    { name = "Iris Hendrickx", url = "https://i-hx.nl/"},
+    { name = "Jeroen Janssens", url = "https://jeroenjanssens.com/" },
     { name = "Joost van Baal-Ilić", url = "http://mdcc.cx/" },
     { name = "Luke Smith", url = "https://lukesmith.xyz/" },
     { name = "Manoj Kamps", url = "http://music.manoj.nl/" },
@@ -82,6 +82,7 @@ enableGitInfo = false
     { name = "Pythonic Perambulations, by Jake VanderPlas", url = "https://jakevdp.github.io/" },
 	{ name = "Rene van Lieshout", url = "https://rene.lico.nl/" },
     { name = "Shut up and Go by Damon and Jo", url = "https://shutupandgo.travel/" },
+    { name = "Suzan Verberne", url = "http://liacs.leidenuniv.nl/~verbernes/" },
     { name = "The dot on the ceiling, by kena (Raphael Poss)", url = "https://tdotc.eu/" },
     { name = "UniLang Language Community", url = "https://unilang.org" },
 	{ name = "Wessel Stoop", url = "http://wesselstoop.ruhosting.nl/" },
@@ -99,14 +100,13 @@ enableGitInfo = false
   phone = ""
   skype = ""
   telegram = "proycon"
-  keybase = "proycon"  # Your keybase.io username.
   #my extensions:
   gpgkey = "39FE11201A31555C"
   bitcoin = "1BRptZsKQtqRGSZ5qKbX2azbfiygHxJPsd"
-  matrix = "@proycon:matrix.org"
+  matrix = "@proycon:matrix.anaproy.nl"
   xmpp =  "proycon@anaproy.nl"
   ircfreenode =  "proycon"
-  mastodon =  { handle = "@proycon@mastodon.social", url = "https://mastodon.social/@proycon" }
+  mastodon =  { handle = "@proycon@social.anaproy.nl", url = "https://social.anaproy.nl/@proycon" }
   github = "proycon"
 
   # Enter an optional link for booking appointments (e.g. calendly.com).

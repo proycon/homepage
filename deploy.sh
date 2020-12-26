@@ -1,3 +1,7 @@
 #!/bin/bash
-hugo && rsync -avz --delete public/ worker.anaproy.lxd:/home/www/proycon.anaproy.nl/html
+#use custom hugo
+export GOPATH=~/go
+cp auth* public/
+cp key.asc public/
+$GOPATH/bin/hugo && rsync -avz --delete public/ worker.anaproy.lxd:/home/www/proycon.anaproy.nl/html
 exit $?
