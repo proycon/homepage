@@ -5,7 +5,7 @@ if ! which go; then
 fi
 mkdir -p go hugo
 git clone https://github.com/gohugoio/hugo.git
+export GOPATH=$(pwd)/go
 cd hugo
 git checkout v0.53
-export GOPATH=$(pwd)/go
 go install --tags extended
