@@ -1,10 +1,10 @@
----
-title: "CodeMetaPy"
-date: 2018-04-15T00:04:34+01:00
-summary: "A Python package for generating and working with codemeta "
-url_code: "https://github.com/proycon/codemetapy"
-draft: false
----
++++
+title = "CodeMetaPy"
+date = 2018-04-15T00:04:34+01:00
+summary = "A Python package for generating and working with codemeta "
+url_code = "https://github.com/proycon/codemetapy"
+draft =false
++++
 
 # CodeMetaPy
 

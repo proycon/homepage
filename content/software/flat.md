@@ -1,13 +1,13 @@
----
-title: "FLAT"
-date: 2013-12-29T00:04:34+01:00
-summary: "FLAT is a web-based linguistic annotation environment based around the FoLiA format, a rich XML-based format for linguistic annotation. FLAT allows users to view annotated FoLiA documents and enrich these documents with new annotations, a wide variety of linguistic annotation types is supported through the FoLiA paradigm. It is a document-centric tool that fully preserves and visualises document structure. "
-url_project: "https://proycon.github.io/folia"
-url_code: "https://github.com/proycon/flat"
-url_poster: "https://anaproy.nl/proycon/pubs/flat_poster_a0.pdf"
-cover:  "covers/flat.jpg"
-draft: false
----
++++
+title = "FLAT"
+date = 2013-12-29T00:04:34+01:00
+summary = "FLAT is a web-based linguistic annotation environment based around the FoLiA format, a rich XML-based format for linguistic annotation. FLAT allows users to view annotated FoLiA documents and enrich these documents with new annotations, a wide variety of linguistic annotation types is supported through the FoLiA paradigm. It is a document-centric tool that fully preserves and visualises document structure. "
+url_project = "https://proycon.github.io/folia"
+url_code = "https://github.com/proycon/flat"
+url_poster = "https://anaproy.nl/proycon/pubs/flat_poster_a0.pdf"
+cover =  "covers/flat.jpg"
+draft =false
++++
 
 FLAT is a web-based linguistic annotation environment based around the FoLiA format (http://proycon.github.io/folia), a rich XML-based format for linguistic annotation. FLAT allows users to view annotated FoLiA documents and enrich these documents with new annotations, a wide variety of linguistic annotation types is supported through the FoLiA paradigm. It is a document-centric tool that fully preserves and visualises document structure.
 

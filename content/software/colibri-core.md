@@ -1,13 +1,13 @@
----
-title: "Colibri Core"
-date: 2013-09-15T00:04:34+01:00
-summary: "Colibri Core is software to quickly and efficiently count and extract patterns from large corpus data, to extract various statistics on the extracted patterns, and to compute relations between the extracted patterns. "
-url_project: "https://proycon.github.io/colibri-core"
-url_code: "https://github.com/proycon/colibri-core"
-url_slides: "https://proycon.anaproy.nl/pubs/colibri_pres_201409.pdf"
-url_pdf: "https://openresearchsoftware.metajnl.com/articles/10.5334/jors.105/"
-draft: false
----
++++
+title = "Colibri Core"
+date = 2013-09-15T00:04:34+01:00
+summary = "Colibri Core is software to quickly and efficiently count and extract patterns from large corpus data, to extract various statistics on the extracted patterns, and to compute relations between the extracted patterns. "
+url_project = "https://proycon.github.io/colibri-core"
+url_code = "https://github.com/proycon/colibri-core"
+url_slides = "https://proycon.anaproy.nl/pubs/colibri_pres_201409.pdf"
+url_pdf = "https://openresearchsoftware.metajnl.com/articles/10.5334/jors.105/"
+draft =false
++++
 
 ## Colibri Core
 

@@ -12,7 +12,7 @@ highlight_code = true
 build_search_index = false
 
 generate_feed = true
-feed_filename = "index.xml"
+feed_filename = "rss.xml"
 
 title = "Proycon's website"
 description = "Language enthusiast, polyglot, linux user, open-source advocate, programmer, computational linguist, amateur pianist, gay"
