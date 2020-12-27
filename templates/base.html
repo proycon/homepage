@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+        <!-- Enable responsiveness on mobile devices-->
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport"/>
+        <title>
+            {% block title %}
+                {{ config.title }}
+            {% endblock title %}
+        </title>
+        <link href="{{ get_url(path="favicon.ico", trailing_slash=false) }}" rel="icon" type="image/x-icon"/>
+        {% if config.generate_feed %}
+            <link rel="alternate" type={% if config.feed_filename == "atom.xml" %} "application/atom+xml" {% else %} "application/rss+xml" {% endif %} title="RSS" href="{{ get_url(path=config.feed_filename) | safe }}"/>
+        {% endif %}
+        {# Metadata #}
+        {% block metadata %}
+            <meta content="website" property="og:type"/>
+            <meta content="{{ config.title }}" property="og:site_name"/>
+            <meta content="{{ config.base_url | safe }}" property="og:url"/>
+            <meta content="{{ config.base_url | safe }}" property="twitter:url"/>
+            {% if section.title %}
+                <meta content="{{ section.title }}" property="og:title"/>
+                <meta content="{{ section.title }}" property="twitter:title"/>
+            {% endif %}
+            {% if section.description %}
+                <meta content="{{ section.description }}" property="og:description"/>
+                <meta content="{{ section.description }}" property="description"/>
+                <meta content="{{ section.description }}" property="twitter:description"/>
+            {% endif %}
+            <meta content="summary_large_image" property="twitter:card"/>
+            <meta content="{{ config.base_url | safe }}/img/cover.png" property="og:image"/>
+            <meta content="{{ config.base_url | safe }}/img/cover.png" property="twitter:image"/>
+            <meta name="verify-v1" content="X+Tn+2a3v9og5PuWhebjzyZaHc+k5DKYK78ZyO5luUM=" >
+        {% endblock metadata %}
+        {% block css %}
+            <link href="{{ get_url(path="main.css", trailing_slash=false) }}" rel="stylesheet"/>
+        {% endblock css %}
+        {% block extra_head %}{% endblock extra_head %}
+    </head>
+    <body>
+        <script>
+            /*
+            (function initTheme() {
+                let body = document.getElementsByTagName("body")[0];
+                if (window.localStorage.getItem("theme") !== null) {
+                    if (window.localStorage.getItem("theme") === "dark") {
+                        body.setAttribute("data-theme", "dark");
+                    } else {
+                        body.setAttribute("data-theme", "light");
+                    }
+                } else {
+                    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                        body.setAttribute("data-theme", "dark");
+                    }
+                }
+            })();
+            */
+        </script>
+        <header id="topbar">
+            <div class="logo">
+                <a href="{{ config.base_url }}">{{ config.title }}</a>
+            </div>
+            {% block menu %}
+            <nav class="menu">
+                <ul>
+                    {% for item in config.extra.menu %}
+                        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            {% endblock menu %}
+        </header>
+        <main>
+            {% block sidebar %}
+            {% endblock sidebar %}
+            {% block content %}
+            {% endblock content %}
+            {% block footer %}
+                <footer>
+                    <div class="copyright">
+                        &#169;{{ config.extra.year }} {{ config.extra.author }} - Licence: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA</a>
+                    </div>
+                    <div class="rss">
+                        <a href="/index.xml">RSS feed</a>
+                    </div>
+                    <div class="made-with">
+                        Made with <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a><br />
+                        This site uses no cookies, no external scripts or assets, no advertisements and as such is as privacy friendly as possible.
+                    </div>
+                </footer>
+            {% endblock footer %}
+        </main>
+    </body>
+</html>

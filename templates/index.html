@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block sidebar %}
+    <div id="sidebar">
+        <div class="profile">
+            <img class="portrait" src="/img/portrait.png" alt="avatar" title="A photo of me" />
+            <div class="portrait-title">
+                <h2 itemprop="name">Maarten van Gompel</h2>
+                <h3 itemprop="nickname">proycon</h3>
+            </div>
+            <ul class="network-icon">
+                {% for network in config.extra.networks %}
+                    {% if network.profile %}
+                    <li>
+                        <a href="{{ network.url }}">
+                            <i class="{{ network.icon_pack }} {{ network.icon }}"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endblock sidebar %}
+{% block content %}
+    <section id="about">
+        {{ section.content }}
+    </section>
+    <section id="photos">
+
+    </section>
+    <section id="posts">
+
+    </section>
+    <section id="software">
+
+    </section>
+    <section id="publications">
+
+    </section>
+    <section id="projects">
+
+    </section>
+    <section id="projects">
+
+    </section>
+{% endblock content %}
