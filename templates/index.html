@@ -5,23 +5,22 @@
         <div class="portrait-title">
             <h2 itemprop="name">Maarten van Gompel</h2>
             <h3 itemprop="nickname">proycon</h3>
+            <ul class="networks">
+                {% for network in config.extra.networks %}
+                    {% if network.profile %}
+                    <li>
+                        <a href="{{ network.url }}"><i class="{{ network.icon_pack }} {{ network.icon }}" title="{{ network.name }}"></i></a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         </div>
-        <ul class="network-icon">
-            {% for network in config.extra.networks %}
-                {% if network.profile %}
-                <li>
-                    <a href="{{ network.url }}">
-                        <i class="{{ network.icon_pack }} {{ network.icon }}"></i>
-                    </a>
-                </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
     </div>
-    <div class="body">
+    <div class="page-content">
         {{ section.content | safe }}
     </div>
-    <div class="mainmenu">
+    <div class="band">
+     <div class="main-index">
         <ul>
             {# ugly trick to combine pages and subsections in one menu #}
             {% for page in section.pages | slice(end=1) %}
@@ -35,5 +34,6 @@
                 <li><strong><a href="{{ page.permalink }}">{{ page.title }}</a></strong> &mdash; {{ page.description }}</li>
             {% endfor %}
         </ul>
+     </div>
     </div>
 {% endblock content %}

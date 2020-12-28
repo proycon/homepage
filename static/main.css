@@ -1,0 +1,114 @@
+body {
+    font-family: 'Philosopher', sans-serif;
+    margin: 0px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    margin: 0px;
+    background: #3b993e;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+header div.logo {
+    background-image: url(img/logo.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    min-width: 80px;
+    margin-left: 10px;
+}
+header div.title {
+    margin-top: 15px;
+}
+
+header ul {
+    list-style: none;
+}
+header li {
+    display: inline;
+    margin-left: 10px;
+}
+header a, header a:visited {
+    color: white;
+    text-decoration: none;
+}
+div.portrait-title h3 {
+    margin-top: -20px;
+}
+
+ul.networks {
+    margin: 0px;
+    padding: 0px;
+    font-size: 140%;
+}
+
+main {
+    flex: 1 0 auto;
+}
+main div.page-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+main div.band {
+    width: 100%;
+    background: rgb(227, 235, 227);
+}
+main div.main-index {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+main div.main-index a {
+    display: inline-block;
+    min-width: 150px;
+}
+div.main-index ul {
+    list-style: none;
+}
+div.main-index ul a {
+    font-family: Roboto;
+    font-size: 120%;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+a, a:active {
+    color: #3b993e;
+    text-decoration: underline;
+}
+a:visited {
+    color: #3b993e;
+    text-decoration: underline;
+}
+
+header a {
+    color: white;
+    border-bottom: none;
+}
+
+footer {
+    background: #282828;
+    color: #ddd;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 75%;
+    padding: 20px;
+}
+.portrait  {
+    text-align: center;
+}
+.portrait img {
+    width: 240px;
+}
+
+.networks ul {
+    list-style: none;
+}
+.networks li {
+    display: inline;
+}
+

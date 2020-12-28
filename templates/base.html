@@ -35,7 +35,9 @@
             <meta name="verify-v1" content="X+Tn+2a3v9og5PuWhebjzyZaHc+k5DKYK78ZyO5luUM=" >
         {% endblock metadata %}
         {% block css %}
+            <link href="{{ get_url(path="fonts.css", trailing_slash=false) }}" rel="stylesheet"/>
             <link href="{{ get_url(path="main.css", trailing_slash=false) }}" rel="stylesheet"/>
+            <link href="{{ get_url(path="fontawesome.css", trailing_slash=false) }}" rel="stylesheet"/>
         {% endblock css %}
         {% block extra_head %}{% endblock extra_head %}
     </head>
@@ -59,9 +61,8 @@
             */
         </script>
         <header>
-            <div class="logo">
-                <a href="{{ config.base_url }}">{{ config.title }}</a>
-            </div>
+            <div class="logo"></div>
+            <div class="title">Proycon's Homepage</div>
             {% block menu %}
             <nav class="menu">
                 <ul>
@@ -73,20 +74,22 @@
             {% endblock menu %}
         </header>
         <main>
+            <div class="body">
             {% block content %}
             {% endblock content %}
+            </div>
         </main>
         <footer>
             {% block footer %}
                 <div class="copyright">
-                    &#169;{{ config.extra.year }} {{ config.extra.author }} - Licence: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA</a>
+                    &#169;{{ config.extra.year }} {{ config.extra.author }} - Content licence: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA</a>
                 </div>
                 <div class="rss">
-                    <a href="/index.xml">RSS feed</a>
+                    &mdash; Subscribe to my <a href="/index.xml">RSS feed</a> to keep updated
                 </div>
                 <div class="made-with">
-                    Made with <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a><br />
-                    This site uses no cookies, no external scripts or assets, no advertisements and as such is as privacy friendly as possible.
+                    &mdash; Made with <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a><br />
+                    <em>This site uses no cookies, no scripts, no external assets, no advertisements and as such is as privacy friendly as possible.</em>
                 </div>
         {% endblock footer %}
         </footer>

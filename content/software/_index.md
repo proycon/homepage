@@ -1,7 +1,7 @@
 +++
 title = "Software"
 date = 2019-01-08T00:00:00
-description = "Software I created"
+description = "Software I wrote"
 weight = 40
 +++
 

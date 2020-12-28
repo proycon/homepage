@@ -1,6 +1,6 @@
 +++
 title = "Work"
-description = "Projects and talks related to my work as a Research Software Engineer in NLP"
+description = "Projects and talks related to my work as a software developer in academia"
 sort_by = "date"
 weight = 60
 +++
