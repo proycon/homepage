@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="page-content">
+    {{ section.content | safe }}
+    </div>
+
+    <div class="band">
+     <div class="main-index">
+        <dl>
+        {% for post in section.pages %}
+        <dt>
+            {% if post.date %}
+            <div class="datetime"> {{ post.date | date(format="%Y-%m-%d") }}</div>
+            {% endif %}
+            <label><a href="{{ post.permalink }}">{{ post.title }}</a></label>
+            {% if post.extra.url_project %}
+            <a href="{{ post.extra.url_project }}" title="software website"><i class="fas fa-home"></i></a>
+            {% endif %}
+            {% if post.extra.url_code %}
+            <a href="{{ post.extra.url_code }}" title="source code repository"><i class="fab fa-github"></i></a>
+            {% endif %}
+            {% if post.extra.url_pdf %}
+            <a href="{{ post.extra.url_pdf }}" title="paper"><i class="far fa-file-pdf"></i></a>
+            {% endif %}
+            {% if post.extra.url_slides %}
+            <a href="{{ post.extra.url_slides }}" title="presentation slides"><i class="far fa-file-powerpoint"></i></a>
+            {% endif %}
+            {% if post.extra.url_poster %}
+            <a href="{{ post.extra.url_poster }}" title="poster"><i class="far fa-file-image"></i></a>
+            {% endif %}
+        </dt>
+        <dd>
+        {% if post.extra.cover %}
+        <img class="cover" src="/img/{{ post.extra.cover }}" />
+        {% endif %}
+        {% if post.description %}
+        {{ post.description }}
+        {% endif %}
+        </dd>
+        {% endfor %}
+        </dl>
+     </div>
+    </div>
+{% endblock content %}

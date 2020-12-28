@@ -73,6 +73,11 @@ main div.main-index label {
     display: inline-block;
     min-width: 150px;
 }
+main div.main-index div.datetime {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 75%;
+    color: #666;
+}
 div.main-index ul {
     list-style: none;
 }
