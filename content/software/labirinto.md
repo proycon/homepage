@@ -5,7 +5,7 @@ description = "Labirinto is a virtual laboratory portal, it makes a collection o
 
 [extra]
 url_code = "https://github.com/proycon/labirinto"
-cover = "covers/labirinto.jpg"
+cover = "/img/covers/labirinto.jpg"
 +++
 
 # Labirinto

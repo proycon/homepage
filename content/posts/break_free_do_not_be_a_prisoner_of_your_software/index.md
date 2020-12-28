@@ -7,13 +7,14 @@ draft = false
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["software", "privacy", "ethics", "social media", "freedom"]
 categories = []
+
+[extra]
+cover = "featured.jpg"
 +++
 
 # Break Free! Don't be a prisoner of your software platform!
 
 *"An opinion piece on software, social media, and ethics", by Maarten van Gompel (proycon)*
-
-<!-- more -->
 
 I don't use Windows or macOS, I don't use Facebook or Instagram, I won't use
 WhatsApp, my Android phone has no Google Play store or Google services. I

@@ -7,7 +7,7 @@ description = "LaMachine is a unified software distribution for Natural Language
 url_project = "https://proycon.github.io/LaMachine"
 url_code = "https://github.com/proycon/LaMachine"
 url_poster = "https://anaproy.nl/proycon/pubs/lamachine_poster.png"
-cover = "covers/lamachine.jpg"
+cover = "/img/covers/lamachine.jpg"
 +++
 
 # LaMachine

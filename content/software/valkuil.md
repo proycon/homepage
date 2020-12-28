@@ -6,7 +6,7 @@ description = "Valkuil.net is een automatische spellingcorrector voor het Nederl
 [extra]
 url_code = "https://github.com/proycon/valkuil-gecco"
 url_project = "http://valkuil.net"
-cover =  "covers/valkuil.jpg"
+cover =  "/img/covers/valkuil.jpg"
 +++
 
 # Valkuil.net

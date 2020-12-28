@@ -7,7 +7,7 @@ description = "FoLiA is an XML-based annotation format, suitable for the represe
 url_project = "https://proycon.github.io/folia"
 url_code = "https://github.com/proycon/folia"
 url_poster = "https://anaproy.nl/proycon/pubs/folia_poster3_a0.pdf"
-cover =  "covers/folia.png"
+cover =  "/img/covers/folia.png"
 +++
 
 # FoLiA: Format for Linguistic Annotation

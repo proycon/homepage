@@ -96,6 +96,7 @@ div.main-index dt {
     font-weight: bold;
     margin-left: 25px;
     margin-top: 10px;
+    clear: both;
 }
 div.main-index dd {
     margin-left: 50px;

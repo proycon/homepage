@@ -9,15 +9,8 @@ tags = ["phd", "dissertation", "machine translation", "statistical machine trans
 "computer-aided translation assistance"]
 categories = []
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = "(drawing by Elke Holsheimer-van Gompel)"
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "TopLeft"
+[extra]
+cover = "featured.jpg"
 
 +++
 

@@ -30,8 +30,10 @@
             {% endif %}
         </dt>
         <dd>
-        {% if post.extra.cover %}
-        <img class="cover" src="/img/{{ post.extra.cover }}" />
+        {% if post.extra.cover and post.extra.cover is starting_with("/") %}
+        <img class="cover" src="{{ post.extra.cover }}" />
+        {% elif post.extra.cover %}
+        <img class="cover" src="{{ post.permalink}}/{{ post.extra.cover }}" />
         {% endif %}
         {% if post.description %}
         {{ post.description }}

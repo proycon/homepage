@@ -8,6 +8,8 @@ draft = false
 tags = ["gps", "home automation"]
 categories = []
 
+lang = "nl"
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
@@ -19,6 +21,8 @@ categories = []
   focal_point = ""
 
 +++
+
+# GPS tracker integreren in home automation
 
 Ik heb de GPS tracker die o.a. verkocht wordt als [Reptrek Minitrek](https://www.reptrek.com/huisdieren/gps-tracker-voor-kat-en-hond-minitrek/) aangeschaft
 om onze hond te kunnen tracken.
