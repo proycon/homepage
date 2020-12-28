@@ -4,6 +4,8 @@ date = 2014-03-31T00:04:34+01:00
 draft =true
 +++
 
+# Efficiently modelling n-grams, skipgrams and flexgrams from large corpora with Colibri Core
+
 In this first actual blog post (yes, it was long overdue, I know) I would like to introduce open-source Natural Language Processing software I developed in the scope of my PhD research at Radboud University Nijmegen: Colibri Core.
 
 ## Introduction

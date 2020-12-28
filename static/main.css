@@ -73,10 +73,16 @@ main div.main-index label {
     display: inline-block;
     min-width: 150px;
 }
-main div.main-index div.datetime {
+main div.datetime {
     font-family: 'Roboto Mono', monospace;
     font-size: 75%;
     color: #666;
+}
+main div.datetime {
+    margin-top: 10px;
+}
+main div.main-index div.datetime {
+    margin-top: 0px;
 }
 div.main-index ul {
     list-style: none;
@@ -183,4 +189,12 @@ div.subbar ul {
 div.subbar ul li {
     display: inline-block;
     margin-left: 10px;
+}
+main div.page-content iframe {
+    width: 800px;
+    height: 600px;
+}
+
+div.warning {
+    color: #900;
 }

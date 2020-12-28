@@ -12,6 +12,12 @@
             {% if post.date %}
             <div class="datetime"> {{ post.date | date(format="%Y-%m-%d") }}</div>
             {% endif %}
+            {% if post.extra.music %}
+            <i class="fas fa-music" title="This is a music post"></i>&nbsp;
+            {% endif %}
+            {% if post.extra.youtube %}
+            <i class="fab fa-youtube" title="warning: video is an external resource on youtube"></i>&nbsp;
+            {% endif %}
             <label><a href="{{ post.permalink }}">{{ post.title }}</a></label>
             {% if post.extra.url_project %}
             <a href="{{ post.extra.url_project }}" title="software website"><i class="fas fa-home"></i></a>
@@ -36,7 +42,7 @@
         <img class="cover" src="{{ post.permalink}}/{{ post.extra.cover }}" />
         {% endif %}
         {% if post.description %}
-        {{ post.description }}
+        {{ post.description | markdown(inline=true) }}
         {% endif %}
         </dd>
         {% endfor %}

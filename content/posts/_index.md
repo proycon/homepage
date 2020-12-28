@@ -12,4 +12,4 @@ icon = "fa-newspaper"
 
 # Posts
 
-Sometimes I write an article on something, these are my blog posts
+Sometimes I write an article on something, these are my blog posts. I also post my music videos here.

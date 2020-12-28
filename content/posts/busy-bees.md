@@ -1,9 +1,13 @@
 +++
 title = "Busy Bees - Five years of work in version control"
 date = 2015-12-05T11:48:55+01:00
-summary = "An animation of five years of git commits"
-draft =false
+description = "An animation of five years of git commits"
+
+[extra]
+youtube = true
 +++
+
+# Busy Bees - Five years of work in version control
 
 The video below shows work on various of our software packages since January 2011. It includes work by the Language Machines research group and Centre for Language and Speech Technology (both part of the Centre for Language Studies at Radboud University Nijmegen). It also includes work by the Tilburg Centre for Cognition and Communication (Tilburg University) and one project currently maintained by Utrecht University. Some 3rd party contributors show up as well. All software is open-source and available from our github repositories:
 
@@ -16,7 +20,7 @@ The video below shows work on various of our software packages since January 201
 
 The video was generated from various git repositories using gource. (https://github.com/acaudwell/Gource)
 
-{{< youtube id="1qSjFBpmvr0" autoplay="true" >}}
+{{ youtube(id="1qSjFBpmvr0",autoplay=true) }}
 
 ## Credits
 

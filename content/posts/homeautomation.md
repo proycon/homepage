@@ -19,6 +19,8 @@ categories = []
   focal_point = ""
 +++
 
+# Home Automation
+
 I've just recently started my do-it-yourself home automation project, it's great fun! My goal is to have as much scriptable as possible, I'm mostly a software guy so want to delegate as much to my scripts as I can. Hardware-wise I want to keep things cheap and simple, so no expensive commercial solutions, but DIY work (well, I delegate some of the more practical tasks such as soldering and screwing things in place to my boyfriend) and 100% open-source.
 
 Everything is controlled by my home server (Linux) and two Raspberry pi's, though in theory a single Raspberry Pi would be sufficient as well. It's all a fairly cheap solution if you're okay with getting your hands dirty with electronics and programming. What I have thus-far:

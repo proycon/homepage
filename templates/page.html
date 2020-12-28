@@ -22,6 +22,12 @@
     </ul>
 </div>
 {% endif %}
+{% if page.date %}
+<div class="datetime">{{ page.date | date(format="%Y-%m-%d") }}</div>
+{% endif %}
+{% if page.extra.youtube %}
+<div class="warning"><strong>warning:</strong> this page contains an external youtube video for now, this has a negative impact on your privacy</div>
+{% endif %}
 {% if page.extra.cover %}
 <img class="cover" src="{{ page.extra.cover }}" title="cover" />
 {% endif %}
