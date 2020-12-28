@@ -1,7 +1,7 @@
 +++
 title = "Software"
 date = 2019-01-08T00:00:00
-template = "software.html"
+description = "Software I created"
 weight = 40
 +++
 
