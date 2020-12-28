@@ -82,7 +82,7 @@ div.main-index ul a {
     font-variant: small-caps;
     font-weight: bold;
 }
-div.main-index ul .fas, div.main-index ul .far, {
+div.main-index ul .fas, div.main-index ul .far {
     display: inline-block;
     min-width: 25px;
     color: #686;
