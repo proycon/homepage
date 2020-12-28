@@ -1,7 +1,7 @@
 +++
 title = "Hanzigrid & Learning chinese characters based on visual similarity"
 date = 2020-01-04T19:38:28+01:00
-draft = false
+description = "A chinese language learning resource and software tool"
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.

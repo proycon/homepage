@@ -42,7 +42,7 @@
         <img class="cover" src="{{ post.permalink}}/{{ post.extra.cover }}" />
         {% endif %}
         {% if post.description %}
-        {{ post.description | markdown(inline=true) }}
+        {{ post.description | markdown(inline=true) | safe }}
         {% endif %}
         </dd>
         {% endfor %}

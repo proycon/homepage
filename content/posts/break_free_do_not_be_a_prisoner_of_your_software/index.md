@@ -1,7 +1,7 @@
 +++
 title = "Break Free! Don't be a prisoner of your sofware platform!"
 date = 2020-06-06T18:00:28+02:00
-draft = false
+description = "An opinion piece on software, social media, and ethics"
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
