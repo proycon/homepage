@@ -1,6 +1,8 @@
 +++
 active = true
 date = 2019-01-12T00:00:00
+title = "About"
+description = "Some words about me"
 
 # Order that this section will appear in.
 weight = 5
@@ -17,7 +19,7 @@ I am very passionate about both languages and technology, and especially those a
 
 ### My Interests
 
-* Foreign Languages *(🇪🇸 Español, 🇧🇷 Português, 🇫🇷 Français, 🇩🇪  Deutsch, Esperanto, 🇮🇹 Italiano, 🇨🇳 汉语, 🇷🇺 Ру
+* Foreign Languages *(🇪🇸 Español, 🇧🇷 Português, 🇫🇷 Français, 🇩🇪  Deutsch, Esperanto, 🇮🇹 Italiano, 🇨🇳 汉语, 🇷🇺 Русский, عربية)*
 * 🐧 Linux and open source software
 * Software development *(Python, Rust, C++, Javascript, Web development*
 * Natural Language Processing
@@ -29,14 +31,3 @@ I am very passionate about both languages and technology, and especially those a
 * Reading (mostly SciFi)
 * 🐱 Cats & 🐶 Dogs
 
-### Education
-
-* *2020* - PhD in Natural Language Processing -  *Radboud University, Nijmegen*
-* *2009* - MA in Human Aspects of Information Technology - *Tilburg University*
-* *2008* - BSc in Cognitive Artificial Intelligence - *Utrecht University*
-
-### Work
-
-* *2020-present* - Research software engineer at [KNAW Humanities Cluster](https://huc.knaw.nl)
-* *2012-present* - Research software engineer at the [Centre of Language and Speech Technology, Radboud University, Nijmegen](https://www.ru.nl/clst)
-* *2011-2016* - PhD Candidate at [Radboud University Nijmegen](https://ru.nl)

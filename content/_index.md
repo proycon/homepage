@@ -1,4 +1,16 @@
 +++
-title = "Proycon's Website"
+title = "Proycon's Homepage"
 sort_by = "weight"
 +++
+
+*Hello! Hallo! ¡Hola! Olá! Salut! Ciao! Saluton! Привет! 大家好！ السلام عليكم!*
+
+My name is **Maarten van Gompel**, also known as **proycon** on the internet. Welcome to my homepage where I share some
+of my work and interests. I live in Eindhoven, the Netherlands, with my boyfriend Hans and our dog Jaiko. I have a great
+passion for languages and technology, and especially those areas where they meet!
+
+I work as a research software engineer (just a fancy word for computer programmer) in the field of Natural Language
+Processing. I'm a unix enthusiast committed to open-source software and an advocate for more security, simplicity,
+privacy and decentralisation. I love learning languages, coding, reading (mostly science fiction), working on my home
+automation system, playing the piano, and walking our dog.
+

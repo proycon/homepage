@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block sidebar %}
-    <div class="margin profile">
+{% block content %}
+    <div class="portrait">
         <img class="portrait" src="/img/portrait.png" alt="avatar" title="A photo of me" />
         <div class="portrait-title">
             <h2 itemprop="name">Maarten van Gompel</h2>
@@ -18,19 +18,14 @@
             {% endfor %}
         </ul>
     </div>
-{% endblock sidebar %}
-{% block content %}
+    <div class="body">
+        {{ section.content | safe }}
+    </div>
+
+    <div class="mainmenu">
     {% for page in section.pages %}
-        <section id="{{ page.slug }}">
-            <div class="margin">
-                <h2>{{ section.title }}</h2>
-                {% if section.description %}
-                <p>{{ section.description }}</p>
-                {% endif %}
-            </div>
-            <div class="body">
-                {{ section.content | safe }}
-            </div>
-        </section>
+            <li><strong>{{ page.title }}</strong> &mdash; {{ page.description }}</li>
+        </ul>
     {% endfor %}
+    </div>
 {% endblock content %}
