@@ -97,11 +97,30 @@ header a {
 }
 
 footer {
-    background: #282828;
-    color: #ddd;
+    background: #383838;
+    color: #ccc;
     font-family: 'Roboto Mono', monospace;
-    font-size: 75%;
+    font-size: 70%;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+footer div.footer {
+    flex-grow: 2;
+}
+
+footer div.contact ul {
+    list-style: none;
+}
+div.footer div.logo {
+    display: block;
+    background: url(img/logo.png);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    min-width: 160px;
+    min-height: 120px;
+    width: 160px;
+    margin-left: 10px;
 }
 .portrait  {
     text-align: center;
