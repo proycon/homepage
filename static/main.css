@@ -36,6 +36,9 @@ header a, header a:visited {
     color: white;
     text-decoration: none;
 }
+header a:hover {
+    text-decoration: underline;
+}
 div.portrait-title h3 {
     margin-top: -20px;
 }
@@ -90,6 +93,9 @@ a:visited {
     color: #3b993e;
     text-decoration: underline;
 }
+main a:hover, footer a:hover {
+    color: #3b6f99;
+}
 
 header a {
     color: white;
@@ -123,6 +129,7 @@ div.footer div.logo {
     margin-left: 10px;
 }
 .portrait  {
+    margin-top: 10px;
     text-align: center;
 }
 .portrait img {
