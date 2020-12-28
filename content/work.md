@@ -9,22 +9,22 @@ icon_pack = "fas"
 icon = "fa-briefcase"
 +++
 
-## Work
+# Work
 
-### Affiliations
+## Affiliations
 
 * *2020-present* - Research software engineer at [KNAW Humanities Cluster](https://huc.knaw.nl)
 * *2012-present* - Research software engineer at the [Centre of Language and Speech Technology, Radboud University, Nijmegen](https://www.ru.nl/clst)
 * *2011-2016* - PhD Candidate at [Radboud University Nijmegen](https://ru.nl)
 * *2009-2011* - Research software engineer at [Tilburg University](https://www.tilburguniversity.edu)
 
-### Education
+## Education
 
 * *2020* - PhD in Natural Language Processing -  *Radboud University, Nijmegen*
 * *2009* - MA in Human Aspects of Information Technology - *Tilburg University*
 * *2008* - BSc in Cognitive Artificial Intelligence - *Utrecht University*
 
-### Projects
+## Projects
 
 * [CLARIAH](https://clariah.nl) (2016-present) -- A Dutch project that aims to build a common research infrastructure for researchers in the Humanities.. Successor of CLARIN-NL.
 * [Colibri](/posts/colibri) (2011-2020) -- Context as Linguistic Bridges, is my PhD project, it investigates the role of source-language context information in machine translation.
@@ -36,7 +36,7 @@ icon = "fa-briefcase"
 * [DutchSemCor](http://wordpress.let.vupr.nl/dutchsemcor/) (2009-2011) -- The goal of DutchSemCor was to deliver a one-million word Dutch corpus that is fully sense-tagged with senses and domain
 tags.
 
-### Talks & Demos
+## Talks & Demos
 
 * Poster: [How High can Frog Leap?](https://proycon.anaproy.nl/pubs/Frog_clin29_v2.pdf) (2019-01), by *Iris Hendrickx, Ko
     van der Sloot, Maarten van Gompel, and Antal van den Bosch*, CLIN29, Groningen
@@ -66,6 +66,6 @@ tags.
 * Poster: [CLAM: Computational Linguistics Application Mediator](https://proycon.anaproy.nl/pubs/clam_poster.svg) (2011-02), CLIN21, Gent, Belgium
 * Presentation slides:  [Extending Memory-Based Machine Translation to Phrases](https://proycon.anaproy.nl/pubs/pbmbmtpres2.pdf) (2010-02), CLIN20, Utrecht
 
-### Publications
+## Publications
 
 See the [publications section](/publications) for an extensive overview of all my scientific publications.

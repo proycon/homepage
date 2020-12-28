@@ -13,6 +13,8 @@ icon = "fa-link"
 
 +++
 
+# Links
+
 ![Webring](/img/webring.png) This site participates in a [webring](https://webring.xxiivv.com/) of artists & developers.
 
 Other notable links:
