@@ -1,9 +1,10 @@
 +++
 title = "Dotfiles"
 date = 2013-05-26T00:04:34+01:00
-summary = "My dotfiles: configuration files for various application on my linux system"
+description = "My dotfiles: configuration files for various application on my linux system"
+
+[extra]
 url_code = "https://github.com/proycon/dotfiles"
-draft =false
 +++
 
 Current setup:

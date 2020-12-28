@@ -1,9 +1,10 @@
 +++
 title = "foliadocserve"
 date = 2015-02-08T00:04:34+01:00
-summary = "FoLiA Document Server - HTTP webservice backend for serving and annotating FoLiA documents using the FoLiA Query Language (FQL). Used by FLAT. "
+description = "FoLiA Document Server - HTTP webservice backend for serving and annotating FoLiA documents using the FoLiA Query Language (FQL). Used by FLAT. "
+
+[extra]
 url_code = "https://github.com/proycon/foliadocserve"
-draft =false
 +++
 
 # FoLiA Document Server

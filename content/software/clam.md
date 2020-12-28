@@ -1,11 +1,15 @@
 +++
 title = "CLAM"
 date = 2010-03-21T00:04:34+01:00
-summary = "Quickly turn command-line applications into RESTful webservices with a web-application front-end. You provide a specification of your command line application, its input, output and parameters, and CLAM wraps around your application to form a fully fledged RESTful webservice."
+description = "Quickly turn command-line applications into RESTful webservices with a web-application front-end. You provide a specification of your command line application, its input, output and parameters, and CLAM wraps around your application to form a fully fledged RESTful webservice."
+
+[extra]
 url_project = "https://proycon.github.io/clam"
 url_code = "https://github.com/proycon/clam"
 url_poster = "https://anaproy.nl/proycon/clam_poster2.pdf"
 +++
+
+# CLAM
 
 CLAM allows you to quickly and transparently transform your application into a RESTful
 webservice, with which both human end-users as well as automated clients can interact. CLAM takes a description of your

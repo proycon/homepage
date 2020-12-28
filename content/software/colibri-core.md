@@ -1,15 +1,16 @@
 +++
 title = "Colibri Core"
 date = 2013-09-15T00:04:34+01:00
-summary = "Colibri Core is software to quickly and efficiently count and extract patterns from large corpus data, to extract various statistics on the extracted patterns, and to compute relations between the extracted patterns. "
+description = "Colibri Core is software to quickly and efficiently count and extract patterns from large corpus data, to extract various statistics on the extracted patterns, and to compute relations between the extracted patterns. "
+
+[extra]
 url_project = "https://proycon.github.io/colibri-core"
 url_code = "https://github.com/proycon/colibri-core"
 url_slides = "https://proycon.anaproy.nl/pubs/colibri_pres_201409.pdf"
 url_pdf = "https://openresearchsoftware.metajnl.com/articles/10.5334/jors.105/"
-draft =false
 +++
 
-## Colibri Core
+# Colibri Core
 
 Colibri Core is software to quickly and efficiently count and extract patterns
 from large corpus data, to extract various statistics on the extracted
@@ -56,7 +57,7 @@ occurrence threshold, a maximum pattern length, and a lower-boundary on the
 different types that may instantiate a skipgram (i.e. possible fillings of the
 gaps).
 
-### Technical Details
+## Technical Details
 
 Colibri Core is available as a collection of **standalone command-line tools**,
 as a **C++ library**, and as a **Python library**.
@@ -65,7 +66,7 @@ Please consult the full documentation at https://proycon.github.io/colibri-core
 
 Installation instructions are here:  https://proycon.github.io/colibri-core/doc/#installation
 
-### Publication
+## Publication
 
 This software is extensively described in the following peer-reviewed publication:
 

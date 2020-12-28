@@ -69,7 +69,7 @@ main div.main-index {
     margin-right: auto;
     max-width: 800px;
 }
-main div.main-index a {
+main div.main-index label {
     display: inline-block;
     min-width: 150px;
 }
@@ -82,10 +82,32 @@ div.main-index ul a {
     font-variant: small-caps;
     font-weight: bold;
 }
-div.main-index .fas, div.main-index .far {
+div.main-index ul .fas, div.main-index ul .far, {
     display: inline-block;
     min-width: 25px;
     color: #686;
+}
+div.main-index dt {
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+div.main-index dd {
+    margin-left: 50px;
+    margin-right: 25px;
+}
+div.main-index img.cover {
+    float: right;
+    display: block;
+    height: 120px;
+}
+div.page-content img.cover {
+    float: right;
+    display: block;
+    height: 240px;
+}
+div.page-content img {
+    max-width: 800px;
 }
 
 a, a:active {
@@ -145,4 +167,14 @@ div.footer div.logo {
 .networks li {
     display: inline;
 }
-
+div.subbar {
+    width: 100%;
+    text-align: center;
+}
+div.subbar ul {
+    list-style: none;
+}
+div.subbar ul li {
+    display: inline-block;
+    margin-left: 10px;
+}

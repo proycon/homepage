@@ -1,6 +1,30 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="page-content">
+{% if page.extra.url_project or page.extra.url_code or page.extra.url_slides or page.extra.url_pdf %}
+<div class="subbar">
+    <ul>
+        {% if page.extra.url_project %}
+        <li><i class="fas fa-link"></i> <a href="{{ page.extra.url_project }}" title="project website">Website</a></li>
+        {% endif %}
+        {% if page.extra.url_code %}
+        <li><i class="fab fa-github"></i> <a href="{{ page.extra.url_code }}" title="source code repository">Source Repository</a></li>
+        {% endif %}
+        {% if page.extra.url_pdf %}
+        <li><i class="far fa-file-pdf"></i> <a href="{{ page.extra.url_pdf }}" title="paper">Paper</a></li>
+        {% endif %}
+        {% if page.extra.url_slides %}
+        <li><i class="far fa-file-powerpoint"></i> <a href="{{ page.extra.url_slides }}" title="presentation slides">Presentation</a></li>
+        {% endif %}
+        {% if page.extra.url_poster %}
+        <li><i class="far fa-file-image"></i> <a href="{{ page.extra.url_poster }}" title="poster">Poster</a></li>
+        {% endif %}
+    </ul>
+</div>
+{% endif %}
+{% if page.extra.cover %}
+<img class="cover" src="/img/{{ page.extra.cover }}" title="cover" />
+{% endif %}
 {{ page.content | safe }}
 </div>
 {% endblock content %}

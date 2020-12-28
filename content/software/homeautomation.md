@@ -1,10 +1,14 @@
 +++
 date = 2014-01-11T00:04:34+01:00
-summary = "My elaborate Home Automation configuration, powered by Home Assistant"
-url_code = "https://github.com/proycon/homeassistant-config"
+title = "My Home Automation"
+description = "My elaborate Home Automation configuration, powered by Home Assistant"
 cover =  "covers/homeautomation.jpg"
-draft =false
+
+[extra]
+url_code = "https://github.com/proycon/homeassistant-config"
 +++
+
+# Home Automation
 
 This repository contains my elaborate home automation configuration, using [Home Assistant](https://home-assistant.io).
 

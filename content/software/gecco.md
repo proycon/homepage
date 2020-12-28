@@ -1,10 +1,13 @@
 +++
 title = "Gecco"
 date = 2015-01-21T00:04:34+01:00
-summary = "Gecco is a generic modular and distributed framework for spelling correction. Aimed to build a complete context-aware spelling correction system given your own data set."
+description = "Gecco is a generic modular and distributed framework for spelling correction. Aimed to build a complete context-aware spelling correction system given your own data set."
+
+[extra]
 url_code = "https://github.com/proycon/gecco"
-draft =false
 +++
+
+# Gecco
 
 Gecco is a generic modular and distributed framework for spelling correction. Aimed to build a complete context-aware
 spelling correction system given your own data set. Most modules will be language-independent and trainable from a

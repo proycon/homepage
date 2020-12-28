@@ -3,11 +3,14 @@ title = "Software"
 date = 2019-01-08T00:00:00
 description = "Software I wrote"
 weight = 40
+template = "software.html"
 
 [extra]
 icon_pack = "fas"
 icon = "fa-cog"
 +++
+
+# Software
 
 I’m an avid support of *open-source software*, also known as free software (free as in free speech), and have published a
 lot thereof. Most of my software is hosted on [GitHub](https://github.com/proycon) and [Sourcehut](https://git.sr.ht/~proycon). I also maintain packages for Arch Linux, Debian and Alpine Linux. I am active
