@@ -76,6 +76,11 @@ div.main-index ul a {
     font-variant: small-caps;
     font-weight: bold;
 }
+div.main-index .fas, div.main-index .far {
+    display: inline-block;
+    min-width: 25px;
+    color: #686;
+}
 
 a, a:active {
     color: #3b993e;

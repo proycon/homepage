@@ -2,6 +2,10 @@
 title = "Languages"
 description = "Language-learning resources I developed"
 weight = 70
+
+[extra]
+icon_pack = "fas"
+icon = "fa-language"
 +++
 
 # Language Learning

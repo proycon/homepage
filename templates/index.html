@@ -24,14 +24,14 @@
         <ul>
             {# ugly trick to combine pages and subsections in one menu #}
             {% for page in section.pages | slice(end=1) %}
-                <li><strong><a href="{{ page.permalink }}">{{ page.title }}</a></strong> &mdash; {{ page.description }}</li>
+            <li><i class="{{page.extra.icon_pack}} {{ page.extra.icon }}"></i> <strong><a href="{{ page.permalink }}">{{ page.title }}</a></strong> &mdash; {{ page.description }}</li>
             {% endfor %}
             {% for subsection in section.subsections %}
                 {% set subsection=get_section(path=subsection, metadata_only=true) %}
-                <li><strong><a href="{{ subsection.permalink }}">{{ subsection.title }}</a></strong> &mdash; {{ subsection.description }}</li>
+                <li><i class="{{subsection.extra.icon_pack}} {{ subsection.extra.icon }}"></i> <strong><a href="{{ subsection.permalink }}">{{ subsection.title }}</a></strong> &mdash; {{ subsection.description }}</li>
             {% endfor %}
             {% for page in section.pages | slice(start=1) %}
-                <li><strong><a href="{{ page.permalink }}">{{ page.title }}</a></strong> &mdash; {{ page.description }}</li>
+                <li><i class="{{page.extra.icon_pack}} {{ page.extra.icon }}"></i> <strong><a href="{{ page.permalink }}">{{ page.title }}</a></strong> &mdash; {{ page.description }}</li>
             {% endfor %}
         </ul>
      </div>

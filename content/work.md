@@ -3,6 +3,10 @@ title = "Work"
 description = "Projects and talks related to my work as a software developer in academia"
 sort_by = "date"
 weight = 60
+
+[extra]
+icon_pack = "fas"
+icon = "fa-briefcase"
 +++
 
 ## Work

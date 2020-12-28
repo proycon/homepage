@@ -7,6 +7,10 @@ description = "Recommended sites to visit"
 # Order that this section will appear in.
 weight = 80
 
+[extra]
+icon_pack = "fas"
+icon = "fa-link"
+
 +++
 
 ![Webring](/img/webring.png) This site participates in a [webring](https://webring.xxiivv.com/) of artists & developers.

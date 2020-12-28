@@ -3,6 +3,10 @@ title = "Software"
 date = 2019-01-08T00:00:00
 description = "Software I wrote"
 weight = 40
+
+[extra]
+icon_pack = "fas"
+icon = "fa-cog"
 +++
 
 I’m an avid support of *open-source software*, also known as free software (free as in free speech), and have published a
