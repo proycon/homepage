@@ -3,6 +3,8 @@ title = "Break Free! Don't be a prisoner of your sofware platform!"
 date = 2020-06-06T18:00:28+02:00
 description = "An opinion piece on software, social media, and ethics"
 
+aliases = ["/posts/break_free_do_not_be_a_prisoner_of_your_software/"]
+
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["software", "privacy", "ethics", "social media", "freedom"]
