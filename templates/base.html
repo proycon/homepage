@@ -38,6 +38,9 @@
             {% elif section.title %}
                 <meta content="{{ section.title }}" property="og:title"/>
                 <meta content="{{ section.title }}" property="twitter:title"/>
+            {% else %}
+                <meta content="{{ config.title }}" property="og:title"/>
+                <meta content="{{ config.title }}" property="twitter:title"/>
             {% endif %}
             {% if page.description %}
                 <meta content="{{ page.description }}" property="og:description"/>
@@ -62,7 +65,6 @@
             {% else %}
                 <meta content="{{ config.base_url | safe }}/img/screenshot.jpg" property="og:image"/>
                 <meta content="{{ config.base_url | safe }}/img/screenshot.jpg" property="twitter:image"/>
-            {% else %}
             {% endif %}
             <meta name="generator" content="zola" />
             <meta name="verify-v1" content="X+Tn+2a3v9og5PuWhebjzyZaHc+k5DKYK78ZyO5luUM=" />
