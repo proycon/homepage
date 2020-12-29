@@ -24,6 +24,7 @@ email = "proycon@anaproy.nl"
 year = 2020
 menu = [
    {url = "/", name = "Home"},
+   {url = "/about", name = "About"},
    {url = "/photos", name = "Photos"},
    {url = "/posts", name = "Posts"},
    {url = "/software", name = "Software"},
