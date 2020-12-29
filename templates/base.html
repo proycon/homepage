@@ -18,21 +18,40 @@
         {% block metadata %}
             <meta content="website" property="og:type"/>
             <meta content="{{ config.title }}" property="og:site_name"/>
-            <meta content="{{ config.base_url | safe }}" property="og:url"/>
-            <meta content="{{ config.base_url | safe }}" property="twitter:url"/>
-            {% if section.title %}
+
+            {% if page.permalink %}
+                <meta content="{{ page.permalink | safe }}" property="og:url"/>
+                <meta content="{{ page.permalink | safe }}" property="twitter:url"/>
+            {% else %}
+                <meta content="{{ config.base_url | safe }}" property="og:url"/>
+                <meta content="{{ config.base_url | safe }}" property="twitter:url"/>
+            {% endif %}
+            {% if page.title %}
+                <meta content="{{ page.title }}" property="og:title"/>
+                <meta content="{{ page.title }}" property="twitter:title"/>
+            {% elif section.title %}
                 <meta content="{{ section.title }}" property="og:title"/>
                 <meta content="{{ section.title }}" property="twitter:title"/>
             {% endif %}
-            {% if section.description %}
+            {% if page.description %}
+                <meta content="{{ page.description }}" property="og:description"/>
+                <meta content="{{ page.description }}" property="description"/>
+                <meta content="{{ page.description }}" property="twitter:description"/>
+            {% elif section.description %}
                 <meta content="{{ section.description }}" property="og:description"/>
                 <meta content="{{ section.description }}" property="description"/>
                 <meta content="{{ section.description }}" property="twitter:description"/>
             {% endif %}
             <meta content="summary_large_image" property="twitter:card"/>
-            <meta content="{{ config.base_url | safe }}/img/cover.png" property="og:image"/>
-            <meta content="{{ config.base_url | safe }}/img/cover.png" property="twitter:image"/>
-            <meta name="verify-v1" content="X+Tn+2a3v9og5PuWhebjzyZaHc+k5DKYK78ZyO5luUM=" >
+            {% if page.extra.cover and page.extra.cover is starting_with("/") %}
+                <meta content="{{ config.base_url | safe }}{{ page.extra.cover }}" property="og:image"/>
+                <meta content="{{ config.base_url | safe }}{{ page.extra.cover }}" property="twitter:image"/>
+            {% elif page.extra.cover %}
+                <meta content="{{ page.permalink | safe }}{{ page.extra.cover }}" property="og:image"/>
+                <meta content="{{ page.permalink | safe }}{{ page.extra.cover }}" property="twitter:image"/>
+            {% endif %}
+            <meta name="generator" content="zola" />
+            <meta name="verify-v1" content="X+Tn+2a3v9og5PuWhebjzyZaHc+k5DKYK78ZyO5luUM=" />
         {% endblock metadata %}
         {% block css %}
             <link href="{{ get_url(path="fonts.css", trailing_slash=false) }}" rel="stylesheet"/>
@@ -42,24 +61,6 @@
         {% block extra_head %}{% endblock extra_head %}
     </head>
     <body>
-        <script>
-            /*
-            (function initTheme() {
-                let body = document.getElementsByTagName("body")[0];
-                if (window.localStorage.getItem("theme") !== null) {
-                    if (window.localStorage.getItem("theme") === "dark") {
-                        body.setAttribute("data-theme", "dark");
-                    } else {
-                        body.setAttribute("data-theme", "light");
-                    }
-                } else {
-                    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-                        body.setAttribute("data-theme", "dark");
-                    }
-                }
-            })();
-            */
-        </script>
         <header>
             <div class="logo"></div>
             <div class="title">Proycon's Homepage</div>
