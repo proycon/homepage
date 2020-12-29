@@ -1,8 +1,8 @@
-(NOTE: This license applies to the Hugo software, NOT the homepage content!!!)
+(NOTE: This license applies to the software (tempating and scripts), NOT the homepage content!!!)
 
 MIT License
 
-Copyright (c) 2016-present George Cushen
+Copyright (c) 2020-present Maarten van Gompel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
