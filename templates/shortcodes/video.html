@@ -1,0 +1,5 @@
+<div {% if class %}class="{{class}}"{% endif %}>
+    <video width="800" height="600" controls>
+        <source src="{{ url }}" type="{{ type | default(value="video/mp4") }}"/>
+    </video>
+</div>
