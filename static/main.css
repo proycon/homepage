@@ -208,6 +208,7 @@ main ul.publications a {
     font-family: 'Philosopher', sans-serif;
     font-size: 1em;
     font-variant: normal;
+    font-weight: bold;
 }
 main ul.publications a.doi {
     font-family: 'Roboto Mono';

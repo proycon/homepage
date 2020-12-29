@@ -11,26 +11,26 @@
         {% for pub in data %}
             <li>
                 {% for author in pub.author %}
-                    {% if loop.index0 > 0 %}
-                    ,
-                    {% endif %}
                     {% if author.given %}
                     {{ author.given }}&nbsp;
                     {% endif %}
                     {% if author.family %}
                     {{ author.family }}
                     {% endif %}
+                    {% if not loop.last %}
+                    ,
+                    {% endif %}
                 {% endfor %}
                 ({{ pub.issued | get(key="date-parts") | first | first }})
                 &mdash;
                 {% if pub.URL %}
-                <a href="{{ pub.URL }}">{{ pub.title }}</a>
+                <a href="{{ pub.URL }}">{{ pub.title | safe }}</a>
                 {% else %}
-                <strong>{{ pub.title }}</strong>
+                <strong>{{ pub.title | safe }}</strong>
                 {% endif %}
                 &mdash;
                 {% if pub | get(key="container-title") %}
-                In: {{ pub | get(key="container-title") }}.
+                In: <em>{{ pub | get(key="container-title") }}</em>.
                 {% endif %}
                 {% if pub.volume %}
                 vol. {{ pub.volume }}
@@ -39,7 +39,7 @@
                 {% endif %}.
                 {% endif %}
                 {% if pub.number %}
-                {{ pub.number }}.
+                <em>{{ pub.number }}</em>.
                 {% endif %}
                 {% if pub.publisher %}
                 {{ pub.publisher }}.
