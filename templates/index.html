@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="portrait">
+        <img class="portrait" src="/img/portrait.jpg" alt="avatar" title="A photo of me" />
+        <div class="portrait-title">
+            <h2 itemprop="name">Maarten van Gompel</h2>
+            <h3 itemprop="nickname">proycon</h3>
+            <ul class="networks">
+                {% for network in config.extra.networks %}
+                    {% if network.profile %}
+                    <li>
+                        <a href="{{ network.url }}"><i class="{{ network.icon_pack }} {{ network.icon }}" title="{{ network.name }}"></i></a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="page-content">
+        {{ section.content | safe }}
+    </div>
+    <div class="band">
+     <div class="main-index">
+        <ul>
+            {# ugly trick to combine pages and subsections in one menu #}
+            {% for page in section.pages | slice(end=1) %}
+            <li><i class="{{page.extra.icon_pack}} {{ page.extra.icon }}"></i> <label><a href="{{ page.permalink }}">{{ page.title }}</a></label> &mdash; {{ page.description }}</li>
+            {% endfor %}
+            {% for subsection in section.subsections %}
+                {% set subsection=get_section(path=subsection, metadata_only=true) %}
+                <li><i class="{{subsection.extra.icon_pack}} {{ subsection.extra.icon }}"></i> <label><a href="{{ subsection.permalink }}">{{ subsection.title }}</a></label> &mdash; {{ subsection.description }}</li>
+            {% endfor %}
+            {% for page in section.pages | slice(start=1) %}
+                <li><i class="{{page.extra.icon_pack}} {{ page.extra.icon }}"></i> <label><a href="{{ page.permalink }}">{{ page.title }}</a></label> &mdash; {{ page.description }}</li>
+            {% endfor %}
+        </ul>
+     </div>
+     {% if section.extra.closing %}
+     <div class="page-content">
+          {{ section.extra.closing | markdown | safe }}
+     </div>
+     {% endif %}
+
+    </div>
+{% endblock content %}

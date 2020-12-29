@@ -1,13 +1,16 @@
----
-title: "LaMachine"
-date: 2015-05-17T00:04:34+01:00
-summary: "LaMachine is a unified software distribution for Natural Language Processing. We integrate numerous open-source NLP tools, programming libraries, web-services, and web-applications in a single Virtual Research Environment that can be installed on a wide variety of machines."
-url_project: "https://proycon.github.io/LaMachine"
-url_code: "https://github.com/proycon/LaMachine"
-url_poster: "https://anaproy.nl/proycon/pubs/lamachine_poster.png"
-draft: false
-cover: "covers/lamachine.jpg"
----
++++
+title = "LaMachine"
+date = 2015-05-17T00:04:34+01:00
+description = "LaMachine is a unified software distribution for Natural Language Processing. We integrate numerous open-source NLP tools, programming libraries, web-services, and web-applications in a single Virtual Research Environment that can be installed on a wide variety of machines."
+
+[extra]
+url_project = "https://proycon.github.io/LaMachine"
+url_code = "https://github.com/proycon/LaMachine"
+url_poster = "https://anaproy.nl/proycon/pubs/lamachine_poster.png"
+cover = "/img/covers/lamachine.jpg"
++++
+
+# LaMachine
 
 LaMachine is a unified software distribution for Natural Language Processing. We integrate numerous open-source NLP
 tools, programming libraries, web-services, and web-applications in a single Virtual Research Environment that can be

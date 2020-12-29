@@ -1,11 +1,12 @@
----
-title: "Labirinto"
-date: 2018-04-22T00:04:34+01:00
-summary: "Labirinto is a virtual laboratory portal, it makes a collection of software browseable and searchable for the end-user. Labirinto presents the software's metadata following the CodeMeta specification in an intuitive way and allows the user to filter and perform a limited search. The portal gives access to software if it offers web-based interfaces.  This system is specifically geared towards research software, and for instance allows linking to relevant scientific publications for each tool."
-url_code: "https://github.com/proycon/labirinto"
-cover: "covers/labirinto.jpg"
-draft: false
----
++++
+title = "Labirinto"
+date = 2018-04-22T00:04:34+01:00
+description = "Labirinto is a virtual laboratory portal, it makes a collection of software browseable and searchable for the end-user. Labirinto presents the software's metadata following the CodeMeta specification in an intuitive way and allows the user to filter and perform a limited search. The portal gives access to software if it offers web-based interfaces.  This system is specifically geared towards research software, and for instance allows linking to relevant scientific publications for each tool."
+
+[extra]
+url_code = "https://github.com/proycon/labirinto"
+cover = "/img/covers/labirinto.jpg"
++++
 
 # Labirinto
 

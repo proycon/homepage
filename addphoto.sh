@@ -57,12 +57,11 @@ if [[ "$EXTENSION" == "jpg" ]] || [[ "$EXTENSION" == "jpeg" ]]; then
     else
         mv -f /tmp/img.jpg /tmp/img2.jpg
     fi
-    cp /tmp/img2.jpg $BASEDIR/static/img/photos/$CAPTION.$EXTENSION
+    cp /tmp/img2.jpg $BASEDIR/content/photos/$CAPTION.$EXTENSION
 else
-    cp $1 $BASEDIR/static/img/photos/$CAPTION.$EXTENSION
+    cp $1 $BASEDIR/content/photos/$CAPTION.$EXTENSION
 fi
-cd $BASEDIR/static/img/photos
-../makethumbnails.sh $EXTENSION
+cd $BASEDIR/content/photos
 git add *.$EXTENSION
 git commit
 ret=$?

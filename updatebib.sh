@@ -1,6 +1,3 @@
 #!/bin/bash
-source env/bin/activate || exit 2
-academic import  --bibtex proycon.bib --overwrite
 bib2xml proycon.bib | xml2ris > proycon.ris #requires bibutils
-git add content/publication/*
-git commit -a
+pandoc-citeproc --bib2json proycon.bib > proycon.bib.json #requires pandoc-citeproc

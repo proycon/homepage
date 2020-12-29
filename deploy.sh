@@ -1,7 +1,6 @@
 #!/bin/bash
-#use custom hugo
-export GOPATH=$(pwd)/go
+zola build || exit 1
 cp auth* public/
 cp key.asc public/
-$GOPATH/bin/hugo && rsync -avz --delete public/ worker.anaproy.lxd:/home/www/proycon.anaproy.nl/html
+rsync -avz --delete public/ worker.anaproy.lxd:/home/www/proycon.anaproy.nl/html
 exit $?

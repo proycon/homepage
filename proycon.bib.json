@@ -1,0 +1,1269 @@
+[
+  {
+    "URL": "https://folia.readthedocs.io/en/latest/",
+    "author": [
+      {
+        "family": "van Gompel",
+        "given": "M."
+      }
+    ],
+    "id": "FOLIA19",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "number": "Language and Speech Technology Technical Report Series 19-01",
+    "publisher": "Radboud University",
+    "publisher-place": "Nijmegen, The Netherlands",
+    "title": "FoLiA: Format for linguistic annotation - documentation and reference guide",
+    "title-short": "FoLiA",
+    "type": "report"
+  },
+  {
+    "URL": "https://clam.readthedocs.io/en/latest/",
+    "author": [
+      {
+        "family": "van Gompel",
+        "given": "M."
+      }
+    ],
+    "id": "CLAM18",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "number": "Language and Speech Technology Technical Report Series 18-03",
+    "publisher": "Radboud University",
+    "publisher-place": "Nijmegen, The Netherlands",
+    "title": "CLAM documentation",
+    "type": "report"
+  },
+  {
+    "URL": "https://frognlp.readthedocs.io/en/latest/",
+    "author": [
+      {
+        "family": "van der Sloot",
+        "given": "K."
+      },
+      {
+        "family": "Hendrickx",
+        "given": "I."
+      },
+      {
+        "family": "van Gompel",
+        "given": "M."
+      },
+      {
+        "family": "van den Bosch",
+        "given": "A."
+      },
+      {
+        "family": "Daelemans",
+        "given": "W."
+      }
+    ],
+    "id": "FROG18",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "number": "Language and Speech Technology Technical Report Series 18-02",
+    "publisher": "Radboud University",
+    "publisher-place": "Nijmegen, The Netherlands",
+    "title": "Frog, a natural language processing suite for dutch. Reference Guide",
+    "type": "report"
+  },
+  {
+    "URL": "https://ucto.readthedocs.io/en/latest/",
+    "author": [
+      {
+        "family": "van Gompel",
+        "given": "M."
+      },
+      {
+        "family": "van der Sloot",
+        "given": "K."
+      },
+      {
+        "family": "I. Hendrickx"
+      },
+      {
+        "family": "van den Bosch",
+        "given": "A."
+      }
+    ],
+    "id": "UCTO18",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "number": "Language and Speech Technology Technical Report Series 18-01",
+    "publisher": "Radboud University",
+    "publisher-place": "Nijmegen, The Netherlands",
+    "title": "Ucto: Unicode tokeniser. Reference Guide",
+    "title-short": "Ucto",
+    "type": "report"
+  },
+  {
+    "author": [
+      {
+        "family": "Beeksma",
+        "given": "Merijn"
+      },
+      {
+        "family": "Van Gompel",
+        "given": "Maarten"
+      },
+      {
+        "family": "Kunneman",
+        "given": "Florian"
+      },
+      {
+        "family": "Onrust",
+        "given": "Louis"
+      },
+      {
+        "family": "Regnerus",
+        "given": "Bouke"
+      },
+      {
+        "family": "Vinke",
+        "given": "Dennis"
+      },
+      {
+        "family": "Brito",
+        "given": "Eduardo"
+      },
+      {
+        "family": "Bauckhage",
+        "given": "Christian"
+      }
+    ],
+    "container-title": "Computational Linguistics in the Netherlands Journal",
+    "id": "CLIN28SHAREDTASK",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1
+        ]
+      ]
+    },
+    "page": "122-137",
+    "title": "Detecting and correcting spelling errors in high-quality dutch wikipedia text",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "ISBN": "9781911529248",
+    "URL": "http://www.jstor.org/stable/j.ctv3t5qjk.13",
+    "abstract": "We present an overview of the software and data infrastructure for FoLiA, a Format for Linguistic Annotation developed within the scope of the CLARIN-NL project and other projects. FoLiA aims to provide a single unified file format accommodating a wide variety of linguistic annotation types, preventing the proliferation of different formats for different annotation types. FoLiA is being developed in a bottom-up and practice-driven fashion. We have invested mainly in the creation of a rich infrastructure of tools that enable developers and end-users to work with the format. This work will present the current state of this infrastructure.",
+    "author": [
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "dropping-particle": "van der",
+        "family": "Sloot",
+        "given": "K."
+      },
+      {
+        "family": "Reynaert",
+        "given": "M."
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Bosch",
+        "given": "A."
+      }
+    ],
+    "container-title": "CLARIN in the low countries",
+    "id": "FOLIACLARINBOOK",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "page": "71-82",
+    "publisher": "Ubiquity Press",
+    "title": "FoLiA in practice: The infrastructure of a linguistic annotation format",
+    "title-short": "FoLiA in practice",
+    "type": "chapter"
+  },
+  {
+    "DOI": "10.5281/zenodo.1471591",
+    "ISBN": "978-3-96110-123-8",
+    "abstract": "Multiword expressions (MWEs) are known as a ’pain in the neck’ due to their idiosyncratic behaviour. While some categories of MWEs have been largely studied, verbal MWEs (VMWEs) such as to take a walk, to break one’s heart or to turn off have been relatively rarely modelled. We describe an initiative meant to bring about substantial progress in understanding, modelling and processing VMWEs. In this joint effort carried out within a European research network we elaborated a universal terminology and annotation methodology for VMWEs. Its main outcomes, available under open licenses, are unified annotation guidelines, and a corpus of over 5.4 million words and 62 thousand annotated VMWEs in 18 languages.",
+    "author": [
+      {
+        "family": "Savary",
+        "given": "Agata"
+      },
+      {
+        "family": "Candito",
+        "given": "Marie"
+      },
+      {
+        "family": "Mititelu",
+        "given": "Verginica Barbu"
+      },
+      {
+        "family": "Bejček",
+        "given": "Eduard"
+      },
+      {
+        "family": "Cap",
+        "given": "Fabienne"
+      },
+      {
+        "family": "Čéplö",
+        "given": "Slavomír"
+      },
+      {
+        "family": "Cordeiro",
+        "given": "Silvio Ricardo"
+      },
+      {
+        "family": "Eryiğit",
+        "given": "Gülşen"
+      },
+      {
+        "family": "Giouli",
+        "given": "Voula"
+      },
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "Maarten"
+      },
+      {
+        "dropping-particle": "et",
+        "family": "al."
+      }
+    ],
+    "container-title": "Multiword expressions at length and in depth: Extended papers from the mwe 2017 workshop,",
+    "id": "PARSEME",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10
+        ]
+      ]
+    },
+    "page": "87-147",
+    "publisher": "Language Science Press",
+    "publisher-place": "Berlin",
+    "title": "PARSEME multilingual corpus of verbal multiword expressions",
+    "type": "chapter"
+  },
+  {
+    "ISBN": "9781911529248",
+    "URL": "http://www.jstor.org/stable/j.ctv3t5qjk.14",
+    "abstract": "The idea behind the Flemish/Dutch CLARIN project TTNWW¹ (’TST Tools voor het Nederlands als Webservices in een Workflow’, or ‘NLP Tools for Dutch as Web services in a Workflow’) was that many end users of resources and tools offered by CLARIN will not know how to use them, just as they will not know where they are located. With respect to the location, the CLARIN policy is that the Human and Social Sciences (HSS) researcher does not need to know this as the infrastructure will take care of that: the only thing the user needs to do is to indicate",
+    "author": [
+      {
+        "family": "Kemps-Snijders",
+        "given": "Marc"
+      },
+      {
+        "family": "Schuurman",
+        "given": "Ineke"
+      },
+      {
+        "family": "Daelemans",
+        "given": "Walter"
+      },
+      {
+        "family": "Demuynck",
+        "given": "Kris"
+      },
+      {
+        "family": "Desplanques",
+        "given": "Brecht"
+      },
+      {
+        "family": "Hoste",
+        "given": "Véronique"
+      },
+      {
+        "family": "Huijbregts",
+        "given": "Marijn"
+      },
+      {
+        "family": "Martens",
+        "given": "Jean-Pierre"
+      },
+      {
+        "family": "Paulussen",
+        "given": "Hans"
+      },
+      {
+        "family": "Pelemans",
+        "given": "Joris"
+      },
+      {
+        "family": "Reynaert",
+        "given": "Martin"
+      },
+      {
+        "family": "Vandeghinste",
+        "given": "Vincent"
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Bosch",
+        "given": "Antal"
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Heuvel",
+        "given": "Henk"
+      },
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "Maarten"
+      },
+      {
+        "dropping-particle": "van",
+        "family": "Noord",
+        "given": "Gertjan"
+      },
+      {
+        "family": "Wambacq",
+        "given": "Patrick"
+      }
+    ],
+    "container-title": "CLARIN in the low countries",
+    "id": "TTNWW",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "page": "83-94",
+    "publisher": "Ubiquity Press",
+    "title": "TTNWW to the rescue: No need to know how to handle tools and resources",
+    "title-short": "TTNWW to the rescue",
+    "type": "chapter"
+  },
+  {
+    "URL": "https://github.com/CLARIAH/software-quality-guidelines/raw/v1.0/softwareguidelines.pdf",
+    "author": [
+      {
+        "family": "van Gompel",
+        "given": "M."
+      },
+      {
+        "family": "Noordzij",
+        "given": "J."
+      },
+      {
+        "family": "de Valk",
+        "given": "R."
+      },
+      {
+        "family": "Scharnhorst",
+        "given": "A."
+      }
+    ],
+    "id": "SOFTWAREQUALITY",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "publisher": "CLARIAH",
+    "title": "Guidelines for software quality",
+    "type": "report"
+  },
+  {
+    "DOI": "10.5334/jors.105",
+    "URL": "https://openresearchsoftware.metajnl.com/articles/10.5334/jors.105/",
+    "abstract": "Counting n-grams lies at the core of any frequentist corpus analysis and is often considered a trivial matter. Going beyond consecutive n-grams to patterns such as skipgrams and flexgrams increases the demand for efficient solutions. The need to operate on big corpus data does so even more. Lossless compression and non-trivial algorithms are needed to lower the memory demands, yet retain good speed. Colibri Core is software for the efficient computation and querying of n-grams, skipgrams and flexgrams from corpus data. The resulting pattern models can be analysed and compared in various ways. The software offers a programming library for C++ and Python, as well as command-line tools.",
+    "author": [
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "Maarten"
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Bosch",
+        "given": "Antal"
+      }
+    ],
+    "container-title": "Journal of Open Research Software",
+    "id": "COLIBRICORE",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "publisher": "Ubiquity Press",
+    "title": "Efficient n-gram, skipgram and flexgram modelling with colibri core",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "author": [
+      {
+        "family": "van Gompel",
+        "given": "Maarten"
+      },
+      {
+        "family": "van den Bosch",
+        "given": "Antal"
+      }
+    ],
+    "container-title": "International Journal of Translation",
+    "id": "COLIBRITAFINAL",
+    "issue": "1-2",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "publisher": "Bahri Publications",
+    "title": "The role of context information in L2 translation assistance",
+    "type": "article-journal",
+    "volume": "28"
+  },
+  {
+    "DOI": "10.12688/f1000research.11407.1",
+    "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490478/",
+    "abstract": "Scientific research relies on computer software, yet software is not always developed following practices that ensure its quality and sustainability. This manuscript does not aim to propose new software development best practices, but rather to provide simple recommendations that encourage the adoption of existing best practices. Software development best practices promote better quality software, and better quality software improves the reproducibility and reusability of research. These recommendations are designed around Open Source values, and provide practical suggestions that contribute to making research software and its source code more discoverable, reusable and transparent. This manuscript is aimed at developers, but also at organisations, projects, journals and funders that can increase the quality and sustainability of research software by encouraging the adoption of these recommendations.",
+    "author": [
+      {
+        "family": "Jiménez",
+        "given": "RC."
+      },
+      {
+        "family": "Kuzak",
+        "given": "M."
+      },
+      {
+        "family": "Alhamdoosh",
+        "given": "M."
+      },
+      {
+        "family": "Barker",
+        "given": "M."
+      },
+      {
+        "family": "Batut",
+        "given": "B."
+      },
+      {
+        "family": "Borg",
+        "given": "M."
+      },
+      {
+        "family": "Capella-Gutierrez",
+        "given": "S."
+      },
+      {
+        "family": "Chue Hong",
+        "given": "N."
+      },
+      {
+        "family": "Cook",
+        "given": "M."
+      },
+      {
+        "family": "Corpas",
+        "given": "M."
+      },
+      {
+        "family": "Flannery",
+        "given": "M."
+      },
+      {
+        "family": "Garcia",
+        "given": "L."
+      },
+      {
+        "family": "Gelpí",
+        "given": "JL."
+      },
+      {
+        "family": "Gladman",
+        "given": "S."
+      },
+      {
+        "family": "Goble",
+        "given": "C."
+      },
+      {
+        "family": "González Ferreiro",
+        "given": "M."
+      },
+      {
+        "family": "Gonzalez-Beltran",
+        "given": "A."
+      },
+      {
+        "family": "Griffin",
+        "given": "PC."
+      },
+      {
+        "family": "Grüning",
+        "given": "B."
+      },
+      {
+        "family": "Hagberg",
+        "given": "J."
+      },
+      {
+        "family": "Holub",
+        "given": "P."
+      },
+      {
+        "family": "Hooft",
+        "given": "R."
+      },
+      {
+        "family": "Ison",
+        "given": "J."
+      },
+      {
+        "family": "Katz",
+        "given": "DS."
+      },
+      {
+        "family": "Leskošek",
+        "given": "B."
+      },
+      {
+        "family": "López Gómez",
+        "given": "F."
+      },
+      {
+        "family": "Oliveira",
+        "given": "LJ."
+      },
+      {
+        "family": "Mellor",
+        "given": "D."
+      },
+      {
+        "family": "Mosbergen",
+        "given": "R."
+      },
+      {
+        "family": "Mulder",
+        "given": "N."
+      },
+      {
+        "family": "Perez-Riverol",
+        "given": "Y."
+      },
+      {
+        "family": "Pergl",
+        "given": "R."
+      },
+      {
+        "family": "Pichler",
+        "given": "H."
+      },
+      {
+        "family": "Pope",
+        "given": "B."
+      },
+      {
+        "family": "Sanz",
+        "given": "F."
+      },
+      {
+        "family": "Schneider",
+        "given": "MV."
+      },
+      {
+        "family": "Stodden",
+        "given": "V."
+      },
+      {
+        "family": "Suchecki",
+        "given": "R."
+      },
+      {
+        "family": "Svobodová Vařeková",
+        "given": "R."
+      },
+      {
+        "family": "Talvik",
+        "given": "HA."
+      },
+      {
+        "family": "Todorov",
+        "given": "I."
+      },
+      {
+        "family": "Treloar",
+        "given": "A."
+      },
+      {
+        "family": "Tyagi",
+        "given": "S."
+      },
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "family": "Vaughan",
+        "given": "D."
+      },
+      {
+        "family": "Via",
+        "given": "A."
+      },
+      {
+        "family": "Wang",
+        "given": "X."
+      },
+      {
+        "family": "Watson-Haigh",
+        "given": "NS."
+      },
+      {
+        "family": "Crouch",
+        "given": "S."
+      }
+    ],
+    "container-title": "F1000Research",
+    "id": "F1000RESEARCH",
+    "issue": "876",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "title": "Four simple recommendations to encourage best practices in research software",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "URL": "http://www.clarin.eu/sites/default/files/book%20of%20abstracts%202015.pdf",
+    "author": [
+      {
+        "family": "Reynaert",
+        "given": "M."
+      },
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "dropping-particle": "van der",
+        "family": "Sloot",
+        "given": "K."
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Bosch",
+        "given": "A."
+      }
+    ],
+    "container-title": "Proceedings of CLARIN Annual Conference 2015 – Book of Abstracts",
+    "id": "Reynaert+15",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "publisher": "CLARIN ERIC",
+    "title": "PICCL: Philosophical Integrator of Computational and Corpus Libraries",
+    "title-short": "PICCL",
+    "type": "paper-conference"
+  },
+  {
+    "URL": "http://www.aclweb.org/anthology/P14-1082",
+    "abstract": "In this paper we present new research in translation assistance. We describe a system capable of translating native language (L1) fragments to foreign language (L2) fragments in an L2 context. Practical applications of this research can be framed in the context of second language learning. The type of translation assistance system under investigation here encourages language learners to write in their target language while allowing them to fall back to their native language in case the correct word or expression is not known. These code switches are subsequently translated to L2 given the L2 context. We study the feasibility of exploiting cross-lingual context to obtain high-quality translation suggestions that improve over statistical language modelling and word-sense disambiguation baselines. A classification-based approach is presented that is indeed found to improve significantly over these baselines by making use of a contextual window spanning a small number of neighbouring words.",
+    "author": [
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Bosch",
+        "given": "A."
+      }
+    ],
+    "container-title": "Proceedings of the 52nd annual meeting of the association for computational linguistics (volume 1: Long papers)",
+    "id": "COLIBRITAPILOT",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          6
+        ]
+      ]
+    },
+    "page": "871-880",
+    "publisher": "Association for Computational Linguistics",
+    "title": "Translation assistance by translation of l1 fragments in an l2 context",
+    "type": "paper-conference"
+  },
+  {
+    "ISSN": "2211-4009",
+    "URL": "https://www.clinjournal.org/sites/clinjournal.org/files/05-PanderMaat-etal-CLIN2014.pdf",
+    "abstract": "T-Scan is a new tool for analyzing Dutch text. It aims at extracting text features that are theoretically interesting, in that they relate to genre and text complexity, as well as practically interesting, in that they enable users and text producers to make text-specific diagnoses. T-Scan derives it features from tools such as Frog and Alpino, and resources such as SoNaR, SUBTLEX-NL and Referentie Bestand Nederlands. This paper offers a qualitative discussion of a number of T-Scan features, based on a minimal demonstration corpus of six texts, three of them scientific articles and three of them drawn from a women’s magazine. We discuss features concerning lexical complexity, sentence complexity, referential cohesion and lexical diversity, lexical semantics and personal style. For all these domains we examine the construct validity as well as the reliability of a number of important features. We conclude that T-Scan offers a number of promising lexical and syntactic features, while the interpretation of referential cohesion/ lexical diversity features and personal style features is less clear. Further developing the application and analyzing authentic text need to go hand in hand.",
+    "author": [
+      {
+        "family": "Maat",
+        "given": "H. P."
+      },
+      {
+        "family": "Kraf",
+        "given": "R."
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Bosch",
+        "given": "A."
+      },
+      {
+        "family": "Dekker",
+        "given": "N."
+      },
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "family": "Kleijn",
+        "given": "S."
+      },
+      {
+        "family": "Sanders",
+        "given": "T."
+      },
+      {
+        "dropping-particle": "van der",
+        "family": "Sloot",
+        "given": "K."
+      }
+    ],
+    "container-title": "Computational Linguistics in the Netherlands Journal",
+    "id": "TSCAN",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "53-74",
+    "title": "T-scan: A new tool for analyzing dutch text",
+    "title-short": "T-scan",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "URL": "http://aclweb.org/anthology/C14-2016",
+    "abstract": "In this paper we present the software CLAM; the Computational Linguistics Application Mediator. CLAM is a tool that allows you to quickly and transparently transform command-line NLP tools into fully-fledged RESTful webservices with which automated clients can communicate, as well as a generic webapplication interface for human end-users.",
+    "author": [
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "family": "Reynaert",
+        "given": "M."
+      }
+    ],
+    "container-title": "Proceedings of coling 2014, the 25th international conference on computational linguistics: System demonstrations",
+    "id": "CLAMPAPER",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "71-75",
+    "publisher": "Dublin City University; Association for Computational Linguistics",
+    "publisher-place": "Dublin, Ireland",
+    "title": "CLAM: Quickly deploy nlp command-line tools on the web",
+    "title-short": "CLAM",
+    "type": "paper-conference"
+  },
+  {
+    "URL": "https://github.com/proycon/clam/raw/v2.3.6/docs/clam_manual.pdf",
+    "author": [
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      }
+    ],
+    "id": "CLAMDOC",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "publisher": "Radboud University Nijmegen",
+    "title": "CLAM: Computational linguistics application mediator",
+    "title-short": "CLAM",
+    "type": "report"
+  },
+  {
+    "URL": "https://github.com/proycon/folia/raw/v1.5.1.60/docs/folia.pdf",
+    "author": [
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      }
+    ],
+    "id": "FOLIADOC",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "publisher": "Radboud University Nijmegen",
+    "title": "FoLiA: Format for linguistic annotation. Documentation",
+    "title-short": "FoLiA",
+    "type": "report"
+  },
+  {
+    "URL": "http://aclweb.org/anthology/S14-2005",
+    "abstract": "We present a new cross-lingual task for SemEval concerning the translation of L1 fragments in an L2 context. The task is at the boundary of Cross-Lingual Word Sense Disambiguation and Machine Translation. It finds its application in the field of computer-assisted translation, particularly in the context of second language learning. Translating L1 fragments in an L2 context allows language learners when writing in a target language (L2) to fall back to their native language (L1) whenever they are uncertain of the right word or phrase.",
+    "author": [
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "family": "Hendrickx",
+        "given": "I."
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Bosch",
+        "given": "A."
+      },
+      {
+        "family": "Lefever",
+        "given": "E."
+      },
+      {
+        "family": "Hoste",
+        "given": "V."
+      }
+    ],
+    "container-title": "Proceedings of the 8th international workshop on semantic evaluation (semeval 2014)",
+    "id": "SEMEVAL2014TASK5",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "title": "Semeval-2014 task 5: L2 writing assistant",
+    "title-short": "Semeval-2014 task 5",
+    "type": "paper-conference"
+  },
+  {
+    "URL": "http://hdl.handle.net/2066/129749",
+    "abstract": "In this paper we present a statistical machine translation (SMT) system for Frisian to Dutch and Dutch to Frisian. A parallel training corpus has been established, which has subsequently been used to automatically learn a phrase-based SMT model. The translation system is built around the open-source SMT software Moses. The resulting system, named Oersetter , is released as a website for human end users, as well as a web service for software to interact with. We here discuss the workings, setup and performance of our system, which to our knowledge is the very first Frisian-Dutch SMT system.",
+    "author": [
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Bosch",
+        "given": "A."
+      },
+      {
+        "family": "Dykstra",
+        "given": "A."
+      }
+    ],
+    "container-title": "Philologia Frisica anno 2012",
+    "id": "OERSETTER",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "287-296",
+    "publisher": "Fryske Akademy",
+    "title": "Oersetter: Frisian-dutch statistical machine translation",
+    "title-short": "Oersetter",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "family": "Beißwenger",
+        "given": "M."
+      },
+      {
+        "family": "Chanier",
+        "given": "T."
+      },
+      {
+        "family": "Chiari",
+        "given": "I."
+      },
+      {
+        "family": "Ermakova",
+        "given": "M."
+      },
+      {
+        "dropping-particle": "v.",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "family": "Hendrickx",
+        "given": "I."
+      },
+      {
+        "family": "Herold",
+        "given": "A."
+      },
+      {
+        "family": "Heuvel",
+        "given": "H. V. D."
+      },
+      {
+        "family": "Lemnitzer",
+        "given": "L."
+      },
+      {
+        "family": "Storrer",
+        "given": "A."
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "container-title": "The linked TEI: Text encoding in the web. 2013 annual conference and members’ meeting of the tei consortium",
+    "id": "CMCTEI",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "title": "Computer-mediated communication in tei: What lies ahead",
+    "title-short": "Computer-mediated communication in tei",
+    "type": "paper-conference"
+  },
+  {
+    "URL": "http://clinjournal.org/sites/clinjournal.org/files/05-vanGompel-Reynaert-CLIN2013.pdf",
+    "abstract": "In this paper we present FoLiA, a Format for Linguistic Annotation, and conduct a comparative study with other annotation schemes, including the Linguistic Annotation Framework (LAF), the Text Encoding Initiative (TEI) and Text Corpus Format (TCF). An additional point of focus is the interoperability between FoLiA and metadata standards such as the Component MetaData Infrastructure (CMDI), as well as data category registries such as ISOcat. The aim of the paper is to present a clear image of the capabilities of FoLiA and how it relates to other formats. This should open discussion and aid users in their decision for a particular format. FoLiA is a practically-oriented XML-based annotation format for the representation of language resources, explicitly supporting a wide variety of annotation types. It introduces a flexible and uniform paradigm and a representation independent of language or label set. It is designed to be highly expressive, generic, and formalised, whilst at the same time focussing on being as practical as possible to ease its adoption and implementation. The aspiration is to offer a generic format for storage, exchange, and machine-processing of linguistically annotated documents, preventing users as well as software tools from having to cope with a wide variety of different formats, which in the field regularly causes convertibility issues and proliferation of ad-hoc formats. FoLiA emerged from such a practical need in the context of Computational Linguistics in the Netherlands and Flanders. It has been successfully adopted by numerous projects within this community. FoLiA was developed in a bottom-up fashion, with special emphasis on software libraries and tools to handle it.",
+    "author": [
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "family": "Reynaert",
+        "given": "M."
+      }
+    ],
+    "container-title": "Computational Linguistics in the Netherlands Journal",
+    "id": "FOLIAPAPER",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "title": "FoLiA: A practical xml format for linguistic annotation - a descriptive and comparative study",
+    "title-short": "FoLiA",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "URL": "https://www.aclweb.org/anthology/S13-2033",
+    "abstract": "We present our system WSD2 which participated in the Cross-Lingual Word-Sense Disambiguation task for SemEval 2013 (Lefever and Hoste, 2013). The system closely resembles our winning system for the same task in SemEval 2010. It is based on k-nearest neighbour classifiers which map words with local and global context features onto their transla tion, i.e. their cross-lingual sense. The system participated in the task for all five languages and obtained winning scores for four of them when asked to predict the best translation(s). We tested various configurations of our system, focusing on various levels of hyperparameter optimisation and feature selection. Our final results indicate that hyperparameter optimisation did not lead to the best results, indicating overfitting by our optimisation method in this aspect. Feature selection does have a modest positive impact.",
+    "author": [
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Bosch",
+        "given": "A."
+      }
+    ],
+    "container-title": "Proceedings of the 7th international workshop on semantic evaluation (SemEval 2013), in conjunction with the second joint conference on lexical and computational semantics",
+    "id": "WSD2",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "publisher": "New Brunswick, NJ: Association for Computational Linguistics",
+    "title": "WSD2: Parameter optimisation for memory-based cross-lingual word-sense disambiguation",
+    "title-short": "WSD2",
+    "type": "paper-conference"
+  },
+  {
+    "URL": "http://www.lrec-conf.org/proceedings/lrec2012/pdf/748_Paper.pdf",
+    "abstract": "In this paper we report on the experiences gained in the recent construction of the SoNaR corpus, a 500 MW reference corpus of contemporary, written Dutch. It shows what can realistically be done within the confines of a project setting where there are limitations to the duration in time as well to the budget, employing current state-of-the-art tools, standards and best practices. By doing so we aim to pass on insights that may be beneficial for anyone considering to undertake an effort towards building a large, varied yet balanced corpus for use by the wider research community. Various issues are discussed that come into play while compiling a large corpus, including approaches to acquiring texts, the arrangement of IPR, the choice of text formats, and steps to be taken in the preprocessing of data from widely different origins. We describe FoLiA, a new XML format geared at rich linguistic annotations. We also explain the rationale behind the investment in the high-quality semi-automatic enrichment of a relatively small (1 MW) subset with very rich syntactic and semantic annotations. Finally, we present some ideas about future developments and the direction corpus development may take, such as setting up an integrated work flow between web services and the potential role for ISOcat. We list tips for potential corpus builders, tricks they may want to try and further recommendations regarding technical developments future corpus builders may wish to hope for.",
+    "author": [
+      {
+        "family": "Reynaert",
+        "given": "M."
+      },
+      {
+        "family": "Schuurman",
+        "given": "I."
+      },
+      {
+        "family": "Hoste",
+        "given": "V."
+      },
+      {
+        "family": "Oostdijk",
+        "given": "N."
+      },
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      }
+    ],
+    "container-title": "Proceedings of the eighth international conference on language resources and evaluation (lrec)",
+    "id": "SONAR",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "title": "Beyond sonar: Towards the facilitation of large corpus building efforts",
+    "title-short": "Beyond sonar",
+    "type": "paper-conference",
+    "volume": "8"
+  },
+  {
+    "URL": "https://github.com/LanguageMachines/ucto/raw/v0.14.1/docs/ucto_manual.pdf",
+    "author": [
+      {
+        "family": "van Gompel",
+        "given": "M."
+      },
+      {
+        "family": "van der Sloot",
+        "given": "K."
+      },
+      {
+        "family": "van den Bosch",
+        "given": "A."
+      }
+    ],
+    "id": "UCTO12",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "number": "ILK 12-05",
+    "publisher": "ILK Research Group, Tilburg University",
+    "publisher-place": "Tilburg, The Netherlands",
+    "title": "Ucto: Unicode tokeniser. Version 0.5.3. Reference Guide",
+    "title-short": "Ucto",
+    "type": "report"
+  },
+  {
+    "URL": "https://repository.ubn.ru.nl/handle/2066/94383",
+    "abstract": "State of the art Word Sense Disambiguation (WSD) systems require large sense-tagged corpora along with lexical databases to reach satisfactory results. The number of English language resources for developed WSD increased in the past years, while most other languages are still under-resourced. The situation is no different for Dutch. In order to overcome this data bottleneck, the DutchSemCor project will deliver a Dutch corpus that is sense-tagged with senses from the Cornetto lexical database. Part of this corpus (circa 300K examples) is manually tagged. The remainder is automatically tagged using different WSD systems and validated by human annotators. The project uses existing corpora compiled in other projects; these are extended with Internet examples f or word senses that are less frequent and do not (sufficiently) appear in the corpora. We report on the status of the project and the evaluations of the WSD systems with the current training data.",
+    "author": [
+      {
+        "family": "Vossen",
+        "given": "P."
+      },
+      {
+        "family": "Görög",
+        "given": "A."
+      },
+      {
+        "family": "Laan",
+        "given": "F."
+      },
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "M."
+      },
+      {
+        "family": "Izquierdo-Bevia",
+        "given": "R."
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Bosch",
+        "given": "A."
+      }
+    ],
+    "container-title": "Electronic lexicography in the 21st century: New applications for new users: Proceedings of eLex 2011, bled, 10-12 november 2011",
+    "id": "DUTCHSEMCOR",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "title": "DutchSemCor: Building a semantically annotated corpus for dutch",
+    "title-short": "DutchSemCor",
+    "type": "paper-conference"
+  },
+  {
+    "URL": "http://aclweb.org/anthology/S10-1053",
+    "abstract": "This paper describes the Cross-Lingual Word Sense Disambiguation system UvT-WSD1, developed at Tilburg University, for participation in two SemEval-2 tasks: the Cross-Lingual Word Sense Disambiguation task and the Cross-Lingual Lexical Substitution task. The UvT-WSD1 system makes use of k-nearest neighbour classifiers, in the form of single-word experts for each target word to be disam- biguated. These classifiers can be constructed using a variety of local and global context features, and these are mapped onto the translations, i.e. the senses, of the words. The system works for a given language-pair, either English-Dutch or English-Spanish in the current implementation, and takes a word-aligned parallel corpus as its input.",
+    "author": [
+      {
+        "family": "van Gompel",
+        "given": "M."
+      }
+    ],
+    "container-title": "SemEval ’10: Proceedings of the 5th international workshop on semantic evaluation",
+    "id": "UVTWSD1",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "keyword": "ilk, vici, dutchsemcor, wsd, semeval, cross-lingual, word sense disambiguation",
+    "page": "238-241",
+    "publisher": "Association for Computational Linguistics",
+    "publisher-place": "Morristown, NJ, USA",
+    "title": "UvT-WSD1: A cross-lingual word sense disambiguation system",
+    "title-short": "UvT-WSD1",
+    "type": "paper-conference"
+  },
+  {
+    "URL": "https://ilk.uvt.nl/mbmt/pbmbmt/pbmbmt-dublin.pdf",
+    "abstract": "We present a phrase-based extension to memory-based machine translation. This form of example- based machine translation employs lazy-learning classifiers to translate fragments of the source sen- tence to fragments of the target sentence. Source-side fragments consist of variable-length phrases in a local context of neighboring words, translated by the classifier to a target-language phrase. We compare three methods of phrase extraction, and present a new decoder that reassembles the trans- lated fragments into one final translation. Results show that one of the proposed phrase-extraction methods—the one used in Moses—leads to a translation system that outperforms context-sensitive word-based approaches. The differences, however, are small, arguably because the word-based ap- proaches already capture phrasal context implicitly due to their source-side and target-side context sensitivity.",
+    "author": [
+      {
+        "family": "van Gompel",
+        "given": "M."
+      },
+      {
+        "family": "van den Bosch",
+        "given": "A."
+      },
+      {
+        "family": "Berck",
+        "given": "P."
+      }
+    ],
+    "container-title": "Proceedings of the third workshop on example-based machine translation",
+    "editor": [
+      {
+        "family": "Forcada",
+        "given": "M."
+      },
+      {
+        "family": "Way",
+        "given": "A."
+      }
+    ],
+    "id": "PBMBMTPAPER",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "keyword": "ilk, dutchsemcor, memory-based machine translation, vici, pbmbmt, mbmt",
+    "page": "79-86",
+    "publisher-place": "Dublin, Ireland",
+    "title": "Extending memory-based machine translation to phrases",
+    "type": "paper-conference"
+  },
+  {
+    "URL": "https://proycon.anaproy.nl/pubs/pbmbmt_thesis.pdf",
+    "author": [
+      {
+        "family": "van Gompel",
+        "given": "M."
+      }
+    ],
+    "genre": "Master’s thesis",
+    "id": "MASTERSTHESIS",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "number": "HAIT Master Thesis series nr. 09-003",
+    "publisher": "Tilburg University",
+    "publisher-place": "the Netherlands",
+    "title": "<span class=\"nocase\">Phrase-based Memory-based Machine Translation</span>",
+    "type": "thesis"
+  }
+]

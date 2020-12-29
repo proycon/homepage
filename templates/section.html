@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="page-content">
+    {{ section.content | safe }}
+    </div>
+
+    <div class="band">
+     <div class="main-index">
+        <dl>
+        {% for post in section.pages %}
+        <dt>
+            {% if post.date %}
+            <div class="datetime"> {{ post.date | date(format="%Y-%m-%d") }}</div>
+            {% endif %}
+            {% if post.extra.music %}
+            <i class="fas fa-music" title="This is a music post"></i>&nbsp;
+            {% endif %}
+            {% if post.extra.youtube %}
+            <i class="fab fa-youtube" title="warning: video is an external resource on youtube"></i>&nbsp;
+            {% endif %}
+            <label><a href="{{ post.permalink }}">{{ post.title }}</a></label>
+            {% if post.extra.url_project %}
+            <a href="{{ post.extra.url_project }}" title="software website"><i class="fas fa-home"></i></a>
+            {% endif %}
+            {% if post.extra.url_code %}
+            <a href="{{ post.extra.url_code }}" title="source code repository"><i class="fas fa-code-branch"></i></a>
+            {% endif %}
+            {% if post.extra.url_pdf %}
+            <a href="{{ post.extra.url_pdf }}" title="paper"><i class="far fa-file-pdf"></i></a>
+            {% endif %}
+            {% if post.extra.url_slides %}
+            <a href="{{ post.extra.url_slides }}" title="presentation slides"><i class="far fa-file-powerpoint"></i></a>
+            {% endif %}
+            {% if post.extra.url_poster %}
+            <a href="{{ post.extra.url_poster }}" title="poster"><i class="far fa-file-image"></i></a>
+            {% endif %}
+        </dt>
+        <dd>
+        {% if post.extra.cover and post.extra.cover is starting_with("/") %}
+        <img class="cover" src="{{ post.extra.cover }}" />
+        {% elif post.extra.cover %}
+        <img class="cover" src="{{ post.permalink}}/{{ post.extra.cover }}" />
+        {% endif %}
+        {% if post.description %}
+        {{ post.description | markdown(inline=true) | safe }}
+        {% endif %}
+        </dd>
+        {% endfor %}
+        </dl>
+     </div>
+    </div>
+{% endblock content %}

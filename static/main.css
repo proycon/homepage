@@ -1,0 +1,230 @@
+body {
+    font-family: 'Philosopher', sans-serif;
+    margin: 0px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    margin: 0px;
+    background: #3b993e;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+header div.title {
+    font-weight: bold;
+}
+header div.logo {
+    background-image: url(img/logo.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    min-width: 80px;
+    margin-left: 10px;
+}
+header div.title {
+    margin-top: 15px;
+}
+
+header ul {
+    list-style: none;
+}
+header li {
+    display: inline;
+    margin-left: 10px;
+}
+header a, header a:visited {
+    color: white;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+div.portrait-title h3 {
+    margin-top: -20px;
+}
+
+ul.networks {
+    margin: 0px;
+    padding: 0px;
+    font-size: 140%;
+}
+
+main {
+    flex: 1 0 auto;
+}
+main div.page-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+main div.band {
+    width: 100%;
+    background: rgb(227, 235, 227);
+}
+main div.main-index {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+main div.main-index label {
+    display: inline-block;
+    min-width: 150px;
+}
+main div.datetime {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 75%;
+    color: #666;
+}
+main div.datetime {
+    margin-top: 10px;
+}
+main div.main-index div.datetime {
+    margin-top: 0px;
+}
+div.main-index ul {
+    list-style: none;
+}
+div.main-index ul a {
+    font-size: 120%;
+    font-weight: bold;
+}
+div.main-index ul .fas, div.main-index ul .far {
+    display: inline-block;
+    min-width: 25px;
+    color: #686;
+}
+div.main-index dt {
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 10px;
+    clear: both;
+}
+div.main-index dd {
+    margin-left: 50px;
+    margin-right: 25px;
+}
+div.main-index img.cover {
+    float: right;
+    display: block;
+    height: 120px;
+}
+div.page-content img.cover {
+    float: right;
+    display: block;
+    height: 240px;
+}
+div.page-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+a, a:active {
+    color: #3b993e;
+    text-decoration: underline;
+}
+a:visited {
+    color: #3b993e;
+    text-decoration: underline;
+}
+main a:hover, footer a:hover {
+    color: #3b6f99;
+}
+
+header a {
+    color: white;
+    border-bottom: none;
+}
+
+footer {
+    background: #383838;
+    color: #ccc;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+footer div.footer {
+    flex-grow: 2;
+}
+
+footer div.contact ul {
+    list-style: none;
+}
+div.footer div.logo {
+    display: block;
+    background: url(img/logo.png);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    min-width: 160px;
+    min-height: 120px;
+    width: 160px;
+    margin-left: 10px;
+}
+.portrait  {
+    margin-top: 10px;
+    text-align: center;
+}
+.portrait img {
+    width: 240px;
+}
+
+.networks ul {
+    list-style: none;
+}
+.networks li {
+    display: inline;
+}
+div.subbar {
+    width: 100%;
+    text-align: center;
+}
+div.subbar ul {
+    list-style: none;
+}
+div.subbar ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+main div.page-content iframe {
+    width: 800px;
+    height: 600px;
+}
+
+div.warning {
+    color: #900;
+}
+main ul.publications {
+    list-style: disc;
+}
+main ul.publications li {
+    margin-top: 5px;
+}
+main ul.publications a {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1em;
+    font-variant: normal;
+    font-weight: bold;
+}
+main ul.publications a.doi {
+    font-family: 'Roboto Mono';
+    font-size: 70%;
+}
+div.gallery div.picture {
+    display: inline-block;
+    width: 320px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+div.gallery div.picture label {
+    text-align: center;
+    font-style: italic;
+}
+div.gallery div.picture div.datetime {
+    margin-top: 3px;
+}
