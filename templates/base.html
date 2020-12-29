@@ -7,7 +7,13 @@
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport"/>
         <title>
             {% block title %}
+                {% if page.title %}
+                {{ page.title }}
+                {% elif section.title %}
+                {{ section.title }}
+                {% else %}
                 {{ config.title }}
+                {% endif %}
             {% endblock title %}
         </title>
         <link href="{{ get_url(path="favicon.ico", trailing_slash=false) }}" rel="icon" type="image/x-icon"/>
@@ -91,7 +97,7 @@
                         &mdash;  Subscribe to my <i class="fas fa-rss"></i> <a href="/index.xml">RSS feed</a> to keep updated
                     </div>
                     <div class="made-with">
-                        &mdash; Made with <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a> &mdash; <i class="fab fa-github"></i> <a href="https://github.com/proycon/homepage">sources</a><br />
+                        &mdash; Made with <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a> &mdash; <i class="fas fa-code-branch"></i> <a href="https://github.com/proycon/homepage">sources</a><br />
                         <em>This site uses no cookies, no scripts, no external assets, no advertisements and as such is as privacy friendly as possible.</em>
                     </div>
                 </div>

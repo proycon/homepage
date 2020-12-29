@@ -88,9 +88,7 @@ div.main-index ul {
     list-style: none;
 }
 div.main-index ul a {
-    font-family: Roboto;
     font-size: 120%;
-    font-variant: small-caps;
     font-weight: bold;
 }
 div.main-index ul .fas, div.main-index ul .far {

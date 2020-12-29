@@ -35,4 +35,4 @@ I am very passionate about both languages and technology, and especially those a
 * Reading (mostly SciFi)
 * 🐱 Cats & 🐶 Dogs
 
-![A photo of me](img/portrait.jpg)
+![A photo of me](/img/portrait.jpg)

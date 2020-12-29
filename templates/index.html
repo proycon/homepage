@@ -35,5 +35,11 @@
             {% endfor %}
         </ul>
      </div>
+     {% if section.extra.closing %}
+     <div class="page-content">
+          {{ section.extra.closing | markdown | safe }}
+     </div>
+     {% endif %}
+
     </div>
 {% endblock content %}
