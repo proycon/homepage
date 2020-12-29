@@ -47,6 +47,10 @@
                 <meta content="{{ section.description }}" property="og:description"/>
                 <meta content="{{ section.description }}" property="description"/>
                 <meta content="{{ section.description }}" property="twitter:description"/>
+            {% else %}
+                <meta content="{{ config.description }}" property="og:description"/>
+                <meta content="{{ config.description }}" property="description"/>
+                <meta content="{{ config.description }}" property="twitter:description"/>
             {% endif %}
             <meta content="summary_large_image" property="twitter:card"/>
             {% if page.extra.cover and page.extra.cover is starting_with("/") %}
@@ -55,6 +59,10 @@
             {% elif page.extra.cover %}
                 <meta content="{{ page.permalink | safe }}{{ page.extra.cover }}" property="og:image"/>
                 <meta content="{{ page.permalink | safe }}{{ page.extra.cover }}" property="twitter:image"/>
+            {% else %}
+                <meta content="{{ config.base_url | safe }}/img/screenshot.jpg" property="og:image"/>
+                <meta content="{{ config.base_url | safe }}/img/screenshot.jpg" property="twitter:image"/>
+            {% else %}
             {% endif %}
             <meta name="generator" content="zola" />
             <meta name="verify-v1" content="X+Tn+2a3v9og5PuWhebjzyZaHc+k5DKYK78ZyO5luUM=" />
