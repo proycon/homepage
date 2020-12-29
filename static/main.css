@@ -198,3 +198,19 @@ main div.page-content iframe {
 div.warning {
     color: #900;
 }
+main ul.publications {
+    list-style: disc;
+}
+main ul.publications li {
+    margin-top: 5px;
+}
+main ul.publications a {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1em;
+    font-variant: normal;
+}
+main ul.publications a.doi {
+    font-family: 'Roboto Mono';
+    font-size: 70%;
+}
+

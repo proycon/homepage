@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="page-content">
+    {{ page.content | safe }}
+    </div>
+
+    <div class="band">
+     <div class="main-index">
+        {% set data = load_data(path="proycon.bib.json") %}
+        <ul class="publications">
+        {% for pub in data %}
+            <li>
+                {% for author in pub.author %}
+                    {% if loop.index0 > 0 %}
+                    ,
+                    {% endif %}
+                    {% if author.given %}
+                    {{ author.given }}&nbsp;
+                    {% endif %}
+                    {% if author.family %}
+                    {{ author.family }}
+                    {% endif %}
+                {% endfor %}
+                ({{ pub.issued | get(key="date-parts") | first | first }})
+                &mdash;
+                {% if pub.URL %}
+                <a href="{{ pub.URL }}">{{ pub.title }}</a>
+                {% else %}
+                <strong>{{ pub.title }}</strong>
+                {% endif %}
+                &mdash;
+                {% if pub | get(key="container-title") %}
+                In: {{ pub | get(key="container-title") }}.
+                {% endif %}
+                {% if pub.volume %}
+                vol. {{ pub.volume }}
+                {% if pub.issue %}
+                ({{ pub.issue }})
+                {% endif %}.
+                {% endif %}
+                {% if pub.number %}
+                {{ pub.number }}.
+                {% endif %}
+                {% if pub.publisher %}
+                {{ pub.publisher }}.
+                {% endif %}
+                {% if pub | get(key="publisher-place") %}
+                {{ pub | get(key="publisher-place") }}.
+                {% endif %}
+                {% if pub.DOI %}
+                <a class="doi" href="https://doi.org/{{ pub.DOI}}">DOI {{ pub.DOI }}</a>
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+     </div>
+    </div>
+{% endblock content %}

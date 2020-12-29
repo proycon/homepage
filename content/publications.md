@@ -3,6 +3,7 @@ title = "Publications"
 description = "A list of all my scientific publications"
 date = 2017-01-01T00:00:00
 weight = 50
+template = "publications.html"
 
 [extra]
 icon_pack = "fas"
