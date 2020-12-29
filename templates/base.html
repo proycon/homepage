@@ -90,7 +90,7 @@
                         &mdash;  Subscribe to my <i class="fas fa-rss"></i> <a href="/index.xml">RSS feed</a> to keep updated
                     </div>
                     <div class="made-with">
-                        &mdash; Made with <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a><br />
+                        &mdash; Made with <a href="https://www.getzola.org/" rel="noopener noreferrer" target="_blank">Zola</a> &mdash; <i class="fab fa-github"></i> <a href="https://github.com/proycon/homepage">sources</a><br />
                         <em>This site uses no cookies, no scripts, no external assets, no advertisements and as such is as privacy friendly as possible.</em>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                     <ul>
                     {% for network in config.extra.networks %}
                         <li>
-                            <i class="{{ network.icon_pack }} {{ network.icon }}" title="{{ network.name }}"></i> <label>{{ network.name }}</label> <a href="{{ network.url }}">{{network.value}}</a>
+                            <i class="{{ network.icon_pack }} {{ network.icon }}" title="{{ network.name }}"></i> <label>{{ network.name }}</label> &ndash; <a href="{{ network.url }}">{{network.value}}</a>
                         </li>
                     {% endfor %}
                     </ul>

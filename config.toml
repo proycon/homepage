@@ -11,8 +11,8 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-generate_feed = true
-feed_filename = "atom.xml" #old one was index.xml, ensure redirect is present!
+generate_feed = false
+feed_filename = "rss.xml" #old one was index.xml, ensure redirect is present!
 
 title = "Proycon's website"
 description = "Language enthusiast, polyglot, linux user, open-source advocate, programmer, computational linguist, amateur pianist, gay"
