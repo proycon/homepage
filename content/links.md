@@ -1,5 +1,4 @@
 +++
-date = 2019-01-12T00:00:00
 
 title = "Links"
 description = "Recommended sites to visit"
