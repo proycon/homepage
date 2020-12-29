@@ -60,8 +60,8 @@
                 <meta content="{{ config.base_url | safe }}{{ page.extra.cover }}" property="og:image"/>
                 <meta content="{{ config.base_url | safe }}{{ page.extra.cover }}" property="twitter:image"/>
             {% elif page.extra.cover %}
-                <meta content="{{ page.permalink | safe }}{{ page.extra.cover }}" property="og:image"/>
-                <meta content="{{ page.permalink | safe }}{{ page.extra.cover }}" property="twitter:image"/>
+                <meta content="{{ page.permalink | safe }}/{{ page.extra.cover }}" property="og:image"/>
+                <meta content="{{ page.permalink | safe }}/{{ page.extra.cover }}" property="twitter:image"/>
             {% else %}
                 <meta content="{{ config.base_url | safe }}/img/screenshot.jpg" property="og:image"/>
                 <meta content="{{ config.base_url | safe }}/img/screenshot.jpg" property="twitter:image"/>
