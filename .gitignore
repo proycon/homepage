@@ -1,2 +1,7 @@
 public/
 .idea/
+hugo/
+zola/
+env/
+*.old
+go/
