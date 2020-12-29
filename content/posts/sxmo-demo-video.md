@@ -1,5 +1,5 @@
 +++
-title = "Simple X mobile"
+title = "SXMO: Simple X mobile - demo video on a pinephone"
 date = 2020-12-14T21:28:55+01:00
 description = "A video showing the SXMO 1.2.0 release on a Pinephone"
 
@@ -7,7 +7,7 @@ description = "A video showing the SXMO 1.2.0 release on a Pinephone"
 video = true
 +++
 
-# Simple X mobile: demo video on a pinephone
+# SXMO: Simple X mobile - demo video on a pinephone
 
 {{ video(url="https://anaproy.nl/proycon/pub/sxmodemo.mp4",type="video/mp4") }}
 
