@@ -18,7 +18,7 @@ daar was lastig als er van zo'n sterke censuur sprake is, maar dat er een uit de
 ontstond leek al snel niet meer te ontkennen. Later kondigde de overheid er strikte quarantaines af, ze waren erg
 drastisch maar bleken wel effectief.
 
-Ik kwam al vroeg op het spoor van Dr. John Campbell [1], een gepensioneerde Britse verpleegkundige en academicus die een
+Ik kwam al vroeg op het spoor van Dr. John Campbell [^campbell], een gepensioneerde Britse verpleegkundige en academicus die een
 beetje een youtube hit is geworden en al vanaf het begin nauwgezet allerlei ontwikkelingen rond het virus volgt. Hij
 presenteert deze met zijn eigen duiding duidelijk en onvermoeibaar aan het algemene publiek; op karakteristieke wijze
 met geprinte velletjes papier en een markeerpen.
@@ -57,29 +57,29 @@ vergrijzing en dat er een zekere kosten-efficiëntie moet zijn, maar dat we hier
 aannemelijk.
 
 Dat gezegd hebbende is de gangbare visie dat geen elk zorgsysteem echt opgewassen is tegen een virus wat zich razendsnel
-verspreid en een niet gering deel van de populatie hard raakt [3]. Je hoort weleens de quote "The greatest shortcoming
-of the human race is our inability to understand the exponential function." [2]. Ik kan ter illustratie ook de
-welbekende legende aanhalen over een koning uit India, de God Krshna, een schaakbord, en korreltjes rijst [29]. Ik ben
+verspreid en een niet gering deel van de populatie hard raakt [^rtlnieuws]. Je hoort weleens de quote "The greatest shortcoming
+of the human race is our inability to understand the exponential function.". Ik ben
 ervan overtuigd dat als er geen maatregelen genomen worden en men op oude voet doorgegaan zou zijn, je binnen niet
 afzienbare tijd tegen de grenzen van welk systeem dan ook zou aanlopen.
 
 Hier in Nederland hebben we tijdens de eerste golf al gezien dat mensen over ziekenhuizen verdeeld werden, en dat zie je
 op tal van plekken gebeuren, in de EU ook geregeld over landsgrenzen heen. Die solidariteit vind ik ook wel weer een
 lichtpuntje in deze tijd. Nu ik dit schrijf is de situatie in Portugal erg kritisch met overvolle ziekenhuizen, en zie
-je Duitsland een militair vliegtuig sturen met extra personeel en materieel en eerder ook al patiënten overnemen [4].
+je Duitsland een militair vliegtuig sturen met extra personeel en materieel en eerder ook al patiënten overnemen
+[^expresso].
 
 Je zorgsysteem laten overstromen zal tot een verdere toename van het aantal ernstig zieken en doden leiden, je kunt ze
 dan immers niet meer allemaal behandelen en moet gaan kiezen. Dit zie je dan ook al gebeuren op plekken waar het virus
 hard om zich heen grijpt en het gezondheidssysteem minder sterk staat dan hier in Europa, kijk bijvoorbeeld naar Manaus
-in Brazilië [5], waar patiënten stierven omdat de zuurstof op was, sommigen liever naar uit het ziekenhuis naar huis
-vluchten om daar te sterven [27], en de thuissterfte sowieso al toenam omdat mensen het ziekenhuis niet eens meer
-bereikten [28]. Het wrange hier is ook dat Manaus in de eerste golf ook al hard getroffen was en er bij de tweede enige
+in Brazilië [^redebrasil], waar patiënten stierven omdat de zuurstof op was, sommigen liever naar uit het ziekenhuis naar huis
+vluchten om daar te sterven [^folhapatoense], en de thuissterfte sowieso al toenam omdat mensen het ziekenhuis niet eens meer
+bereikten [^amazoniareal]. Het wrange hier is ook dat Manaus in de eerste golf ook al hard getroffen was en er bij de tweede enige
 hoop op groepsimmuniteit was, wat vies tegenviel helaas, mogelijk mede door de mutatie aldaar.
 
 De reden dat we onszelf beperkingen opleggen is om dat soort drama's te voorkomen. Dat zijn ook geen gevolgen die een
 respectabel politicus voor zijn/haar rekening wil nemen. De volksgezondheid waarborgen is bij uitstek een taak die de
 overheid is toebedeeld. Als we niks zouden doen zouden er veel meer mensen, voornamelijk ouderen en andere kwetsbare
-groepen sterven [26]; maar ook dikke mannen van boven de 50 tellen mee als volwaardige mensen. De sterfgevallen zijn
+groepen sterven [^flaxman2020]; maar ook dikke mannen van boven de 50 tellen mee als volwaardige mensen. De sterfgevallen zijn
 uiteraard het topje van de ijsberg, de meeste mensen zijn in meer of minder mate ziek en herstellen uiteindelijk weer.
 Een bijkomende zorg hier is nog wel het niet geringe aantal mensen wat lange tijd last blijft houden van de gevolgen van
 de infectie (de zogenaamde long covid), zoals ook een naaste collega van mij overkwam. Een overspoelde gezondheidszorg
@@ -87,8 +87,8 @@ heeft overigens natuurlijk ook negatieve implicaties voor niet-covid patiënten.
 geleverd kan worden omdat covid-19 alle zorg opeist, heb je ook daar een groot probleem, meer lijden en meer sterfte ook
 onder mensen die niet met covid besmet zijn.
 
-De oversterfte afgelopen jaar wordt ook duidelijk aangetoond [6], al hoor je vanuit corona-skeptische kringen zoals het
-Forum voor Democratie soms gekunstelde pogingen om het tegendeel te beweren [7]. Dat we toch nog hoge oversterfte hebben
+De oversterfte afgelopen jaar wordt ook duidelijk aangetoond [^cbs], al hoor je vanuit corona-skeptische kringen zoals het
+Forum voor Democratie soms gekunstelde pogingen om het tegendeel te beweren [^sargasso]. Dat we toch nog hoge oversterfte hebben
 juist in een context van harde maatregelen om virusverspreiding tegen te gaan, toont ook wel aan dat we ons in een
 uitzonderlijke situatie bevinden. Die context kan je ook niet buiten beschouwing laten. De aanname dat het zonder
 maatregelen om verspreiding tegen te gaan veel erger zou zijn met de oversterfte is een realistische, want er is een
@@ -107,7 +107,7 @@ op plekken in Afrika waar de dure medicatie niet voorhanden is, nog steeds is. H
 manier die we wel zagen bij de H1N1 influenza pandemie van 1918 die tientallen miljoenen doden tot gevolg had. De IFR
 (Infection Fatality Rate) van corona valt gelukkig lager uit dan initieel gedacht, maar wordt altijd toch nog een
 behoorlijke factor hoger geschat dan influenza, zeer afhankelijk uiteraard van de populatie en de mate van vergrijzing
-daarin.
+daarin [^blackburn2021].
 
 Het belang van de IFR in deze is eigenlijk ook onderschikt aan het belang van het gemak/ongemak waarmee een virus zich
 verspreid; de besmettelijkheid. Als we een virus A hebben die veel minder dodelijk (lage IFR) is maar zich veel sneller
@@ -149,16 +149,16 @@ eentje de breedte en diepte van allerlei verschillende kennisvelden zich eigen m
 begrijpen en te verhelpen is via de wetenschap, tenzij je wellicht van mening bent dat we ons en masse in de kerken
 moeten terugtrekken en de goden moeten bidden om verlossing. Het is belangrijk dat er publiek vertrouwen is in de
 wetenschappelijke consensus die uit een een stapeling van onderzoek voortkomt, en in de ondermijning hiervan vanuit
-sommige hoeken zie ik als een risico. Een opiniestuk van filosoof Maarten Boudry [23] in de context van het
+sommige hoeken zie ik als een risico. Een opiniestuk van filosoof Maarten Boudry [^boudry] in de context van het
 corona-skepticisme roept hier ook toe op en hij verwoordt het een stuk beter dan ik hier kan. In een openingscollege
-voor een leerstoel aan de Universiteit Gent gaat hij hier ook verder op in [31].
+voor een leerstoel aan de Universiteit Gent gaat hij hier ook verder op in [^boudry2].
 
 Uiteraard kan in de wetenschap alles ter discussie worden gesteld, een kritische vragende houding is noodzakelijk voor
 goede wetenschap. Dat moet ook zo. Dat verschillende opvattingen flink kunnen schuren zit ook in haar aard. Ik zal
 verder ook de laatste zijn die zal ontkennen dat er niet veel fouten gemaakt worden, geklungeld wordt, en soms andere
 belangen meespelen die objectiviteit in de weg zitten. Dat wetenschap op punten te diep met commercie of politiek
 vervlochten is, is een zeer terecht punt van aandacht. Je ziet het OMT ook af en toe worstelen met druk vanuit de
-politiek [35]. Zoals ik al zei, het is een onvolmaakt proces want het is uiteindelijk mensenwerk van een grote diverse
+politiek [^volkskrant2]. Zoals ik al zei, het is een onvolmaakt proces want het is uiteindelijk mensenwerk van een grote diverse
 groep wetenschappers, en niets menselijks is hen vreemd. Een zekere marge van twijfel, onzekerheid en nuance is ook
 inherent aan wetenschappelijke output.
 
@@ -175,48 +175,49 @@ sterk als er heftige emoties (bv. woede of angst) mee verbonden zijn.
 
 Ik vind het retraction paper van Borger et al. zo'n voorbeeld waar veel te veel mee aan de haal wordt gegaan door
 corona-critici, zoals bijvoorbeeld op het Youtube kanaal BLCKBX van Flavio Pasquino die hier de kwalificatie PCR-gate
-aan geeft, alsof er een groot schandaal achter schuilt. Borger et al. [21] claimen serieuze fouten te hebben gevonden in
-het paper van Corman et al. [22] wat op haar beurt een belangrijk grondwerk is voor de PCR test ter detectie van het
-coronabesmetting.  Ze vinden de fouten zo serieus om terugtrekking van dat paper eisen, een zwaar middel. Het paper van
-zowel Borger et al.  als Corman et al. is voor de leek, ook voor mij dus, eigenlijk niet goed te beoordelen. Sommige
-kritiek klinkt al snel best redelijk, maar is hij dat daadwerkelijk? Het antwoord van de editors van het journal [24]
-verwerpt stellig beschuldigingen die gedaan zijn met betrekking tot belangenverstrengeling en het (zeer snelle)
-beoordelingsproces. Er zijn externe experts ingeschakeld die de inhoudelijke kritiek hebben beoordeeld en ook daar
-geconcludeerd hebben dat het Corman paper adequaat was voor haar doel en in de tijdsperiode van beperkte data waarin het
-onderzoek plaatsvond. De review van de geraadpleegde experts in deze is helaas niet openbaar. Dat vind ik wel jammer en
-deels ook een gemiste kans waar ik vrees dat sommige coronaskeptici onterecht kwade wil inzien. Op zich is het vanuit de
-normale gang van zaken best te begrijpen, want reviews zijn vrijwel nooit openbaar en ook de auteurs zelfs zien niet wie
-hun reviewer is. Omgekeerd weten zelfs de reviewers idealiter ook niet wie de auteur is (double blind), en dat was hier
-ook het geval. Ik geef toe dat ik niet weet in hoeverre een retraction procedure hier verschilt van een normale review.
-Wat ook nog wil toevoegen is dat het uiteraard ook niet de bedoeling dat wetenschappelijke geschillen via retraction
-requests beslist worden, éénieder kan immers altijd het onderzoek van de ander herhalen, verbeteren en bekritiseren in
-een nieuwe publicatie. Retractions zijn voor grove fouten, belangenverstrengeling, plagiaat, e.d...
+aan geeft, alsof er een groot schandaal achter schuilt. Borger et al. [^borger2019] claimen serieuze fouten te hebben
+gevonden in het paper van Corman et al. [^corman2019] wat op haar beurt een belangrijk grondwerk is voor de PCR test ter
+detectie van het coronabesmetting.  Ze vinden de fouten zo serieus om terugtrekking van dat paper eisen, een zwaar
+middel. Het paper van zowel Borger et al.  als Corman et al. is voor de leek, ook voor mij dus, eigenlijk niet goed te
+beoordelen. Sommige kritiek klinkt al snel best redelijk, maar is hij dat daadwerkelijk? Het antwoord van de editors van
+het journal [^eurosurveillance] verwerpt stellig beschuldigingen die gedaan zijn met betrekking tot
+belangenverstrengeling en het (zeer snelle) beoordelingsproces. Er zijn externe experts ingeschakeld die de inhoudelijke
+kritiek hebben beoordeeld en ook daar geconcludeerd hebben dat het Corman paper adequaat was voor haar doel en in de
+tijdsperiode van beperkte data waarin het onderzoek plaatsvond. De review van de geraadpleegde experts in deze is helaas
+niet openbaar. Dat vind ik wel jammer en deels ook een gemiste kans waar ik vrees dat sommige coronaskeptici onterecht
+kwade wil inzien. Op zich is het vanuit de normale gang van zaken best te begrijpen, want reviews zijn vrijwel nooit
+openbaar en ook de auteurs zelfs zien niet wie hun reviewer is. Omgekeerd weten zelfs de reviewers idealiter ook niet
+wie de auteur is (double blind), en dat was hier ook het geval. Ik geef toe dat ik niet weet in hoeverre een retraction
+procedure hier verschilt van een normale review.  Wat ook nog wil toevoegen is dat het uiteraard ook niet de bedoeling
+dat wetenschappelijke geschillen via retraction requests beslist worden, éénieder kan immers altijd het onderzoek van de
+ander herhalen, verbeteren en bekritiseren in een nieuwe publicatie. Retractions zijn voor grove fouten,
+belangenverstrengeling, plagiaat, e.d...
 
 Terug naar de inhoud: gelukkig zijn er verschillende andere wetenschappers die wel in dit vakgebied bekwaam zijn
-en hun kritiek op Borger et al. al wel kenbaar gemaakt hebben [9]. Ook Follow The Money raadpleegde experts en wijdde er onlangs
-een uitgebreid artikel aan om het voor het grotere publiek op een rij te zetten en behandelt elk punt van kritiek [10].
+en hun kritiek op Borger et al. al wel kenbaar gemaakt hebben [^mckay]. Ook Follow The Money raadpleegde experts en wijdde er onlangs
+een uitgebreid artikel aan om het voor het grotere publiek op een rij te zetten en behandelt elk punt van kritiek [^ftm].
 
 Een veelgehoord argument uit onder ander dat retraction paper is dat de PCR-test te veel vals-positieve uitslagen zou
-opleveren [9] en dat veel besmette mensen niet besmettelijk zouden zijn. Het is inderdaad een bekend gegeven dat de test
-geen actieve besmettelijkheid aantoont maar slechts aangeeft of de persoon het virus bij zich draagt (wat een
+opleveren [^mckay] en dat veel besmette mensen niet besmettelijk zouden zijn. Het is inderdaad een bekend gegeven dat de
+test geen actieve besmettelijkheid aantoont maar slechts aangeeft of de persoon het virus bij zich draagt (wat een
 noodzakelijke voorwaarde voor besmettelijkheid is). In het aantonen van (fragmenten van) het virus heeft de test juist
-een zeer hoge sensitiviteit [11]. Als er een significante aantal vals-positieve uitslagen zou zijn zou je dat ook verwachten
-in landen als Australië, Nieuw Zeeland en Ijsland, die een erg lage true positive rate hebben terwijl er nog steeds veel
-getest wordt [12]. Ook in Nederland zien we met name na de piek van eerste golf en de naderende zomer ook duidelijke
-perioden van stijgende testafname met een dalend aandeel positieve uitslagen.
+een zeer hoge sensitiviteit [^sciencefeedback]. Als er een significante aantal vals-positieve uitslagen zou zijn zou je
+dat ook verwachten in landen als Australië, Nieuw Zeeland en Ijsland, die een erg lage true positive rate hebben terwijl
+er nog steeds veel getest wordt [^ourworldindata]. Ook in Nederland zien we met name na de piek van eerste golf en de naderende zomer
+ook duidelijke perioden van stijgende testafname met een dalend aandeel positieve uitslagen.
 
 In de context van een snotterende persoon die voor een test aanklopt of iemand die nog asymptomatisch is maar
 recentelijk (incubatietijd) wel in contact met een besmette persoon geweest is, heb je sterke grond om besmettelijkheid
 te veronderstellen als de test een positieve uitslag geeft. In zo'n situatie neem je het zekere voor het onzekere, want
 in het kader van het terugdringen van verspreiding van een virus is een vals positieve uitslag minder ernstig dan een
-vals negatieve. Terugdringen van verspreiding is de primaire grond voor het testen en ook door het WHO aanbevolen [36].
-Uiteraard wil je dat de test zo nauwkeurig mogelijk is en zo goed mogelijk gehanteerd wordt [13], de vraag of het beter
-kan is nooit onterecht. De instrumenten die je hebt uit handen gooien omdat ze wellicht niet perfect zijn, is wel
-onterecht. De besmettingscijfers die we dagelijks langs zien komen geven een goede indicatie van waar en hoe ver het
-virus zich onder de populatie verspreid heeft en geeft ons de mogelijkheid geïnformeerde schattingen te doen over het
-aantal ziekenhuisopnamen, IC-opnamen en sterfgevallen later in de tijd. Er is ook een duidelijk correlatie tussen deze
-curves. De waarde zit dan ook met name in dit aspect en het feit of de trend stijgend of dalend is, dan in de absolute
-getallen an sich.
+vals negatieve. Terugdringen van verspreiding is de primaire grond voor het testen en ook door het WHO aanbevolen
+[^reuters].  Uiteraard wil je dat de test zo nauwkeurig mogelijk is en zo goed mogelijk gehanteerd wordt [^mckay2], de
+vraag of het beter kan is nooit onterecht. De instrumenten die je hebt uit handen gooien omdat ze wellicht niet perfect
+zijn, is wel onterecht. De besmettingscijfers die we dagelijks langs zien komen geven een goede indicatie van waar en
+hoe ver het virus zich onder de populatie verspreid heeft en geeft ons de mogelijkheid geïnformeerde schattingen te doen
+over het aantal ziekenhuisopnamen, IC-opnamen en sterfgevallen later in de tijd. Er is ook een duidelijk correlatie
+tussen deze curves. De waarde zit dan ook met name in dit aspect en het feit of de trend stijgend of dalend is, dan in
+de absolute getallen an sich.
 
 Een ander veel gehoord kritiekpunt zit hem in het feit dat men uitgaat van zulke modellen om maatregelenbeleid op te
 baseren, en de claim dat de modellen er vaak naast zitten. Ik begin met het eerste punt. Als je enige voorspellingen wil
@@ -232,13 +233,13 @@ bv. de IC's vol liggen, dan ben je te laat met je maatregelen.
 Nu zouden modellen vaak niet kloppen zeggen de skeptici. Zeker in het begin van de pandemie zal dit ongetwijfeld veel
 het geval geweest zijn, want er was nog weinig data en heel veel onzekerheid. Nog steeds is er heel veel onbekend, zeker
 met de opkomst van mutaties als B.1.1.7 die zich anders gedragen; de onzekerheidsmarges zijn groot. Kijk bijvoorbeeld
-naar een aantal mogelijke prognoses van het Duitse Robert Koch Instituut [25]. We zien veelal zulke modellen met
+naar een aantal mogelijke prognoses van het Duitse Robert Koch Instituut [^sueddeutsche]. We zien veelal zulke modellen met
 schrikbarende exponentiële curves die uiteindelijk ver boven de zorgcapaciteit uitstijgen, uiteraard weer met een zekere
 onzekerheidsmarge. Op basis van die modellen wordt strikter maatregelenbeleid gemaakt die juist de voorspelling van het
 model probeert te voorkomen. Als je na het nemen van die maatregelen dan concludeert dat het model er faliekant naast
 zat en het dus allemaal wel meevalt omdat het doemscenario niet waarheid is geworden, dan heb je de verkeerde conclusie
 getrokken. Het model op haar juiste waarde schatten is een stuk complexer dan dat. Maarten Boudry schetst dit wederom
-mooi in het artikel was ik al eerder aanhaalde [23].
+mooi in het artikel was ik al eerder aanhaalde [^boudry].
 
 Als je liever naar het verleden terug wil kijken dan de toekomst wil modelleren, zijn er genoeg voorbeelden van
 exponentiële groei en overstroming van de zorg te vinden. In Nederland zien we zelf al dat we massaal IC's moesten
@@ -250,17 +251,17 @@ aan hogere besmettelijkheid van de mutaties, en wat aan de versoepelingen. In he
 teleurstellen en de reeds beloofde versoepelingen niet door laten gaan.
 
 Een grote kwestie in de virusverspreiding is de factor asymptomatisch danwel presymptomatische verspreiding.  Het beeld
-hierom is voor mij nog niet helemaal duidelijk, er lijken hier soms ook conflicterende data over naar buiten te komen.
-Aanvankelijk werd het aandeel sowieso groter ingeschat dan gedacht. Een video van Dr. John Campbell [17] geeft een hele
+hierom is voor mij nog niet helemaal duidelijk, er lijken hier soms ook conflicterende data over naar buiten te komen
+[^cnn]. Aanvankelijk werd het aandeel sowieso groter ingeschat dan gedacht. Een video van Dr. John Campbell [^campbell2] geeft een hele
 aardige bespreking van een aantal studies op dat gebied, maar dateert wel van Augustus 2020. Hij legt daarin uit dat
 studies aantonen dat besmettelijkheid (of preciezer gezegd viral load, wat niet hetzelfde is maar een stuk meetbaarder)
 het hoogst is vlak voor en vlak na het begin van symptomen. Die symptomen kunnen in eerste instantie ook nog licht zijn.
-Een latere studie van Cao et al. [18] in Wuhan identificeert juist geen enkele besmetting rondom asymptomatische
+Een latere studie van Cao et al. [^cao2020] in Wuhan identificeert juist geen enkele besmetting rondom asymptomatische
 dragers, wat op het eerste oog een opmerkelijk resultaat lijkt. Hier moet wel meegenomen worden dat dit in een context
 onderzocht is waar de pandemie na een lange zeer strikte lockdown onder controle is gebracht. De auteurs zeggen zelf ook
 dat hun bevindingen niet zomaar generaliseerbaar zijn en dat de studie niet aantoont dat het virus niet door
-asymptomatische dragers verpreid kan worden [19].  Presymptomatische verspreiding is immers ook bij andere
-luchtweginfecties als influenza gebruikelijk [20]. Afin, dit is niet mijn vakgebied en hier is het beeld voor mij dus
+asymptomatische dragers verpreid kan worden [^bmi].  Presymptomatische verspreiding is immers ook bij andere
+luchtweginfecties als influenza gebruikelijk [^gu2011]. Afin, dit is niet mijn vakgebied en hier is het beeld voor mij dus
 ook nog niet helemaal duidelijk. Wel is asymptomatische en presymptomatische verspreiding een zeer belangrijke
 overweging in het coronabeleid, en ook een mikpunt voor coronacritici, en zou het goed verklaren waarom juist dit virus
 zo'n pandemische vorm heeft aangenomen.
@@ -295,7 +296,7 @@ Bij sommige mensen is sprake van een soort van radicaliseringsproces dat leidt t
 Engel en zijn Viruswaarheid lijken redelijk van het pad af als ze vergelijkingen met Jodenvervolging en genocide maken
 en daarbij ook nog een davidster opspelden tijden demonstraties. Voor de hard-core complotdenker is corona is niet
 langer iets dat ons zomaar is overkomen, maar iets waarachter kwade intenties zitten. Het is bijvoorbeeld gefabriceerd
-en uit een lab ontsnapt, zoals Willem Engel terloops maar stellig beweert in de talkshow Op1 [32], of het is helemaal
+en uit een lab ontsnapt, zoals Willem Engel terloops maar stellig beweert in de talkshow Op1 [^op1], of het is helemaal
 geen virus maar de ziekte komt door de 5G masten, of het is slechts een list zodat Bill Gates ons allemaal een microchip
 kan injecteren! Dit zijn extremen maar zo'n radicaliseringsproces is vaak wel een glijdende schaal die leidt tot dieper
 geloof in het eigen gelijk en steeds wantrouwende houding jegens de ander. Dit is een ontwikkeling waar ik mij ernstige
@@ -336,12 +337,12 @@ realiteitsbeeld dat de complotdenker schets waarin we door duistere machten gema
 beangstigender overkomen dan die van een pandemie.
 
 Het helpt natuurlijk ook niet als er wel degelijk signalen van het bevorderen van een angstcultuur naar boven komen
-zoals in het Duitse Panikpapier schandaal wat door Die Welt aan het licht is gebracht [33]. Wetenschappers waren
+zoals in het Duitse Panikpapier schandaal wat door Die Welt aan het licht is gebracht [^welt]. Wetenschappers waren
 gevraagd om voor het Duitse ministerie van binnenlandse zaken in een intern document worst-case scenario's uit te werken
 die strikte corona-maatregelen rechtvaardigen. Dit klinkt als 'wetenschap op bestelling' en is natuurlijk kolen op het
 vuur als je al een kwade overheid en corrupte wetenschap verondersteld. Hoewel ik ook waarschijnlijk acht dat de Duitse
 ambtenaren en de wetenschappers die hieraan mee deden hier een misstap hebben begaan, denk ik ook dat er meer nuance in
-deze zaak zit dan in eerste instantie lijkt [33]. Een complotdenker is waarschijnlijk geneigd hier snel een
+deze zaak zit dan in eerste instantie lijkt [^gunnarkaiser]. Een complotdenker is waarschijnlijk geneigd hier snel een
 gegeneraliserende conclusie aan te verbinden, onder het motto "waar rook is, is vuur". Maar mijn stellng is eerder
 omgekeerd: het rookt overal wel een beetje maar dan hoeft nog niet alles in lichterlaaie te staan. Ik wil het hiermee
 niet goed praten. Ik vermoed dat er veel voorbeelden te vinden zijn waar complottheorieën wel degelijk deels op aantal
@@ -386,7 +387,7 @@ beschouwing, daar kan je kritiek heb hebben. Als je een hypothetische lockdown i
 eigen cel opsluit zodat niemand meer met niemand in contact komt gedurende een periode die de incubatietijd goed
 overschrijdt, dan heb je het virus in relatief korte tijd uitgebannen. Praktisch en ethisch compleet onuitvoerbaar
 uiteraard, maar het idee van contacten tussen mensen beperken lijkt me per definitie ook de verspreiding van mens-op-mens
-overdraagbare virussen tegengaan. In deze corona-periode lijkt influenza overigens ook compleet uitgebannen [30]
+overdraagbare virussen tegengaan. In deze corona-periode lijkt influenza overigens ook compleet uitgebannen [^volkskrant]
 
 In Europa viel Zweden in eerste instantie een buiten de boot doordat ze minder strenge maatregelen afkondigden en meer
 dan anderen appelleerde op het eigen verantwoordelijkheidsgevoel van de bevolking, wat ik op zich ook wel mooi vind en
@@ -397,7 +398,7 @@ in alle omringende Scandinavische landen, die wel striktere lockdowns hebben afg
 maatregelenpakketten in verschillende landen te vergelijken, maar deze landen liggen socio-economisch juist erg dicht
 bij elkaar waardoor je hier wat beter conclusies kan trekken over de effectiviteit van aan aantal maatregelen waaronder
 de lockdown. Het is uitzonderlijk dat zelfs de Zweedse koning oppert op televisie dat ze gefaald hebben in hun
-coronabeleid [14].
+coronabeleid [^svt].
 
 In Duitsland zie je dat men zeer vergelijkbare maatregelen hanteert als hier, ook al hebben ze een beduidend hogere IC
 capaciteit en zijn ze nooit bij kritieke bezetting geweest. Men beseft simpelweg dat als het virus eenmaal te veel
@@ -406,7 +407,7 @@ behouden is essentieel.
 
 Idealiter heb je een verstandige bevolking die die netjes thuisblijft als men ziek is, om de ander niet te besmetten.
 Ik vrees dat we hier wat minder optimistisch moeten zijn als we signalen horen van onderzoeken waarin mensen met
-klachten toch naar buiten of zelfs naar het werk gaan [15]. Ik vind het persoonlijk ook erg betuttelend als de overheid
+klachten toch naar buiten of zelfs naar het werk gaan [^rtl2]. Ik vind het persoonlijk ook erg betuttelend als de overheid
 ons berispt dat we ons niet goed genoeg aan de te regels houden, maar het is blijkbaar nodig. Naast de groep van mensen
 die het niet zo nauw nemen hebben we, zoals ik eerder al behandelde, ook de mensen die zich er simpelweg (nog) niet
 bewust van zijn dat ze besmet danwel besmettelijk zijn. Juist vanwege deze ongrijpbaarheid zijn er grootschalige
@@ -453,40 +454,38 @@ zelf geen experts in de materie zijn, dan draagt dit een extra risico dat we het
 
 ## Referenties
 
-* [1] John Campbell, Youtube kanaal https://www.youtube.com/c/Campbellteaching
-* [2] https://quoteinvestigator.com/2021/02/01/understand-exponential/
-* [3] https://www.rtlnieuws.nl/nieuws/nederland/artikel/5208327/kuipers-geen-enkel-zorgsysteem-kan-zeer-snelle-verspreiding-aan
-* [4] https://expresso.pt/coronavirus/2021-02-03-E-para-isso-que-servem-os-amigos-a-equipa-medica-alema-ja-esta-em-Portugal ,  https://www.cmjornal.pt/sociedade/detalhe/aviao-hospital-pronto-a-levar-doentes-portugueses-com-covid-19-para-a-alemanha
-* [5] https://www.redebrasilatual.com.br/saude-e-ciencia/2021/01/manaus-fica-sem-oxigenio-dois-dias-depois-de-ministro-oferecer-cloroquina/
-* [6] https://www.cbs.nl/nl-nl/achtergrond/2020/53/jaaroverzicht-2020 . Voor een aantal Europese landen: https://www.euromomo.eu/graphs-and-maps#excess-mortality . Het CBS heeft ook een mooi filmpje met uitleg over de berekening gemaakt: https://www.youtube.com/watch?v=6E5e2PbvmwA
-* [7] https://sargasso.nl/hoe-fvd-met-visuele-trucs-sterfte-door-corona-wegpoetst-oversterfte/
-* [8] Blackburn et al (2021) - Infection Fatality Ratios for COVID-19 Among Noninstitutionalized Persons 12 and Older: Results of a Random-Sample Prevalence Study - https://www.acpjournals.org/doi/full/10.7326/M20-5352
-* [9] bv. Dr. Ian M. Mckay: https://virologydownunder.com/the-false-positive-pcr-problem-is-not-a-problem/ . Dr. Marion
+* [^campbell] John Campbell, Youtube kanaal https://www.youtube.com/c/Campbellteaching
+* [^rtlnieuws] https://www.rtlnieuws.nl/nieuws/nederland/artikel/5208327/kuipers-geen-enkel-zorgsysteem-kan-zeer-snelle-verspreiding-aan
+* [^expresso] https://expresso.pt/coronavirus/2021-02-03-E-para-isso-que-servem-os-amigos-a-equipa-medica-alema-ja-esta-em-Portugal ,  https://www.cmjornal.pt/sociedade/detalhe/aviao-hospital-pronto-a-levar-doentes-portugueses-com-covid-19-para-a-alemanha
+* [^redebrasil] https://www.redebrasilatual.com.br/saude-e-ciencia/2021/01/manaus-fica-sem-oxigenio-dois-dias-depois-de-ministro-oferecer-cloroquina/
+* [^folhapatoense] http://www.folhapatoense.com/2021/01/20/pacientes-fogem-dos-hospitais-de-manaus-para-morrer-em-casa/
+* [^amazoniareal] https://amazoniareal.com.br/manaus-volta-a-registrar-mortes-em-casa/
+* [^flaxman2020] Flaxman, S., Mishra, S., Gandy, A. et al. (2020). Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe. Nature 584, 257–261. https://doi.org/10.1038/s41586-020-2405-7
+* [^cbs] https://www.cbs.nl/nl-nl/achtergrond/2020/53/jaaroverzicht-2020 . Voor een aantal Europese landen: https://www.euromomo.eu/graphs-and-maps#excess-mortality . Het CBS heeft ook een mooi filmpje met uitleg over de berekening gemaakt: https://www.youtube.com/watch?v=6E5e2PbvmwA
+* [^sargasso] https://sargasso.nl/hoe-fvd-met-visuele-trucs-sterfte-door-corona-wegpoetst-oversterfte/
+* [^blackburn2021] Blackburn et al (2021) - Infection Fatality Ratios for COVID-19 Among Noninstitutionalized Persons 12 and Older: Results of a Random-Sample Prevalence Study - https://www.acpjournals.org/doi/full/10.7326/M20-5352
+* [^mckay] bv. Dr. Ian M. Mckay: https://virologydownunder.com/the-false-positive-pcr-problem-is-not-a-problem/ . Dr. Marion
     Koopmans (co-auteur van het Corman paper) reageert zelf ook in een twitter draadje: https://twitter.com/MarionKoopmans/status/1333002771738611712 . Een andere reactie: https://publikum.net/wie-man-die-drosten-pcr-zu-sars-cov-2-ganz-einfach-nicht-widerlegt/ . Nog één van na het antwoord: http://www.integralworld.net/visser198.html , deze verwijst ook weer naar een professor die het echt punt-voor-punt inline becomentarieerd heeft: https://www.researchgate.net/publication/348732878_Pseudowissenschaftliche_Kritik_an_einem_von_der_Berliner_Charite_veroffentlichten_Coronavirus_SARS-CoV-2-Test_publiziert_von_Peter_Borger_und_Koautoren_Pseudoscientific_criticism_on_a_Coronavirus_SARS
-* [10] https://www.ftm.nl/artikelen/peter-borger-pcr-test-corona
-* [11] https://sciencefeedback.co/claimreview/claim-that-high-pcr-test-sensitivity-inflates-covid-19-cases-wrongly-conflates-the-issue-of-contagiousness-with-the-presence-of-infection/
-* [12] https://ourworldindata.org/coronavirus-testing
-* [13] In corona-skeptische kringen gaat de claim rond dat zelfs het WHO waarschuwt voor PCR tests, een repliek daarop komt van Dr. Ian M. Mckay die stelt dat de skeptici meer in de WHO uitspraak lezen dan er is: https://virologydownunder.com/who-to-new-pcr-users-read-the-damned-manual/
-* [14] https://www.svt.se/nyheter/inrikes/kungen-jag-anser-att-vi-har-misslyckats
-* [15] https://www.rtlnieuws.nl/nieuws/nederland/artikel/5190014/rivm-20-procent-positief-geteste-mensen-gaat-naar-buiten
-* [16] https://edition.cnn.com/2020/04/01/europe/iceland-testing-coronavirus-intl/index.html
-* [17] https://www.youtube.com/watch?v=bUfuF3Il4ik
-* [18] Cao et al (2020) - Post-lockdown SARS-CoV-2 nucleic acid screening in nearly ten million residents of Wuhan, China - https://pubmed.ncbi.nlm.nih.gov/33219229/
-* [19] https://www.bmj.com/content/371/bmj.m4695
-* [20] Gu, Y., Komiya, N., Kamiya, H., Yasui, Y., Taniguchi, K., & Okabe, N. (2011). Pandemic (H1N1) 2009 Transmission during Presymptomatic Phase, Japan. Emerging Infectious Diseases, 17(9), 1737-1739. https://dx.doi.org/10.3201/eid1709.101411.
-* [21] https://cormandrostenreview.com/retraction-request-letter-to-eurosurveillance-editorial-board/
-* [22] Corman, V. M., Landt, O., Kaiser, M., Molenkamp, R., Meijer, A., Chu, D. K., Bleicker, T., Brünink, S., Schneider, J., Schmidt, M. L., Mulders, D. G., Haagmans, B. L., van der Veer, B., van den Brink, S., Wijsman, L., Goderski, G., Romette, J. L., Ellis, J., Zambon, M., Peiris, M., … Drosten, C. (2020). Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin, 25(3), 2000045. https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045
-* [23] https://maartenboudry.be/2020/09/academici-denken-beter-twee-keer-na-voor-ze-hun-gewicht-verlenen-aan-corona-scepticisme.html
-* [24] https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2021.26.5.2102041
-* [25] Die Unsichtbare Welle - https://www.sueddeutsche.de/wissen/coronavirus-mutante-b117-daten-1.5197700
-* [26] Flaxman, S., Mishra, S., Gandy, A. et al. (2020). Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe. Nature 584, 257–261. https://doi.org/10.1038/s41586-020-2405-7
-* [27] http://www.folhapatoense.com/2021/01/20/pacientes-fogem-dos-hospitais-de-manaus-para-morrer-em-casa/
-* [28] https://amazoniareal.com.br/manaus-volta-a-registrar-mortes-em-casa/
-* [29] https://en.wikipedia.org/wiki/Ambalappuzha_Sree_Krishna_Swamy_Temple#Legend
-* [30] https://www.volkskrant.nl/columns-opinie/de-griep-is-spoorloos-verdwenen-uit-de-statistieken-van-de-belangrijkste-gezondheidsorganisatie~bb2c9610/
-* [31] https://www.durfdenken.be/nl/ugenters/wetenschap-de-juiste-balans-tussen-twijfel-en-vertrouwen
-* [32] Uitzending van Op1 van 16 januari 2021
-* [33] https://www.welt.de/politik/deutschland/plus225868061/Corona-Politik-Wie-das-Innenministerium-Wissenschaftler-einspannte.html
-* [34] https://gunnarkaiser.substack.com/p/bestellte-wissenschaft-einige-fragen
-* [35] https://www.volkskrant.nl/nieuws-achtergrond/omt-leden-hadden-zoveel-moeite-met-de-politieke-druk-dat-ze-overwogen-op-te-stappen~bbff108c/
-* [36] https://www.reuters.com/article/us-healthcare-coronavirus-who-idUSKBN2132S4
+* [^ftm] https://www.ftm.nl/artikelen/peter-borger-pcr-test-corona
+* [^sciencefeedback] https://sciencefeedback.co/claimreview/claim-that-high-pcr-test-sensitivity-inflates-covid-19-cases-wrongly-conflates-the-issue-of-contagiousness-with-the-presence-of-infection/
+* [^ourworldindata] https://ourworldindata.org/coronavirus-testing
+* [^reuters] https://www.reuters.com/article/us-healthcare-coronavirus-who-idUSKBN2132S4
+* [^mckay2] In corona-skeptische kringen gaat de claim rond dat zelfs het WHO waarschuwt voor PCR tests, een repliek daarop komt van Dr. Ian M. Mckay die stelt dat de skeptici meer in de WHO uitspraak lezen dan er is: https://virologydownunder.com/who-to-new-pcr-users-read-the-damned-manual/
+* [^sueddeutsche] Die Unsichtbare Welle - https://www.sueddeutsche.de/wissen/coronavirus-mutante-b117-daten-1.5197700
+* [^boudry] https://maartenboudry.be/2020/09/academici-denken-beter-twee-keer-na-voor-ze-hun-gewicht-verlenen-aan-corona-scepticisme.html
+* [^boudry2] https://www.durfdenken.be/nl/ugenters/wetenschap-de-juiste-balans-tussen-twijfel-en-vertrouwen
+* [^volkskrant2] https://www.volkskrant.nl/nieuws-achtergrond/omt-leden-hadden-zoveel-moeite-met-de-politieke-druk-dat-ze-overwogen-op-te-stappen~bbff108c/
+* [^borger2019] https://cormandrostenreview.com/retraction-request-letter-to-eurosurveillance-editorial-board/
+* [^corman2019] Corman, V. M., Landt, O., Kaiser, M., Molenkamp, R., Meijer, A., Chu, D. K., Bleicker, T., Brünink, S., Schneider, J., Schmidt, M. L., Mulders, D. G., Haagmans, B. L., van der Veer, B., van den Brink, S., Wijsman, L., Goderski, G., Romette, J. L., Ellis, J., Zambon, M., Peiris, M., … Drosten, C. (2020). Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin, 25(3), 2000045. https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045
+* [^eurosurveillance] https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2021.26.5.2102041
+* [^svt] https://www.svt.se/nyheter/inrikes/kungen-jag-anser-att-vi-har-misslyckats
+* [^rtl2] https://www.rtlnieuws.nl/nieuws/nederland/artikel/5190014/rivm-20-procent-positief-geteste-mensen-gaat-naar-buiten
+* [^cnn] https://edition.cnn.com/2020/04/01/europe/iceland-testing-coronavirus-intl/index.html
+* [^campbell2] https://www.youtube.com/watch?v=bUfuF3Il4ik
+* [^cao2020] Cao et al (2020) - Post-lockdown SARS-CoV-2 nucleic acid screening in nearly ten million residents of Wuhan, China - https://pubmed.ncbi.nlm.nih.gov/33219229/
+* [^bmi] https://www.bmj.com/content/371/bmj.m4695
+* [^gu2011] Gu, Y., Komiya, N., Kamiya, H., Yasui, Y., Taniguchi, K., & Okabe, N. (2011). Pandemic (H1N1) 2009 Transmission during Presymptomatic Phase, Japan. Emerging Infectious Diseases, 17(9), 1737-1739. https://dx.doi.org/10.3201/eid1709.101411.
+* [^op1] Uitzending van Op1 van 16 januari 2021
+* [^volkskrant] https://www.volkskrant.nl/columns-opinie/de-griep-is-spoorloos-verdwenen-uit-de-statistieken-van-de-belangrijkste-gezondheidsorganisatie~bb2c9610/
+* [^welt] https://www.welt.de/politik/deutschland/plus225868061/Corona-Politik-Wie-das-Innenministerium-Wissenschaftler-einspannte.html
+* [^gunnarkaiser] https://gunnarkaiser.substack.com/p/bestellte-wissenschaft-einige-fragen
