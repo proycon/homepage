@@ -259,6 +259,12 @@ zat en het dus allemaal wel meevalt omdat het doemscenario niet waarheid is gewo
 getrokken. Het model op haar juiste waarde schatten is een stuk complexer dan dat. Maarten Boudry schetst dit wederom
 mooi in het artikel was ik al eerder aanhaalde [^boudry].
 
+In het nemen van maatregelen in een pandemie waarvan sprake is van veel onzekerheid in de modellen, geldt ook een zeker
+mate van "better safe than sorry".  We proberen een punt in de tijd te vinden waar maatregelen effectief zijn tegen de
+voorspellingen, en vooral de ergste voorspellingen daarme te voorkomen. Tegelijkertijd moet dat punt in de tijd zo
+liggen dat de maatregelen proportioneel zijn en nevenschade minimaal is. Dit maakt het juiste tijdstip voor de juiste
+maatregel vinden een ingewikkelde opgave.
+
 Als je liever naar het verleden terug wil kijken dan de toekomst wil modelleren, zijn er genoeg voorbeelden van
 exponentiële groei en overstroming van de zorg te vinden. In Nederland zien we zelf al dat we massaal IC's moesten
 opschalen tijdens de eerste golf en het tij maar net op tijd hebben kunnen keren. De plotselinge opkomst van de
@@ -305,7 +311,7 @@ omtrent het virus an sich. Als er immers geen virus is, of het virus is lang nie
 onder het testbeleid deugen niet, dan kunnen die maatregelen ook wel weg. Mijn inschatting zou zijn dat sommige
 corona-critici op deze manier achterstevoren redeneren en hiermee het virus voor zichzelf en anderen bagatteliseren. Het
 resultaat is dan denk ik wel een erg wantrouwende houding richting wetenschap, media en overheid die constant een beeld
-propageren die niet strookt met het eigen beeld.
+propageren dat niet strookt met het eigen beeld.
 
 Een extra gevaar hierbij is dat dit wantrouwen zich naast het virus en de maatregelen ook op de belangrijkste oplossing
 richt: de vaccins.  Een hoge bereidheid om te vaccineren is juist nodig om uiteindelijk van alles maatregelen af te
@@ -343,7 +349,7 @@ zien dat de NOS besloot logo's van hun busjes te moeten halen. We zien mensen (i
 niet bevalt als fakenews bestempelen en zo elk debat uit de weg gaan. We zien leden van het OMT die bedreigingen
 ontvangen en bescherming moeten krijgen omdat een marginale groep ze ziet als een sinister complot.
 
-Een probleem wat ik heb met de complotdenker in het algemeen is dat hij naar mijn mening veel te geneigd is overal
+Een probleem dat ik heb met de complotdenker in het algemeen is dat hij naar mijn mening veel te geneigd is overal
 (kwaad) agentschap in te zien; de dingen zijn zoals ze zijn omdat iemand dat zo gewild en georchestreerd heeft. Het gaat
 uit van een onterecht grote mate van maakbaarheid van de samenleving waarin de rol van toeval en het toelaten van
 twijfel en nuance wordt gemarginaliseerd. Natuurlijk leven we in een wereld van mensen met allerlei botsende intenties,
@@ -502,14 +508,14 @@ draagt dit een extra risico dat we het bij het verkeerde eind hebben.
 * [^folhapatoense] Folha Patoense - Pacientes fogem dos hospitais de Manaus para ‘morrer em casa’ <http://www.folhapatoense.com/2021/01/20/pacientes-fogem-dos-hospitais-de-manaus-para-morrer-em-casa/>
 * [^amazoniareal] Amazônia Real - Pandemia no Amazonas: Manaus volta a registrar mortes em casa <https://amazoniareal.com.br/manaus-volta-a-registrar-mortes-em-casa/>
 * [^guardian] The Guardian - 'Utter disaster': Manaus fills mass graves as Covid-19 hits the Amazon'  <https://www.theguardian.com/world/2020/apr/30/brazil-manaus-coronavirus-mass-graves>
-* [^sabino2021] Ester C Sabino, Lewis F Buss ,Maria P S Carvalho, Carlos A Prete Jr,  Myuki A E Crispim, Nelson A Fraiji et al. (2021). Resurgence of COVID-19 in Manaus, Brazil, despite high seroprevalence. The Lancet. DOI:<https://doi.org/10.1016/S0140-6736(21)00183-5>
+* [^sabino2021] Ester C Sabino, Lewis F Buss, Maria P S Carvalho, Carlos A Prete Jr,  Myuki A E Crispim, Nelson A Fraiji et al. (2021). Resurgence of COVID-19 in Manaus, Brazil, despite high seroprevalence. The Lancet. DOI:<https://doi.org/10.1016/S0140-6736(21)00183-5>
 * [^flaxman2020] Flaxman, S., Mishra, S., Gandy, A. et al. (2020). Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe. Nature 584, 257–261. <https://doi.org/10.1038/s41586-020-2405-7>
 * [^volkskrant3] Volkskrant - Ook maanden na corona nog extreem moe: ‘Dit is een nieuwe ziekte. En een buitensporige’ <https://www.volkskrant.nl/wetenschap/ook-maanden-na-corona-nog-extreem-moe-dit-is-een-nieuwe-ziekte-en-een-buitensporige~bd35c456/>
 * [^cbs] CBS Jaaroverzicht 2020 <https://www.cbs.nl/nl-nl/achtergrond/2020/53/jaaroverzicht-2020> . Voor een aantal Europese landen: <https://www.euromomo.eu/graphs-and-maps#excess-mortality> . Het CBS heeft ook een mooi filmpje met uitleg over de berekening gemaakt: <https://www.youtube.com/watch?v=6E5e2PbvmwA>
 * [^sargasso] <https://sargasso.nl/hoe-fvd-met-visuele-trucs-sterfte-door-corona-wegpoetst-oversterfte/>
 * [^blackburn2021] Blackburn et al (2021) - Infection Fatality Ratios for COVID-19 Among Noninstitutionalized Persons 12 and Older: Results of a Random-Sample Prevalence Study - <https://www.acpjournals.org/doi/full/10.7326/M20-5352>
 * [^levin2020] Levin, A.T., Hanage, W.P., Owusu-Boaitey, N. et al. Assessing the age specificity of infection fatality rates for COVID-19: systematic review, meta-analysis, and public policy implications. Eur J Epidemiol 35, 1123–1138 (2020). <https://doi.org/10.1007/s10654-020-00698-1>
-* [^mckay] bv. Dr. Ian M. Mckay: <https://virologydownunder.com/the-false-positive-pcr-problem-is-not-a-problem/>
+* [^mckay] Ian M. Mckay - The “false-positive PCR” problem is not a problem: <https://virologydownunder.com/the-false-positive-pcr-problem-is-not-a-problem/>
 * [^koopmans] Dr. Marion Koopmans (co-auteur van het Corman paper) reageert zelf ook in een twitter draadje: <https://twitter.com/MarionKoopmans/status/1333002771738611712>
 * [^publikum] Publikum - Wie man die „Drosten-PCR“ zu SARS-CoV-2 ganz einfach nicht widerlegt <https://publikum.net/wie-man-die-drosten-pcr-zu-sars-cov-2-ganz-einfach-nicht-widerlegt/>
 * [^visser] Deze bijdrage is van na het antwoord van Eurosurveillance: Frank Visser - The Corona Conspiracy Part 24: PCR-Gate 2: When Lockdown Skeptics Pose as Expert Scientists <http://www.integralworld.net/visser198.html>
@@ -535,11 +541,11 @@ draagt dit een extra risico dat we het bij het verkeerde eind hebben.
 * [^cao2020] Cao et al (2020) - Post-lockdown SARS-CoV-2 nucleic acid screening in nearly ten million residents of Wuhan, China - <https://pubmed.ncbi.nlm.nih.gov/33219229/>
 * [^bmi] <https://www.bmj.com/content/371/bmj.m4695>
 * [^gu2011] Gu, Y., Komiya, N., Kamiya, H., Yasui, Y., Taniguchi, K., & Okabe, N. (2011). Pandemic (H1N1) 2009 Transmission during Presymptomatic Phase, Japan. Emerging Infectious Diseases, 17(9), 1737-1739. <https://dx.doi.org/10.3201/eid1709.101411>
-* [^maurice] Maurice de Hond - https://maurice.nl/
+* [^maurice] Maurice de Hond - <https://maurice.nl/>
 * [^who] WHO - Transmission of SARS-CoV-2: implications for infection prevention precautions - <https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions>
 * [^nrc2] NRC - Maurice de Hond laveert tussen serieuze kritiek, onbewezen claims en viruswaanzin - <https://www.nrc.nl/nieuws/2021/01/28/van-serieuze-kritiek-onbewezen-claims-en-viruswaanzin-a4029682>
-* [^kroncrv] KRO/NRCV - Propaganda https://www.npo3.nl/propaganda/28-01-2021/KN_1725469
-* [^op1] Uitzending van Op1 van 16 januari 2021
+* [^kroncrv] KRO/NRCV - Propaganda <https://www.npo3.nl/propaganda/28-01-2021/KN_1725469>
+* [^op1] Uitzending van Op1 van 16 februari 2021
 * [^nrc] Ik haal hier wederom Wilem Engel als voorbeeld van de complotdenker aan: <https://www.nrc.nl/nieuws/2021/02/16/de-familie-engel-gaat-altijd-voorop-in-de-strijd-tegen-de-overheid-a4032045>
 * [^volkskrant] <https://www.volkskrant.nl/columns-opinie/de-griep-is-spoorloos-verdwenen-uit-de-statistieken-van-de-belangrijkste-gezondheidsorganisatie~bb2c9610/>
 * [^welt] Die Welt - Wenn der Staatssekretär Wissenschaftler zu „maximaler Kollaboration“ aufruft - <https://www.welt.de/politik/deutschland/plus225868061/Corona-Politik-Wie-das-Innenministerium-Wissenschaftler-einspannte.html>
