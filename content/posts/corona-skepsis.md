@@ -259,9 +259,9 @@ zat en het dus allemaal wel meevalt omdat het doemscenario niet waarheid is gewo
 getrokken. Het model op haar juiste waarde schatten is een stuk complexer dan dat. Maarten Boudry schetst dit wederom
 mooi in het artikel was ik al eerder aanhaalde [^boudry].
 
-In het nemen van maatregelen in een pandemie waarvan sprake is van veel onzekerheid in de modellen, geldt ook een zeker
+In het nemen van maatregelen in een pandemie waarvan sprake is van veel onzekerheid in de modellen, geldt ook een zekere
 mate van "better safe than sorry".  We proberen een punt in de tijd te vinden waar maatregelen effectief zijn tegen de
-voorspellingen, en vooral de ergste voorspellingen daarme te voorkomen. Tegelijkertijd moet dat punt in de tijd zo
+voorspellingen, en vooral de ergste voorspellingen daarmee te voorkomen. Tegelijkertijd moet dat punt in de tijd zo
 liggen dat de maatregelen proportioneel zijn en nevenschade minimaal is. Dit maakt het juiste tijdstip voor de juiste
 maatregel vinden een ingewikkelde opgave.
 
