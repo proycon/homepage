@@ -1,4 +1,15 @@
-# Een antwoord op een coronaskepticus
++++
+title = "Een antwoord op corona-skepsis"
+date = 2021-02-18T09:25:28+01:00
+description = "We zitten midden in een pandemie met ongekende maatregelen die de meeste van ons in het westen nog nooit gezien hebben.  Het coronavirus en alle maatregelen zorgen begrijpelijkerwijs wereldwijd voor opschudding. In dit opiniestuk reageer ik op het verschijnsel van de coronaskepticus, of in extreme de complotdenker, en probeer ik mijn visie hierop voor mezelf en anderen wat te duiden."
+
+# Tags and categories
+# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
+tags = ["corona","covid-19","skepsis","complotdenkers"]
+categories = []
++++
+
+# Een antwoord op corona-skepsis
 
 ## Inleiding
 
@@ -47,14 +58,14 @@ is gekomen voor de publieke sector, de 'verzorgingstaat' en de zogenaamde essent
 ontwikkeling is de enorme snelheid waarmee wetenschappers er in geslaagd zijn om succesvolle vaccins tegen dit virus te
 ontwikkelen, waaronder een hele nieuwe generatie aan mRNA vaccins. De cijfers die we van vaccinatie-koploper Israël
 krijgen zijn veelbelovend. Het is toch met deze oplossing dat we uit eindelijk het virus eronder zullen moeten krijgen,
-als het zich ondertussen niet tot een onschadelijkere variant muteert in de tussentijd.
+als het zich niet tot een onschadelijkere variant muteert in de tussentijd.
 
 Het argument dat er juist op het gebied van essentiële beroepen als de zorg veel afbreuk is gedaan deel ik wel. Is er
 niet te veel bezuinigd op de zorg?  Hadden we niet veel meer IC-capaciteit moeten hebben, zoals bijvoorbeeld Duitsland?
 Werkt de verregaande privatisering van de zorg en de marktwerking erin niet averechts? Op zich wil ik, zonder dat ik dit
 in alle diepte uitgezocht heb, hier best ver in meegaan. Ik snap op zich dat zorgkosten stijgen met toenemende
 vergrijzing en dat er een zekere kosten-efficiëntie moet zijn, maar dat we hierin in doorgeslagen zijn vind ik zeer
-aannemelijk.
+aannemelijk. [^vpro]
 
 Dat gezegd hebbende is de gangbare visie dat geen elk zorgsysteem echt opgewassen is tegen een virus wat zich razendsnel
 verspreid en een niet gering deel van de populatie hard raakt [^rtlnieuws]. Je hoort weleens de quote "The greatest shortcoming
@@ -66,7 +77,7 @@ Hier in Nederland hebben we tijdens de eerste golf al gezien dat mensen over zie
 op tal van plekken gebeuren, in de EU ook geregeld over landsgrenzen heen. Die solidariteit vind ik ook wel weer een
 lichtpuntje in deze tijd. Nu ik dit schrijf is de situatie in Portugal erg kritisch met overvolle ziekenhuizen, en zie
 je Duitsland een militair vliegtuig sturen met extra personeel en materieel en eerder ook al patiënten overnemen
-[^expresso].
+[^expresso] [^cmjornal].
 
 Je zorgsysteem laten overstromen zal tot een verdere toename van het aantal ernstig zieken en doden leiden, je kunt ze
 dan immers niet meer allemaal behandelen en moet gaan kiezen. Dit zie je dan ook al gebeuren op plekken waar het virus
@@ -196,18 +207,21 @@ dat wetenschappelijke geschillen via retraction requests beslist worden, éénie
 ander herhalen, verbeteren en bekritiseren in een nieuwe publicatie. Retractions zijn voor grove fouten,
 belangenverstrengeling, plagiaat, e.d...
 
-Terug naar de inhoud: gelukkig zijn er verschillende andere wetenschappers die wel in dit vakgebied bekwaam zijn
-en hun kritiek op Borger et al. al wel kenbaar gemaakt hebben [^mckay]. Ook Follow The Money raadpleegde experts en wijdde er onlangs
-een uitgebreid artikel aan om het voor het grotere publiek op een rij te zetten en behandelt elk punt van kritiek [^ftm].
+Terug naar de inhoud: gelukkig zijn er verschillende andere wetenschappers die wel in dit vakgebied bekwaam zijn en hun
+kritiek op Borger et al. al wel kenbaar gemaakt hebben [^mckay] [^koopmans] [^publikum] [^visser] [^beyer]
+[^kloptdatwel]. Ook Follow
+The Money raadpleegde experts en wijdde er onlangs een uitgebreid artikel aan om het voor het grotere publiek op een rij
+te zetten en behandelt elk punt van kritiek [^ftm].
 
 Een veelgehoord argument uit onder ander dat retraction paper is dat de PCR-test te veel vals-positieve uitslagen zou
 opleveren [^mckay] en dat veel besmette mensen niet besmettelijk zouden zijn. Het is inderdaad een bekend gegeven dat de
 test geen actieve besmettelijkheid aantoont maar slechts aangeeft of de persoon het virus bij zich draagt (wat een
 noodzakelijke voorwaarde voor besmettelijkheid is). In het aantonen van (fragmenten van) het virus heeft de test juist
-een zeer hoge sensitiviteit [^sciencefeedback]. Als er een significante aantal vals-positieve uitslagen zou zijn zou je
-dat ook verwachten in landen als Australië, Nieuw Zeeland en Ijsland, die een erg lage true positive rate hebben terwijl
-er nog steeds veel getest wordt [^ourworldindata]. Ook in Nederland zien we met name na de piek van eerste golf en de naderende zomer
-ook duidelijke perioden van stijgende testafname met een dalend aandeel positieve uitslagen.
+een zeer hoge sensitiviteit [^sciencefeedback]. Om maar één punt uit te weerlegging als voorbeeld te nemen: Als er een
+significante aantal vals-positieve uitslagen zou zijn zou je dat ook verwachten in landen als Australië, Nieuw Zeeland
+en Ijsland, die een erg lage true positive rate hebben terwijl er nog steeds veel getest wordt [^ourworldindata]. Ook in
+Nederland zien we met name na de piek van eerste golf en de naderende zomer ook duidelijke perioden van stijgende
+testafname met een dalend aandeel positieve uitslagen.
 
 In de context van een snotterende persoon die voor een test aanklopt of iemand die nog asymptomatisch is maar
 recentelijk (incubatietijd) wel in contact met een besmette persoon geweest is, heb je sterke grond om besmettelijkheid
@@ -231,7 +245,8 @@ zekere onzekerheidsmarge mee gemoeid is. Bij nieuwe data stel je je model bij. H
 virologen, artsen e.d. om modellen te formuleren naar het beste van hun kunnen. Mijn repliek hier is dus; aan modelleren
 ontkom je niet, zeker niet in beleidsvoering, want beleid gaat per definitie over het sturen van toekomstige
 ontwikkelingen. Als je niet extrapoleert maar wacht met maatregelen tot de werkelijkheid je heeft ingehaald en wacht tot
-bv. de IC's vol liggen, dan ben je te laat met je maatregelen.
+bv. de IC's vol liggen, dan ben je te laat met je maatregelen. Je gaat niet pas nieuwe dijken bouwen als de oude
+doorbreekt.
 
 Nu zouden modellen vaak niet kloppen zeggen de skeptici. Zeker in het begin van de pandemie zal dit ongetwijfeld veel
 het geval geweest zijn, want er was nog weinig data en heel veel onzekerheid. Nog steeds is er heel veel onbekend, zeker
@@ -269,8 +284,21 @@ ook nog niet helemaal duidelijk. Wel is asymptomatische en presymptomatische ver
 overweging in het coronabeleid, en ook een mikpunt voor coronacritici, en zou het goed verklaren waarom juist dit virus
 zo'n pandemische vorm heeft aangenomen.
 
-Ik denk dat het belangrijk is om desinformatie en daaruit voortvloeiende wantrouwen tegen te gaan. Er is in deze tijd een
-ruime voedingsbodem voor desinformatie door de grote impact van maatregelen. De pandemie legt ook nog eens als
+Een opiniestuk over coronaskepsis in Nederland zou onvolledig zijn zonder Maurice de Hond even kort te noemen. Hij is
+bekend van zijn opiniepeilingen maar heeft ook omtrent corona een zeer duidelijk mening die geregeld ingaat tegen
+overheid en OMT, en die hij niet schroomt te delen op zijn daarvoor ingerichte blog [^maurice] en in de media. Zo
+bepleit hij dat verspreiding vooral via aerosolen gaat, daar waar de gangbare consensus grotere druppelvorming als de
+voornaamste verspreidingsroute ziet [^who], en is hij daarom voorstander van goede ventilatie. Voor goede ventilatie is
+ook wel degelijk het één en ander te zeggen uiteraard. Hij opereert mijns inziens in een wat grijs gebied tussen
+terechte criticus, opiniemaker, maar ook zakenman en soms zelfs complotdenker.  Viroloog of epidemioloog is hij zeer
+zeker niet, maar het zou te makkelijk hem daarom weg te zetten waartoe dit NRC artikel [^nrc2] of de TV rapportage van
+Propaganda [^kroncrv] wel neigen. Hij haalt wel degelijk serieuze kritiek aan op bepaalde punten, maar het probleem is
+hier vaak om dat te kunnen scheiden van de punten waar hij de plank misslaat en de echte experts een andere mening
+toegedaan zijn. De grote stelligheid en overtuiging waarmee hij zijn beweringen over het algemeen doet maakt het niet
+makkelijk dit onderscheid te maken.
+
+Ik denk dat het belangrijk is om desinformatie en het daaruit voortvloeiende wantrouwen tegen te gaan. Er is in deze
+tijd een ruime voedingsbodem voor desinformatie door de grote impact van maatregelen. De pandemie legt ook nog eens als
 katalysator pijnpunten in ons systeem bloot die eerder verborgen bleven. Men is moe en lijdt begrijpelijkerwijs onder
 alle gevolgen. Hier zie ik een risico dat onvrede over de maatregelen iemand ontvankelijker kan maken voor desinformatie
 omtrent het virus an sich. Als er immers geen virus is, of het virus is lang niet zo erg als gedacht en de fundamenten
@@ -290,8 +318,9 @@ wetenschappelijk te duiden en het effect van potentiële maatregelen in te schat
 hele andere tak van sport om daadwerkelijk beleid te voeren. In het voeren van beleid komen terecht meer vraagstukken op
 tafel dan alleen de medisch-epidemiologische, terwijl het OMT zich juist tot de medisch-epidemiologische dient te
 beperken, want alleen daar ligt haar expertise. Voor kritiek tegen maatregelen en overheids in het algemeen is ook
-plaats zonder de wetenschappelijk consensus rondom het virus te ontkennen.
-
+plaats zonder de wetenschappelijk consensus rondom het virus te ontkennen. Er is ook ruim plek voor onzekerheid en
+twijfel, maar wellicht is dit juist het pijnpunt voor sommige mensen en kiezen ze liever voor de schijnzekerheid dat het
+wel meevalt en men het en masse fout heeft.
 
 ## Complot
 
@@ -307,11 +336,12 @@ zorgen over maak want mensen drijven zo steeds verder af van een genuanceerd en 
 richting steeds extremere visies waarin de kwade intenties van de gevestigde orde vaak de hoofdrol spelen.  Dit heeft
 consequenties in de reële wereld. Ik denk dat de Capitoolbestorming in de VS een goed voorbeeld is dat laat zien dat
 complotdenken wel degelijk massa's aanhangers in beweging kan zetten en gevestigde instituties in gevaar kan brengen.
-Het afbreken van allerlei gevestigde instituties is juist vaak expliciet het doel van de complotdenker [^nrc]. Het is
-een kwalijke ontwikkeling als politici, wetenschappers, en journalisten bedreigingen ontvangen, vanuit welke
-extremistische hoek dan ook. We zien dat de NOS besloot logo's van hun busjes te moeten halen. We zien mensen (inclusief
-presidenten) die alles wat ze niet bevalt als fakenews bestempelen en zo elk debat uit de weg gaan. We zien leden
-van het OMT die bedreigingen ontvangen en bescherming moeten krijgen.
+Het compleet afbreken van allerlei gevestigde instituties is juist vaak expliciet het doel van de complotdenker [^nrc],
+om ze daarna naar eigen utopisch wereldbeeld op te bouwen. Het is een kwalijke ontwikkeling als politici,
+wetenschappers, en journalisten in de reeële wereld bedreigingen ontvangen, vanuit welke extremistische hoek dan ook. We
+zien dat de NOS besloot logo's van hun busjes te moeten halen. We zien mensen (inclusief presidenten) die alles wat ze
+niet bevalt als fakenews bestempelen en zo elk debat uit de weg gaan. We zien leden van het OMT die bedreigingen
+ontvangen en bescherming moeten krijgen omdat een marginale groep ze ziet als een sinister complot.
 
 Een probleem wat ik heb met de complotdenker in het algemeen is dat hij naar mijn mening veel te geneigd is overal
 (kwaad) agentschap in te zien; de dingen zijn zoals ze zijn omdat iemand dat zo gewild en georchestreerd heeft. Het gaat
@@ -342,36 +372,37 @@ worden vind ik eerlijk gezegd beangstigender overkomen dan die van een pandemie.
 Het helpt natuurlijk ook niet als er wel degelijk signalen van het bevorderen van een angstcultuur naar boven komen
 zoals in het Duitse Panikpapier schandaal wat door Die Welt aan het licht is gebracht [^welt]. Wetenschappers waren
 gevraagd om voor het Duitse ministerie van binnenlandse zaken in een intern document worst-case scenario's uit te werken
-die strikte corona-maatregelen rechtvaardigen. Dit klinkt als 'wetenschap op bestelling' en is natuurlijk kolen op het
-vuur als je al een kwade overheid en corrupte wetenschap verondersteld. Hoewel ik ook van mening ben dat de Duitse
-ambtenaren en de wetenschappers die hieraan mee deden hier een misstap hebben begaan, denk ik ook dat er meer nuance in
-deze zaak zit dan in eerste instantie lijkt [^gunnarkaiser]. Een complotdenker is waarschijnlijk geneigd hier snel een
-gegeneraliserende conclusie aan te verbinden, onder het motto "waar rook is, is vuur". Maar mijn stellng is eerder
-omgekeerd: het rookt overal wel een beetje, en het is ook zeer terecht dat aan de kaak te stellen, maar dat betekent nog
-niet dat alles ook in lichterlaaie staat. Ik vermoed dat er veel voorbeelden te vinden zijn waar complottheorieën wel
-degelijk deels op aantal terechte feitelijke kritiekpunten stoelen, maar de complottheorie zelf veel te ver gaat. De
-kunst is juist vaak om de disinformatie van de echte informatie te onderscheiden, en dat is zeker niet altijd zo simpel
-als het lijkt.
+die strikte corona-maatregelen rechtvaardigen. Een ietwat overijverige ambtenarij? Dit klinkt als 'wetenschap op
+bestelling' en is natuurlijk kolen op het vuur als je al een kwade overheid en corrupte wetenschap verondersteld. Hoewel
+ik zeker ook van mening ben dat de Duitse ambtenaren en de wetenschappers die hieraan mee deden hier wel degelijk een
+misstap hebben begaan, denk ik ook dat er meer nuance in deze zaak zit dan in eerste instantie lijkt [^gunnarkaiser].
+Een complotdenker is waarschijnlijk geneigd hier snel een gegeneraliserende conclusie aan te verbinden, onder het motto
+*"waar rook is, is vuur"*. Maar mijn stelling is eerder omgekeerd: het rookt overal wel een beetje, en het is ook zeer
+terecht dat aan de kaak te stellen, maar dat betekent nog niet dat alles ook in lichterlaaie staat. Ik vermoed dat er
+veel voorbeelden te vinden zijn waar complottheorieën wel degelijk deels op aantal terechte feitelijke kritiekpunten
+stoelen, maar de complottheorie zelf veel te ver gaat. De kunst is juist vaak om de desinformatie van de echte
+feitelijkheden te onderscheiden, en dat is zeker niet altijd zo simpel als het lijkt.
 
 Na dit alles gezegd te hebben wil ik tot slot nog meegeven dat we zeker ook moeten oppassen niet gelijk iedereen met
-kritiek als 'complotdenker' of 'wappie' te bestempelen en diskwalificeren, dat is zeker ook niet mijn intentie met dit
-stuk. We moeten juist eventueel onjuiste argumenten feitelijk ontkrachten, scheiden van terechte zorgen die er wellicht
-aan ten grondslag liggen, en vooral niet de heel groep als zodanig proberen te negeren en denken dat het wel over gaat.
+kritiek als 'complotdenker' of 'wappie' te bestempelen en diskwalificeren, dit betoogde ik al in [mijn vorige
+artikel](/posts/disinformation-age/) en dat is zeker ook niet mijn intentie met dit stuk. We moeten juist eventueel
+onjuiste argumenten feitelijk ontkrachten, scheiden van terechte zorgen die er wellicht aan ten grondslag liggen, en
+vooral niet de hele groep als zodanig proberen te negeren en denken dat het wel over gaat.
 
 ## Maatregelen
 
 Hoewel ik zelf in de gelukkige positie ben dat de maatregelen geen al te grote impact hebben, besef ik goed dat dit voor
 veel andere mensen niet zo is. Er zijn reële zorgen op allerlei vlakken die niet onderschat mogen worden. Van de
 economische schade van alle bedrijven die gedwongen gesloten zijn tot aan mentale schade in de vorm van bijvoorbeeld
-eenzaamheid, angst en depressie. Ik onderken deze ernst zeker ook. Hoe langer de situatie ook voortduurt, hoe zwaarder
-het wordt het vol te houden. Feit dat de maatregelen doorgaan wil ook niet zeggen dan deze mensen niet gehoord worden,
-het blijft een constante afweging tussen de volksgezondheid en de andere belangen. Mijn impressie is dat deze aspecten
-ook steeds meer en meer in de media aan bod komen. De bewering van de criticus is vaak dat het medicijn erger is dan de
-kwaal, maar dat is juist niet evident en ook iets wat per situatie (land/tijdsduur/maatregelenpakket) zal verschillen en
-aan constante heroverweging onderhevig is.
+eenzaamheid, angst en depressie. Ik onderken deze ernst ook zeker. Hoe langer de situatie ook voortduurt, hoe zwaarder
+het wordt het vol te houden. Feit dat de maatregelen ondanks nevenschade doorgaan wil ook niet zeggen dan deze mensen
+niet gehoord worden, het blijft een constante afweging tussen de volksgezondheid en de andere belangen. Mijn impressie
+is dat deze aspecten ook steeds meer en meer in de media aan bod komen. De bewering van de corona-criticus is vaak dat
+het medicijn erger is dan de kwaal, maar dat is juist niet evident en ook iets wat per situatie
+(land/tijdsduur/maatregelenpakket) zal verschillen en aan constante heroverweging onderhevig is.
 
 Er is ook genoeg te bekritiseren op het optreden van de overheid, er gaan geregeld dingen fout. Van de langzame
-vaccinatie tot het datalek bij de GGD  en de blamage rondom de juridische grondslag voor de avondklok. Ook zal de ene
+vaccinatie tot het datalek bij de GGD en de blamage rondom de juridische grondslag voor de avondklok. Ook zal de ene
 groep vinden dat er harder opgetreden had moeten worden, terwijl de andere groep bijvoorbeeld vanuit een principiëelere
 grondslag tegen inperkingen van vrijheid is. Die verschillen mogen er ook zijn. Hoewel we natuurlijk fouten moeten
 proberen te voorkomen en uit gemaakte fouten moeten leren, moet een zekere foutmarge zelfs de overheid gegund zijn.
@@ -457,49 +488,59 @@ Het gevaar van 'confirmation-bias' of 'cherry-picking' liggen al snel op de loer
 helemaal voor de leek. Het is lastig om wetenschappelijke geluiden die tegen de consensus ingaan op hun juiste waarde te
 schatten als je de breedte van het veld niet goed in beeld hebt. Het is juist die breedte die de consensus vormt. We
 zijn allemaal snel geneigd tot zelfoverschatting en tot het in een positieve-feedback loop geraken waar het om onze
-overtuigingen gaat. Als we ruim gedragen consensus overboord zetten terwijl we
-zelf geen experts in de materie zijn, dan draagt dit een extra risico dat we het bij het verkeerde eind hebben.
+overtuigingen gaat. Als we ruim gedragen consensus overboord zetten terwijl we zelf geen experts in de materie zijn, dan
+draagt dit een extra risico dat we het bij het verkeerde eind hebben.
 
 ## Referenties
 
-* [^campbell] John Campbell, Youtube kanaal https://www.youtube.com/c/Campbellteaching
-* [^rtlnieuws] https://www.rtlnieuws.nl/nieuws/nederland/artikel/5208327/kuipers-geen-enkel-zorgsysteem-kan-zeer-snelle-verspreiding-aan
-* [^expresso] https://expresso.pt/coronavirus/2021-02-03-E-para-isso-que-servem-os-amigos-a-equipa-medica-alema-ja-esta-em-Portugal ,  https://www.cmjornal.pt/sociedade/detalhe/aviao-hospital-pronto-a-levar-doentes-portugueses-com-covid-19-para-a-alemanha
-* [^redebrasil] https://www.redebrasilatual.com.br/saude-e-ciencia/2021/01/manaus-fica-sem-oxigenio-dois-dias-depois-de-ministro-oferecer-cloroquina/
-* [^folhapatoense] http://www.folhapatoense.com/2021/01/20/pacientes-fogem-dos-hospitais-de-manaus-para-morrer-em-casa/
-* [^amazoniareal] https://amazoniareal.com.br/manaus-volta-a-registrar-mortes-em-casa/
-* [^guardian] https://www.theguardian.com/world/2020/apr/30/brazil-manaus-coronavirus-mass-graves
-* [^sabino2021] Ester C Sabino, Lewis F Buss ,Maria P S Carvalho, Carlos A Prete Jr,  Myuki A E Crispim, Nelson A Fraiji et al. (2021). Resurgence of COVID-19 in Manaus, Brazil, despite high seroprevalence. The Lancet. DOI:https://doi.org/10.1016/S0140-6736(21)00183-5
-* [^flaxman2020] Flaxman, S., Mishra, S., Gandy, A. et al. (2020). Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe. Nature 584, 257–261. https://doi.org/10.1038/s41586-020-2405-7
-* [^volkskrant3] https://www.volkskrant.nl/wetenschap/ook-maanden-na-corona-nog-extreem-moe-dit-is-een-nieuwe-ziekte-en-een-buitensporige~bd35c456/
-* [^cbs] https://www.cbs.nl/nl-nl/achtergrond/2020/53/jaaroverzicht-2020 . Voor een aantal Europese landen: https://www.euromomo.eu/graphs-and-maps#excess-mortality . Het CBS heeft ook een mooi filmpje met uitleg over de berekening gemaakt: https://www.youtube.com/watch?v=6E5e2PbvmwA
-* [^sargasso] https://sargasso.nl/hoe-fvd-met-visuele-trucs-sterfte-door-corona-wegpoetst-oversterfte/
-* [^blackburn2021] Blackburn et al (2021) - Infection Fatality Ratios for COVID-19 Among Noninstitutionalized Persons 12 and Older: Results of a Random-Sample Prevalence Study - https://www.acpjournals.org/doi/full/10.7326/M20-5352
-* [^levin2020] Levin, A.T., Hanage, W.P., Owusu-Boaitey, N. et al. Assessing the age specificity of infection fatality rates for COVID-19: systematic review, meta-analysis, and public policy implications. Eur J Epidemiol 35, 1123–1138 (2020). https://doi.org/10.1007/s10654-020-00698-1
-* [^mckay] bv. Dr. Ian M. Mckay: https://virologydownunder.com/the-false-positive-pcr-problem-is-not-a-problem/ . Dr. Marion
-    Koopmans (co-auteur van het Corman paper) reageert zelf ook in een twitter draadje: https://twitter.com/MarionKoopmans/status/1333002771738611712 . Een andere reactie: https://publikum.net/wie-man-die-drosten-pcr-zu-sars-cov-2-ganz-einfach-nicht-widerlegt/ . Nog één van na het antwoord: http://www.integralworld.net/visser198.html , deze verwijst ook weer naar een professor die het echt punt-voor-punt inline becomentarieerd heeft: https://www.researchgate.net/publication/348732878_Pseudowissenschaftliche_Kritik_an_einem_von_der_Berliner_Charite_veroffentlichten_Coronavirus_SARS-CoV-2-Test_publiziert_von_Peter_Borger_und_Koautoren_Pseudoscientific_criticism_on_a_Coronavirus_SARS
-* [^ftm] https://www.ftm.nl/artikelen/peter-borger-pcr-test-corona
-* [^sciencefeedback] https://sciencefeedback.co/claimreview/claim-that-high-pcr-test-sensitivity-inflates-covid-19-cases-wrongly-conflates-the-issue-of-contagiousness-with-the-presence-of-infection/
-* [^ourworldindata] https://ourworldindata.org/coronavirus-testing
-* [^reuters] https://www.reuters.com/article/us-healthcare-coronavirus-who-idUSKBN2132S4
-* [^mckay2] In corona-skeptische kringen gaat de claim rond dat zelfs het WHO waarschuwt voor PCR tests, een repliek daarop komt van Dr. Ian M. Mckay die stelt dat de skeptici meer in de WHO uitspraak lezen dan er is: https://virologydownunder.com/who-to-new-pcr-users-read-the-damned-manual/
-* [^sueddeutsche] Die Unsichtbare Welle - https://www.sueddeutsche.de/wissen/coronavirus-mutante-b117-daten-1.5197700
-* [^boudry] https://maartenboudry.be/2020/09/academici-denken-beter-twee-keer-na-voor-ze-hun-gewicht-verlenen-aan-corona-scepticisme.html
-* [^boudry2] https://www.durfdenken.be/nl/ugenters/wetenschap-de-juiste-balans-tussen-twijfel-en-vertrouwen
-* [^volkskrant2] https://www.volkskrant.nl/nieuws-achtergrond/omt-leden-hadden-zoveel-moeite-met-de-politieke-druk-dat-ze-overwogen-op-te-stappen~bbff108c/
-* [^huang2021] Huang, Q.S., Wood, T., Jelley, L. et al. Impact of the COVID-19 nonpharmaceutical interventions on influenza and other respiratory viral infections in New Zealand. Nat Commun 12, 1001 (2021). https://doi.org/10.1038/s41467-021-21157-9
-* [^borger2019] https://cormandrostenreview.com/retraction-request-letter-to-eurosurveillance-editorial-board/
-* [^corman2019] Corman, V. M., Landt, O., Kaiser, M., Molenkamp, R., Meijer, A., Chu, D. K., Bleicker, T., Brünink, S., Schneider, J., Schmidt, M. L., Mulders, D. G., Haagmans, B. L., van der Veer, B., van den Brink, S., Wijsman, L., Goderski, G., Romette, J. L., Ellis, J., Zambon, M., Peiris, M., … Drosten, C. (2020). Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin, 25(3), 2000045. https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045
-* [^eurosurveillance] https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2021.26.5.2102041
-* [^svt] https://www.svt.se/nyheter/inrikes/kungen-jag-anser-att-vi-har-misslyckats
-* [^rtl2] https://www.rtlnieuws.nl/nieuws/nederland/artikel/5190014/rivm-20-procent-positief-geteste-mensen-gaat-naar-buiten
-* [^cnn] https://edition.cnn.com/2020/04/01/europe/iceland-testing-coronavirus-intl/index.html
-* [^campbell2] https://www.youtube.com/watch?v=bUfuF3Il4ik
-* [^cao2020] Cao et al (2020) - Post-lockdown SARS-CoV-2 nucleic acid screening in nearly ten million residents of Wuhan, China - https://pubmed.ncbi.nlm.nih.gov/33219229/
-* [^bmi] https://www.bmj.com/content/371/bmj.m4695
-* [^gu2011] Gu, Y., Komiya, N., Kamiya, H., Yasui, Y., Taniguchi, K., & Okabe, N. (2011). Pandemic (H1N1) 2009 Transmission during Presymptomatic Phase, Japan. Emerging Infectious Diseases, 17(9), 1737-1739. https://dx.doi.org/10.3201/eid1709.101411.
+* [^campbell] John Campbell, Youtube kanaal <https://www.youtube.com/c/Campbellteaching>
+* [^vpro] VPRO Tegenlicht wijdde hier onlangs een interessante aflevering aan: <https://www.vpro.nl/programmas/tegenlicht/kijk/afleveringen/2020-2021/zorgen-voor-morgen.html#>
+* [^rtlnieuws] RTL Nieuws - Kuipers: geen enkel zorgsysteem kan snelle verspreiding Britse coronavariant aan <https://www.rtlnieuws.nl/nieuws/nederland/artikel/5208327/kuipers-geen-enkel-zorgsysteem-kan-zeer-snelle-verspreiding-aan>
+* [^expresso] Expresso - “É para isso que servem os amigos”: a equipa médica alemã já está em Portugal  <https://expresso.pt/coronavirus/2021-02-03-E-para-isso-que-servem-os-amigos-a-equipa-medica-alema-ja-esta-em-Portugal>
+* [^cmjornal] CM - Avião-hospital pronto a levar doentes portugueses com Covid-19 para a Alemanha <https://www.cmjornal.pt/sociedade/detalhe/aviao-hospital-pronto-a-levar-doentes-portugueses-com-covid-19-para-a-alemanha>
+* [^redebrasil] Rede Brasil Atual - Hospitais de Manaus ficam sem oxigênio, dois dias depois de Pazuello pressionar por cloroquina <https://www.redebrasilatual.com.br/saude-e-ciencia/2021/01/manaus-fica-sem-oxigenio-dois-dias-depois-de-ministro-oferecer-cloroquina/>
+* [^folhapatoense] Folha Patoense - Pacientes fogem dos hospitais de Manaus para ‘morrer em casa’ <http://www.folhapatoense.com/2021/01/20/pacientes-fogem-dos-hospitais-de-manaus-para-morrer-em-casa/>
+* [^amazoniareal] Amazônia Real - Pandemia no Amazonas: Manaus volta a registrar mortes em casa <https://amazoniareal.com.br/manaus-volta-a-registrar-mortes-em-casa/>
+* [^guardian] The Guardian - 'Utter disaster': Manaus fills mass graves as Covid-19 hits the Amazon'  <https://www.theguardian.com/world/2020/apr/30/brazil-manaus-coronavirus-mass-graves>
+* [^sabino2021] Ester C Sabino, Lewis F Buss ,Maria P S Carvalho, Carlos A Prete Jr,  Myuki A E Crispim, Nelson A Fraiji et al. (2021). Resurgence of COVID-19 in Manaus, Brazil, despite high seroprevalence. The Lancet. DOI:<https://doi.org/10.1016/S0140-6736(21)00183-5>
+* [^flaxman2020] Flaxman, S., Mishra, S., Gandy, A. et al. (2020). Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe. Nature 584, 257–261. <https://doi.org/10.1038/s41586-020-2405-7>
+* [^volkskrant3] Volkskrant - Ook maanden na corona nog extreem moe: ‘Dit is een nieuwe ziekte. En een buitensporige’ <https://www.volkskrant.nl/wetenschap/ook-maanden-na-corona-nog-extreem-moe-dit-is-een-nieuwe-ziekte-en-een-buitensporige~bd35c456/>
+* [^cbs] CBS Jaaroverzicht 2020 <https://www.cbs.nl/nl-nl/achtergrond/2020/53/jaaroverzicht-2020> . Voor een aantal Europese landen: <https://www.euromomo.eu/graphs-and-maps#excess-mortality> . Het CBS heeft ook een mooi filmpje met uitleg over de berekening gemaakt: <https://www.youtube.com/watch?v=6E5e2PbvmwA>
+* [^sargasso] <https://sargasso.nl/hoe-fvd-met-visuele-trucs-sterfte-door-corona-wegpoetst-oversterfte/>
+* [^blackburn2021] Blackburn et al (2021) - Infection Fatality Ratios for COVID-19 Among Noninstitutionalized Persons 12 and Older: Results of a Random-Sample Prevalence Study - <https://www.acpjournals.org/doi/full/10.7326/M20-5352>
+* [^levin2020] Levin, A.T., Hanage, W.P., Owusu-Boaitey, N. et al. Assessing the age specificity of infection fatality rates for COVID-19: systematic review, meta-analysis, and public policy implications. Eur J Epidemiol 35, 1123–1138 (2020). <https://doi.org/10.1007/s10654-020-00698-1>
+* [^mckay] bv. Dr. Ian M. Mckay: <https://virologydownunder.com/the-false-positive-pcr-problem-is-not-a-problem/>
+* [^koopmans] Dr. Marion Koopmans (co-auteur van het Corman paper) reageert zelf ook in een twitter draadje: <https://twitter.com/MarionKoopmans/status/1333002771738611712>
+* [^publikum] Publikum - Wie man die „Drosten-PCR“ zu SARS-CoV-2 ganz einfach nicht widerlegt <https://publikum.net/wie-man-die-drosten-pcr-zu-sars-cov-2-ganz-einfach-nicht-widerlegt/>
+* [^visser] Deze bijdrage is van na het antwoord van Eurosurveillance: Frank Visser - The Corona Conspiracy Part 24: PCR-Gate 2: When Lockdown Skeptics Pose as Expert Scientists <http://www.integralworld.net/visser198.html>
+* [^beyer] Prof. Andreas Beyer heeft de kritiek van Borger et al punt-voor-punt inline becomentarieerd: <https://www.researchgate.net/publication/348732878_Pseudowissenschaftliche_Kritik_an_einem_von_der_Berliner_Charite_veroffentlichten_Coronavirus_SARS-CoV-2-Test_publiziert_von_Peter_Borger_und_Koautoren_Pseudoscientific_criticism_on_a_Coronavirus_SARS>
+* [^kloptdatwel] Klopt dat wel? - Bedenkingen bij het ‘retraction paper’ voor de Corman-Drosten PCR-test <https://kloptdatwel.nl/2020/12/02/retraction-paper-pcr/>
+* [^ftm] Follow The Money - Vivisectie op een twijfelzaaier in dertien bedrijven <https://www.ftm.nl/artikelen/peter-borger-pcr-test-corona>
+* [^sciencefeedback] <https://sciencefeedback.co/claimreview/claim-that-high-pcr-test-sensitivity-inflates-covid-19-cases-wrongly-conflates-the-issue-of-contagiousness-with-the-presence-of-infection/>
+* [^ourworldindata] <https://ourworldindata.org/coronavirus-testing>
+* [^reuters] <https://www.reuters.com/article/us-healthcare-coronavirus-who-idUSKBN2132S4>
+* [^mckay2] In corona-skeptische kringen gaat de claim rond dat zelfs het WHO waarschuwt voor PCR tests, een repliek daarop komt van Dr. Ian M. Mckay die stelt dat de skeptici meer in de WHO uitspraak lezen dan er is: <https://virologydownunder.com/who-to-new-pcr-users-read-the-damned-manual/>
+* [^sueddeutsche] Die Unsichtbare Welle - <https://www.sueddeutsche.de/wissen/coronavirus-mutante-b117-daten-1.5197700>
+* [^boudry] Maarten Boudry - Academici denken beter twee keer na voor ze hun gewicht verlenen aan corona-scepticisme - <https://maartenboudry.be/2020/09/academici-denken-beter-twee-keer-na-voor-ze-hun-gewicht-verlenen-aan-corona-scepticisme.html>
+* [^boudry2] Maarten Boudry - “Wetenschap is de juiste balans tussen twijfel en vertrouwen” <https://www.durfdenken.be/nl/ugenters/wetenschap-de-juiste-balans-tussen-twijfel-en-vertrouwen>
+* [^volkskrant2] Volkskrant - OMT-leden hadden zoveel moeite met de politieke druk dat ze overwogen op te stappen  <https://www.volkskrant.nl/nieuws-achtergrond/omt-leden-hadden-zoveel-moeite-met-de-politieke-druk-dat-ze-overwogen-op-te-stappen~bbff108c/>
+* [^huang2021] Huang, Q.S., Wood, T., Jelley, L. et al. Impact of the COVID-19 nonpharmaceutical interventions on influenza and other respiratory viral infections in New Zealand. Nat Commun 12, 1001 (2021). <https://doi.org/10.1038/s41467-021-21157-9>
+* [^borger2019] Borger et al (2019) - External Review and request to retract the paper of Corman et al, published in Eurosurveillance January 23, 2020. <https://cormandrostenreview.com/retraction-request-letter-to-eurosurveillance-editorial-board/>
+* [^corman2019] Corman, V. M., Landt, O., Kaiser, M., Molenkamp, R., Meijer, A., Chu, D. K., Bleicker, T., Brünink, S., Schneider, J., Schmidt, M. L., Mulders, D. G., Haagmans, B. L., van der Veer, B., van den Brink, S., Wijsman, L., Goderski, G., Romette, J. L., Ellis, J., Zambon, M., Peiris, M., … Drosten, C. (2020). Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin, 25(3), 2000045. <https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045>
+* [^eurosurveillance] <https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2021.26.5.2102041>
+* [^svt] SVT - Kungen om pandemin: ”Jag anser att vi har misslyckats”  <https://www.svt.se/nyheter/inrikes/kungen-jag-anser-att-vi-har-misslyckats>
+* [^rtl2] RTL Nieuws - RIVM: 20 procent positief geteste mensen gaat toch naar buiten <https://www.rtlnieuws.nl/nieuws/nederland/artikel/5190014/rivm-20-procent-positief-geteste-mensen-gaat-naar-buiten>
+* [^cnn] CNN - Iceland lab's testing suggests 50% of coronavirus cases have no symptoms <https://edition.cnn.com/2020/04/01/europe/iceland-testing-coronavirus-intl/index.html>
+* [^campbell2] <https://www.youtube.com/watch?v=bUfuF3Il4ik>
+* [^cao2020] Cao et al (2020) - Post-lockdown SARS-CoV-2 nucleic acid screening in nearly ten million residents of Wuhan, China - <https://pubmed.ncbi.nlm.nih.gov/33219229/>
+* [^bmi] <https://www.bmj.com/content/371/bmj.m4695>
+* [^gu2011] Gu, Y., Komiya, N., Kamiya, H., Yasui, Y., Taniguchi, K., & Okabe, N. (2011). Pandemic (H1N1) 2009 Transmission during Presymptomatic Phase, Japan. Emerging Infectious Diseases, 17(9), 1737-1739. <https://dx.doi.org/10.3201/eid1709.101411>
+* [^maurice] Maurice de Hond - https://maurice.nl/
+* [^who] WHO - Transmission of SARS-CoV-2: implications for infection prevention precautions - <https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions>
+* [^nrc2] NRC - Maurice de Hond laveert tussen serieuze kritiek, onbewezen claims en viruswaanzin - <https://www.nrc.nl/nieuws/2021/01/28/van-serieuze-kritiek-onbewezen-claims-en-viruswaanzin-a4029682>
+* [^kroncrv] KRO/NRCV - Propaganda https://www.npo3.nl/propaganda/28-01-2021/KN_1725469
 * [^op1] Uitzending van Op1 van 16 januari 2021
-* [^nrc] Ik haal hier wederom Wilem Engel als voorbeeld van de complotdenker aan: https://www.nrc.nl/nieuws/2021/02/16/de-familie-engel-gaat-altijd-voorop-in-de-strijd-tegen-de-overheid-a4032045
-* [^volkskrant] https://www.volkskrant.nl/columns-opinie/de-griep-is-spoorloos-verdwenen-uit-de-statistieken-van-de-belangrijkste-gezondheidsorganisatie~bb2c9610/
-* [^welt] https://www.welt.de/politik/deutschland/plus225868061/Corona-Politik-Wie-das-Innenministerium-Wissenschaftler-einspannte.html
-* [^gunnarkaiser] https://gunnarkaiser.substack.com/p/bestellte-wissenschaft-einige-fragen
+* [^nrc] Ik haal hier wederom Wilem Engel als voorbeeld van de complotdenker aan: <https://www.nrc.nl/nieuws/2021/02/16/de-familie-engel-gaat-altijd-voorop-in-de-strijd-tegen-de-overheid-a4032045>
+* [^volkskrant] <https://www.volkskrant.nl/columns-opinie/de-griep-is-spoorloos-verdwenen-uit-de-statistieken-van-de-belangrijkste-gezondheidsorganisatie~bb2c9610/>
+* [^welt] Die Welt - Wenn der Staatssekretär Wissenschaftler zu „maximaler Kollaboration“ aufruft - <https://www.welt.de/politik/deutschland/plus225868061/Corona-Politik-Wie-das-Innenministerium-Wissenschaftler-einspannte.html>
+* [^gunnarkaiser] Gunnar Kaiser - Bestellte Wissenschaft - Einige Fragen - Anmerkungen und Fragen an die Journalisten der WELT zum Panikpapier des BMI <https://gunnarkaiser.substack.com/p/bestellte-wissenschaft-einige-fragen>
