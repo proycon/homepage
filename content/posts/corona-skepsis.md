@@ -82,7 +82,7 @@ je Duitsland een militair vliegtuig sturen met extra personeel en materieel en e
 Je zorgsysteem laten overstromen zal tot een verdere toename van het aantal ernstig zieken en doden leiden, je kunt ze
 dan immers niet meer allemaal behandelen en moet gaan kiezen. Dit zie je dan ook al gebeuren op plekken waar het virus
 hard om zich heen grijpt en het gezondheidssysteem minder sterk staat dan hier in Europa, kijk bijvoorbeeld naar Manaus
-in Brazilië [^redebrasil], waar patiënten stierven omdat de zuurstof op was, sommigen liever naar uit het ziekenhuis
+in Brazilië [^redebrasil], waar patiënten stierven omdat de zuurstof op was, sommigen liever vanuit het ziekenhuis
 naar huis vluchten om daar te sterven [^folhapatoense], en de thuissterfte sowieso al toenam omdat mensen het ziekenhuis
 niet eens meer bereikten [^amazoniareal]. Het wrange hier is ook dat Manaus in de eerste golf ook al hard getroffen was
 en zowel zorg als uitvaartwezen overweldigde [^guardian]. Er was bij de tweede golf enige hoop op groepsimmuniteit was,
@@ -124,7 +124,7 @@ behoorlijke factor hoger geschat dan influenza, zeer afhankelijk uiteraard van d
 daarin [^blackburn2021] [^levin2020].
 
 Het belang van de IFR in deze is eigenlijk ook onderschikt aan het belang van het gemak/ongemak waarmee een virus zich
-verspreid; de besmettelijkheid. Als we een virus A hebben die veel minder dodelijk (lage IFR) is maar zich veel sneller
+verspreid; de besmettelijkheid. Als we een virus A hebben dat veel minder dodelijk (lage IFR) is maar zich veel sneller
 verspreid (hoge R) dan een ander veel dodelijker virus B (hoge IFR, lage R), dan zal virus A uiteindelijk onder de
 streep verreweg de meeste doden op zijn geweten hebben. Met dit coronavirus hebben we vooral te maken met het probleem
 van snelle verspreiding (wat alleen maar toegenomen is door varianten als de Britse B1.1.7). In deze zin is het virus
