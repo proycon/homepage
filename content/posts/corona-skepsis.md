@@ -209,7 +209,7 @@ belangenverstrengeling, plagiaat, e.d...
 
 Terug naar de inhoud: gelukkig zijn er verschillende andere wetenschappers die wel in dit vakgebied bekwaam zijn en hun
 kritiek op Borger et al. al wel kenbaar gemaakt hebben [^mckay] [^koopmans] [^publikum] [^visser] [^beyer]
-[^kloptdatwel]. Ook Follow
+[^kloptdatwel] [^wilson]. Ook Follow
 The Money raadpleegde experts en wijdde er onlangs een uitgebreid artikel aan om het voor het grotere publiek op een rij
 te zetten en behandelt elk punt van kritiek [^ftm].
 
@@ -219,9 +219,9 @@ test geen actieve besmettelijkheid aantoont maar slechts aangeeft of de persoon 
 noodzakelijke voorwaarde voor besmettelijkheid is). In het aantonen van (fragmenten van) het virus heeft de test juist
 een zeer hoge sensitiviteit [^sciencefeedback]. Om maar één punt uit te weerlegging als voorbeeld te nemen: Als er een
 significante aantal vals-positieve uitslagen zou zijn zou je dat ook verwachten in landen als Australië, Nieuw Zeeland
-en Ijsland, die een erg lage true positive rate hebben terwijl er nog steeds veel getest wordt [^ourworldindata]. Ook in
-Nederland zien we met name na de piek van eerste golf en de naderende zomer ook duidelijke perioden van stijgende
-testafname met een dalend aandeel positieve uitslagen.
+en Ijsland, die een erg lage true positive rate hebben terwijl er nog steeds veel getest wordt [^ourworldindata]
+[^wilson2]. Ook in Nederland zien we met name na de piek van eerste golf en de naderende zomer ook duidelijke perioden
+van stijgende testafname met een dalend aandeel positieve uitslagen.
 
 In de context van een snotterende persoon die voor een test aanklopt of iemand die nog asymptomatisch is maar
 recentelijk (incubatietijd) wel in contact met een besmette persoon geweest is, heb je sterke grond om besmettelijkheid
@@ -521,9 +521,11 @@ draagt dit een extra risico dat we het bij het verkeerde eind hebben.
 * [^visser] Deze bijdrage is van na het antwoord van Eurosurveillance: Frank Visser - The Corona Conspiracy Part 24: PCR-Gate 2: When Lockdown Skeptics Pose as Expert Scientists <http://www.integralworld.net/visser198.html>
 * [^beyer] Prof. Andreas Beyer heeft de kritiek van Borger et al punt-voor-punt inline becomentarieerd: <https://www.researchgate.net/publication/348732878_Pseudowissenschaftliche_Kritik_an_einem_von_der_Berliner_Charite_veroffentlichten_Coronavirus_SARS-CoV-2-Test_publiziert_von_Peter_Borger_und_Koautoren_Pseudoscientific_criticism_on_a_Coronavirus_SARS>
 * [^kloptdatwel] Klopt dat wel? - Bedenkingen bij het ‘retraction paper’ voor de Corman-Drosten PCR-test <https://kloptdatwel.nl/2020/12/02/retraction-paper-pcr/>
+* [^wilson] Video van moleculair bioloog Dr Wilson waarin hij de kritiek op de PCR-test behandelt: Were COVID PCR tests proven to be useless? No. - https://www.youtube.com/watch?v=kLODxwQj-ns
 * [^ftm] Follow The Money - Vivisectie op een twijfelzaaier in dertien bedrijven <https://www.ftm.nl/artikelen/peter-borger-pcr-test-corona>
 * [^sciencefeedback] <https://sciencefeedback.co/claimreview/claim-that-high-pcr-test-sensitivity-inflates-covid-19-cases-wrongly-conflates-the-issue-of-contagiousness-with-the-presence-of-infection/>
 * [^ourworldindata] <https://ourworldindata.org/coronavirus-testing>
+* [^wilson2] Dit punt komt ook duidelijk naar voren in een video van moleculair bioloog Dr Wilson waarin hij desinformatie van Dr. Mike Yeadon (een oud-medewerker van Pfizer populair in coronaskeptische kringen) weerlegt: https://www.youtube.com/watch?v=8u-H5ihH8is
 * [^reuters] <https://www.reuters.com/article/us-healthcare-coronavirus-who-idUSKBN2132S4>
 * [^mckay2] In corona-skeptische kringen gaat de claim rond dat zelfs het WHO waarschuwt voor PCR tests, een repliek daarop komt van Dr. Ian M. Mckay die stelt dat de skeptici meer in de WHO uitspraak lezen dan er is: <https://virologydownunder.com/who-to-new-pcr-users-read-the-damned-manual/>
 * [^sueddeutsche] Die Unsichtbare Welle - <https://www.sueddeutsche.de/wissen/coronavirus-mutante-b117-daten-1.5197700>
