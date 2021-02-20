@@ -263,7 +263,9 @@ In het nemen van maatregelen in een pandemie waarvan sprake is van veel onzekerh
 mate van "better safe than sorry".  We proberen een punt in de tijd te vinden waar maatregelen effectief zijn tegen de
 voorspellingen, en vooral de ergste voorspellingen daarmee te voorkomen. Tegelijkertijd moet dat punt in de tijd zo
 liggen dat de maatregelen proportioneel zijn en nevenschade minimaal is. Dit maakt het juiste tijdstip voor de juiste
-maatregel vinden een ingewikkelde opgave.
+maatregel vinden een ingewikkelde opgave. Het is sowieso een kwestie van kiezen tussen twee kwaden, want linksom of
+rechtsom zal er schade zijn; "damned if you do, damned if you don't", om er nog maar eens een Engelse expressie
+tegenaan te gooien.
 
 Als je liever naar het verleden terug wil kijken dan de toekomst wil modelleren, zijn er genoeg voorbeelden van
 exponentiële groei en overstroming van de zorg te vinden. In Nederland zien we zelf al dat we massaal IC's moesten
