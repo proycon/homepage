@@ -517,7 +517,6 @@ draagt dit een extra risico dat we het bij het verkeerde eind hebben.
 * [^sargasso] <https://sargasso.nl/hoe-fvd-met-visuele-trucs-sterfte-door-corona-wegpoetst-oversterfte/>
 * [^blackburn2021] Blackburn et al (2021) - Infection Fatality Ratios for COVID-19 Among Noninstitutionalized Persons 12 and Older: Results of a Random-Sample Prevalence Study - <https://www.acpjournals.org/doi/full/10.7326/M20-5352>
 * [^levin2020] Levin, A.T., Hanage, W.P., Owusu-Boaitey, N. et al. Assessing the age specificity of infection fatality rates for COVID-19: systematic review, meta-analysis, and public policy implications. Eur J Epidemiol 35, 1123–1138 (2020). <https://doi.org/10.1007/s10654-020-00698-1>
-* [^sueddeutsche] Die Unsichtbare Welle - <https://www.sueddeutsche.de/wissen/coronavirus-mutante-b117-daten-1.5197700>
 * [^boudry] Maarten Boudry - Academici denken beter twee keer na voor ze hun gewicht verlenen aan corona-scepticisme - <https://maartenboudry.be/2020/09/academici-denken-beter-twee-keer-na-voor-ze-hun-gewicht-verlenen-aan-corona-scepticisme.html>
 * [^boudry2] Maarten Boudry - “Wetenschap is de juiste balans tussen twijfel en vertrouwen” <https://www.durfdenken.be/nl/ugenters/wetenschap-de-juiste-balans-tussen-twijfel-en-vertrouwen>
 * [^volkskrant2] Volkskrant - OMT-leden hadden zoveel moeite met de politieke druk dat ze overwogen op te stappen  <https://www.volkskrant.nl/nieuws-achtergrond/omt-leden-hadden-zoveel-moeite-met-de-politieke-druk-dat-ze-overwogen-op-te-stappen~bbff108c/>
@@ -537,6 +536,7 @@ draagt dit een extra risico dat we het bij het verkeerde eind hebben.
 * [^wilson2] Dit punt komt ook duidelijk naar voren in een video van moleculair bioloog Dr Wilson waarin hij desinformatie van Dr. Mike Yeadon (een oud-medewerker van Pfizer populair in coronaskeptische kringen) weerlegt: <https://www.youtube.com/watch?v=8u-H5ihH8is>
 * [^reuters] <https://www.reuters.com/article/us-healthcare-coronavirus-who-idUSKBN2132S4>
 * [^mckay2] In corona-skeptische kringen gaat de claim rond dat zelfs het WHO waarschuwt voor PCR tests, een repliek daarop komt van Dr. Ian M. Mckay die stelt dat de skeptici meer in de WHO uitspraak lezen dan er is: <https://virologydownunder.com/who-to-new-pcr-users-read-the-damned-manual/>
+* [^sueddeutsche] Die Unsichtbare Welle - <https://www.sueddeutsche.de/wissen/coronavirus-mutante-b117-daten-1.5197700>
 * [^cnn] CNN - Iceland lab's testing suggests 50% of coronavirus cases have no symptoms <https://edition.cnn.com/2020/04/01/europe/iceland-testing-coronavirus-intl/index.html>
 * [^campbell2] <https://www.youtube.com/watch?v=bUfuF3Il4ik>
 * [^cao2020] Cao et al (2020) - Post-lockdown SARS-CoV-2 nucleic acid screening in nearly ten million residents of Wuhan, China - <https://pubmed.ncbi.nlm.nih.gov/33219229/>
