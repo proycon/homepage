@@ -534,12 +534,9 @@ draagt dit een extra risico dat we het bij het verkeerde eind hebben.
 * [^boudry] Maarten Boudry - Academici denken beter twee keer na voor ze hun gewicht verlenen aan corona-scepticisme - <https://maartenboudry.be/2020/09/academici-denken-beter-twee-keer-na-voor-ze-hun-gewicht-verlenen-aan-corona-scepticisme.html>
 * [^boudry2] Maarten Boudry - “Wetenschap is de juiste balans tussen twijfel en vertrouwen” <https://www.durfdenken.be/nl/ugenters/wetenschap-de-juiste-balans-tussen-twijfel-en-vertrouwen>
 * [^volkskrant2] Volkskrant - OMT-leden hadden zoveel moeite met de politieke druk dat ze overwogen op te stappen  <https://www.volkskrant.nl/nieuws-achtergrond/omt-leden-hadden-zoveel-moeite-met-de-politieke-druk-dat-ze-overwogen-op-te-stappen~bbff108c/>
-* [^huang2021] Huang, Q.S., Wood, T., Jelley, L. et al. Impact of the COVID-19 nonpharmaceutical interventions on influenza and other respiratory viral infections in New Zealand. Nat Commun 12, 1001 (2021). <https://doi.org/10.1038/s41467-021-21157-9>
 * [^borger2019] Borger et al (2019) - External Review and request to retract the paper of Corman et al, published in Eurosurveillance January 23, 2020. <https://cormandrostenreview.com/retraction-request-letter-to-eurosurveillance-editorial-board/>
 * [^corman2019] Corman, V. M., Landt, O., Kaiser, M., Molenkamp, R., Meijer, A., Chu, D. K., Bleicker, T., Brünink, S., Schneider, J., Schmidt, M. L., Mulders, D. G., Haagmans, B. L., van der Veer, B., van den Brink, S., Wijsman, L., Goderski, G., Romette, J. L., Ellis, J., Zambon, M., Peiris, M., … Drosten, C. (2020). Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin, 25(3), 2000045. <https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045>
 * [^eurosurveillance] <https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2021.26.5.2102041>
-* [^svt] SVT - Kungen om pandemin: ”Jag anser att vi har misslyckats”  <https://www.svt.se/nyheter/inrikes/kungen-jag-anser-att-vi-har-misslyckats>
-* [^rtl2] RTL Nieuws - RIVM: 20 procent positief geteste mensen gaat toch naar buiten <https://www.rtlnieuws.nl/nieuws/nederland/artikel/5190014/rivm-20-procent-positief-geteste-mensen-gaat-naar-buiten>
 * [^cnn] CNN - Iceland lab's testing suggests 50% of coronavirus cases have no symptoms <https://edition.cnn.com/2020/04/01/europe/iceland-testing-coronavirus-intl/index.html>
 * [^campbell2] <https://www.youtube.com/watch?v=bUfuF3Il4ik>
 * [^cao2020] Cao et al (2020) - Post-lockdown SARS-CoV-2 nucleic acid screening in nearly ten million residents of Wuhan, China - <https://pubmed.ncbi.nlm.nih.gov/33219229/>
@@ -551,6 +548,9 @@ draagt dit een extra risico dat we het bij het verkeerde eind hebben.
 * [^kroncrv] KRO/NRCV - Propaganda <https://www.npo3.nl/propaganda/28-01-2021/KN_1725469>
 * [^op1] Uitzending van Op1 van 16 februari 2021
 * [^nrc] Ik haal hier wederom Wilem Engel als voorbeeld van de complotdenker aan: <https://www.nrc.nl/nieuws/2021/02/16/de-familie-engel-gaat-altijd-voorop-in-de-strijd-tegen-de-overheid-a4032045>
-* [^volkskrant] <https://www.volkskrant.nl/columns-opinie/de-griep-is-spoorloos-verdwenen-uit-de-statistieken-van-de-belangrijkste-gezondheidsorganisatie~bb2c9610/>
 * [^welt] Die Welt - Wenn der Staatssekretär Wissenschaftler zu „maximaler Kollaboration“ aufruft - <https://www.welt.de/politik/deutschland/plus225868061/Corona-Politik-Wie-das-Innenministerium-Wissenschaftler-einspannte.html>
 * [^gunnarkaiser] Gunnar Kaiser - Bestellte Wissenschaft - Einige Fragen - Anmerkungen und Fragen an die Journalisten der WELT zum Panikpapier des BMI <https://gunnarkaiser.substack.com/p/bestellte-wissenschaft-einige-fragen>
+* [^volkskrant] <https://www.volkskrant.nl/columns-opinie/de-griep-is-spoorloos-verdwenen-uit-de-statistieken-van-de-belangrijkste-gezondheidsorganisatie~bb2c9610/>
+* [^huang2021] Huang, Q.S., Wood, T., Jelley, L. et al. Impact of the COVID-19 nonpharmaceutical interventions on influenza and other respiratory viral infections in New Zealand. Nat Commun 12, 1001 (2021). <https://doi.org/10.1038/s41467-021-21157-9>
+* [^svt] SVT - Kungen om pandemin: ”Jag anser att vi har misslyckats”  <https://www.svt.se/nyheter/inrikes/kungen-jag-anser-att-vi-har-misslyckats>
+* [^rtl2] RTL Nieuws - RIVM: 20 procent positief geteste mensen gaat toch naar buiten <https://www.rtlnieuws.nl/nieuws/nederland/artikel/5190014/rivm-20-procent-positief-geteste-mensen-gaat-naar-buiten>
