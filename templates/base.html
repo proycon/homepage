@@ -115,7 +115,7 @@
                     <ul>
                     {% for network in config.extra.networks %}
                         <li>
-                            <i class="{{ network.icon_pack }} {{ network.icon }}" title="{{ network.name }}"></i> <label>{{ network.name }}</label> &ndash; <a href="{{ network.url }}">{{network.value}}</a>
+                            <i class="{{ network.icon_pack }} {{ network.icon }}" title="{{ network.name }}"></i> <label>{{ network.name }}</label> &ndash; <a rel="me" href="{{ network.url }}">{{network.value}}</a>
                         </li>
                     {% endfor %}
                     </ul>
