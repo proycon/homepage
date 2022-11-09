@@ -9,7 +9,7 @@
                 {% for network in config.extra.networks %}
                     {% if network.profile %}
                     <li>
-                        <a href="{{ network.url }}"><i class="{{ network.icon_pack }} {{ network.icon }}" title="{{ network.name }}"></i></a>
+                        <a rel="me" href="{{ network.url | safe }}"><i class="{{ network.icon_pack }} {{ network.icon }}" title="{{ network.name }}"></i></a>
                     </li>
                     {% endif %}
                 {% endfor %}
