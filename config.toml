@@ -37,7 +37,7 @@ menu = [
 networks = [
     {name = "E-Mail", url = "mailto:proycon@anaproy.nl", value = "proycon@anaproy.nl", icon_pack="fas", icon="fa-envelope", profile=true},
     {name = "GnuPG Key", url = "/key.asc", value="39FE11201A31555C", icon_pack="fas", icon="fa-key", profile=false},
-    {name = "Keyoxide", url = "https://keyoxide.org/8AC624881EF2AC30C0E68E2C39FE11201A31555C", value = "proycon", icon_pack="fab", icon="fa-key", profile=true},
+    {name = "Keyoxide", url = "https://keyoxide.org/8AC624881EF2AC30C0E68E2C39FE11201A31555C", value = "proycon", icon_pack="fas", icon="fa-key", profile=true},
     {name = "XMPP", url = "xmpp:proycon@anaproy.nl", value="proycon@anaproy.nl", icon_pack="fas", icon="fa-comments", profile=false},
     {name = "Matrix", url = "matrix:user/proycon:matrix.anaproy.nl", value="@proycon:matrix.anaproy.nl", icon_pack="fas", icon="fa-comments", profile=false},
     {name = "IRC (Libera)", url = "irc://irc.libera.chat/proycon", value="proycon on Libera.chat", icon_pack="fas", icon="fa-comments", profile=false},
