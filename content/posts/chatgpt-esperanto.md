@@ -1,5 +1,5 @@
 +++
-title = "Babilado kun ChatGPT pri naskiĝtagon, skibmaŝinojn, neĝoglobukarulojn kaj la sencon de la vivo"
+title = "Babilado kun ChatGPT pri naskiĝtagon, skribmaŝinojn, neĝoglobukarulojn kaj la sencon de la vivo"
 date = 2022-12-03T14:21:28+02:00
 description = "Mi parolis kun la nova ChatGPT babililon, en esperanto"
 
