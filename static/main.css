@@ -231,3 +231,6 @@ div.gallery div.picture label {
 div.gallery div.picture div.datetime {
     margin-top: 3px;
 }
+blockquote {
+    color: green;
+}
