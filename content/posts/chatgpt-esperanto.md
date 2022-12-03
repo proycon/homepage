@@ -7,6 +7,8 @@ tags = ["chatgpt","ai","esperanto"]
 categories = []
 +++
 
+# Babilado kun ChatGPT pri naskiĝtagon, skibmaŝinojn, neĝoglobukarulojn kaj la sencon de la vivo
+
 *Ĉi tiu estas ekzakta neredaktikta protokolo de la konversacio kiu mi havis kun ChatGPT, AI lingvomodelo, por testi ĝin (mi komencas, en verda) / This is an exact unedited log of the conversation I had with ChatGPT, an AI language model, in order to test it (I begin, in green)*
 
 > ĉu mi povas paroli Esperanton kun vi?
