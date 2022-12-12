@@ -46,7 +46,6 @@ networks = [
     {name = "Fediverse (Mastodon)", url = "https://social.anaproy.nl/@proycon", value = "@proycon@social.anaproy.nl", icon_pack="fab", icon="fa-mastodon", profile=true},
     {name = "Sourcehut", url = "https://git.sr.ht/~proycon", value = "proycon", icon_pack="fab", icon="fa-github", profile=true},
     {name = "GitHub", url = "https://github.com/proycon", value = "proycon", icon_pack="fab", icon="fa-github", profile=true},
-    {name = "Twitter", url = "https://twitter.com/proycon", value = "@proycon", icon_pack="fab", icon="fa-twitter", profile=true},
     {name = "ORCID", url = "https://orcid.org/0000-0002-1046-0006", value = "0000-0002-1046-0006", icon_pack="fab", icon="fa-orcid", profile=true},
     {name = "Bitcoin", url = "bitcoin:1BRptZsKQtqRGSZ5qKbX2azbfiygHxJPsd", value="1BRptZsKQtqRGSZ5qKbX2azbfiygHxJPsd", icon_pack="fab", icon="fa-btc", profile=false},
 ]
