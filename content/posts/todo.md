@@ -28,7 +28,9 @@ Priorities are adjusted as needed, corresponding to moving tasks between columns
 
 ## Todo.txt More
 
-The ``todo.txt`` CLI implementation offers a nice way to extend it. I have done so to implement various extensions which I felt were missing. I call this [Todo.txt More](https://git.sr.ht/~proycon/todotxt-more).
+The ``todo.txt`` CLI implementation offers a nice way to extend it. I have done so to implement various extensions which I felt were missing. I call this [Todo.txt More](https://git.sr.ht/~proycon/todotxt-more). Go the its [Sourcehut page](https://git.sr.ht/~proycon/todotxt-more) to find the source code repository and installation instructions.
+
+Todotxt More contains the following extensions to todo.txt-cli:
 
 * `more` -  Main entry point, shortcut invoking various underlying plugins. By default displays a list with better sorting (`relsort`) and colour highlighting (`format`)
 * `edit` - Invokes editor to edit todo.txt. 
@@ -186,6 +188,6 @@ Similarly, you can export todo items to iCalendar format using `todo.sh cal expo
 
 ## Contribute
 
-If you want to contribute, you can send patches to my [public inbox](mailto:~proycon/public-inbox@lists.sr.ht). Read about [the git e-mail workflow](https://git-send-email.io/) if you are not yet familiar with it.
+If you want to contribute, git clone the [source code repository](https://git.sr.ht/~proycon/todotxt-more) and send patches to my [public inbox](mailto:~proycon/public-inbox@lists.sr.ht). Read about [the git e-mail workflow](https://git-send-email.io/) if you are not yet familiar with it.
 
 The code is currently in a fairly early stage of development and needs further testing and cleanup.
