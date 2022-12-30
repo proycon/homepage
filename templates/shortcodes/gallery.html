@@ -2,8 +2,9 @@
 {% for asset in page.assets | sort | reverse %}
   {% if asset is matching("[.](jpg|png)$") %}
     <div class="picture">
+        {% set image = resize_image(path=asset, width=240, height=180, op="fit") %}
         <a href="{{ get_url(path=asset) }}">
-          <img src="{{ resize_image(path=asset, width=240, height=180, op="fit") }}"
+          <img src="{{ image.url }}"
                title="{{ asset | split(pat="/") | last | split(pat=":") | last | replace(from=".jpg",to="") | replace(from="-",to=" ") }}"
           />
         </a>
