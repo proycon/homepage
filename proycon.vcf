@@ -1,0 +1,30 @@
+BEGIN:VCARD
+VERSION:4.0
+N:Maarten;van Gompel;;
+FN:Maarten van Gompel
+KIND:individual
+NICKNAME:proycon
+GENDER:M
+PHOTO;MEDIATYPE=image/jpeg:https://proycon.anaproy.nl/img/portrait.jpg
+IMPP:xmpp:proycon@anaproy.nl
+IMPP:matrix:@proycon:matrix.anaproy.nl
+IMPP:telegram:proycon
+IMPP:irc:oftc/libera:proycon
+IMPP:mastodon:@proycon@social.anaproy.nl
+EMAIL:proycon@anaproy.nl
+URL:https://proycon.anaproy.nl
+KEY;MEDIATYPE=application/pgp-keys:https://keys.openpgp.org/pks/lookup?op=get&options=mr&search=0x8AC624881EF2AC30C0E68E2C39FE11201A31555C
+NOTE:openpgp4fpr:8AC624881EF2AC30C0E68E2C39FE11201A31555C; ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICcDGpvEdTaM6EcrqHpX4MX3HNpxet79P2nyauXlbf1U proycon@anaproy.nl; bitcoin:1BRptZsKQtqRGSZ5qKbX2azbfiygHxJPsd
+ADR;TYPE=home:;;;Eindhoven;;;NL
+LANG:en
+LANG:nl
+LANG:es
+LANG:de
+LANG:fr
+LANG:eo
+LANG:pt
+LANG:it
+LANG:ru
+LANG:zh
+REV:2022-12-30T22:21:43Z
+END:VCARD
