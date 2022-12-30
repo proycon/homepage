@@ -17,4 +17,4 @@ Processing. I'm a unix enthusiast committed to open-source software and an advoc
 privacy and decentralisation. I love learning languages, coding, reading (mostly science fiction), working on my home
 automation system, playing the piano, and walking our dog.
 
-If you want to follow me on social media and/or react publicly to anything on this page, then my [Mastodon](https://social.anaproy.nl/@proycon) profile on the fediverse is the best option. I occasionally post something there about stuff that interests me.  For longer blog posts, however, this website is the place to be, you can also follow those my [rss feed](/index.xml).
+If you want to follow me on social media and/or react publicly to anything on this page, then my [Mastodon](https://social.anaproy.nl/@proycon) profile on the fediverse is the best option. I occasionally post something there about stuff that interests me.  For longer blog posts, however, this website is the place to be, you can also follow those via my [rss feed](/index.xml).
