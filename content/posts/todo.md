@@ -1,7 +1,7 @@
 +++
 title = "Todo.txt-more: Efficiently managing your todo list and your time"
-date = 2022-12-29T21:55:28+01:00
-description = ""
+date = 2022-12-30T21:55:28+01:00
+description = "This post introduces todo.txt-more, a set of extensions I wrote for todo.txt-cli to improve my productivity"
 +++
 
 # Todo.txt More: Efficiently managing your todo list and your time
@@ -16,11 +16,12 @@ What I want is one unified way to see and organise my todo tasks, regardless of 
 
 I'm now coming back to [todo.txt](http://todotxt.org/) to do all this. This is a simple minimalistic solution that's already been around since 2006. It keeps todo tasks in a simple plain text file and introduces some syntax for tagging, a command line shell script is provided for various basic operations. It requires no complicated database solutions, no complex software implementations, and it can just be used from your favourite text editor (vim in my case) even without any bells and whistles.
 
-Todo.txt has a simple tag syntax, tags starting with ``+`` are *projects*, tags starting with ``@`` indicate *contexts*, and I add ``#`` for other kinds of tags (hashtags). Then there is a simple tag for priorties. With todo.txt I'm making use of priorities A, B and C only. I use them as follows in a kind of kanban-style:
+Todo.txt has a simple tag syntax, tags starting with ``+`` are *projects*, tags starting with ``@`` indicate *contexts*, and I add ``#`` for other kinds of tags (hashtags). Then there is a simple tag for priorties. With todo.txt I'm making use of priorities A, B and C only (and D as a special category). I use them as follows in a kind of kanban-style:
 
 * *(A)* for tasks to do today
 * *(B)* for tasks to do later this week
 * *(C)* for tasks after this week (limited)
+* *(D)* for tasks that are temporarily blocked/waiting on hold
 * Then there's a whole *backlog* of tasks without a priority, these also act as a trove storing ideas I might or might not get to.
 
 Priorities are adjusted as needed, corresponding to moving tasks between columns on a kanban board. I'm using three main *contexts* `@work` and `@hobby` and `@chore` to attempt to create a bit of a distinction between my work and private life.
@@ -29,38 +30,50 @@ Priorities are adjusted as needed, corresponding to moving tasks between columns
 
 The ``todo.txt`` CLI implementation offers a nice way to extend it. I have done so to implement various extensions which I felt were missing. I call this [Todo.txt More](https://git.sr.ht/~proycon/todotxt-more).
 
-* `format` - Better coloured output, supports both ANSI colours as well as pango.
+* `more` -  Main entry point, shortcut invoking various underlying plugins. By default displays a list with better sorting (`relsort`) and colour highlighting (`format`)
 * `edit` - Invokes editor to edit todo.txt. 
 * `show` - Show a single task based on item number
 * `priup` - Priority up
-* `pridown` - Priority down (up to C)
+* `pridown` - Priority down (down to C, deprioritised after)
 * `rofi` - Control todo.txt interactively via rofi (a menu program)
 * `fzf` - Control todo.txt interactively via fzf (a terminal based fuzzy finder)
 * `issue` - View and sync issues (sync with Github)
 * `timetrack` - Track time on projects and contexts, and produce summary reports 
 * `notmuch` - Sync with notmuch mail based on tags like 'todo' and/or 'reply' 
-* `fancy` -  Better list display with sorting (`relsort`)
+* `cal` - Import iCalendar/vCalendar (ics) files
+* `autoprio` - Automatically assign priorities (mostly based on due dates) 
  
 The following are usually not called directly:
 
-* `relsort` -  Better list display with sorting
+* `format` - Better coloured output, supports ANSI colours, pango, and html
+* `relsort` -  Better sorting with relative dates
 * `actionmenu` - The menu used in the fzf and rofi interfaces. 
 
 
 One of the primary additions is a simple interactive interface powered by either `fzf` (terminal) or `rofi` (GUI). Both are fuzzy finders and allow to quickly navigate the todo tasks.
 
-To display your tasks non-interactively, you can run `todo.sh fancy` (short for `todo.sh fancy list`) rather than the traditional `todo.sh list`. It will invoke the `format` and `relsort` extensions to do better colour highlighting and better relative sorting. You can pass any arguments you pass to `list` to sort by context or project. Here is an example:
+To display your tasks non-interactively, we recommend you use `todo.sh more` (short for `todo.sh more list`) rather than the traditional `todo.sh list`; `todo.sh more` redefines several built-in commands. It will invoke the `format` and `relsort` extensions to do better colour highlighting and better relative sorting. You can pass any actions you also pass to `todo.sh`. Here is an example:
 
-![todo.sh fancy list](https://git.sr.ht/\~proycon/todotxt-more/blob/master/doc/fancylist.png)
+![todo.sh more list](https://git.sr.ht/\~proycon/todotxt-more/blob/master/doc/morelist.png)
 
 You can note the following in this example:
 
 * todo.txt-more adds hashtags (starting with #) and will colour them differently (`todo.sh format`), context (`@`) and projects (`+`) will also get a distinctive colour.
 * tasks with priority will always be shown before any items without priority (`todo.sh relsort`)
 * tasks with a creation date will be shown using their relative date in days (e.g. *6d*) , and sorted accordingly.
+    * though not shown in this example, tasks with a due date (`due:` attribute) will be shown using their relative date in days (e.g. 6d+), and sorted accordingly, this takes precedence over creation date.
 * you see tasks synced from GitHub (`issue`) and from my mail (`notmuch`), more about this later...
 
-If you run `todo.sh fzf list @work`, you'd the see same view, but interactively using fzf, allowing you to do fuzzy search.
+Between the `more` and `lists` actions, you can inject the format you want for the output and the colouring.
+
+* `ansi` - ANSI escape sequences, good for terminals, this is the default
+* `pango` - Pango markup, good when used with GUI applications like rofi, dmenu with pango patch, [wayout](https://git.sr.ht/~proycon/wayout)
+* `html` - HTML, good for exporting to the web
+* `markdown` - Markdown syntax 
+* `slack` - Slack's butchered version of markdown syntax, good for pasting into Slack.
+
+You might, however, prefer a more interactive view that allows you to do fuzzy search and makes the tasks directly actionable.
+If you run `todo.sh fzf list @work`, you'd the see same view as the static one, but interactively using fzf:
 
 ![todo.sh fancy list](https://git.sr.ht/\~proycon/todotxt-more/blob/master/doc/fzf.png)
 
@@ -136,7 +149,7 @@ The `todo.txt notmuch` extension syncs with your notmuch database. It runs a que
 
 ### Time tracking
 
-Employers often require you to track your working hours, especially if you are working on a variety of distinct projects. Keeping track of this manually is a waste of time. If you have your `todo.txt` workflow in place, we can simply take advantage of this for tracking time as well. This is done using `todo.txt timetrack` and it can be invoked interactively via the action menu as presented by fzf or rofi. When you say *start task* a simply eentry of the full task line, prepended with the current date and time, is registered to a file `timetrack.txt` that lives alongside your `todo.txt` and `done.txt`. Only one task can be tracked at any given time (people suck at multitasking anyway, so better not pretend you can do it). When you start a new task the previous one ends. There is also `todo.sh timetrack stop` to stop tracking, which will simply register an *idle* entry in `timetrack.txt`. I recommend to automatically trigger this action when your screensaver/screenlock kicks in so you don't have to worry about it.
+Employers often require you to track your working hours, especially if you are working on a variety of distinct projects. Keeping track of this manually is a waste of time. If you have your `todo.txt` workflow in place, we can simply take advantage of this for tracking time as well. This is done using `todo.txt timetrack` and it can be invoked interactively via the action menu as presented by fzf or rofi. When you say *start task* a simply eentry of the full task line, prepended with the current date and time, is registered to a file `timetrack.txt` that lives alongside your `todo.txt` and `done.txt`. Only one task can be tracked at any given time (people suck at multitasking anyway, so better not pretend you can do it). When you start a new task the previous one ends. There is also `todo.sh timetrack stop` to stop tracking, which will simply register an *idle* entry in `timetrack.txt`. I recommend to automatically trigger this action when your screensaver/screenlock kicks in so you don't have to worry about it. The tracking will also be stopped automatically if you mark the currently tracked task as done via `todo.sh more done` or fzf/rofi.
 
 To see the task you are currently working on, run `todo.sh timetrack current`. This may be worth adding to whatever bar (waybar/polybar/dwm's bar/etc) you use so you can see it at all times.
 
@@ -163,105 +176,16 @@ Be aware that the contexts and projects used in aggregation are not mutually exc
 
 Similarly, there is a `weeksummary` and `monthsummary` that aggregates per week/month. You may add the `-all` parameter to see individual tasks again (rather than just contexts and projects).
 
-### Further usage
+### Calendar
 
-Once installed, see `todo.sh help` for complete usage information:
+There is a fair degree of overlap between todo lists and calendars, even though they are distinct perspectives on your time planning. Todo.txt traditionally caters towards todo lists  and not calendars, due dates are not in the initial design but can be easily using a `due` attribute, as many other implementations also do. Todo.txt-more follows this convention and takes `due` dates into account when sorting (`relsort`) and highlighting.
 
-```
-  Add-on Actions:
-  Action menu:
-    actionmenu
-      Shows or processing items for the action menu, not meant to be used directly
-    actionmenu [action] [itemno]
-      Run the action on the item number
+This opens up the road to expressing calendar items in `todo.txt`. The `cal` extension allows importing iCalendar (ics) format via `todo.sh cal import`. 
 
-  Edit:
-    edit [[itemno]]
-      Edit the specified item in the default editor
-    edit
-      Open todo.txt in the editor
+Similarly, you can export todo items to iCalendar format using `todo.sh cal export`.
 
-  Fancy list:
-    fancy [actions]
-      Shortcut to show a fancy list with relative dates, sorting and ansi colours, can be used with any list action
+## Contribute
 
-  Format/recolor output:
-    format [ansi|pango] [ACTIONS]
-      run command and recolor using ansi or pango
-    format [ansi|pango] stdin
-      reads from standard input
+If you want to contribute, you can send patches to my [public inbox](mailto:~proycon/public-inbox@lists.sr.ht). Read about [the git e-mail workflow](https://git-send-email.io/) if you are not yet familiar with it.
 
-  Fuzzy search:
-    fzf [ACTIONS]
-      pass list actions through fzf and make them actionable
-
-  Handle linked issues:
-    issue [[-d]] [itemno]
-      view the issue referenced in the item (if any). Add -d to search in done tasks
-    issue sync
-      sync issues from remote
-    issue close|done [itemno] ...
-      close the reference issue (and mark the item as a whole as done)
-
-  Handle linked issues:
-    notmuch
-      sync notmuch mails by query: tag:todo or tag:reply
-
-  Priority changing:
-    pridown [itemno]
-      Decreases the priority of the item number, deprioritize after C
-
-  Priority changing:
-    priup [itemno]
-      Increase the priority of the item number, unprioritized becomes C
-
-  Show task by item number:
-    relsort [actions]
-      Convert completion dates into relative time (=days) compared to now and sort accordingly
-
-  Fuzzy search:
-    rofi [ACTIONS]
-      pass actions through rofi and make them actionable
-
-  Show task by item number:
-    show [[-d]] [itemno]
-      show the task on the specified line. Add -d to search in done tasks
-
-  Timetrack output:
-    timetrack start [itemno|item]
-      Start tracking item (stops tracking previous one)
-    timetrack stop
-      Stop tracking
-    timetrack current [-t]
-      Show currently tracked task and the time it was started
-      -t - hide the time
-      -d - show relative time
-      -s - show relative time in seconds
-    timetrack log [[options]] [[fromdatetime]] [[todatetime]]
-      Shows the timetrack log for the given time period
-      (Datetime is in Y-m-d H:M:S format, time component may be omitted)
-      Options:
-      -d - show relative time deltas
-      -s - show relative time deltas in seconds
-      Note: todatetime is non-inclusive
-    timetrack summary [[options]] [[fromdatetime]] [[todatetime]]
-      Shows a time spent summary, over the specified period
-      (Datetime is in Y-m-d H:M:S format, time component may be omitted)
-      Options:
-      -a|--all - show all tasks, not only aggregates
-      Note: todatetime is non-inclusive
-    timetrack daysummary [[options]] [[fromdatetime]] [[days]]
-      Shows a time spent summary, aggregated per day, over the specified period
-      (Datetime is in Y-m-d H:M:S format, time component may be omitted)
-      Note: days is the number of days, inclusive
-    timetrack weeksummary [[options]] [[fromdatetime]] [[weeks]]
-      Shows a time spent summary, aggregated per week, over the specified period
-      (fromdatetime is in Y-m-d format and should be a monday that starts the week)
-      Note: weeks is the number of weeks, inclusive
-    timetrack monthsummary [[options]] [year...]
-      Shows a time spent summary, aggregated per month, over the specified years
-
-```
-
-
-
+The code is currently in a fairly early stage of development and needs further testing and cleanup.
