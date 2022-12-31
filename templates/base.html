@@ -70,6 +70,17 @@
             <meta name="verify-v1" content="X+Tn+2a3v9og5PuWhebjzyZaHc+k5DKYK78ZyO5luUM=" />
         {% endblock metadata %}
         {% block css %}
+            <link rel="preload" href="{{ config.base_url | safe }}/fonts/open-sans-v18-latin-ext_latin_greek_cyrillic-regular.woff2" as="font" />
+            <link rel="preload" href="{{ config.base_url | safe }}/fonts/open-sans-v18-latin-ext_latin_greek_cyrillic-italic.woff2" as="font" />
+            <link rel="preload" href="{{ config.base_url | safe }}/fonts/open-sans-v18-latin-ext_latin_greek_cyrillic-700.woff2" as="font" />
+            <link rel="preload" href="{{ config.base_url | safe }}/fonts/open-sans-v18-latin-ext_latin_greek_cyrillic-700italic.woff2" as="font" />
+            <link rel="preload" href="{{ config.base_url | safe }}/fonts/roboto-v20-latin-ext_latin_cyrillic-regular.woff2" as="font" />
+            <link rel="preload" href="{{ config.base_url | safe }}/fonts/roboto-v20-latin-ext_latin_cyrillic-italic.woff2" as="font" />
+            <link rel="preload" href="{{ config.base_url | safe }}/fonts/roboto-v20-latin-ext_latin_cyrillic-700.woff2" as="font" />
+            <link rel="preload" href="{{ config.base_url | safe }}/fonts/roboto-v20-latin-ext_latin_cyrillic-700italic.woff2" as="font" />
+            <link rel="preload" href="{{ config.base_url | safe }}/fonts/fa-regular-400.woff2" as="font" />
+            <link rel="preload" href="{{ config.base_url | safe }}/fonts/fa-brands-400.woff2" as="font" />
+            <link rel="preload" href="{{ config.base_url | safe }}/fonts/fa-solid-900.woff2" as="font" />
             <link href="{{ get_url(path="fonts.css", trailing_slash=false) }}" rel="stylesheet"/>
             <link href="{{ get_url(path="main.css", trailing_slash=false) }}" rel="stylesheet"/>
             <link href="{{ get_url(path="fontawesome.css", trailing_slash=false) }}" rel="stylesheet"/>
