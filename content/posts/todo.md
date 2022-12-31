@@ -1,22 +1,30 @@
 +++
 title = "Todo.txt-more: Efficiently managing your todo list and your time"
-date = 2022-12-30T21:55:28+01:00
+date = 2022-12-31T17:07:28+01:00
 description = "This post introduces todo.txt-more, a set of extensions I wrote for todo.txt-cli to improve my productivity"
+
+tags = ["todo", "productivity","time tracking"]
+categories = []
+
+[extra]
+cover = "/img/covers/todotxtmore.jpg"
 +++
 
 # Todo.txt More: Efficiently managing your todo list and your time
 
 ## Introduction
 
-I tend to get fairly enthusiastic when it comes to lists, even more so when there's a chance to optimise my productivity, even though it's doubtful whether all the time spent on it really pays off. I've tried various ways of keeping todo lists over many years, some methods were more successful than others. Too often I found myself abandoning the lists I had because it introduced too much overhead (or I simply lacked the discipline to maintain them), or the lists themselves got too cluttered and I lost overview, or they were too detached from the places where I needed them.
+I tend to get fairly enthusiastic when it comes to lists, even more so when there's a chance to optimise my productivity. The end of the year is a time for looking backward and forward, so what better time to revise my time management solution that this? 
 
-Two things that did work well for me in recent years are the use of Github issues for software related tasks, and keeping track of todo tasks related to mails by tagging the mails (using [notmuch](https://notmuchmail.org). However, that is already two different systems, and they don't cover all possible todo tasks. Aside from Github I also use Sourcehut and Gitlab for software development, and at work they use Jira, so that would introduce even more systems to check. Especially these *context switches* have a negative impact on productivity. My aim is to minimize these.
+Over the years, I've tried various ways of keeping todo lists. Some methods were more successful than others. Too often I found myself abandoning the lists I had because it introduced too much overhead (or I simply lacked the discipline to maintain them), or the lists themselves got too cluttered and I lost overview, or they were too detached from the places where I actually needed them.
 
-What I want is one unified way to see and organise my todo tasks, regardless of where they're from. I also want to add tasks like simple household chores or hobby projects, with the main aim so I don't forget them. I want to be able to efficiently search through them so I can easy get tasks pertaining to a specific project, a specific employer, a specific priority, etc..
+Two things that did work well for me in recent years are the use of Github issues for software related tasks, and keeping track of todo tasks related to mails by tagging the mails (using [notmuch](https://notmuchmail.org). However, that is already two different systems, and they don't cover all possible todo tasks. Aside from Github I also use Sourcehut and Gitlab for software development, and at work they use Jira, so that would introduce even more systems to check. Such *context switches*, the need to check different systems, have an especially large negative impact on productivity. My aim is to minimize these.
 
-I'm now coming back to [todo.txt](http://todotxt.org/) to do all this. This is a simple minimalistic solution that's already been around since 2006. It keeps todo tasks in a simple plain text file and introduces some syntax for tagging, a command line shell script is provided for various basic operations. It requires no complicated database solutions, no complex software implementations, and it can just be used from your favourite text editor (vim in my case) even without any bells and whistles.
+What I want is one unified way to see and organise my todo tasks, regardless of where they come from. I also want to add tasks like simple household chores or hobby projects, with the main aim so I don't forget them. I want to be able to efficiently search through them so I can easy get all tasks pertaining to a specific project, a specific employer, a specific priority, etc..
 
-Todo.txt has a simple tag syntax, tags starting with ``+`` are *projects*, tags starting with ``@`` indicate *contexts*, and I add ``#`` for other kinds of tags (hashtags). Then there is a simple tag for priorties. With todo.txt I'm making use of priorities A, B and C only (and D as a special category). I use them as follows in a kind of kanban-style:
+I'm now coming back to [todo.txt](http://todotxt.org/) to do all this. This is a simple minimalistic solution, developed by Gina Trapani, that's already been around since 2006. It keeps todo tasks in a simple plain text file and introduces some basic syntax for tagging. A command line shell script called [todo.txt-cli](https://github.com/todotxt/todo.txt-cli) is provided for various basic operations. It requires no complicated database solutions, no complex software implementations, and it can just be used from your favourite text editor (vim in my case) even without any bells and whistles.
+
+Todo.txt has a simple tag syntax, tags starting with ``+`` are *projects*, tags starting with ``@`` indicate *contexts*, and I add ``#`` for other kinds of tags (hashtags). Then there is a simple tag for priorities. With todo.txt I'm making use of priorities A, B and C only (and D as a special category). I use them as follows that could also map to a kind of kanban-style:
 
 * *(A)* for tasks to do today
 * *(B)* for tasks to do later this week
@@ -26,9 +34,11 @@ Todo.txt has a simple tag syntax, tags starting with ``+`` are *projects*, tags 
 
 Priorities are adjusted as needed, corresponding to moving tasks between columns on a kanban board. I'm using three main *contexts* `@work` and `@hobby` and `@chore` to attempt to create a bit of a distinction between my work and private life.
 
+There is already a wide variety of community software that handles `todo.txt`, but I was still missing some features, or they weren't implemented in other extensions in the way I prefer. So I took towards improving the `todo.txt` experience. I will describe what I added and how it can be used in the remainder of this post.
+
 ## Todo.txt More
 
-The ``todo.txt`` CLI implementation offers a nice way to extend it. I have done so to implement various extensions which I felt were missing. I call this [Todo.txt More](https://git.sr.ht/~proycon/todotxt-more). Go the its [Sourcehut page](https://git.sr.ht/~proycon/todotxt-more) to find the source code repository and installation instructions.
+The ``todo.txt`` CLI implementation offers a nice way to extend it. I have done so and implemented various extensions which I felt were missing. I call this [Todo.txt More](https://git.sr.ht/~proycon/todotxt-more). Go the its [Sourcehut page](https://git.sr.ht/~proycon/todotxt-more) to find the source code repository and installation instructions.
 
 Todotxt More contains the following extensions to todo.txt-cli:
 
