@@ -91,6 +91,10 @@ The rofi method even binds some shortcuts keys for quick actions like prioritisa
 
 ![action menu](https://git.sr.ht/\~proycon/todotxt-more/blob/master/doc/actionmenu.png)
 
+## Notifications
+
+You can enable feedback via your notification daemon (via `notify-send`) by setting environment variable `TODOTXT_NOTIFY=1`. If set, you will get feedback notifications on various actions.
+
 ### Issue syncing
 
 If you use Github extensively, like I do, its issue tracker is likely an important source of information for your todo tasks. However, it's cumbersome to have issues separate from your todo.txt and effectively have two systems you need to check. The `issue` extension should solve this problem. Its job is to sync issues (including pull requests) from github with your todo.txt. It will sync *all issues assigned to you*. 
@@ -187,6 +191,16 @@ There is a fair degree of overlap between todo lists and calendars, even though 
 This opens up the road to expressing calendar items in `todo.txt`. The `cal` extension allows importing iCalendar (ics) format via `todo.sh cal import`. 
 
 Similarly, you can export todo items to iCalendar format using `todo.sh cal export`.
+
+The `cal` extension also has some specific visualisations via `todo.sh cal list`:
+
+![todo.sh cal list](https://git.sr.ht/\~proycon/todotxt-more/blob/master/doc/callist.png)
+
+Add the ``--headers`` parameter for a more verbose view grouped per day.
+
+![todo.sh cal list --headers](https://git.sr.ht/\~proycon/todotxt-more/blob/master/doc/callistheaders.png)
+
+The latter is also what you get if you just run `todo.sh cal` without further arguments.
 
 ## Contribute
 
