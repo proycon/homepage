@@ -54,7 +54,9 @@ The following are usually not called directly:
 
 One of the primary additions is a simple interactive interface powered by either `fzf` (terminal) or `rofi` (GUI). Both are fuzzy finders and allow to quickly navigate the todo tasks.
 
-To display your tasks non-interactively, we recommend you use `todo.sh more` (short for `todo.sh more list`) rather than the traditional `todo.sh list`; `todo.sh more` redefines several built-in commands. It will invoke the `format` and `relsort` extensions to do better colour highlighting and better relative sorting. You can pass any actions you also pass to `todo.sh`. Here is an example:
+To display your tasks non-interactively, we recommend you use `todo.sh more` (short for `todo.sh more list`) rather than the traditional `todo.sh list`; `todo.sh more` redefines several built-in commands. A quick recommended way to use this from your shell is to set an alias `t="todo.sh more"`, you can then do `t list` (or just `t` as a shortcut),`t add`,`t done` etc... All the regular commands as well as the extensions should be available.
+
+Todo.txt-more will invoke the `format` and `relsort` extensions to do better colour highlighting and better relative sorting. You can pass any actions you also pass to `todo.sh`. Here is an example:
 
 ![todo.sh more list](https://git.sr.ht/\~proycon/todotxt-more/blob/master/doc/morelist.png)
 
@@ -85,7 +87,7 @@ Or run `todo.sh rofi list @work`, for the same thing in rofi, which opens a grap
 
 Note that your rofi may look different depending on the theme you are using.
 
-The rofi method even binds some shortcuts keys for quick actions like prioritisation and editing. Once you select an item in either rofi or fzf, you're presented with an action menu (`todo.sh actionmenu`)
+The rofi method even binds some shortcuts keys for quick actions like prioritisation and editing. Moreover, you can directly add new entries with rofi by just typing the full task entry in the search field and pressing enter. For existing items, once you select an item in either rofi or fzf, you're presented with an action menu (`todo.sh actionmenu`)
 
 ![action menu](https://git.sr.ht/\~proycon/todotxt-more/blob/master/doc/actionmenu.png)
 
