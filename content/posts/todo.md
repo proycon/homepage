@@ -14,7 +14,7 @@ cover = "/img/covers/todotxtmore.jpg"
 
 ## Introduction
 
-I tend to get fairly enthusiastic when it comes to lists, even more so when there's a chance to optimise my productivity. The end of the year is a time for looking backward and forward, so what better time to revise my time management solution that this? 
+I tend to get fairly enthusiastic when it comes to lists, even more so when there's a chance to optimise my productivity. The end of the year is a time for looking backward and forward, so what better time to revise my time management solution than this? 
 
 Over the years, I've tried various ways of keeping todo lists. Some methods were more successful than others. Too often I found myself abandoning the lists I had because it introduced too much overhead (or I simply lacked the discipline to maintain them), or the lists themselves got too cluttered and I lost overview, or they were too detached from the places where I actually needed them.
 
