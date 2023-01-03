@@ -38,7 +38,7 @@ There is already a wide variety of community software that handles `todo.txt`, b
 
 ## Todo.txt More
 
-The ``todo.txt`` CLI implementation offers a nice way to extend it. I have done so and implemented various extensions which I felt were missing. I call this [Todo.txt More](https://git.sr.ht/~proycon/todotxt-more). Go the its [Sourcehut page](https://git.sr.ht/~proycon/todotxt-more) to find the source code repository and installation instructions.
+The ``todo.txt`` CLI implementation offers a nice way to extend it. I have done so and implemented various extensions which I felt were missing. I call this [Todo.txt More](https://git.sr.ht/~proycon/todotxt-more). Go to its [Sourcehut page](https://git.sr.ht/~proycon/todotxt-more) to find the source code repository and installation instructions.
 
 Todotxt More contains the following extensions to todo.txt-cli:
 
