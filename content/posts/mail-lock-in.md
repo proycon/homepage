@@ -1,9 +1,9 @@
 +++
 title = "Rant against centralised e-mail"
 date = 2023-02-10T22:04:28+01:00
-description = "In this post I vent my frustration with the trend to centralise mail solutions"
+description = "In this post I vent my frustration with the trend to centralise mail solutions, as I've seen both of my two employers do recently."
 
-tags = ["e-mail", "M365"]
+tags = ["e-mail", "M365", "internet", "centralisation"]
 categories = []
 +++
 
@@ -16,7 +16,7 @@ early as 1965, researchers at MIT developed a kind of precursor to e-mail. In
 (1971) to communicate over a larger network. Universities and research
 institutes were among the first to embrace this new way to communicate with
 peers across ever greater distances and eventually, with the advent of the
-internet, all over the globe. Decentralised connections.
+internet, all over the globe.
 
 I'm a rather dismayed to see those same universities and institutes nowadays no
 longer as pioneers and innovators in this area, but instead as mere consumers
@@ -27,61 +27,69 @@ service. E-mail "in the cloud", as they say. In these particular instances it's
 Microsoft's Office 365 solution that is being adopted, but I'd be just as vocal
 in my opposition it were Apple, Google or Facebook.
 
-I don't know what their motivations were and who made the decisions, but I'm
-sure parties like Microsoft know how to ply their wares enticingly. The promise
-is, I would guess, most often *convenience* and *security*. You, the user, very
-conveniently get great interoperability within a limited set of proprietary
-software tools (the ones of the vendor of course). That may be great if you are
-indeed a user of those tools and happy with it as you are. But as soon as you
-leave a certain vendor's ecosystem, the experience becomes less than stellar
-and often even a burden. Using one of their tools nudges you to also use the
-others, because it's convenient. Worse, it may nudge your peers and they
-instead apply peer pressure on you to use also those tools.
+By adopting such solutions, you, as the user, very conveniently get great
+interoperability within a limited set of proprietary software tools (the ones
+of the vendor of course). That may be great if you are indeed a user of those
+tools and happy with it as you are. But as soon as you leave that vendor's
+ecosystem, the experience becomes less than stellar and often even a burden.
+Using one of their tools nudges you to also use the others, because it's
+the most convenient. Worse, it may nudge your peers and they instead apply peer pressure
+on you to use also those tools.
 
 The average user may not care, but for those of us on the deep-end
 of the geek spectrum, these trends have worrying implications for software
-freedom, network federation, even net neutrality. Our concern is highly
-political.
+freedom and interoperability. Our concern is highly political.
 
-The other promise is security; now outsourcing your e-mail needs to a 3rd party
-who has the expertise is of course not a bad idea if you lack the expertise
-yourself. For institutes, this is also convenient. That in itself is not the
-issue. The issue is everyone converging on a *the same extremely select group
-of service providers*. We are willingly contributing to centralisation and if
-done on such a scale, it fundamentally alters the nature and power-balance of a decentralised
-network like the internet in essence is.
+I don't know what the motivations of the institutes were to adopt these
+solution, nor who made the decisions, but I'm sure parties like Microsoft know
+how to ply their wares enticingly. Their promise is, I would guess, most often
+one of *convenience* and *security*. For an institute, outsourcing your e-mail
+needs to a 3rd party who has the expertise is of course not a bad idea if you
+lack the expertise yourself. It may be more convenient as you don't have to
+appoint system administrators yourself and secure your own mail infrastructure.
+That in itself, however, is not the issue. 
 
-The centralisation has security implications as well, because not just
+My issue is everyone converging on *the same extremely select group of service
+providers*. This has already been ongoing for a long time for user mail, with
+end-users adopting mail services like hotmail and gmail, but it is a different
+thing when we as academic institutions now follow suit and abandon any pretence of
+contributing to a mature and properly decentralised infrastructure. In this
+way, we are willingly contributing to centralisation, which if conducted on such a
+scale, may fundamentally alter the nature and power-balance of a decentralised
+network like the internet in essence meant to be.
+
+This centralisation has security implications too, because not just
 institutes and users converge on the select group of service providers, but so
 do attackers. When (I dare say when rather than if) a vulnerability is
 discovered and exploited by a malicious actor at one point, tremendous
 amount of e-mails might be compromised.
 
-However, this is not my main concern. As I already warned, my main concern is
-political, let's take this further: what is fundamentally at stake here is who
-owns the world's computing resources, the world's communication infrastructure,
-who has access to them, and to what/whose benefit are they employed. It is
+Let's take the political argument further, what is fundamentally at stake here is who
+*owns* the world's computing resources, the world's communication infrastructure,
+who *has access* to those, and to whose benefit are they employed. It is
 all about fair ownership and fair distribution, and in the end, a fairer world. In
 a digitised society, computing power as well as raw data will become ever more
 important resources. The question who owns (or has access to) both matters and
 should not be trivialised. E-mail in particular is quite a treasure trove of
-data, if accumulated by a centralised party.
+data, if accumulated by any centralised party.
 
 Whenever you centralize something, especially on such a scale, you grant power
-to a private company and you have to ask whether this trust is justified and
-whose interests are really served. How will it play out over the long term?
-What if some eccentric right-wing billionaire takes over the big-tech company
-and enforces his own agenda? Or what if some state-actor takes a hold like in
-China? Technology choices made today shape the internet, the digital society,
-of the future. Putting all eggs in a single basket is a bad idea in principle,
-even if it would be a nice comfy basket.
+to a some entity (a private company in this case) and you have to ask whether
+this trust is justified and whose interests are really served. How will it play
+out over the long term? What if some eccentric right-wing billionaire takes
+over the big-tech company and enforces his own agenda? We've seen it happen
+already in the social media world. What if some state-actor takes a hold like
+in China and uses the data for censorship and other repression? Technology
+choices made today shape the internet, the digital society, of the future.
+Putting all eggs in any single basket is a bad idea in principle. We need to
+nurture the decentralised nature of the internet.
 
 A few years ago, I already wrote in my post [Break free! Don't be a prisoner of
 your software
 platform!](https://proycon.anaproy.nl/posts/break-free-do-not-be-a-prisoner-of-your-software/)
 that the internet is not in the best of states. It has become a
 hyper-commercialised place in which users flock to free social media platforms,
-usually advertisement companies at heart, and post their photos, blogs posts
+usually advertisement companies at heart, to post their photos, blogs 
 and videos. This trend has developed for over almost two decades, in which
 fundamental technologies that used to be fairly open were sealed off and turned
 into walled-in gardens. Users were lured in en masse by the convenience of a
@@ -98,43 +106,37 @@ brought an unparalleled upsurge in disinformation, hate-speech, and a whole
 array of psychological disorders such as attention problems. Things that
 eventually affect the real world. 
 
-Are we going to make the same mistakes again with services like e-mail, or
-computing in general? It is one thing (and bad enough) when casual users do it,
-they have embraced services like gmail and hotmail for a long time already, but
-it is a different thing when we as academic institutions follow suit and
-abandon any pretence of contributing to a mature and properly decentralised
-infrastructure.
-
-If you are, like I am, deliberately an outsider to the centralised
+If you are, like I am, deliberately choosing to be outsider to such centralised
 communication platforms that lock you in, then you quickly hit a wall if you
 don't play along. I'm already excluded (self-imposed) from various instant
 messaging groups because I refuse to use WhatsApp ( = Facebook aka Meta). Now
-at work my refusal to use M365 effectively locks me out of my corporate mail;
+at work my refusal to use M365 effectively locks me out of my institutional mail;
 as a normal e-mail forward as I've always used everywhere isn't possible
 anymore.
 
 ![The Oatmeal](https://s3.amazonaws.com/theoatmeal-img/comics/reaching_people/reaching_people.png)
 
-Aside from the political objections, M365, or at least the policies that my
-institute activated on it, makes several technical choices that go against my
-idea of software freedom and how e-mail should be:
+Aside from the political objections I also wanted to provide some technical
+arguments against M365, as they (or my institute who sets the policies) make
+several technical choices that go against my idea of software freedom and how
+e-mail should be:
 
 * Auto-forwarding is not allowed. I do get the security implications of not allowing
   everybody to wildly forward everything everywhere, but disabling it altogether is
   unnecessarily inflexible.
-* M365 blocks various IP ranges which affect self-hosted SMTP server. The
+* M365 blocks various IP ranges which affects self-hosted SMTP servers. The
   sender will have to explicitly register mail address and IP with M365 to be
   let through. I get the need to combat spam, which is the major cancer of
   e-mail. But this strictness breaks the decentralised spirit.
 * M365 rewrites URLs in mails, it *modifies* the incoming mail (which in my
-  view is a big no-go by definition and breaks cryptographic signatures). It
+  view is a already big no-go by definition and breaks cryptographic signatures). It
   makes all links go through their system (`safelinks.protection.outlook.com`).
   Again, I understand this is to protect against phishing, which is the 2nd
   most common problem with e-mail, but it misses the mark entirely, works
-  counter productive, and introduces a huge privacy problem whilst it does so.
+  counter productive, and introduces a huge privacy problem whilst doing so.
   Every link I click would go through their system and can potentially be
   tracked! Moreover, I only use text mails (no HTML, so far less prone to
-  phishing) and their protection system obfuscates the URLs, making it *harder*
+  phishing) and their URL rewriting obfuscates the URLs, making it *harder*
   for me to spot whether a link is legitimate or not. I can make that decision
   on my own, I don't need nor want MS to do it on my behalf.
 * The IMAP login procedure with two-factor authentication breaks more
@@ -154,16 +156,22 @@ idea of software freedom and how e-mail should be:
   into my mail workflow would require me to spend a few nights [setting up
   complex
   solutions](https://movementarian.org/blog/posts/fetchmail-and-office-365/)
-  which I don't really want in the first place.
+  which I don't really need or want in the first place.
 
 I may be a bit (okay, more than a bit) of an opinionated left-leaning idealist,
 but the principles that formed the backbone of the internet are grounded in
-interconnectivity of decentralised entities. Agreements (RFCs) establish
+interconnectivity of decentralised entities. Agreements like RFCs establish
 protocols that specify how communication should proceed and what is expected of
-implementations. Communication especially should be open and interoperable, or
-we end up communicating only with people in different walled-off corporate (or
-governmental) silos. Which is sub-optimal. I strongly believe in federation,
-but that's been under siege for well over two decades because it's 1)
-technically much more difficult to get right 2) socially harder because it
-requires communication and coordination and 3) harder to exploit commercially
-(trapping users in your own platform is way more profitable).
+implementations. Anyone is free to implement them. Communication especially
+should be open, secure and interoperable, or we end up communicating only with people
+in different walled-off corporate (or governmental) silos. Which is
+sub-optimal. I strongly believe in federation, but that's been under siege for
+well over two decades because it's 1) technically much more difficult to get
+right 2) socially harder because it requires communication and coordination and
+3) harder to exploit commercially , as trapping users in your own platform is
+way more profitable.
+
+In conclusion, I want to appeal to institutes and individuals alike to think
+about this and contribute to a better decentralised digital future, rather than
+be complacent in its dismantling: keep fundamental technologies accessible to
+everybody, not just big commercial (or governmental) players. 
