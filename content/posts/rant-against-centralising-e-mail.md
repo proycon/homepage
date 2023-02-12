@@ -154,8 +154,8 @@ my idea of software freedom and how e-mail should be:
   traditional mail clients without OAuth2 support. Okay, then they should
   implement OAuth2, fine, I don't have an issue with 2FA in general. But the way it
   is implemented in OAuth2 by big mail providers like M365, according to
-  [https://sourceforge.net/p/fetchmail/mailman/message/37724737/](the fetchmail
-  developer), obliges mail clients to register with the mail provider. This
+  [the fetchmail
+  developer](https://sourceforge.net/p/fetchmail/mailman/message/37724737/), obliges mail clients to register with the mail provider. This
   gives more control to the companies and less to the user. The service
   provider shouldn't care what client I use, the only thing that matters is
   that I *as user* have the right credentials to access my mail. 
