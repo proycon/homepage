@@ -7,7 +7,7 @@ tags = ["e-mail", "M365", "internet", "centralisation"]
 categories = []
 +++
 
-# Rant against centralising e-mail in big-tech silo, and breaking the internet in the process
+# Rant against centralising e-mail in big-tech silos, and breaking the internet in the process
 
 Universities and research institutes used to be at the forefront when it comes
 to development of the fundamental technologies that power the internet. As
