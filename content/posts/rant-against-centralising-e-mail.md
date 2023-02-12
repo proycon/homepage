@@ -41,8 +41,8 @@ spectrum, these trends have worrying implications for software freedom, open
 standards, overall interoperability and net neutrality. Our concern is highly
 political.
 
-I don't know what the motivations of the institutes were to adopt these
-solution, nor who made the decisions, but I'm sure parties like Microsoft know
+I don't know what the motivations of the institutes were to adopt this e-mail
+service, nor who made the decisions, but I'm sure parties like Microsoft know
 how to ply their wares enticingly. Their promise is, I would guess, most often
 one of *convenience* and *security*. For an institute, outsourcing your e-mail
 needs to a 3rd party who has the expertise is of course not a bad idea if you
@@ -57,7 +57,7 @@ thing when we as academic institutions now follow suit and abandon any pretence 
 contributing to a mature and properly decentralised infrastructure. In this
 way, we are willingly contributing to centralisation, which if conducted on such a
 scale, may fundamentally alter the nature and power-balance of a decentralised
-network like the internet in essence meant to be.
+network like the internet is in essence meant to be.
 
 This centralisation has security implications too, because not just
 institutes and users converge on the select group of service providers, but so
@@ -122,18 +122,18 @@ out of my institutional mail; this used to be easily remedied with a simple
 automatic mail forward, a basic mail function that's been around for ages and
 which everyone should have, but that option has been disabled. I get the
 concern you may not want everybody wildly forwarding everything and prevent
-sensitive information from landing on insecure server, but a complete block is
-unnecessarily unflexible. Now I have no say in where mail directed at me goes
+sensitive information from landing on insecure servers, but a complete block is
+unnecessarily inflexible. Now I have no say in where mail directed at me goes
 anymore and am forced into Microsoft's solution.
 
 As a result, I have resorted to just telling people not to use my institutional
-mail at all anymore, via a silly autoreply. An option I'd rather not have taken
+mail at all anymore, via a silly auto-reply. This is ann option I'd rather not have taken
 as that burdens the sender with something that should have been, and can
 normally be, easily automated.
 
 Aside from the political objections I also wanted to provide some further technical
 arguments against M365, as they make several technical choices that go against
-my idea of software freedom and how e-mail should be:
+my idea of software freedom and how e-mail should work:
 
 * M365 blocks various IP ranges which affects self-hosted SMTP servers. The
   sender will have to explicitly register mail address and IP with M365 to be
@@ -192,4 +192,4 @@ If you haven't had enough after my rant on this subject, I strongly recommend yo
 Carlos Fenollosa's blogpost ["After self hosting my email for twenty-three
 years, I have thrown in the towel. The oligopoly has
 won."](https://cfenollosa.com/blog/after-self-hosting-my-email-for-twenty-three-years-i-have-thrown-in-the-towel-the-oligopoly-has-won.html)
-who makes compelling arguments in the same direction and explains the technical difficulties more in depth than I did here.
+who makes compelling arguments in the same direction and explains the technical difficulties more in depth than I did here. I know I'm not alone in this struggle.
