@@ -105,8 +105,6 @@ It's taken a while but in recent years societal awareness has finally increased
 that this may not be all for the better. Is the technology still serving us or
 are we now serving the technology, or the companies providing it to us? 
 
-![The Oatmeal](https://s3.amazonaws.com/theoatmeal-img/comics/reaching_people/reaching_people.png)
-
 I always maintain that technology choices and usage have real-life
 implications; it's probably fair to say that social media, as an example,
 brought an unparalleled upsurge in disinformation, hate-speech, and a whole
