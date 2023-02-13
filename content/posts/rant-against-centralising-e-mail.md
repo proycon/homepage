@@ -75,7 +75,7 @@ should not be trivialised. E-mail in particular is quite a treasure trove of
 data, if accumulated by any centralised party.
 
 Whenever you centralize something, especially on such a scale, you grant power
-to a some entity (a private company in this case) and you have to ask whether
+to some entity (a private company in this case) and you have to ask whether
 this trust is justified and whose interests are really served. How will it play
 out over the long term? What if some eccentric right-wing billionaire takes
 over the big-tech company and enforces his own agenda? We've seen it happen
@@ -84,7 +84,7 @@ hands of Twitter and are now tasting the bitter results when such a platform
 goes downhill rapidly. With centralised e-mail, we'd expose ourselves once more
 to such risks. Or what if some state-actor takes a hold like in China and uses
 the data for censorship and other repression? It'd be naive to think we're
-immune to all this in western democracies. Technology choices made today shape
+immune to all this in Western democracies. Technology choices made today shape
 the internet, the digital society, of the future. Putting all eggs in any
 single basket is a bad idea in principle. We need to nurture the decentralised
 nature of the internet.
@@ -127,7 +127,7 @@ unnecessarily inflexible. Now I have no say in where mail directed at me goes
 anymore and am forced into Microsoft's solution.
 
 As a result, I have resorted to just telling people not to use my institutional
-mail at all anymore, via a silly auto-reply. This is ann option I'd rather not have taken
+mail at all anymore, via a silly auto-reply. This is an option I'd rather not have taken
 as that burdens the sender with something that should have been, and can
 normally be, easily automated.
 
