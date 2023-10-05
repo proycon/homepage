@@ -26,7 +26,7 @@ icon = "fa-briefcase"
 
 ## Projects
 
-* [Golden Agents](https://www.goldenagents.org/)(2021-2022) - A research project to study relation and interactions between producers and consumers of creative goods in the Dutch Golden Age.
+* [Golden Agents](https://www.goldenagents.org/) (2021-2022) - A research project to study relation and interactions between producers and consumers of creative goods in the Dutch Golden Age.
 * [CLARIAH](https://clariah.nl) (2016-present) -- A Dutch project that aims to build a common research infrastructure for researchers in the Humanities.. Successor of CLARIN-NL.
 * [Colibri](/posts/colibri) (2011-2020) -- Context as Linguistic Bridges, is my PhD project, it investigates the role of source-language context information in machine translation.
 * [Nederlab](https://nederlab.nl) (2018-2019) -- Nederlab provides access to a great number of digitised historical texts.
