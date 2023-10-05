@@ -66,6 +66,11 @@ Please consult the full documentation at https://proycon.github.io/colibri-core
 
 Installation instructions are here:  https://proycon.github.io/colibri-core/doc/#installation
 
+## Demo
+
+![Colibri Core Demo](https://raw.githubusercontent.com/CLARIAH/wp3-demos/master/colibri-core.gif)
+
+
 ## Publication
 
 This software is extensively described in the following peer-reviewed publication:
