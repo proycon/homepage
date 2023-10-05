@@ -33,7 +33,7 @@ icon = "fa-briefcase"
 * Spreek2Schrijf (2018) -- This was a feasibility study for the Dutch parliament to explore whether spoken language in
     the plenary meetings could be automatically converted to more formal written proceedings.
 * [CLARIN-NL](https://clarin.nl) (2011-2015) -- The CLARIN-NL project is a large national project in the Netherlands (2009-2015) which aims to build a research infrastructure intended for humanities researchers that work with language data and tools. The researcher will be able to find data and tools relevant for his/her research via the CLARIN infrastructure and get access to them.
-* [Oersetter](https://taalweb.frl/oersetter) (2012) -- A Dutch-Frisian Machine translation project in collaboration with the Fryske Akademy
+* [Oersetter](https://taalweb.frl/oersetter) (2012, and again in 2021) -- A Dutch-Frisian Machine translation project in collaboration with the Fryske Akademy
 * [DutchSemCor](http://wordpress.let.vupr.nl/dutchsemcor/) (2009-2011) -- The goal of DutchSemCor was to deliver a one-million word Dutch corpus that is fully sense-tagged with senses and domain
 tags.
 
