@@ -38,6 +38,14 @@ tags.
 
 ## Talks & Demos
 
+* Presentation Video: [CLARIAH Tool Discovery - Quick overview (v2)](https://diode.zone/w/2qes8ULkBT4YTpCuAepC2j) - (2023-03), CLARIAH Tech Day
+* Presentation Video: [CLARIAH Tool Discovery - Quick overview](https://diode.zone/w/d4ZYPGBbcpCDdy5TxgUPjT) - (2022-09), CLARIAH Tech Day
+* Presentation video: [Tool Discovery - A software metadata harvesting pipeline for CLARIAH](https://diode.zone/w/7Urqq1xdqMFDV24CRConXk) - (2022-03), CLARIAH Tech Day
+* Presentation video: [How we work with GitHub in CLARIAH](https://diode.zone/w/unFm8gHMN35eTZD4oHVpgX) - (2022-01), CLARIAH Tech Day
+* Presentation video: [Analiticcl: efficient fuzzy string matching for spelling/post-OCR correction](https://diode.zone/w/kkrqA4MocGwxyC3s68Zsq7) - (2022-01), Golden Agents Colloquium
+* Presentation video: [Distribution and deployment of our Speech Technology Stack](https://diode.zone/w/3SbZ5SrjhmerQrmmMzToRq)  - (2021-07), Stichting Open Spraakherkenning workshop
+* Presentation video: [LaMachine: Distributing and deploying NLP tools for multiple audiences](https://diode.zone/w/2Z1vgareYQ9gStw8jLxtFR) - (2021-06), CLARIAH Tech Day
+* Presentation video: [Alice, Bob and the problem of distributing software - a DevOps tale](https://diode.zone/w/wLFqdbNoaLCUkvdcd8gnVB) - (2021-06), CLARIAH Tech Day
 * Poster: [How High can Frog Leap?](https://proycon.anaproy.nl/pubs/Frog_clin29_v2.pdf) (2019-01), by *Iris Hendrickx, Ko
     van der Sloot, Maarten van Gompel, and Antal van den Bosch*, CLIN29, Groningen
 * Poster: [LaMachine](https://anaproy.nl/proycon/pubs/lamachine_poster.png) (2018-10), with *Iris Hendrickx*, CLARIN
