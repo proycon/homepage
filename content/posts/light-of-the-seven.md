@@ -6,6 +6,7 @@ description = "A piano music video"
 [extra]
 music = true
 youtube = true
+cover = "/img/covers/thumb_light_of_the_seven.jpg"
 +++
 
 # Light of the Seven

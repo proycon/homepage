@@ -6,6 +6,7 @@ description = "A piano music video"
 [extra]
 music = true
 youtube = true
+cover = "/img/covers/thumb_stormwind.jpg"
 +++
 
 # Stormwind

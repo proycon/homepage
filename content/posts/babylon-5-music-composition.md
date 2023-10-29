@@ -6,6 +6,7 @@ description = "A piano music video"
 [extra]
 music = true
 youtube = true
+cover = "/img/covers/thumb_babylon5.jpg"
 +++
 
 # Babylon 5 Music Composition
