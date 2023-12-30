@@ -21,7 +21,7 @@ description = "Language enthusiast, polyglot, linux user, open-source advocate, 
 # Put all your custom variables here
 author = "Maarten van Gompel (proycon)"
 email = "proycon@anaproy.nl"
-year = 2023
+year = 2024
 menu = [
    {url = "/", name = "Home"},
    {url = "/about", name = "About"},
