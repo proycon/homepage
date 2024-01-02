@@ -13,5 +13,5 @@ cover = "/img/covers/thumb_cantoostinato.jpg"
 
 This is my own interpretation of (small part of) Simeon Ten Holt's wonderful composition "Canto Ostinato", famous for its repetitive nature.
 
-{{ youtube(id="Dry_FfqiDdA",autoplay=true) }}
+{{ youtube(id="LflQcp8uC74",autoplay=true) }}
 
