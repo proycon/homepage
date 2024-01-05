@@ -1,5 +1,5 @@
 +++
-title = "Do not Restrict Me! How copy protection (DRM) on e-books harms our freedom and what do do about it"
+title = "Do not Restrict Me! How copy protection (DRM) on e-books harms our freedom and what to do about it"
 date = 2024-01-05T20:39:34+01:00
 description = "In this post I argue against copy protection (DRM) on e-books (and in general) and how it harms interoperability, software freedom, fair use and consumer privacy. I also show that DRM can be broken because the technology is defective by design. I give some pointers for Linux users to allow them to read their own legally acquired e-books with any suitable free open source software."
 
