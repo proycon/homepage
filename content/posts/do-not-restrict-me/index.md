@@ -297,5 +297,7 @@ Management](https://techyoulike.com/is-removing-drm-illegal/)
 
 Adobe, Amazon, Google and all those many others enforcing DRM technology on end-users.
 
+## Comments
 
+You can comment on this post [on the fediverse/mastodon](https://social.anaproy.nl/@proycon/111705057662051402).
 
