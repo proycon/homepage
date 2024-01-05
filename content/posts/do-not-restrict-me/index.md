@@ -1,13 +1,13 @@
 +++
-title = "Do not Restrict Me! E-books and the harm in copy protection (DRM)"
-date = 2024-01-05T18:19:34+01:00
-description = "In this post I argue against copy protection (DRM) on e-books and how it harms interoperability, software freedom, fair use and consumer privacy. I also show that DRM can be broken because the technology is defective by design. I give some pointers for Linux users to allow them to read their own e-books with any suitable free open source software."
+title = "Do not Restrict Me! How copy protection (DRM) on e-books harms our freedom and what do do about it"
+date = 2024-01-05T20:39:34+01:00
+description = "In this post I argue against copy protection (DRM) on e-books (and in general) and how it harms interoperability, software freedom, fair use and consumer privacy. I also show that DRM can be broken because the technology is defective by design. I give some pointers for Linux users to allow them to read their own legally acquired e-books with any suitable free open source software."
 
 [extra]
 cover = "drm-reading.png"
 +++
 
-# Do not Restrict Me! E-books and the harm in copy protection (DRM)
+# Do not Restrict Me! How copy protection (DRM) on e-books harms our freedom and what to do about it
 
 ## Part I: DRM Hell
 
@@ -129,11 +129,13 @@ Likewise, I can't just build an open e-reader software myself, say based on
 which have been [successfully tried on a Kobo Clara
 HD](https://www.youtube.com/watch?v=ByvmEqJvZBU), because it would not be able
 to open anything touched by DRM, making it pretty useless for the average
-consumer.  Or what if I wanted to build a search index to search in the text of
-all the books I own? If it were not for DRM, I could easily build this, but DRM
-makes would make me reliant on third-party proprietary software. Normal
-competition is stifled as the DRM provider act as a gatekeeper that demands the
-user can only access a crippled defective version of the actual product.
+consumer. I'd be very interested in trying if I can get something like this
+working on my Kobo Aura and read my books using our own Sxmo system! Or what if
+I wanted to build a search index to search in the text of all the books I own?
+If it were not for DRM, I could easily build this, but DRM makes would make me
+reliant on third-party proprietary software. Normal competition is stifled as
+the DRM provider act as a gatekeeper that demands the user can only access a
+crippled defective version of the actual product.
 
 ## Part II: Do not Restrict me!
 
@@ -147,7 +149,7 @@ Being aware of the ecosystem I was being locked into, I decided this was a good
 moment to break with it and opt for more freedom and sustainability. I chose a
 Pocketbook e-reader (the PocketBook Inkpad Color 3 to be precise) as this brand
 seems to be one of the few e-readers that isn't as tied to a store as for
-example Amazon Kindles (they are the worst) or Kobo devices are. It's a device
+example Amazon Kindles (they are the worst) or, to lesser extend, Kobo devices are. It's a device
 that can still be fully used without requiring you to log in with some kind of
 cloud account. The exception being of course DRM, the device supports Adobe's
 DRM technology and you need an Adobe ID if you want to be able to read books
