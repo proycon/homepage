@@ -2,6 +2,9 @@
 title = "Do not Restrict Me! E-books and the harm in copy protection (DRM)"
 date = 2024-01-05T18:19:34+01:00
 description = "In this post I argue against copy protection (DRM) on e-books and how it harms interoperability, software freedom, fair use and consumer privacy. I also show that DRM can be broken because the technology is defective by design. I give some pointers for Linux users to allow them to read their own e-books with any suitable free open source software."
+
+[extra]
+cover = "drm-reading.png"
 +++
 
 # Do not Restrict Me! E-books and the harm in copy protection (DRM)
@@ -16,6 +19,8 @@ books, so I've hopped on the e-book bandwagon over a decade ago, I generally
 prefer things to be digital anyway. However, my love for all things digital
 is significantly dampened by the nastiness that is DRM (Digital Rights
 Management), the copy protection that encumbers the majority of e-books nowadays.
+
+![Me in front of my bookcases a few years ago](proybooks.jpg)
 
 I've been using a Kobo Aura e-reader for a long time, Over the years, I have
 bought my fair share of books. Getting them from the Kobo store or the
@@ -34,6 +39,8 @@ etc). DRM encumbered data, however, is not normal digital data, it is encrypted
 data. You can't read it without having the proper key. Now data encryption as
 such is fine and something I'm a big proponent and heavy user of, but it stands
 or falls on who has ownership of the key! Spoiler alert, with DRM it's not you!
+
+![A stack of books with keys on top](books-keys.png)
 
 When it comes to e-books with DRM, books are typically encrypted with a key
 personalized for you, but *you don't own the personalized key to decrypt your
@@ -69,7 +76,7 @@ you're under some form of surveillance, you'll probably be be kicked out if you
 start recording the movie from your smartphone. In the software theatres that
 DRM forces you into, you're under an ever-encroaching kind of surveillance too
 and you are shipped a crippled product that is [defective by
-design](https://wwww.defectivebydesign.org/). The core tenet is: the
+design](https://www.defectivebydesign.org/). The core tenet is: the
 user/consumer can not be trusted and the rights of the producer outweigh the
 rights of the consumer.
 
@@ -104,6 +111,8 @@ our reading habits and media consumption in general is not collected by any one
 or few major players, be it companies or governments. The potential for abuse
 is just too great.
 
+![BramhHall 2018 - New York Daily News](bramhall18-nydw.jpg)
+
 Technologies like DRM, aside from being technically flawed in principle, also provide the
 wrong incentives, they hinder interoperability and lead to the emergence of one
 or a few centralised solutions. Those who control these solutions then sit on a
@@ -127,6 +136,8 @@ competition is stifled as the DRM provider act as a gatekeeper that demands the
 user can only access a crippled defective version of the actual product.
 
 ## Part II: Do not Restrict me!
+
+![Readers against DRM - by RAD! initiative](readers-against-drm.png)
 
 I'm writing all of this because my Kobo reader has been having some
 difficulties lately so I decided to look for a replacement. 
@@ -220,6 +231,8 @@ automatically extract the encryption key from the Adobe Digital Editions
 installation and subsequently decrypt the book. The resulting EPUB will finally
 be a normal one which you can read *anywhere*. 
 
+![All files are provided - DRM Free - without restrictive technologies (Defective by Design, Free Software Foundation)](drm-free.png)
+
 The caveat again is that this a bit tricky to get working since we run Adobe
 Digital Editions in Wine. In the Calibre plugin settings for DeDRM tools, you need to explicitly set
 the wine prefix to `~/.adewine`. Moreover, the DeDRM scripts are written in Python and some of them will
@@ -250,8 +263,37 @@ Demystifying the Legality of Removing Digital Rights
 Management](https://techyoulike.com/is-removing-drm-illegal/).
 
 Last, but not least, I would like to urge the reader to seek out those
-publishers and authors that sell DRM-free books and buy books from them whenever possible. A
-notably one in the Science Fiction genre is [Tor Books](https://www.tor.com/)
-(not to be confused with the Tor Network which is completely unrelated).
-Notable DRM-free stores are [Smashwords](https://smashwords.com) and
-[Lulu](https://www.lulu.com/shop).
+publishers and authors that sell DRM-free books and buy books from them
+whenever possible. A notably one in the Science Fiction genre is [Tor
+Books](https://www.tor.com/) (not to be confused with the Tor Network which is
+completely unrelated). Notable DRM-free stores are
+[Smashwords](https://smashwords.com) and [Lulu](https://www.lulu.com/shop), see
+[Guide to DRM-Free Living:
+Literature](https://www.defectivebydesign.org/guide/ebooks) for more.
+
+## Credits and references
+
+* [Free Software Foundation](https://fsf.org) for their [Defective by Design](https://www.defectivebydesign.org) campaign and the DRM-free imagery.
+  * [Guide to DRM-Free Living: Literature](https://www.defectivebydesign.org/guide/ebooks)
+* [DeDRM-tools](https://github.com/nodrm/DeDRM_tools) by Apprentice Harper, Apprentice Alf, NoDRM, i♥cabbages and many others.
+* Book burning comic by Bill Bramhall, Bramhall's World as published in the New York Daily News (2018): <https://www.nydailynews.com/2018/02/01/bramhall-cartoons-for-january-2018/>
+* [Martijn Braam](https://blog.brixit.nl/) for his work on showing [postmarketOS](https://postmarketos.org) and [sxmo](https://sxmo.org) on the Kobo Clara HD: [video](https://www.youtube.com/watch?v=ByvmEqJvZBU)
+* Willie Howard. TechYouLike. [Is removing DRM illegal? Demystifying the Legality of Removing Digital Rights
+Management](https://techyoulike.com/is-removing-drm-illegal/)
+* [Calibre](https//calibre-ebook.com) - e-book management software
+* [Tor Books](https://www.tor.com/) - DRM-free publisher
+* [Smashwords](https://smashwords.com) - DRM-free store
+* [Openclipart.org](https://openclipart.org):
+  * <https://openclipart.org/detail/320872/woman-reading-in-sunset> from <https://www.publicdomainpictures.net/en/view-image.php?image=264941&picture=reading-read-peacefulwoman-dusk>
+  * <https://openclipart.org/detail/38869/stack-of-paperbacks>
+  * <https://openclipart.org/detail/170514/keys>
+  * <https://openclipart.org/detail/68545/padlock-icon-rounded>
+  * <https://openclipart.org/detail/323509/security-camera>
+
+
+## Discredits
+
+Adobe, Amazon, Google and all those many others enforcing DRM technology on end-users.
+
+
+
