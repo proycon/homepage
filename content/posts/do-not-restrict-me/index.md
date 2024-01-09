@@ -132,9 +132,9 @@ to open anything touched by DRM, making it pretty useless for the average
 consumer. I'd be very interested in trying if I can get something like this
 working on my Kobo Aura and read my books using our own Sxmo system! Or what if
 I wanted to build a search index to search in the text of all the books I own?
-If it were not for DRM, I could easily build this, but DRM makes would make me
+If it were not for DRM, I could easily build this, but DRM makes me
 reliant on third-party proprietary software. Normal competition is stifled as
-the DRM provider act as a gatekeeper that demands the user can only access a
+the DRM provider acts as a gatekeeper that demands the user can only access a
 crippled defective version of the actual product.
 
 ## Part II: Do not Restrict me!
