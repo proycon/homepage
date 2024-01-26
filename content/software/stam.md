@@ -4,7 +4,7 @@ date = 2023-01-01T00:04:34+01:00
 description = "Stand-off Text Annotation Model (STAM) is a data model for stand-off-text annotation where any information on a text is represented as an annotation."
 
 [extra]
-url_code = "https://github.com/proycon/stam"
+url_code = "https://annotation.github.io/stam"
 cover =  "/img/covers/stam.png"
 +++
 
@@ -78,6 +78,8 @@ Goals/characteristics of STAM are:
 The name STAM, an acronym for *"Stand-off Text Annotation Model"*, is Dutch,
 Swedish, Afrikaans and Frisian for *"trunk"* (as in the trunk of a tree), the
 name itself depicts a solid foundation upon which more elaborate solutions can be built.
+
+For more information see [the STAM website](https://annotation.github.io/stam) and/or the implementations below.
 
 ## Implementations
 
