@@ -13,7 +13,7 @@ icon = "fa-language"
 ## UniLang
 
 [UniLang](https://unilang.org) is a online language learning community I
-co-founded in 2000 with Erik Zidowecki (Abavagada), (proycon) and Niels van
+co-founded in 2000 with Erik Zidowecki (Abavagada) and Niels van
 Bellingen (Silvah). This makes us one of the first language communities on the
 world wide web.  Our efforts have been rewarded with a small appearance in a
 BBC World television show and we have been a finalist in the Stockholm
