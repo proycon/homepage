@@ -123,7 +123,7 @@ div.page-content img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
+    max-width: 90%;
 }
 
 a, a:active {
@@ -160,6 +160,11 @@ footer {
   footer div.footer div.logo {
     margin-left: auto;
     margin-right: auto;
+  }
+  div.page-content img.cover {
+      float: right;
+      display: block;
+      height: 160px;
   }
 }
 
@@ -209,6 +214,7 @@ div.subbar ul li {
 main div.page-content iframe {
     width: 800px;
     height: 600px;
+    max-width: 100%;
 }
 
 div.warning {
