@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Computer Modern Sans', sans-serif;
     margin: 0px;
     background-color: white;
     color: black;
@@ -76,7 +76,7 @@ main div.main-index label {
     min-width: 150px;
 }
 main div.datetime {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Computer Modern Typewriter', monospace;
     font-size: 75%;
     color: #666;
 }
@@ -92,7 +92,6 @@ div.main-index ul {
 div.main-index ul a {
     font-size: 120%;
     font-weight: bold;
-    font-variant: small-caps;
 }
 div.main-index ul .fas, div.main-index ul .far {
     display: inline-block;
@@ -146,7 +145,7 @@ header a {
 footer {
     background: #383838;
     color: #ccc;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Computer Modern Typewriter', monospace;
     font-size: 70%;
     padding: 20px;
     display: flex;
@@ -227,13 +226,12 @@ main ul.publications li {
     margin-top: 5px;
 }
 main ul.publications a {
-    font-family: 'Philosopher', sans-serif;
     font-size: 1em;
     font-variant: normal;
     font-weight: bold;
 }
 main ul.publications a.doi {
-    font-family: 'Roboto Mono';
+    font-family: 'Computer Modern Typewriter';
     font-size: 70%;
 }
 div.gallery div.picture {
