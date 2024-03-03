@@ -13,7 +13,7 @@ icon = "fa-briefcase"
 
 ## Affiliations
 
-* *2020-present* - Research software engineer at [KNAW Humanities Cluster](https://huc.knaw.nl)
+* *2020-present* - Research software engineer at [KNAW Humanities Cluster](https://huc.knaw.nl), [Digital Infrastructure](https://di.huc.knaw.nl) department
 * *2012-present* - Research software engineer at the [Centre of Language and Speech Technology, Radboud University, Nijmegen](https://www.ru.nl/clst)
 * *2011-2016* - PhD Candidate at [Radboud University Nijmegen](https://ru.nl)
 * *2009-2011* - Research software engineer at [Tilburg University](https://www.tilburguniversity.edu)
