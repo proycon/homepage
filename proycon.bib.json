@@ -1,10 +1,87 @@
 [
   {
+    "URL": "https://aclanthology.org/2024.lrec-main.184",
+    "abstract": "We describe ongoing work for developing a workflow for the applied use case of classifying diachronic and regional language variation in Pre-Modern Slavic texts. The data were obtained via handwritten text recognition (HTR) on medieval manuscripts and printings and partly by manual transcription. Our goal is to develop a workflow for such historical language data, covering HTR-postprocessing, annotating and classifying the digitized texts. We test and adapt existing language resources to fit the pipeline with low-barrier tooling, accessible for Humanists with limited experience in research data infrastructures, computational analysis or advanced methods of natural language processing (NLP). The workflow starts by addressing ground truth (GT) data creation for diagnosing and correcting HTR errors via string metrics and data-driven methods. On GT and on HTR data, we subsequently show classification results using transfer learning on sentence-level text snippets. Next, we report on our token-level data labeling efforts. Each step of the workflow is complemented with describing current limitations and our corresponding work in progress.",
+    "author": [
+      {
+        "family": "Lendvai",
+        "given": "Piroska"
+      },
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "Maarten"
+      },
+      {
+        "family": "Jouravel",
+        "given": "Anna"
+      },
+      {
+        "family": "Renje",
+        "given": "Elena"
+      },
+      {
+        "family": "Reichel",
+        "given": "Uwe"
+      },
+      {
+        "family": "Rabus",
+        "given": "Achim"
+      },
+      {
+        "family": "Arnold",
+        "given": "Eckhart"
+      }
+    ],
+    "container-title": "Proceedings of the 2024 joint international conference on computational linguistics, language resources and evaluation (LREC-COLING 2024)",
+    "editor": [
+      {
+        "family": "Calzolari",
+        "given": "Nicoletta"
+      },
+      {
+        "family": "Kan",
+        "given": "Min-Yen"
+      },
+      {
+        "family": "Hoste",
+        "given": "Veronique"
+      },
+      {
+        "family": "Lenci",
+        "given": "Alessandro"
+      },
+      {
+        "family": "Sakti",
+        "given": "Sakriani"
+      },
+      {
+        "family": "Xue",
+        "given": "Nianwen"
+      }
+    ],
+    "id": "lendvai-etal-2024-workflow-htr",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "page": "2039-2048",
+    "publisher": "ELRA; ICCL",
+    "publisher-place": "Torino, Italia",
+    "title": "A workflow for HTR-postprocessing, labeling and classifying diachronic and regional variation in pre-Modern Slavic texts",
+    "type": "paper-conference"
+  },
+  {
     "URL": "https://folia.readthedocs.io/en/latest/",
     "author": [
       {
-        "family": "van Gompel",
-        "given": "M."
+        "family": "Gompel",
+        "given": "M.",
+        "non-dropping-particle": "van"
       }
     ],
     "id": "FOLIA19",
@@ -26,8 +103,9 @@
     "URL": "https://clam.readthedocs.io/en/latest/",
     "author": [
       {
-        "family": "van Gompel",
-        "given": "M."
+        "family": "Gompel",
+        "given": "M.",
+        "non-dropping-particle": "van"
       }
     ],
     "id": "CLAM18",
@@ -48,20 +126,23 @@
     "URL": "https://frognlp.readthedocs.io/en/latest/",
     "author": [
       {
-        "family": "van der Sloot",
-        "given": "K."
+        "family": "Sloot",
+        "given": "K.",
+        "non-dropping-particle": "van der"
       },
       {
         "family": "Hendrickx",
         "given": "I."
       },
       {
-        "family": "van Gompel",
-        "given": "M."
+        "family": "Gompel",
+        "given": "M.",
+        "non-dropping-particle": "van"
       },
       {
-        "family": "van den Bosch",
-        "given": "A."
+        "family": "Bosch",
+        "given": "A.",
+        "non-dropping-particle": "van den"
       },
       {
         "family": "Daelemans",
@@ -86,19 +167,22 @@
     "URL": "https://ucto.readthedocs.io/en/latest/",
     "author": [
       {
-        "family": "van Gompel",
-        "given": "M."
+        "family": "Gompel",
+        "given": "M.",
+        "non-dropping-particle": "van"
       },
       {
-        "family": "van der Sloot",
-        "given": "K."
+        "family": "Sloot",
+        "given": "K.",
+        "non-dropping-particle": "van der"
       },
       {
         "family": "I. Hendrickx"
       },
       {
-        "family": "van den Bosch",
-        "given": "A."
+        "family": "Bosch",
+        "given": "A.",
+        "non-dropping-particle": "van den"
       }
     ],
     "id": "UCTO18",
@@ -257,7 +341,7 @@
         "family": "al."
       }
     ],
-    "container-title": "Multiword expressions at length and in depth: Extended papers from the mwe 2017 workshop,",
+    "container-title": "Multiword expressions at length and in depth: Extended papers from the MWE 2017 workshop,",
     "id": "PARSEME",
     "issued": {
       "date-parts": [
@@ -276,7 +360,7 @@
   {
     "ISBN": "9781911529248",
     "URL": "http://www.jstor.org/stable/j.ctv3t5qjk.14",
-    "abstract": "The idea behind the Flemish/Dutch CLARIN project TTNWW¹ (’TST Tools voor het Nederlands als Webservices in een Workflow’, or ‘NLP Tools for Dutch as Web services in a Workflow’) was that many end users of resources and tools offered by CLARIN will not know how to use them, just as they will not know where they are located. With respect to the location, the CLARIN policy is that the Human and Social Sciences (HSS) researcher does not need to know this as the infrastructure will take care of that: the only thing the user needs to do is to indicate",
+    "abstract": "The idea behind the Flemish/Dutch CLARIN project TTNWW¹ (’TST Tools voor het Nederlands als Webservices in een Workflow’, or “NLP Tools for Dutch as Web services in a Workflow”) was that many end users of resources and tools offered by CLARIN will not know how to use them, just as they will not know where they are located. With respect to the location, the CLARIN policy is that the Human and Social Sciences (HSS) researcher does not need to know this as the infrastructure will take care of that: the only thing the user needs to do is to indicate",
     "author": [
       {
         "family": "Kemps-Snijders",
@@ -370,16 +454,18 @@
     "URL": "https://github.com/CLARIAH/software-quality-guidelines/raw/v1.0/softwareguidelines.pdf",
     "author": [
       {
-        "family": "van Gompel",
-        "given": "M."
+        "family": "Gompel",
+        "given": "M.",
+        "non-dropping-particle": "van"
       },
       {
         "family": "Noordzij",
         "given": "J."
       },
       {
-        "family": "de Valk",
-        "given": "R."
+        "family": "Valk",
+        "given": "R.",
+        "non-dropping-particle": "de"
       },
       {
         "family": "Scharnhorst",
@@ -432,12 +518,14 @@
   {
     "author": [
       {
-        "family": "van Gompel",
-        "given": "Maarten"
+        "family": "Gompel",
+        "given": "Maarten",
+        "non-dropping-particle": "van"
       },
       {
-        "family": "van den Bosch",
-        "given": "Antal"
+        "family": "Bosch",
+        "given": "Antal",
+        "non-dropping-particle": "van den"
       }
     ],
     "container-title": "International Journal of Translation",
@@ -736,7 +824,7 @@
     },
     "page": "871-880",
     "publisher": "Association for Computational Linguistics",
-    "title": "Translation assistance by translation of l1 fragments in an l2 context",
+    "title": "Translation assistance by translation of L1 fragments in an L2 context",
     "type": "paper-conference"
   },
   {
@@ -809,7 +897,7 @@
         "given": "M."
       }
     ],
-    "container-title": "Proceedings of coling 2014, the 25th international conference on computational linguistics: System demonstrations",
+    "container-title": "Proceedings of COLING 2014, the 25th international conference on computational linguistics: System demonstrations",
     "id": "CLAMPAPER",
     "issued": {
       "date-parts": [
@@ -821,7 +909,7 @@
     "page": "71-75",
     "publisher": "Dublin City University; Association for Computational Linguistics",
     "publisher-place": "Dublin, Ireland",
-    "title": "CLAM: Quickly deploy nlp command-line tools on the web",
+    "title": "CLAM: Quickly deploy NLP command-line tools on the web",
     "title-short": "CLAM",
     "type": "paper-conference"
   },
@@ -865,7 +953,7 @@
       ]
     },
     "publisher": "Radboud University Nijmegen",
-    "title": "FoLiA: Format for linguistic annotation. Documentation",
+    "title": "FoLiA: Format for linguistic annotation. documentation",
     "title-short": "FoLiA",
     "type": "report"
   },
@@ -896,7 +984,7 @@
         "given": "V."
       }
     ],
-    "container-title": "Proceedings of the 8th international workshop on semantic evaluation (semeval 2014)",
+    "container-title": "Proceedings of the 8th international workshop on semantic evaluation (SemEval 2014)",
     "id": "SEMEVAL2014TASK5",
     "issued": {
       "date-parts": [
@@ -990,7 +1078,7 @@
         "literal": "others"
       }
     ],
-    "container-title": "The linked TEI: Text encoding in the web. 2013 annual conference and members’ meeting of the tei consortium",
+    "container-title": "The linked TEI: Text encoding in the web. 2013 annual conference and members’ meeting of the TEI consortium",
     "id": "CMCTEI",
     "issued": {
       "date-parts": [
@@ -999,8 +1087,8 @@
         ]
       ]
     },
-    "title": "Computer-mediated communication in tei: What lies ahead",
-    "title-short": "Computer-mediated communication in tei",
+    "title": "Computer-mediated communication in TEI: What lies ahead",
+    "title-short": "Computer-mediated communication in TEI",
     "type": "paper-conference"
   },
   {
@@ -1026,7 +1114,7 @@
         ]
       ]
     },
-    "title": "FoLiA: A practical xml format for linguistic annotation - a descriptive and comparative study",
+    "title": "FoLiA: A practical XML format for linguistic annotation - a descriptive and comparative study",
     "title-short": "FoLiA",
     "type": "article-journal",
     "volume": "3"
@@ -1086,7 +1174,7 @@
         "given": "M."
       }
     ],
-    "container-title": "Proceedings of the eighth international conference on language resources and evaluation (lrec)",
+    "container-title": "Proceedings of the eighth international conference on language resources and evaluation (LREC)",
     "id": "SONAR",
     "issued": {
       "date-parts": [
@@ -1095,8 +1183,8 @@
         ]
       ]
     },
-    "title": "Beyond sonar: Towards the facilitation of large corpus building efforts",
-    "title-short": "Beyond sonar",
+    "title": "Beyond SoNaR: Towards the facilitation of large corpus building efforts",
+    "title-short": "Beyond SoNaR",
     "type": "paper-conference",
     "volume": "8"
   },
@@ -1104,16 +1192,19 @@
     "URL": "https://github.com/LanguageMachines/ucto/raw/v0.14.1/docs/ucto_manual.pdf",
     "author": [
       {
-        "family": "van Gompel",
-        "given": "M."
+        "family": "Gompel",
+        "given": "M.",
+        "non-dropping-particle": "van"
       },
       {
-        "family": "van der Sloot",
-        "given": "K."
+        "family": "Sloot",
+        "given": "K.",
+        "non-dropping-particle": "van der"
       },
       {
-        "family": "van den Bosch",
-        "given": "A."
+        "family": "Bosch",
+        "given": "A.",
+        "non-dropping-particle": "van den"
       }
     ],
     "id": "UCTO12",
@@ -1180,8 +1271,9 @@
     "abstract": "This paper describes the Cross-Lingual Word Sense Disambiguation system UvT-WSD1, developed at Tilburg University, for participation in two SemEval-2 tasks: the Cross-Lingual Word Sense Disambiguation task and the Cross-Lingual Lexical Substitution task. The UvT-WSD1 system makes use of k-nearest neighbour classifiers, in the form of single-word experts for each target word to be disam- biguated. These classifiers can be constructed using a variety of local and global context features, and these are mapped onto the translations, i.e. the senses, of the words. The system works for a given language-pair, either English-Dutch or English-Spanish in the current implementation, and takes a word-aligned parallel corpus as its input.",
     "author": [
       {
-        "family": "van Gompel",
-        "given": "M."
+        "family": "Gompel",
+        "given": "M.",
+        "non-dropping-particle": "van"
       }
     ],
     "container-title": "SemEval ’10: Proceedings of the 5th international workshop on semantic evaluation",
@@ -1206,12 +1298,14 @@
     "abstract": "We present a phrase-based extension to memory-based machine translation. This form of example- based machine translation employs lazy-learning classifiers to translate fragments of the source sen- tence to fragments of the target sentence. Source-side fragments consist of variable-length phrases in a local context of neighboring words, translated by the classifier to a target-language phrase. We compare three methods of phrase extraction, and present a new decoder that reassembles the trans- lated fragments into one final translation. Results show that one of the proposed phrase-extraction methods—the one used in Moses—leads to a translation system that outperforms context-sensitive word-based approaches. The differences, however, are small, arguably because the word-based ap- proaches already capture phrasal context implicitly due to their source-side and target-side context sensitivity.",
     "author": [
       {
-        "family": "van Gompel",
-        "given": "M."
+        "family": "Gompel",
+        "given": "M.",
+        "non-dropping-particle": "van"
       },
       {
-        "family": "van den Bosch",
-        "given": "A."
+        "family": "Bosch",
+        "given": "A.",
+        "non-dropping-particle": "van den"
       },
       {
         "family": "Berck",
@@ -1247,8 +1341,9 @@
     "URL": "https://proycon.anaproy.nl/pubs/pbmbmt_thesis.pdf",
     "author": [
       {
-        "family": "van Gompel",
-        "given": "M."
+        "family": "Gompel",
+        "given": "M.",
+        "non-dropping-particle": "van"
       }
     ],
     "genre": "Master’s thesis",
@@ -1263,7 +1358,7 @@
     "number": "HAIT Master Thesis series nr. 09-003",
     "publisher": "Tilburg University",
     "publisher-place": "the Netherlands",
-    "title": "<span class=\"nocase\">Phrase-based Memory-based Machine Translation</span>",
+    "title": "Phrase-based Memory-based Machine Translation",
     "type": "thesis"
   }
 ]
