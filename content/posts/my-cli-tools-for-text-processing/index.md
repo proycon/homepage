@@ -586,4 +586,4 @@ I hope I have been able to convey some of my enthusiasm for the unix
 command-line for text processing and natural language processing. Moreover, I
 hope you find some of my software useful for some of your own projects.
 
-You can publicly comment on this post on the fediverse (e.g. using mastodon).
+You can publicly comment on this post [on the fediverse](https://proycon.anaproy.nl/posts/my-cli-tools-for-text-processing/) (e.g. using mastodon).
