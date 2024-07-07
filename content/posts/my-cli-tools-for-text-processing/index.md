@@ -1,18 +1,18 @@
 +++
-title = "Text processing on the Command Line - my portfolio"
-date = 2024-07-06T22:04:28+02:00
+title = "Text processing on the Command Line - sharing my tools"
+date = 2024-07-07T13:48:28+02:00
 description = "In this article I share my enthusiasm for text processing on the unix command line. First I just list some of the underlying principles and common tools; then I share the various text processing tools I myself have written over the years. Some of the larger tools are accompanied by screencast videos to quickly give you an impression of what they can do."
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["cli","nlp","text processing on the command line","terminal","unix philosophy","linux"]
+tags = ["cli","nlp","text processing on the command line","terminal","unix philosophy","linux","console"]
 categories = []
 
 [extra]
 cover = "myclicover.jpg"
 +++
 
-# Text processing on the command line - my portfolio
+# Text processing on the command line - sharing my tools
 
 ## Introduction
 
@@ -38,12 +38,12 @@ coreutils](https://www.gnu.org/software/coreutils/coreutils.html) and friends,
 by FreeBSD/OpenBSD/NetBSD/macOS itself or by
 [busybox](https://www.busybox.net). All of these are different implementations
 of the same core utilities, but following some standard specification ([POSIX](https://en.wikipedia.org/wiki/POSIX)).
-Even Windows users nowadays have access to such a command-line environment via
-the [WSL](https://learn.microsoft.com/en-us/windows/wsl/), or alternatively via
+Even Windows users have access to such a command-line environment via the
+[WSL](https://learn.microsoft.com/en-us/windows/wsl/), or alternatively via
 [Cygwin](https://cygwin.com/). 
 
 I'll first mention some of these standard unix tools, then some additional tools, and
-finally I'll move on to what is the main subject of this writing: the text
+finally I'll move on to what is the main subject of this writing: [my tools](#my-tools); the text
 processing tools for the command-line which I myself developed (or co-developed) and want to share with you.
 
 ## Basic standard tools
@@ -51,7 +51,7 @@ processing tools for the command-line which I myself developed (or co-developed)
 Out of the box, a unix environment usually gives you text processing tools like:
 
 * `awk` - pattern scanning and processing language 
-* `cat` - print or concatenate text (or `tac` to do it in revefse)
+* `cat` - print or concatenate text (or `tac` to do it in reverse)
 * `cut` -  extract/remove columns from lines
 * `column` - format input into multiple columns
 * `colrm` - remove columns from a file 
@@ -75,19 +75,19 @@ Out of the box, a unix environment usually gives you text processing tools like:
 * `wc` - word count, line count, byte count
 
 They shine when used together. Take the example of having a plain text file,
-and wanting to extract a top 1000 frequency list of the words, all lower-cased.
-All this can be captured in the following one-liner:
+and wanting to extract a top 1000 frequency list of the words in it, all
+lower-cased. All this can be captured in the following one-liner:
 
 ```
 $ sed -E 's/\W+/\n/g' text.txt | tr '[:upper:]' '[:lower:]' | tr -s '\n' | sort | uniq -c | sort -rn | head -n 1000
 ```
 
-A deep analysis of the many possibilities of these common unix tools for text
+An analysis of the many possibilities of these common unix tools for text
 processing and data analysis is well out of scope for this writing. I do not
 intend to write a tutorial here. If you are interested in such a thing, I can warmly
 recommend the O'Reilly book [Data Science at the Command
 Line](https://jeroenjanssens.com/dsatcl/) by Jeroen Janssens, freely accessible
-on-line. It also covers some of the tools I mention in the next section.
+on-line. It also covers some of the tools I mention in the next section, and more.
 
 ## Common additional tools
 
@@ -116,15 +116,15 @@ When it comes to conversion of texts, I recommend the following:
 * `iconv` - convert plain text from one character encoding to another. Written in C.
 * `uconv` from [icu](https://icu.unicode.org/) - convert plain text from one character encoding to another. Written in C.
 
-To combine these and all kinds of other data processing tools and combine them
-into larger pipelines, the most basic solution is to write a shell script.
-Alternatively, a `Makefile` that builds targets using
+To combine these and all kinds of other data processing tools into larger
+automated pipelines, the most basic solution is to write a shell script.
+Alternatively, you can write a `Makefile` that builds targets using
 [`make`](https://www.gnu.org/software/make/). The latter also offers a certain
 degree of parallelisation using the `-j` parameter. Another useful tool to
 consider for parallelisation is
 [`parallel`](https://www.gnu.org/software/parallel/) and/or `xargs` with the
-`-P` parameter. The latter, `xargs`, is also a basic standard tool useful when building
-sequential pipelines.
+`-P` parameter. The latter, `xargs`, is also a basic standard tool useful when
+building sequential pipelines.
 
 Remembering how to invoke all these command line tools may be rather daunting,
 and nobody expects you to remember everything anyway. Of course, a manual page
@@ -164,9 +164,9 @@ forbid, even Java, it can all be readily mixed. Just by virtue of having a
 command line interface and reading either from file or standard input, and
 outputting to file or standard output. Committing yourself to a higher-level
 language, on the other hand, adds an extra layer, often in the form of a
-high-level language interpreter or compiler which has its own overhead and
-limits certain choices. This has both benefits and drawbacks. The trade-off is
-often between diversity and uniformity.
+high-level language interpreter which has its own overhead and limits certain
+choices. This has both benefits and drawbacks. The trade-off is often between
+diversity and uniformity.
 
 This is not a question of one method being inherently superior to the other, it
 all depends on your use case, the complexity thereof, the technologies you and
@@ -179,10 +179,10 @@ buttons in GUIs.
 ## My tools
 
 In this writing, I would like to introduce some of the tools I wrote over the
-years for text processing, often in line of my work. These tools are largely
-specialised in doing one thing, and doing it well, as per the unix philosophy.
-As the years go by, I'm more and more drawn to *simpler* solutions, where
-*simple* entails:
+years for text processing, often in line of my work. As mentioned in the
+introduction, these tools are largely specialised in doing one thing, and doing
+it well, as per the unix philosophy. As the years go by, I'm more and more
+drawn to *simpler* solutions, where *simple* entails:
 
 * keeping the scope of a tool limited, constraining the amount of features
 * keeping a codebase maintainable by not letting it grow too large
@@ -194,9 +194,10 @@ compiles to highly performant native code on a variety of platforms and
 processor architectures. It offers important safety guarantees that prevents a
 whole range of common memory bugs that are prevalent in other system's
 programming languages as C and C++. You will therefore find a lot of my tools
-being written in Rust, often with a Python binding on top for accessibility
-from Python. All software I write is free open source software available,
-almost always under the GNU General Public License v3.
+are written in Rust, often with a Python binding on top for accessibility for
+researchers and developers from Python. All software I write is free open
+source software available, almost always under the GNU General Public License
+v3.
 
 I will be listing the tools in approximate order from simpler to more complex tools:
 
@@ -209,7 +210,8 @@ I will be listing the tools in approximate order from simpler to more complex to
 
 The above tools were all fairly small, now we're moving on to bigger software
 projects, mostly developed in the scope of my work at the KNAW Humanities
-Cluster and Radboud University Nijmegen:
+Cluster and Radboud University Nijmegen, often under the umbrella of the
+CLARIN-NL and CLARIAH projects.
 
 * [`stam`](#stam) - Toolkit for stand-off annotation on text
 * [`ucto`](#ucto) - Unicode tokeniser
@@ -223,16 +225,18 @@ Last, a small tool that is a bit of an odd-one-out in this list, but which I wan
 
 * [`vocage`](#vocage) - Vocabulary training with flashcards (spaced-repetition system aka Leitner)
 
-I'll briefly discuss each of the mentioned programs.
+I'll briefly discuss each of the mentioned programs. Click the above links to quickly jump to the relevant section.
 
 ### charfreq
 
-[charfreq](https://github.com/proycon/charfreq/) is a very simple tiny CLI tool that just computes (unicode) character frequencies from text received via standard input. Written in Rust.
+`charfreq` is a very simple tiny CLI tool that just computes (unicode) character frequencies from text received via standard input. Written in Rust.
+
+You can find `charfreq` on [Sourcehut](https://git.sr.ht/~proycon/charfreq) or [Github](https://github.com/proycon/charfreq/).
 
 ### hyphertool
 
-[hyphertool](https://github.com/proycon/hyphertool) does hyphenation and builds upon the third party
-[hyper](https://github.com/typst/hypher) library, which in turn uses rules from
+`hyphertool` does hyphenation and builds upon the third party
+[hypher](https://github.com/typst/hypher) library, which in turn uses rules from
 the TeX hyphenation library. It is written in Rust.
 
 ```
@@ -273,14 +277,17 @@ sul	94	97
 taat	97	101
 ```
 
-See [the hyphertool source repository](https://github.com/proycon/hyphertool) for more information. 
+For more information, see `hyphertool` on
+[Sourcehut](https://git.sr.ht/~proycon/hyphertool),
+[Github](https://github.com/proycon/hyphertool/) or
+[Crates.io](https://crates.io/crates/hyphertool).
 
 ### ssam
 
-I wrote [ssam](https://github.com/proycon/ssam), short for Split sampler, is a
+I wrote [ssam](https://github.com/proycon/ssam), short for Split sampler, as a
 simple program that splits one or more text-based input files into multiple sets using
 random sampling. This is useful for splitting data into a training, test and
-development sets, or whatever sets you desire. 
+development sets, or whatever sets you desire. This software was written in Rust.
 
 It works nicely with multiple files when entries one the same lines correspond
 (such as sentence-aligned parallel corpora). Suppose you a `sentences.txt` and a `sätze.txt` with the same
@@ -290,17 +297,21 @@ and contain translations). You can then make a dependent split as follows:
 $ ssam --shuffle --sizes "0.1,0.1,*" --names "test,dev,train" sentences.txt sätze.txt
 ```
 
-This software was written in Rust, see the [ssam source repository for more](https://github.com/proycon/ssam) information.
+For more information, see `ssam` on
+[Sourcehut](https://git.sr.ht/~proycon/ssam),
+[Github](https://github.com/proycon/ssam/) or
+[Crates.io](https://crates.io/crates/ssam).
+
 
 ### sesdiff
 
-[sesdiff](https://github.com/proycon/sesdiff) is a small and fast command-line
-tool and Rust library that reads a two-column tab separated input from standard
-input and computes the shortest edit script (Myers' diff algorithm) to go from
-the string in column A to the string in column B. In other words, it computes
-*how strings difer*. It also computes the edit distance (aka levenshtein
-distance). It builds upon the [dissimilar](https://crates.io/crates/dissimilar)
-library by David Tolnay for the bulk of the computations.
+`sesdiff` is a small and fast command-line tool and Rust library that reads a
+two-column tab separated input from standard input and computes the shortest
+edit script (Myers' diff algorithm) to go from the string in column A to the
+string in column B. In other words, it computes *how strings difer*. It also
+computes the edit distance (aka levenshtein distance). It builds upon the
+[dissimilar](https://crates.io/crates/dissimilar) library by David Tolnay for
+the bulk of the computations.
 
 ```
 $ sesdiff < input.tsv
@@ -317,17 +328,20 @@ It can also do the reverse, given a word and a edit recipe, compute the other st
 
 It was initially designed to compute training data for a lemmatiser.
 
-See the [sesdiff source repository](https://github.com/proycon/sesdiff) for more. 
+For more information, see `sesdiff` on
+[Sourcehut](https://git.sr.ht/~proycon/sesdiff),
+[Github](https://github.com/proycon/sesdiff/) or
+[Crates.io](https://crates.io/crates/sesdiff).
 
 ### lingua-cli
 
-[lingua-cli](https://github.com/proycon/lingua-cli) is a command-line
-tool for **language detection**. Given a text, it will predict what language a text
-is in. It supports many languages. It can also predict per line of the input,
-as the underlying algorithm is particularly suited to deal with shorter text,
-or it can actively search the text for languages and return offsets. This program
-is a mostly a wrapper around the [lingua-rs](lingua-rs) library by Peter M.
-Stahl. It is written in Rust. The 3rd party library is also available for
+`lingua-cli` is a command-line tool for **language detection**. Given a text,
+it will predict what language a text is in. It supports many languages. It can
+also predict per line of the input, as the underlying algorithm is particularly
+suited to deal with shorter text, or it can actively search the text for
+languages and return offsets. This program is a mostly a wrapper around the
+[lingua-rs](lingua-rs) library by Peter M. Stahl. It is written in Rust. The
+3rd party library is also available for
 [python](https://github.com/pemistahl/lingua-py),
 [go](https://github.com/pemistahl/lingua-go), and [Javascript via
 WASM](https://github.com/pemistahl/lingua-js).
@@ -349,11 +363,14 @@ $ lingua-cli --multi --languages fr,de,en < /tmp/test.txt
 73      110     en      A little bit is better than nothing.
 ```
 
-See [lingua-cli source repository](https://github.com/proycon/lingua-cli) for more. 
+For more information, see `lingua-cli` on
+[Sourcehut](https://git.sr.ht/~proycon/lingua-cli),
+[Github](https://github.com/proycon/lingua-cli/) or
+[Crates.io](https://crates.io/crates/lingua-cli).
 
 ### lexmatch
 
-[lexmatch](https://github.com/proycon/lexmatch) is a simple lexicon matching tool that, given a lexicon of words or
+`lexmatch` is a simple lexicon matching tool that, given a lexicon of words or
 phrases, identifies all matches in a given target text, returning their exact
 positions. It can be used compute a frequency list for a lexicon, on a target
 corpus. The implementation uses either suffix arrays or hash tables. The
@@ -394,8 +411,11 @@ bad     3315    3318
 bad     3488    3491
 ```
 
-See [the lexmatch source repository](https://github.com/proycon/lexmatch) for more information. 
 
+For more information, see `lexmatch` on
+[Sourcehut](https://git.sr.ht/~proycon/lexmatch),
+[Github](https://github.com/proycon/lexmatch) or
+[Crates.io](https://crates.io/crates/lexmatch).
 
 ### stam
 
@@ -449,8 +469,8 @@ has a long history containing various components that are also made possible by
 Walter Daelemans, Jakub Zavrel, Sabine Buchholz, Sander Canisius, Gert Durieux
 and Peter Berck.
 
-Though parts of the Frog have been superseded by more recent developments in
-NLP, it is still a useful tool in many use-cases.
+Though parts of the Frog have been superseded by more recent advancements in
+NLP, it is still a useful tool in many use-cases:
 
 [![Frog demo](frogvideothumbnail.jpg)](https://github.com/CLARIAH/wp3-demos/blob/master/frog.gif)
 
@@ -551,12 +571,14 @@ which means it shows cards (e.g. words) you know well less frequently than cards
 The difference with more common software like [Anki](https://apps.ankiweb.net/)
 is that vocage is fully terminal-based, has vim keybindings, and it stores its
 data in a simple TSV format (both the wordlists as well as the learning
-progress).
+progress go in the same TSV file).
 
-For more information visit vocage on [Sourcehut](https://git.sr.ht/~proycon/vocage) or
-[GitHub](https://github.com/proycon/vocage/).
+It was featured in a [video by Brodie Robertson](https://www.youtube.com/watch?v=NoilS3nbxs4&pp=ygUGdm9jYWdl) in 2021.
 
-It was featured in a [video by Brodie Robinson](https://www.youtube.com/watch?v=NoilS3nbxs4&pp=ygUGdm9jYWdl) in 2021.
+For more information, see `vocage` on
+[Sourcehut](https://git.sr.ht/~proycon/vocage),
+[Github](https://github.com/proycon/vocage) or
+[Crates.io](https://crates.io/crates/vocage).
 
 ### Conclusion
 
