@@ -438,7 +438,7 @@ Each can be accessed through the executable `stam` and a subcommand. I mention j
 
 A demo video is available that demonstrates all these and more:
 
-[![STAM demo](stamvideothumbnail.jpg)](https://annotation.github.io/assets/stam.webm)
+[![STAM demo](stamvideothumbnail.jpg)](https://annotation.github.io/stam/assets/stam.webm)
 
 See [STAM](https://annotation.github.io/stam) for more information about the
 data model and the general project, and
