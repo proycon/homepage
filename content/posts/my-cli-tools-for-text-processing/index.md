@@ -340,7 +340,7 @@ it will predict what language a text is in. It supports many languages. It can
 also predict per line of the input, as the underlying algorithm is particularly
 suited to deal with shorter text, or it can actively search the text for
 languages and return offsets. This program is a mostly a wrapper around the
-[lingua-rs](lingua-rs) library by Peter M. Stahl. It is written in Rust. The
+[lingua-rs](https://github.com/pemistahl/lingua-rs) library by Peter M. Stahl. It is written in Rust. The
 3rd party library is also available for
 [python](https://github.com/pemistahl/lingua-py),
 [go](https://github.com/pemistahl/lingua-go), and [Javascript via
