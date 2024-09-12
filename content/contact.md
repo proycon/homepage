@@ -1,7 +1,7 @@
 +++
 
 title = "Contact"
-description = "Contact information"
+description = "Contact information. Feel free to contact me if it's not an ad/spam."
 template = "contact.html"
 
 # Order that this section will appear in.

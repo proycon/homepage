@@ -3,7 +3,7 @@ title = "Proycon's Homepage"
 sort_by = "weight"
 
 [extra]
-closing = "Feel free to contact me (unless you're selling something), you can find all my contact details in the footer below."
+closing = ""
 +++
 
 *Hello! Hallo! ¡Hola! Olá! Salut! Ciao! Saluton! Привет! 大家好！ السلام عليكم*
