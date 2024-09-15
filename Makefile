@@ -1,4 +1,4 @@
-.PHONY: serve deploy big
+.PHONY: serve deploy bib
 
 serve:
 	zola serve
