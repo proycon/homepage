@@ -67,7 +67,7 @@ git commit
 ret=$?
 if [ $ret -eq 0 ]; then
     cd $BASEDIR
-    ./deploy.sh
+    make deploy
 fi
 cd $OLDDIR
 
