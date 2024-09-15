@@ -43,7 +43,7 @@ networks = [
     {name = "GnuPG Key", url = "/key.asc", value="39FE11201A31555C", icon_pack="fas", icon="fa-key", profile=false, contactable=false},
     {name = "Keyoxide", url = "https://keyoxide.org/8AC624881EF2AC30C0E68E2C39FE11201A31555C", value = "39FE11201A31555C", icon_pack="fas", icon="fa-key", profile=true, contactable=false},
     {name = "SSH Key", url = "/id_ed25519.pub", value="AAAAC3N...Xlbf1U", icon_pack="fas", icon="fa-key", profile=false, contactable=false},
-    {name = "Fediverse (Mastodon)", url = "https://social.anaproy.nl/@proycon", value = "@proycon@social.anaproy.nl", icon_pack="extra-icons", icon="extra-fediverse", profile=true, contactable=true},
+    {name = "Mastodon (Fediverse)", url = "https://social.anaproy.nl/@proycon", value = "@proycon@social.anaproy.nl", icon_pack="extra-icons", icon="extra-fediverse", profile=true, contactable=true},
     {name = "Matrix", url = "https://matrix.to/#/@proycon:matrix.anaproy.nl", value="@proycon:matrix.anaproy.nl", icon_pack="fas", icon="fa-comments", profile=true, contactable=true},
     {name = "XMPP", url = "xmpp:proycon@anaproy.nl", value="proycon@anaproy.nl", icon_pack="fas", icon="fa-comments", profile=false, contactable=true},
     {name = "IRC (Libera)", url = "irc://irc.libera.chat/proycon", value="proycon on Libera.chat", icon_pack="fas", icon="fa-comments", profile=false, contactable=true},
@@ -53,6 +53,7 @@ networks = [
     {name = "Sourcehut", url = "https://git.sr.ht/~proycon", value = "proycon", icon_pack="fab", icon="fa-git", profile=true, contactable=false},
     {name = "GitHub", url = "https://github.com/proycon", value = "proycon", icon_pack="fab", icon="fa-github", profile=true, contactable=false},
     {name = "ORCID", url = "https://orcid.org/0000-0002-1046-0006", value = "0000-0002-1046-0006", icon_pack="fab", icon="fa-orcid", profile=true, contactable=false},
+    {name = "Bookwyrm (Fediverse)", url = "https://bookwyrm.social/user/proycon", value = "@proycon@diode.zone", icon_pack="fas", icon="fa-book", profile=true, contactable=true},
     {name = "Bitcoin", url = "bitcoin:1BRptZsKQtqRGSZ5qKbX2azbfiygHxJPsd", value="1BRptZsKQtqRGSZ5qKbX2azbfiygHxJPsd", icon_pack="fab", icon="fa-btc", profile=false, contactable=false},
 ]
 
