@@ -6,5 +6,5 @@ cp auth* public/
 cp key.asc public/
 cp proycon.vcf public/
 cp id_ed25519.pub public/
-rsync -avz --delete public/ worker.anaproy.lxd:/home/www/proycon.anaproy.nl/html
+rsync -avz --delete public/ anaproy.nl:/home/www/proycon.anaproy.nl/html
 exit $?
