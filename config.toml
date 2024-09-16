@@ -10,7 +10,7 @@ build_search_index = false
 
 generate_feeds = true
 feed_filenames = ["rss.xml"] #old one was index.xml, ensure redirect is present!
-
+config
 title = "Proycon's website"
 description = "Language enthusiast, polyglot, linux user, open-source advocate, programmer, computational linguist, amateur pianist, gay"
 
@@ -43,7 +43,7 @@ networks = [
     {name = "GnuPG Key", url = "/key.asc", value="39FE11201A31555C", icon_pack="fas", icon="fa-key", profile=false, contactable=false},
     {name = "Keyoxide", url = "https://keyoxide.org/8AC624881EF2AC30C0E68E2C39FE11201A31555C", value = "39FE11201A31555C", icon_pack="fas", icon="fa-key", profile=true, contactable=false},
     {name = "SSH Key", url = "/id_ed25519.pub", value="AAAAC3N...Xlbf1U", icon_pack="fas", icon="fa-key", profile=false, contactable=false},
-    {name = "Mastodon (Fediverse)", url = "https://social.anaproy.nl/@proycon", value = "@proycon@social.anaproy.nl", icon_pack="extra-icons", icon="extra-fediverse", profile=true, contactable=true},
+    {name = "Mastodon (Fediverse)", url = "https://social.anaproy.nl/@proycon", value = "@proycon@social.anaproy.nl", icon_pack="fab", icon="fa-mastodon", profile=true, contactable=true},
     {name = "Matrix", url = "https://matrix.to/#/@proycon:matrix.anaproy.nl", value="@proycon:matrix.anaproy.nl", icon_pack="fas", icon="fa-comments", profile=true, contactable=true},
     {name = "XMPP", url = "xmpp:proycon@anaproy.nl", value="proycon@anaproy.nl", icon_pack="fas", icon="fa-comments", profile=false, contactable=true},
     {name = "IRC (Libera)", url = "irc://irc.libera.chat/proycon", value="proycon on Libera.chat", icon_pack="fas", icon="fa-comments", profile=false, contactable=true},
