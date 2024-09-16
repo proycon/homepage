@@ -10,7 +10,6 @@ build_search_index = false
 
 generate_feeds = true
 feed_filenames = ["rss.xml"] #old one was index.xml, ensure redirect is present!
-config
 title = "Proycon's website"
 description = "Language enthusiast, polyglot, linux user, open-source advocate, programmer, computational linguist, amateur pianist, gay"
 
