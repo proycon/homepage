@@ -54,6 +54,7 @@ networks = [
     {name = "GitHub", url = "https://github.com/proycon", value = "proycon", icon_pack="fab", icon="fa-github", profile=true, contactable=false},
     {name = "ORCID", url = "https://orcid.org/0000-0002-1046-0006", value = "0000-0002-1046-0006", icon_pack="fab", icon="fa-orcid", profile=true, contactable=false},
     {name = "Bookwyrm (Fediverse)", url = "https://bookwyrm.social/user/proycon", value = "@proycon@bookwyrm.social", icon_pack="fas", icon="fa-book", profile=true, contactable=true},
+    {name = "PeerTube (Fediverse)", url = "https://video.anaproy.nl/a/proycon/video-channels", value = "@proycon@video.anaproy.nl", icon_pack="fas", icon="fa-video", profile=true, contactable=true},
     {name = "Bitcoin", url = "bitcoin:1BRptZsKQtqRGSZ5qKbX2azbfiygHxJPsd", value="1BRptZsKQtqRGSZ5qKbX2azbfiygHxJPsd", icon_pack="fab", icon="fa-btc", profile=false, contactable=false},
 ]
 
