@@ -29,7 +29,7 @@ for improved anagram hashing. We aim at a high-performant implementation
 Aside from reading [the
 documentation](https://github.com/proycon/analiticcl/blob/master/README.md),
 you can also view an in-depth [presentation
-video](https://diode.zone/w/kkrqA4MocGwxyC3s68Zsq7) that was presented at the
+video](https://video.anaproy.nl/w/rBeL5KEGdag1N2KVb8JkTe) that was presented at the
 KNAW Humanities Cluster in January 2022.
 
 ## Demo

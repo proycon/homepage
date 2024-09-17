@@ -28,7 +28,7 @@ This harvester can be used for two purposes:
 
 ## Presentation
 
-A presentation recorded presentation about the whole tool discovery pipeline, developed in the scope of the CLARIAH project, is available [here](https://diode.zone/w/2qes8ULkBT4YTpCuAepC2j).
+A presentation recorded presentation about the whole tool discovery pipeline, developed in the scope of the CLARIAH project, is available [here](https://video.anaproy.nl/w/tKbjBLjtNvLZ11TsL9YHdu).
 
 
 
