@@ -5,7 +5,6 @@ description = "A piano music video"
 
 [extra]
 music = true
-youtube = true
 cover = "/img/covers/thumb_starwars.jpg"
 +++
 
@@ -13,5 +12,5 @@ cover = "/img/covers/thumb_starwars.jpg"
 
 This is my Star Wars Composition, consisting of my interpretation of various medleys that appear throughout the eight Star Wars movies.
 
-{{ youtube(id="4ha-VQbE69Y",autoplay=true) }}
+{{ peertube(id="dd6e4d85-3697-48b0-a0db-a380540a58f0") }}
 

@@ -5,7 +5,6 @@ description = "A piano music video"
 
 [extra]
 music = true
-youtube = true
 cover = "/img/covers/thumb_babylon5.jpg"
 +++
 
@@ -15,5 +14,4 @@ I am a big Babylon 5 fan and a while ago I already posted a Music Composition. N
 
 Note that this is my personal interpretation, derived from simply listening to the various theme songs, and it may differ from the actual music. For the same reason I do not have any kind of sheet music available whatsoever.
 
-{{ youtube(id="Q93ZOKVs_BI",autoplay=true) }}
-
+{{ peertube(id="04e06164-9a27-4fec-b708-e1c4144c1e8c") }}

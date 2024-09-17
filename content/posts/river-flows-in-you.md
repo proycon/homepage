@@ -5,12 +5,11 @@ description = "A piano music video"
 
 [extra]
 music = true
-youtube = true
 +++
 
 # River flows in you
 
 This is River flows in you, by Yiruma, played on my new piano !!! As always, my interpretation may vary from the original
 
-{{ youtube(id="1e8Y5zkQGhw",autoplay="true") }}
+{{ peertube(id="730ec682-af3c-4347-8c66-d37b8b279c02") }}
 

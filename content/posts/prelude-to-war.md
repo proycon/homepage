@@ -5,7 +5,6 @@ description = "A piano music video"
 
 [extra]
 music = true
-youtube = true
 cover = "/img/covers/thumb_prelude_to_war.jpg"
 +++
 
@@ -13,5 +12,5 @@ cover = "/img/covers/thumb_prelude_to_war.jpg"
 
 My version of epic piece Prelude to War from Battlestar Galactica, composed by Bear McCreary. My version may differ a bit from the original, and it has some mistakes.
 
-{{ youtube(id="4qcwNrhoXZM",autoplay=true) }}
+{{ peertube(id="1da787c5-f86f-4fa3-b645-6fbe26809aa9") }}
 

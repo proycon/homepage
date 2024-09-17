@@ -5,12 +5,11 @@ description = "A piano music video"
 
 [extra]
 music = true
-youtube = true
 +++
 
 # Mhysa
 
 Here I play the epic music "Mhysa" (mother) from the season 3 finale of Game of Thrones.
 
-{{ youtube(id="26SbHoJIyH8",autoplay=true) }}
+{{ peertube(id="b8fd3a99-ec88-4fca-83d4-66510f02c8c5") }}
 

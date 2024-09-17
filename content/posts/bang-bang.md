@@ -6,7 +6,6 @@ lang = "it"
 
 [extra]
 music = true
-youtube = true
 +++
 
 # Bang Bang - Dalida
@@ -15,5 +14,5 @@ Ecco la mia interpretazione della bella canzone "Bang bang" di Dalida (ma origin
 
 Voici ma intérprétation de la belle chanson "Bang bang" de Dalida (mais originalment de Cher), comme vu aussi dans le film "Les amours imaginaires"
 
-{{ youtube(id="DwkPcMSTzy8",autoplay=true) }}
+{{ peertube(id="c90d6696-ed07-4929-a46b-119636d79a16") }}
 

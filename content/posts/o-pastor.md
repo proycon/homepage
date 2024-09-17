@@ -5,12 +5,11 @@ description = "A piano music video"
 
 [extra]
 music = true
-youtube = true
 +++
 
 # Madredeus - O Pastor
 
 Há 8 anos gravei "O Pastor" de Madredeus no meu piano eletrônico, e fica um dos videos mais vistos do meu canal. Hoje em dia possuo um piano melhor e tento regravar a minha canção preferida de Madredeus com uma qualidade melhor. A interpretação é minha e pode ser distinto do original. O microfone é Samson C01U Pro. Partitura disso eu não tenho.
 
-{{ youtube(id="Q6JkO1C9NqE",autoplay="true") }}
+{{ peertube(id="d4ec2f6e-2688-41ca-b615-27e01153a6f8") }}
 

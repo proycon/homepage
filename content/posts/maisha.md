@@ -5,7 +5,6 @@ description = "A piano music video"
 
 [extra]
 music = true
-youtube = true
 cover = "/img/covers/thumb_maisha.jpg"
 +++
 
@@ -13,5 +12,5 @@ cover = "/img/covers/thumb_maisha.jpg"
 
 This is my interpretation on piano of the wonderful song Maisha, of the Idan Raichel project. One of the many fantastic songs he made. The original is with Swahili vocals, but my version is instrumental only (I'm a very bad singer unfortunately :) ). The original version can be found [here](https://www.youtube.com/watch?v=-j9bpSQNYw4), with English and Polish subtitles:  . As always, my interpretation may vary from the original, and no, I don't have any score.
 
-{{ youtube(id="8jfrfrZHfCc",autoplay=true) }}
+{{ peertube(id="47cd9191-e7c3-4727-b90a-f216ad8dbef3") }}
 

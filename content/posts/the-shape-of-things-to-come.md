@@ -5,12 +5,11 @@ description = "A piano music video"
 
 [extra]
 music = true
-youtube = true
 +++
 
 # The Shape of Things to Come
 
 From Battlestar Galactica, Composed by Bear McCreary. My performance is a bit sloppy here and there but I didn't want to do it over again ;)
 
-{{ youtube(id="Of8TGz8L-uE",autoplay=true) }}
+{{ peertube(id="9709eb58-6034-4047-88ee-3b62df2b3283") }}
 

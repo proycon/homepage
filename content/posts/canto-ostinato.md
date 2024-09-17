@@ -5,7 +5,6 @@ description = "A piano music video"
 
 [extra]
 music = true
-youtube = true
 cover = "/img/covers/thumb_cantoostinato.jpg"
 +++
 
@@ -13,5 +12,5 @@ cover = "/img/covers/thumb_cantoostinato.jpg"
 
 This is my own interpretation of (small part of) Simeon Ten Holt's wonderful composition "Canto Ostinato", famous for its repetitive nature.
 
-{{ youtube(id="LflQcp8uC74",autoplay=true) }}
+{{ peertube(id="f9b1a162-8974-4f1d-82b0-6f2cd89ad331") }}
 

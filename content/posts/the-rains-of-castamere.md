@@ -5,12 +5,11 @@ description = "A piano music video"
 
 [extra]
 music = true
-youtube = true
 +++
 
 # The Rains of Castamere
 
 Here I play "The rains of Castamere" from Game of Thrones. My interpretation may differ from the original and the sound quality is not that great. Disclaimer: Nobody died during the making of this video.
 
-{{  youtube(id="QqLtYsXiOVk",autoplay=true) }}
+{{  peertube(id="6d708ea1-edbb-4e90-beee-2adddf6b56d1") }}
 
