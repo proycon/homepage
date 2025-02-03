@@ -22,8 +22,8 @@ We can also arrange a video conference if you want, please contact me via e-mail
 
 **Technical note:** I strongly believe in using open and decentralised technologies for
 communication, so I do not use Instagram, Twitter/X, Facebook, WhatsApp,
-WeChat/微信, etc... Signal and Telegram are the only concessions in this list,
-and are not the preferred option. You can import my [🔑 GnuPG key](/key.asc) for
+WeChat/微信, etc... Telegram is the only concession in this list and is not the preferred option.
+You can import my [🔑 GnuPG key](/key.asc) for
 end-to-end encryption via mail. You can also import all my contact details at
 once (e.g. into your smartphone) via my [📇 vCard](http://127.0.0.1:1111/proycon.vcf).
 
