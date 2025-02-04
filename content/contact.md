@@ -25,6 +25,6 @@ communication, so I do not use Instagram, Twitter/X, Facebook, WhatsApp,
 WeChat/微信, etc... Telegram is the only concession in this list and is not the preferred option.
 You can import my [🔑 GnuPG key](/key.asc) for
 end-to-end encryption via mail. You can also import all my contact details at
-once (e.g. into your smartphone) via my [📇 vCard](http://127.0.0.1:1111/proycon.vcf).
+once (e.g. into your smartphone) via my [📇 vCard](/proycon.vcf).
 
 Feel free to write in any of the languages I can speak! (🇳🇱 Nederlands,  🇬🇧English,  🇪🇸 Español, 🇧🇷 Português, 🇫🇷 Français, 🇩🇪 Deutsch, Esperanto, 🇮🇹 Italiano, 🇷🇺 Русский, 🇨🇳 汉语)
