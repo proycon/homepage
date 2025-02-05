@@ -252,3 +252,11 @@ div.gallery div.picture div.datetime {
 blockquote {
     color: green;
 }
+div.qr {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+div.qr img {
+  display: inline;
+}
