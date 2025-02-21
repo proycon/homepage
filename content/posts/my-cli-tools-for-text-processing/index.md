@@ -278,6 +278,7 @@ taat	97	101
 ```
 
 For more information, see `hyphertool` on
+[Codeberg](https://codeberg.com/proycon/hyphertool),
 [Sourcehut](https://git.sr.ht/~proycon/hyphertool),
 [Github](https://github.com/proycon/hyphertool/) or
 [Crates.io](https://crates.io/crates/hyphertool).
@@ -298,6 +299,7 @@ $ ssam --shuffle --sizes "0.1,0.1,*" --names "test,dev,train" sentences.txt sät
 ```
 
 For more information, see `ssam` on
+[Codeberg](https://codeberg.org/proycon/ssam),
 [Sourcehut](https://git.sr.ht/~proycon/ssam),
 [Github](https://github.com/proycon/ssam/) or
 [Crates.io](https://crates.io/crates/ssam).
@@ -329,6 +331,7 @@ It can also do the reverse, given a word and a edit recipe, compute the other st
 It was initially designed to compute training data for a lemmatiser.
 
 For more information, see `sesdiff` on
+[Codeberg](https://codeberg.org/proycon/sesdiff),
 [Sourcehut](https://git.sr.ht/~proycon/sesdiff),
 [Github](https://github.com/proycon/sesdiff/) or
 [Crates.io](https://crates.io/crates/sesdiff).
@@ -364,6 +367,7 @@ $ lingua-cli --multi --languages fr,de,en < /tmp/test.txt
 ```
 
 For more information, see `lingua-cli` on
+[Codeberg](https://codeberg.com/proycon/lingua-cli),
 [Sourcehut](https://git.sr.ht/~proycon/lingua-cli),
 [Github](https://github.com/proycon/lingua-cli/) or
 [Crates.io](https://crates.io/crates/lingua-cli).
@@ -413,6 +417,7 @@ bad     3488    3491
 
 
 For more information, see `lexmatch` on
+[Codeberg](https://codeberg.com/proycon/lexmatch),
 [Sourcehut](https://git.sr.ht/~proycon/lexmatch),
 [Github](https://github.com/proycon/lexmatch) or
 [Crates.io](https://crates.io/crates/lexmatch).
@@ -576,6 +581,7 @@ progress go in the same TSV file).
 It was featured in a [video by Brodie Robertson](https://www.youtube.com/watch?v=NoilS3nbxs4&pp=ygUGdm9jYWdl) in 2021.
 
 For more information, see `vocage` on
+[Codeberg](https://codeberg.com/proycon/vocage),
 [Sourcehut](https://git.sr.ht/~proycon/vocage),
 [Github](https://github.com/proycon/vocage) or
 [Crates.io](https://crates.io/crates/vocage).
