@@ -14,3 +14,5 @@ This is my own composition. Licensed under the Creative Commons Attribution Shar
 
 {{ peertube(id="rwzn7RDqdkP6uCxwbH2kjB") }}
 
+A pure audio-only version is available [here](/media/fiducia_gocciolabile.opus).
+
