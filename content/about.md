@@ -25,15 +25,18 @@ I am very passionate about both languages and technology, and especially those a
 
 * Foreign Languages *(🇪🇸 Español, 🇧🇷 Português, 🇫🇷 Français, 🇩🇪  Deutsch, Esperanto, 🇮🇹 Italiano, 🇨🇳 汉语, 🇷🇺 Русский, عربية)*
 * 🐧 Linux and Free and Open Source Software
-* Software development *(Python, Rust, C, C++, Shell scripting, Javascript*)
+* Software development *(🐍 Python, 🦀 Rust, C, C++, 🐚 Shell scripting, Javascript*)
 * Natural Language Processing
 * Cybersecurity, Privacy, Minimalism, Decentralisation
 * System Administration (DevOps)
+* Data Science
 * Artificial Intelligence (but not the kind that is being hyped nowadays)
 * Home Automation, IoT
-* Playing the piano
-* Reading (mostly SciFi)
-* Swimming 🏊
+* Philosophy, Physics, Psychology, Politics
+* 🛩 Flight simulation (X-Plane & VATSIM)
+* 🎹 Playing the piano
+* 📖 Reading (mostly SciFi)
+* 🏊 Swimming
 * 🐱 Cats & 🐶 Dogs
 * 🏳️‍🌈
 
