@@ -38,6 +38,6 @@ I am very passionate about both languages and technology, and especially those a
 * 📖 Reading (mostly SciFi)
 * 🏊 Swimming
 * 🐱 Cats & 🐶 Dogs
-* 🏳️‍🌈
+* 🏳️‍🌈 Men
 
 ![A photo of me](/img/portrait.jpg)
