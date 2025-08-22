@@ -47,6 +47,7 @@ networks = [
     {name = "XMPP", url = "xmpp:proycon@anaproy.nl", value="proycon@anaproy.nl", icon_pack="fas", icon="fa-comments", profile=false, contactable=true},
     {name = "IRC (Libera)", url = "irc://irc.libera.chat/proycon", value="proycon on Libera.chat", icon_pack="fas", icon="fa-comments", profile=false, contactable=true},
     {name = "IRC (OFTC)", url = "irc://irc.oftc.net/proycon", value="proycon on oftc.net", icon_pack="fas", icon="fa-comments", profile=false, contactable=true},
+    {name = "Deltachat", url = "https://i.delta.chat/#14BA8372741E52CD58EBAE621D95111A8F2FEE6D&a=proycon%2Bchat%40anaproy.nl&n=Maarten%20van%20Gompel%20%28proycon%29&i=N7q7puVB6Mvp3N0YHZ3Gd_yF&s=zzevx15kZWDPMLCfeu8AWwh0", value = "proycon+chat@anaproy.nl", icon_pack="fas", icon="fa-comments", profile=true, contactable=true },
     {name = "Signal", url = "https://signal.me/#eu/aPP6InxiNSz_YB-qmS4xl-sN6t8PXLW__GFnbTcW5_-bUzOLpvVEwY3XVH3CAbub", value = "@proycon.82", icon_pack="fas", icon="fa-comments", profile=true, contactable=true },
     {name = "Telegram", url = "https://telegram.me/proycon", value = "@proycon", icon_pack="fab", icon="fa-telegram", profile=true, contactable=true },
     {name = "Sourcehut", url = "https://git.sr.ht/~proycon", value = "proycon", icon_pack="fab", icon="fa-git", profile=true, contactable=false},

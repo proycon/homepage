@@ -12,6 +12,7 @@ IMPP:telegram:proycon
 IMPP:irc:oftc/libera:proycon
 IMPP:mastodon:@proycon@social.anaproy.nl
 IMPP:signal:https://signal.me/#eu/aPP6InxiNSz_YB-qmS4xl-sN6t8PXLW__GFnbTcW5_-bUzOLpvVEwY3XVH3CAbub
+IMPP:deltachat:https://i.delta.chat/#14BA8372741E52CD58EBAE621D95111A8F2FEE6D&a=proycon%2Bchat%40anaproy.nl&n=Maarten%20van%20Gompel%20%28proycon%29&i=N7q7puVB6Mvp3N0YHZ3Gd_yF&s=zzevx15kZWDPMLCfeu8AWwh0
 EMAIL:proycon@anaproy.nl
 URL:https://proycon.anaproy.nl
 KEY;MEDIATYPE=application/pgp-keys:https://keys.openpgp.org/pks/lookup?op=get&options=mr&search=0x8AC624881EF2AC30C0E68E2C39FE11201A31555C
@@ -27,5 +28,5 @@ LANG:pt
 LANG:it
 LANG:ru
 LANG:zh
-REV:2025-02-03T18:58:43Z
+REV:2025-08-23T00:30:43Z
 END:VCARD
