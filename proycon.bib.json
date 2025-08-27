@@ -1,5 +1,44 @@
 [
   {
+    "DOI": "https://doi.org/10.3384/ecp216.12",
+    "URL": "https://doi.org/10.3384/ecp216.12",
+    "abstract": "We present the Tool Discovery pipeline, a core component of the CLARIAH infrastructure in the Netherlands. This pipeline harvests software metadata from the source, detects existing heterogeneous metadata formats already in use by software developers, and converts them to a single uniform representation based on schema.org and codemeta. The resulting data is then made available for further ingestion into other user-facing catalogue/portal systems.",
+    "author": [
+      {
+        "dropping-particle": "van",
+        "family": "Gompel",
+        "given": "Maarten"
+      },
+      {
+        "family": "Windhouwer",
+        "given": "Menzo"
+      }
+    ],
+    "container-title": "Selected papers from the CLARIN annual conference 2024",
+    "editor": [
+      {
+        "family": "Vandeghinste",
+        "given": "Vincent"
+      },
+      {
+        "family": "Kontino",
+        "given": "Thalassia"
+      }
+    ],
+    "id": "FAIRTOOLDISCOVERY25",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "page": "141-150",
+    "publisher": "Linköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference Proceedings",
+    "title": "FAIR tool discovery",
+    "type": "paper-conference"
+  },
+  {
     "URL": "https://aclanthology.org/2024.lrec-main.184",
     "abstract": "We describe ongoing work for developing a workflow for the applied use case of classifying diachronic and regional language variation in Pre-Modern Slavic texts. The data were obtained via handwritten text recognition (HTR) on medieval manuscripts and printings and partly by manual transcription. Our goal is to develop a workflow for such historical language data, covering HTR-postprocessing, annotating and classifying the digitized texts. We test and adapt existing language resources to fit the pipeline with low-barrier tooling, accessible for Humanists with limited experience in research data infrastructures, computational analysis or advanced methods of natural language processing (NLP). The workflow starts by addressing ground truth (GT) data creation for diagnosing and correcting HTR errors via string metrics and data-driven methods. On GT and on HTR data, we subsequently show classification results using transfer learning on sentence-level text snippets. Next, we report on our token-level data labeling efforts. Each step of the workflow is complemented with describing current limitations and our corresponding work in progress.",
     "author": [
