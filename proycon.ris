@@ -9,7 +9,7 @@ TI  - FAIR Tool Discovery
 BT  - Selected papers from the CLARIN Annual Conference 2024
 SP  - 141
 EP  - 150
-PB  - Linköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference ProceedingsLinköping Electronic Conference Proceedings
+PB  - Linköping Electronic Conference Proceedings
 AB  - We present the Tool Discovery pipeline, a core component of the CLARIAH infrastructure in the Netherlands. This pipeline harvests software metadata from the source, detects existing heterogeneous metadata formats already in use by software developers, and converts them to a single uniform representation based on schema.org and codemeta. The resulting data is then made available for further ingestion into other user-facing catalogue/portal systems.
 UR  - https://doi.org/10.3384/ecp216.12
 UR  - https://doi.org/https://doi.org/10.3384/ecp216.12
