@@ -13,11 +13,11 @@ deploy: bib build
 	cp id_ed25519.pub public/
 	rsync -avz --delete public/ anaproy.nl:/home/www/proycon.anaproy.nl/html
 
-proycon.ris:
-	bib2xml proycon.bib | xml2ris > proycon.ris #requires bibutils
+proycon.ris: proycon.bib
+	bib2xml $< | xml2ris > $@ #requires bibutils
 
-proycon.bib.json:
-	pandoc proycon.bib -t csljson -o proycon.bib.json
+proycon.bib.json: proycon.bib
+	pandoc proycon.bib -t csljson -o $@ && sed -i 's/"dropping-particle"/"non-dropping-particle"/g' $@
 
 bib: proycon.ris proycon.bib.json
 

@@ -12,7 +12,10 @@
             <li>
                 {% for author in pub.author %}
                     {% if author.given %}
-                    {{ author.given }}&nbsp;
+                    {{ author.given }}
+                    {% endif %}
+                    {% if author | get(key="non-dropping-particle") %}
+                    {{ author | get(key="non-dropping-particle") }}
                     {% endif %}
                     {% if author.family %}
                     {{ author.family }}

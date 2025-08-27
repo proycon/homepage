@@ -47,7 +47,7 @@
         "given": "Piroska"
       },
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "Maarten"
       },
@@ -295,12 +295,12 @@
     "abstract": "We present an overview of the software and data infrastructure for FoLiA, a Format for Linguistic Annotation developed within the scope of the CLARIN-NL project and other projects. FoLiA aims to provide a single unified file format accommodating a wide variety of linguistic annotation types, preventing the proliferation of different formats for different annotation types. FoLiA is being developed in a bottom-up and practice-driven fashion. We have invested mainly in the creation of a rich infrastructure of tools that enable developers and end-users to work with the format. This work will present the current state of this infrastructure.",
     "author": [
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       },
       {
-        "dropping-particle": "van der",
+        "non-dropping-particle": "van der",
         "family": "Sloot",
         "given": "K."
       },
@@ -309,7 +309,7 @@
         "given": "M."
       },
       {
-        "dropping-particle": "van den",
+        "non-dropping-particle": "van den",
         "family": "Bosch",
         "given": "A."
       }
@@ -371,12 +371,12 @@
         "given": "Voula"
       },
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "Maarten"
       },
       {
-        "dropping-particle": "et",
+        "non-dropping-particle": "et",
         "family": "al."
       }
     ],
@@ -450,22 +450,22 @@
         "given": "Vincent"
       },
       {
-        "dropping-particle": "van den",
+        "non-dropping-particle": "van den",
         "family": "Bosch",
         "given": "Antal"
       },
       {
-        "dropping-particle": "van den",
+        "non-dropping-particle": "van den",
         "family": "Heuvel",
         "given": "Henk"
       },
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "Maarten"
       },
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Noord",
         "given": "Gertjan"
       },
@@ -529,12 +529,12 @@
     "abstract": "Counting n-grams lies at the core of any frequentist corpus analysis and is often considered a trivial matter. Going beyond consecutive n-grams to patterns such as skipgrams and flexgrams increases the demand for efficient solutions. The need to operate on big corpus data does so even more. Lossless compression and non-trivial algorithms are needed to lower the memory demands, yet retain good speed. Colibri Core is software for the efficient computation and querying of n-grams, skipgrams and flexgrams from corpus data. The resulting pattern models can be analysed and compared in various ways. The software offers a programming library for C++ and Python, as well as command-line tools.",
     "author": [
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "Maarten"
       },
       {
-        "dropping-particle": "van den",
+        "non-dropping-particle": "van den",
         "family": "Bosch",
         "given": "Antal"
       }
@@ -760,7 +760,7 @@
         "given": "S."
       },
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       },
@@ -807,17 +807,17 @@
         "given": "M."
       },
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       },
       {
-        "dropping-particle": "van der",
+        "non-dropping-particle": "van der",
         "family": "Sloot",
         "given": "K."
       },
       {
-        "dropping-particle": "van den",
+        "non-dropping-particle": "van den",
         "family": "Bosch",
         "given": "A."
       }
@@ -841,12 +841,12 @@
     "abstract": "In this paper we present new research in translation assistance. We describe a system capable of translating native language (L1) fragments to foreign language (L2) fragments in an L2 context. Practical applications of this research can be framed in the context of second language learning. The type of translation assistance system under investigation here encourages language learners to write in their target language while allowing them to fall back to their native language in case the correct word or expression is not known. These code switches are subsequently translated to L2 given the L2 context. We study the feasibility of exploiting cross-lingual context to obtain high-quality translation suggestions that improve over statistical language modelling and word-sense disambiguation baselines. A classification-based approach is presented that is indeed found to improve significantly over these baselines by making use of a contextual window spanning a small number of neighbouring words.",
     "author": [
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       },
       {
-        "dropping-particle": "van den",
+        "non-dropping-particle": "van den",
         "family": "Bosch",
         "given": "A."
       }
@@ -880,7 +880,7 @@
         "given": "R."
       },
       {
-        "dropping-particle": "van den",
+        "non-dropping-particle": "van den",
         "family": "Bosch",
         "given": "A."
       },
@@ -889,7 +889,7 @@
         "given": "N."
       },
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       },
@@ -902,7 +902,7 @@
         "given": "T."
       },
       {
-        "dropping-particle": "van der",
+        "non-dropping-particle": "van der",
         "family": "Sloot",
         "given": "K."
       }
@@ -927,7 +927,7 @@
     "abstract": "In this paper we present the software CLAM; the Computational Linguistics Application Mediator. CLAM is a tool that allows you to quickly and transparently transform command-line NLP tools into fully-fledged RESTful webservices with which automated clients can communicate, as well as a generic webapplication interface for human end-users.",
     "author": [
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       },
@@ -956,7 +956,7 @@
     "URL": "https://github.com/proycon/clam/raw/v2.3.6/docs/clam_manual.pdf",
     "author": [
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       }
@@ -978,7 +978,7 @@
     "URL": "https://github.com/proycon/folia/raw/v1.5.1.60/docs/folia.pdf",
     "author": [
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       }
@@ -1001,7 +1001,7 @@
     "abstract": "We present a new cross-lingual task for SemEval concerning the translation of L1 fragments in an L2 context. The task is at the boundary of Cross-Lingual Word Sense Disambiguation and Machine Translation. It finds its application in the field of computer-assisted translation, particularly in the context of second language learning. Translating L1 fragments in an L2 context allows language learners when writing in a target language (L2) to fall back to their native language (L1) whenever they are uncertain of the right word or phrase.",
     "author": [
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       },
@@ -1010,7 +1010,7 @@
         "given": "I."
       },
       {
-        "dropping-particle": "van den",
+        "non-dropping-particle": "van den",
         "family": "Bosch",
         "given": "A."
       },
@@ -1041,12 +1041,12 @@
     "abstract": "In this paper we present a statistical machine translation (SMT) system for Frisian to Dutch and Dutch to Frisian. A parallel training corpus has been established, which has subsequently been used to automatically learn a phrase-based SMT model. The translation system is built around the open-source SMT software Moses. The resulting system, named Oersetter , is released as a website for human end users, as well as a web service for software to interact with. We here discuss the workings, setup and performance of our system, which to our knowledge is the very first Frisian-Dutch SMT system.",
     "author": [
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       },
       {
-        "dropping-particle": "van den",
+        "non-dropping-particle": "van den",
         "family": "Bosch",
         "given": "A."
       },
@@ -1089,7 +1089,7 @@
         "given": "M."
       },
       {
-        "dropping-particle": "v.",
+        "non-dropping-particle": "v.",
         "family": "Gompel",
         "given": "M."
       },
@@ -1135,7 +1135,7 @@
     "abstract": "In this paper we present FoLiA, a Format for Linguistic Annotation, and conduct a comparative study with other annotation schemes, including the Linguistic Annotation Framework (LAF), the Text Encoding Initiative (TEI) and Text Corpus Format (TCF). An additional point of focus is the interoperability between FoLiA and metadata standards such as the Component MetaData Infrastructure (CMDI), as well as data category registries such as ISOcat. The aim of the paper is to present a clear image of the capabilities of FoLiA and how it relates to other formats. This should open discussion and aid users in their decision for a particular format. FoLiA is a practically-oriented XML-based annotation format for the representation of language resources, explicitly supporting a wide variety of annotation types. It introduces a flexible and uniform paradigm and a representation independent of language or label set. It is designed to be highly expressive, generic, and formalised, whilst at the same time focussing on being as practical as possible to ease its adoption and implementation. The aspiration is to offer a generic format for storage, exchange, and machine-processing of linguistically annotated documents, preventing users as well as software tools from having to cope with a wide variety of different formats, which in the field regularly causes convertibility issues and proliferation of ad-hoc formats. FoLiA emerged from such a practical need in the context of Computational Linguistics in the Netherlands and Flanders. It has been successfully adopted by numerous projects within this community. FoLiA was developed in a bottom-up fashion, with special emphasis on software libraries and tools to handle it.",
     "author": [
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       },
@@ -1163,12 +1163,12 @@
     "abstract": "We present our system WSD2 which participated in the Cross-Lingual Word-Sense Disambiguation task for SemEval 2013 (Lefever and Hoste, 2013). The system closely resembles our winning system for the same task in SemEval 2010. It is based on k-nearest neighbour classifiers which map words with local and global context features onto their transla tion, i.e. their cross-lingual sense. The system participated in the task for all five languages and obtained winning scores for four of them when asked to predict the best translation(s). We tested various configurations of our system, focusing on various levels of hyperparameter optimisation and feature selection. Our final results indicate that hyperparameter optimisation did not lead to the best results, indicating overfitting by our optimisation method in this aspect. Feature selection does have a modest positive impact.",
     "author": [
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       },
       {
-        "dropping-particle": "van den",
+        "non-dropping-particle": "van den",
         "family": "Bosch",
         "given": "A."
       }
@@ -1208,7 +1208,7 @@
         "given": "N."
       },
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       }
@@ -1278,7 +1278,7 @@
         "given": "F."
       },
       {
-        "dropping-particle": "van",
+        "non-dropping-particle": "van",
         "family": "Gompel",
         "given": "M."
       },
@@ -1287,7 +1287,7 @@
         "given": "R."
       },
       {
-        "dropping-particle": "van den",
+        "non-dropping-particle": "van den",
         "family": "Bosch",
         "given": "A."
       }
