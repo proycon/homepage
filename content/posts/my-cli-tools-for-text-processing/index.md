@@ -278,7 +278,7 @@ taat	97	101
 ```
 
 For more information, see `hyphertool` on
-[Codeberg](https://codeberg.com/proycon/hyphertool),
+[Codeberg](https://codeberg.org/proycon/hyphertool),
 [Sourcehut](https://git.sr.ht/~proycon/hyphertool),
 [Github](https://github.com/proycon/hyphertool/) or
 [Crates.io](https://crates.io/crates/hyphertool).
@@ -367,7 +367,7 @@ $ lingua-cli --multi --languages fr,de,en < /tmp/test.txt
 ```
 
 For more information, see `lingua-cli` on
-[Codeberg](https://codeberg.com/proycon/lingua-cli),
+[Codeberg](https://codeberg.org/proycon/lingua-cli),
 [Sourcehut](https://git.sr.ht/~proycon/lingua-cli),
 [Github](https://github.com/proycon/lingua-cli/) or
 [Crates.io](https://crates.io/crates/lingua-cli).
@@ -417,7 +417,7 @@ bad     3488    3491
 
 
 For more information, see `lexmatch` on
-[Codeberg](https://codeberg.com/proycon/lexmatch),
+[Codeberg](https://codeberg.org/proycon/lexmatch),
 [Sourcehut](https://git.sr.ht/~proycon/lexmatch),
 [Github](https://github.com/proycon/lexmatch) or
 [Crates.io](https://crates.io/crates/lexmatch).
@@ -581,7 +581,7 @@ progress go in the same TSV file).
 It was featured in a [video by Brodie Robertson](https://www.youtube.com/watch?v=NoilS3nbxs4&pp=ygUGdm9jYWdl) in 2021.
 
 For more information, see `vocage` on
-[Codeberg](https://codeberg.com/proycon/vocage),
+[Codeberg](https://codeberg.org/proycon/vocage),
 [Sourcehut](https://git.sr.ht/~proycon/vocage),
 [Github](https://github.com/proycon/vocage) or
 [Crates.io](https://crates.io/crates/vocage).
