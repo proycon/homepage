@@ -6,7 +6,7 @@ description = "The story about the latest incarnation of my homepage"
 
 # Homepage update: from Hugo to Zola
 
-At the start of 2019, I launched a new incarnaton of homepage (yes, I still
+At the start of 2019, I launched a new incarnation of my homepage (yes, I still
 call it "homepage", it has a nice nostalgic touch to it of a time where people
 still bothered to create their own little corner on the internet instead of
 joining corporate social networks en masse) .  I had chucked away my old site
