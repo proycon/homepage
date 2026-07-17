@@ -1,7 +1,7 @@
 +++
 title = "Formulating an AI policy for my free software projects"
 date = 2026-07-17T16:00:00+02:00
-description = "My aim here is to formulate a consistent stance regarding AI contributions in my softarte projects, in line with my values."
+description = "My aim here is to formulate a consistent stance regarding AI contributions in my software projects, in line with my values."
 
 tags = ["software", "ai", "llm", "ethics", "freedom", "foss"]
 categories = []
