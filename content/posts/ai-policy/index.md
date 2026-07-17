@@ -365,4 +365,4 @@ Image credits:
 * Randall Munroe - [XKCD](https://xkcd.com) (676, 1838, 2347)
 * Adam J. French - [Mandatory Roller Coaster](https://mandatoryrollercoaster.com/)
 
-You can publicly comment on this post on the fediverse (e.g. using mastodon).
+You can publicly [comment on this post on the fediverse](https://social.anaproy.nl/@proycon/116935746415487841) (e.g. using mastodon).
